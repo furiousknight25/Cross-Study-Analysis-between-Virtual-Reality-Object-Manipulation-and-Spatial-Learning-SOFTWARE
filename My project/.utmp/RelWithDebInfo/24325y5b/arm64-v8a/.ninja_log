@@ -1,0 +1,10 @@
+# ninja log v5
+2	2291	1770416046602157508	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4f38c025a856b566
+5	2320	1770416046630883852	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	dee98db8494401a4
+1	2377	1770416046688246498	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9cf06461560f9a82
+3	2394	1770416046705106849	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	165eaaf20bba9305
+1	2607	1770416046920617670	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9451c5a128ba7402
+7	2668	1770416046986325289	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	74d338f2978a0e39
+3	3114	1770416047432367558	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	37c2a673983f7030
+0	3275	1770416047591793395	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	abdaa3ef64c9305d
+3275	3339	1770416047668386357	/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/24325y5b/obj/arm64-v8a/libgame.so	9a85f40a3e2706da
