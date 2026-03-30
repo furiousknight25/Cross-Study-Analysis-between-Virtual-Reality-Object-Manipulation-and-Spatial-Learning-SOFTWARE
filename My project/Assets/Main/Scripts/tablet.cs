@@ -1,16 +1,24 @@
+using TMPro;
 using UnityEngine;
 
-public class tablet : MonoBehaviour
+public class Tablet : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private TextMeshPro textMeshPro;
+
+    void ShowText()
     {
-        
+        textMeshPro.gameObject.SetActive(true);     
     }
 
-    // Update is called once per frame
-    void Update()
+    void hideText()
     {
-        
+        textMeshPro.gameObject.SetActive(false);     
     }
+
+    void spawn_items()
+    {
+        //spawn items
+    }
+
+
 }

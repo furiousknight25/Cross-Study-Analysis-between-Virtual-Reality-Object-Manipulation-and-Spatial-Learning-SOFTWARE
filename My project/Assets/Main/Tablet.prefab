@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b381ca215e2bdf886851c8f802a3402c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  textMeshPro: {fileID: 2663084971128032878}
 --- !u!1 &3878411162797566758
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +172,7 @@ GameObject:
   - component: {fileID: 1032984089750468325}
   - component: {fileID: 2663084971128032878}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: TabletText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
