@@ -176,13 +176,14 @@ IL2CPP_EXTERN_C RuntimeClass* RotationFromHandDelegate_t63C390BFACC5B1377078365D
 IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Utils_t428B11E8BF4003BA0CCE68EA2AAAE3A306B1CFB4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____458E66EBF27AF895CB1825BBED2561CF05B5F3DE719DD9DA7A7099D979BD0EBF_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____C92DC8745CD993BBDE8F53A0F3EC78AD17866BBF0FA74943E1EC362E96410E03_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____E516AFAAA7CB8D5C288B6D1843ED5F67B73A8B1A175FC66F4A0E33508B9EFD40_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral2022F3E74E45A3B03C69CF62DB1B407B68FA7DB6;
 IL2CPP_EXTERN_C String_t* _stringLiteral208FDF3918D7031B2413A8E36F7FE940022677E5;
 IL2CPP_EXTERN_C String_t* _stringLiteral6F47BDE3662C9A176E211C6F34454239AFE2E4CA;
@@ -950,6 +951,10 @@ struct MultipleDeviceMode_t0C23D559ECBBE3E2D633E4BF92C495F2EB30FB1E
 	int32_t ___value__;
 };
 struct PhysicsExtrapolationMode_t6069500A601E293076AA477F8154B5F11C84BAE9 
+{
+	int32_t ___value__;
+};
+struct ServiceConnectionInput_t9D447195331D301BE1F5969268095C12B972A096 
 {
 	int32_t ___value__;
 };
@@ -1836,7 +1841,10 @@ struct LeapServiceProvider_tB95617972FB560CFAF006965670CF60F7224BCDB  : public L
 	Device_t951C6F771B6D8326A18E05E802AA0FCD2D3D6AC2* ____currentDevice;
 	int32_t ____trackingOptimization;
 	bool ____preventInitializingTrackingMode;
+	int32_t ____serviceConnectionInput;
 	String_t* ____serverNameSpace;
+	String_t* ____serviceIP;
+	String_t* ____servicePort;
 	bool ____useInterpolation;
 	int32_t ____reconnectionAttempts;
 	int32_t ____reconnectionInterval;
@@ -1935,8 +1943,8 @@ struct List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D745_t76341EC77EEFDC2FF265540BBF991BF10A3B6218 ___458E66EBF27AF895CB1825BBED2561CF05B5F3DE719DD9DA7A7099D979BD0EBF;
 	__StaticArrayInitTypeSizeU3D320_t5973CD032769B341BDB2C192B8580DD4526A90CB ___C92DC8745CD993BBDE8F53A0F3EC78AD17866BBF0FA74943E1EC362E96410E03;
+	__StaticArrayInitTypeSizeU3D745_t76341EC77EEFDC2FF265540BBF991BF10A3B6218 ___E516AFAAA7CB8D5C288B6D1843ED5F67B73A8B1A175FC66F4A0E33508B9EFD40;
 };
 struct CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_StaticFields
 {
@@ -2073,7 +2081,10 @@ struct Type_t_StaticFields
 };
 struct UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_StaticFields
 {
+	bool ___defaultValueForAutomaticallyUpgradingMaterialsForActiveRenderPipeline;
+	String_t* ___automaticallyUpgradeMaterialsToCurrentRenderPipelineEnvironmentVariableName;
 	UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* ___instance;
+	bool ____AutomaticallyUpgradeMaterialsToCurrentRenderPipeline;
 };
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 {
@@ -2715,7 +2726,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_m80E67A0F9F1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82009
+// Method Definition Index: 82029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandsSubsystem__ctor_m934505C0BE94B47081035489DAC6024B4EC62F99 (LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2731,15 +2742,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandsSubsystem__ctor_m934505C0BE94B4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82010
+// Method Definition Index: 82030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t5A26173335C99C6088ECFF40F5A2551FEFAC1C8E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m732D49422979F003A3FB714F8111FEE11C16969A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____458E66EBF27AF895CB1825BBED2561CF05B5F3DE719DD9DA7A7099D979BD0EBF_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____C92DC8745CD993BBDE8F53A0F3EC78AD17866BBF0FA74943E1EC362E96410E03_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____E516AFAAA7CB8D5C288B6D1843ED5F67B73A8B1A175FC66F4A0E33508B9EFD40_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t5A26173335C99C6088ECFF40F5A2551FEFAC1C8E V_0;
@@ -2748,7 +2759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t5A26173335C99C6088ECFF40F5A25
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t5A26173335C99C6088ECFF40F5A2551FEFAC1C8E));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)745));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____458E66EBF27AF895CB1825BBED2561CF05B5F3DE719DD9DA7A7099D979BD0EBF_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tD9F113261CD74D0C5567FCC7F67FD22560600510____E516AFAAA7CB8D5C288B6D1843ED5F67B73A8B1A175FC66F4A0E33508B9EFD40_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
@@ -2765,7 +2776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t5A26173335C99C6088ECFF40F5A25
 		return L_6;
 	}
 }
-// Method Definition Index: 82011
+// Method Definition Index: 82031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB4C165B7681F268FC8112C4F4719782E7CE4BEBC (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tF88C96CDECF67FD8A9DDD589776003832F6C4FDC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2851,7 +2862,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t5A26173335C99C6088ECFF40F5A2551FEFAC1C8E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82012
+// Method Definition Index: 82032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* LeapXRHandProvider_get_TrackingProvider_mE1AA29EF2961A8F297F777E1560F8F7CD80D5F52 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2862,7 +2873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:29>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = __this->___trackingProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2873,7 +2884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_2;
 		L_2 = Hands_get_Provider_mBCF08F4291FF0D1185D616AF4415599EB4F6D51E(NULL);
@@ -2883,170 +2894,170 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:34>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:34>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_3 = __this->___trackingProvider;
 		return L_3;
 	}
 }
-// Method Definition Index: 82013
+// Method Definition Index: 82033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_TrackingProvider_mC90FA56C3314F2E6CA1C6CE0DA116C795A47AF07 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:38>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = ___0_value;
 		__this->___trackingProvider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___trackingProvider), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 82014
+// Method Definition Index: 82034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider__ctor_m0AC159D5ECB4F80386AC26ECAA04D16FE54D378C (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:43>
 		XRHandSubsystemProvider__ctor_m404D9375A7F7A0C10412F8E63AA11453C0A6EFDD(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 82015
+// Method Definition Index: 82035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_Start_m4789F5BB1A1B8A5DD5310ACF7858C28EECFE5B9C (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:49>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 82016
+// Method Definition Index: 82036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_Stop_mA1B72C613597D342BD2BDA68BB8CBAE894E92AFA (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:53>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 82017
+// Method Definition Index: 82037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_Destroy_m9E35D686F134D8D21E236836785EE61F81ED5B67 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:57>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 82018
+// Method Definition Index: 82038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_GetHandLayout_m9371DF43ABA6DF327855091200332CEB7E0150A2 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___0_handJointsInLayout, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:61>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:61>
 		int32_t L_0;
 		L_0 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(2, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_0, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:62>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:62>
 		int32_t L_1;
 		L_1 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_1, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:64>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:64>
 		int32_t L_2;
 		L_2 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(3, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_2, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:65>
 		int32_t L_3;
 		L_3 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(4, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_3, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:66>
 		int32_t L_4;
 		L_4 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(5, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_4, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:67>
 		int32_t L_5;
 		L_5 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(6, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_5, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:69>
 		int32_t L_6;
 		L_6 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(7, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_6, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:70>
 		int32_t L_7;
 		L_7 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(8, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_7, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:71>
 		int32_t L_8;
 		L_8 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)9), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_8, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:72>
 		int32_t L_9;
 		L_9 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)10), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_9, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:73>
 		int32_t L_10;
 		L_10 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)11), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_10, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:75>
 		int32_t L_11;
 		L_11 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)12), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_11, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:76>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:76>
 		int32_t L_12;
 		L_12 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)13), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_12, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:77>
 		int32_t L_13;
 		L_13 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)14), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_13, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:78>
 		int32_t L_14;
 		L_14 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)15), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_14, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:79>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:79>
 		int32_t L_15;
 		L_15 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)16), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_15, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:81>
 		int32_t L_16;
 		L_16 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)17), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_16, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:82>
 		int32_t L_17;
 		L_17 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)18), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_17, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:83>
 		int32_t L_18;
 		L_18 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)19), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_18, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:84>
 		int32_t L_19;
 		L_19 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)20), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_19, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:85>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:85>
 		int32_t L_20;
 		L_20 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)21), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_20, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:87>
 		int32_t L_21;
 		L_21 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)22), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_21, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:88>
 		int32_t L_22;
 		L_22 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)23), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_22, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:89>
 		int32_t L_23;
 		L_23 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)24), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_23, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:90>
 		int32_t L_24;
 		L_24 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)25), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_24, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:91>
 		int32_t L_25;
 		L_25 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)26), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(bool, ((&___0_handJointsInLayout))->___m_Buffer, L_25, ((bool)1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 82019
+// Method Definition Index: 82039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LeapXRHandProvider_TryUpdateHands_mC281100BE36DC9BE892F3EE68C2C356894A0F945 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, int32_t ___0_updateType, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_leftHandRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___2_leftHandJoints, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___3_rightHandRootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___4_rightHandJoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3060,7 +3071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LeapXRHandProvider_TryUpdateHands_mC2
 	Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:101>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0;
 		L_0 = LeapXRHandProvider_get_TrackingProvider_mE1AA29EF2961A8F297F777E1560F8F7CD80D5F52(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -3072,7 +3083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LeapXRHandProvider_TryUpdateHands_mC2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:103>
 		bool L_2 = __this->___trackingProviderAvailableLastFrame;
 		if (!L_2)
 		{
@@ -3080,28 +3091,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LeapXRHandProvider_TryUpdateHands_mC2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:105>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral9DD03FE1F7D0AE887BE50E9C758C2A57E6A2C4B9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:106>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:106>
 		__this->___trackingProviderAvailableLastFrame = (bool)0;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:109>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:109>
 		return (int32_t)(0);
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:112>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:112>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_3;
 		L_3 = LeapXRHandProvider_GetLatestTrackingFrameCopy_m31A9A2F73B98DA7C44562A8A6630EB8C5AEB0029(__this, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:114>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:116>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_4 = V_0;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_5;
 		L_5 = HandUtils_GetHand_m0D7199A09A1FCC8971D9802E91060BF97A47AD43(L_4, 0, NULL);
@@ -3115,17 +3126,17 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:118>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:118>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)((int32_t)L_9|1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:119>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)((int32_t)L_10|2));
 	}
 
 IL_004d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:122>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_11 = V_0;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_12;
 		L_12 = HandUtils_GetHand_m0D7199A09A1FCC8971D9802E91060BF97A47AD43(L_11, 1, NULL);
@@ -3139,24 +3150,24 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:124>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:124>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)((int32_t)L_16|4));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:125>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:125>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)((int32_t)L_17|8));
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:128>
 		__this->___trackingProviderAvailableLastFrame = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:130>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:130>
 		int32_t L_18 = V_1;
 		return L_18;
 	}
 }
-// Method Definition Index: 82020
+// Method Definition Index: 82040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* LeapXRHandProvider_GetLatestTrackingFrameCopy_m31A9A2F73B98DA7C44562A8A6630EB8C5AEB0029 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3172,16 +3183,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:141>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0;
 		L_0 = LeapXRHandProvider_get_TrackingProvider_mE1AA29EF2961A8F297F777E1560F8F7CD80D5F52(__this, NULL);
 		NullCheck(L_0);
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_1;
 		L_1 = VirtualFuncInvoker0< Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* >::Invoke(4, L_0);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:143>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:144>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:145>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_2 = V_0;
 		if (!L_2)
 		{
@@ -3217,7 +3228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:147>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:147>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9;
 		L_9 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_9);
@@ -3230,7 +3241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:148>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13;
 		L_13 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_13);
@@ -3243,7 +3254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
 		L_16 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_15, NULL);
 		V_2 = L_16;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:151>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:151>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_17 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
@@ -3253,7 +3264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_21;
 		L_21 = TransformExtensions_TransformedCopy_m65BADFA93878DE2614713DE504FFDF11E6411211(L_17, L_19, L_20, NULL);
 		V_0 = L_21;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:152>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_22 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -3266,12 +3277,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 
 IL_0080:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:155>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_26 = V_0;
 		return L_26;
 	}
 }
-// Method Definition Index: 82021
+// Method Definition Index: 82041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LeapXRHandProvider_PopulateXRHandFromLeap_m49E420CA135B8BE830E23274E8876DD7FD1756E3 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_leapHand, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_rootPose, NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* ___2_handJoints, int32_t ___3_updateType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3299,7 +3310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LeapXRHandProvider_PopulateXRHandFromLea
 	int32_t V_13 = 0;
 	Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* V_14 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:160>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_leapHand;
 		if (L_0)
 		{
@@ -3307,36 +3318,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LeapXRHandProvider_PopulateXRHandFromLea
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:162>
 		return (bool)0;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:165>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_1 = ___0_leapHand;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
 		L_2 = LeapXRHandProvider_CalculatePalmPose_m19FB12FCBDBD887F62E3D03D1A2794A4B552E351(__this, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:166>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_3 = ___0_leapHand;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4;
 		L_4 = LeapXRHandProvider_CalculateWristPose_m0EB3DD485178916991C078BCD785870F9FBEA840(__this, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:168>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_5 = ___1_rootPose;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = V_1;
 		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_5 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:169>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_7 = ___0_leapHand;
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		int32_t L_8;
 		L_8 = Hands_GetChirality_m101C26959164C0FED29BC96CD944BD99D1EFA56E(L_7, NULL);
 		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_8, 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:171>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:172>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:173>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:174>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_9 = ___2_handJoints;
 		int32_t L_10 = V_2;
 		int32_t L_11;
@@ -3349,10 +3360,10 @@ IL_0005:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_15;
 		L_15 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_10, 2, L_11, L_12, (0.0f), L_13, L_14, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_9)->___m_Buffer, 0, (L_15));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:175>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:176>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:177>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:178>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_16 = ___2_handJoints;
 		int32_t L_17 = V_2;
 		int32_t L_18;
@@ -3365,9 +3376,9 @@ IL_0005:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_22;
 		L_22 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_17, 2, L_18, L_19, (0.0f), L_20, L_21, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_16)->___m_Buffer, 1, (L_22));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:180>
 		V_3 = 2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_23 = ___0_leapHand;
 		NullCheck(L_23);
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_24 = L_23->___fingers;
@@ -3378,14 +3389,14 @@ IL_0005:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_25 = V_5;
 		int32_t L_26 = V_6;
 		NullCheck(L_25);
 		int32_t L_27 = L_26;
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
 		V_7 = L_28;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:184>
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_29 = V_7;
 		NullCheck(L_29);
 		int32_t L_30 = L_29->___Type;
@@ -3395,14 +3406,14 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
 		V_9 = 1;
 		goto IL_0101;
 	}
 
 IL_00ab:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:188>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:188>
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_31 = V_7;
 		NullCheck(L_31);
 		BoneU5BU5D_tAB7C1AF4AD276CC2E24FD5D86BDC721091D7FF8D* L_32 = L_31->___bones;
@@ -3411,10 +3422,10 @@ IL_00ab:
 		int32_t L_34 = L_33;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
 		V_10 = L_35;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:190>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:191>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:192>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:193>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:192>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:193>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_36 = ___2_handJoints;
 		int32_t L_37 = V_3;
 		int32_t L_38 = V_2;
@@ -3437,17 +3448,17 @@ IL_00ab:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_48;
 		L_48 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_38, 2, L_40, L_45, (0.0f), L_46, L_47, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_36)->___m_Buffer, L_37, (L_48));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:194>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:194>
 		int32_t L_49 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_49, 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
 		int32_t L_50 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_50, 1));
 	}
 
 IL_0101:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:186>
 		int32_t L_51 = V_9;
 		if ((((int32_t)L_51) < ((int32_t)4)))
 		{
@@ -3455,16 +3466,16 @@ IL_0101:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:197>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:197>
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_52 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_53;
 		L_53 = Hands_GetBone_m103AD232BBEF5C03488725B9B69F17956ED877FC(L_52, 3, NULL);
 		V_8 = L_53;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:198>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:199>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:200>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:201>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:198>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:201>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_54 = ___2_handJoints;
 		int32_t L_55 = V_3;
 		int32_t L_56 = V_2;
@@ -3487,7 +3498,7 @@ IL_0101:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_66;
 		L_66 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_56, 2, L_58, L_63, (0.0f), L_64, L_65, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_54)->___m_Buffer, L_55, (L_66));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:202>
 		int32_t L_67 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_67, 1));
 		goto IL_020e;
@@ -3495,7 +3506,7 @@ IL_0101:
 
 IL_0159:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_68 = V_7;
 		NullCheck(L_68);
 		BoneU5BU5D_tAB7C1AF4AD276CC2E24FD5D86BDC721091D7FF8D* L_69 = L_68->___bones;
@@ -3506,17 +3517,17 @@ IL_0159:
 
 IL_0167:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
 		BoneU5BU5D_tAB7C1AF4AD276CC2E24FD5D86BDC721091D7FF8D* L_70 = V_12;
 		int32_t L_71 = V_13;
 		NullCheck(L_70);
 		int32_t L_72 = L_71;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_73 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
 		V_14 = L_73;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:208>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:209>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:210>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:208>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:211>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_74 = ___2_handJoints;
 		int32_t L_75 = V_3;
 		int32_t L_76 = V_2;
@@ -3539,7 +3550,7 @@ IL_0167:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_86;
 		L_86 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_76, 2, L_78, L_83, (0.0f), L_84, L_85, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_74)->___m_Buffer, L_75, (L_86));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:212>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:212>
 		int32_t L_87 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_87, 1));
 		int32_t L_88 = V_13;
@@ -3548,7 +3559,7 @@ IL_0167:
 
 IL_01b8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:206>
 		int32_t L_89 = V_13;
 		BoneU5BU5D_tAB7C1AF4AD276CC2E24FD5D86BDC721091D7FF8D* L_90 = V_12;
 		NullCheck(L_90);
@@ -3558,16 +3569,16 @@ IL_01b8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:215>
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_91 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_92;
 		L_92 = Hands_GetBone_m103AD232BBEF5C03488725B9B69F17956ED877FC(L_91, 3, NULL);
 		V_11 = L_92;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:216>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:217>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:218>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:219>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:216>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:217>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:218>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:219>
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6* L_93 = ___2_handJoints;
 		int32_t L_94 = V_3;
 		int32_t L_95 = V_2;
@@ -3590,7 +3601,7 @@ IL_01b8:
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_105;
 		L_105 = XRHandProviderUtility_CreateJoint_m821C313C0A76868D0E5BB50368DD0EF240237B75(L_95, 2, L_97, L_102, (0.0f), L_103, L_104, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, (L_93)->___m_Buffer, L_94, (L_105));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:220>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:220>
 		int32_t L_106 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_106, 1));
 	}
@@ -3603,7 +3614,7 @@ IL_020e:
 
 IL_0214:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:182>
 		int32_t L_108 = V_6;
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_109 = V_5;
 		NullCheck(L_109);
@@ -3613,11 +3624,11 @@ IL_0214:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:224>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 82022
+// Method Definition Index: 82042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 LeapXRHandProvider_CalculatePalmPose_m19FB12FCBDBD887F62E3D03D1A2794A4B552E351 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_leapHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3629,10 +3640,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:229>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:229>
 		il2cpp_codegen_initobj((&V_0), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:230>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:231>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:230>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:231>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_leapHand;
 		NullCheck(L_0);
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_1;
@@ -3653,7 +3664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_3, L_7, (0.5f), NULL);
 		(&V_0)->___position = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:233>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:233>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_9 = ___0_leapHand;
 		NullCheck(L_9);
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_10;
@@ -3663,12 +3674,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		NullCheck(L_11);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = L_11->___Rotation;
 		(&V_0)->___rotation = L_12;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:235>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:235>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13 = V_0;
 		return L_13;
 	}
 }
-// Method Definition Index: 82023
+// Method Definition Index: 82043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 LeapXRHandProvider_CalculateWristPose_m0EB3DD485178916991C078BCD785870F9FBEA840 (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_leapHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3684,7 +3695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:240>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:240>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_leapHand;
 		NullCheck(L_0);
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_1;
@@ -3699,7 +3710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:241>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:241>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_6 = ___0_leapHand;
 		NullCheck(L_6);
 		Finger_t2C3015B1CFC99BDA64B5C0B04FE794325ABA12C2* L_7;
@@ -3714,25 +3725,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_9, L_11, NULL);
 		V_1 = L_12;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:243>
 		il2cpp_codegen_initobj((&V_2), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:244>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_13 = ___0_leapHand;
 		NullCheck(L_13);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13->___WristPosition;
 		(&V_2)->___position = L_14;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:245>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:245>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
 		L_17 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307_inline(L_15, L_16, NULL);
 		(&V_2)->___rotation = L_17;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:247>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:247>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_18 = V_2;
 		return L_18;
 	}
 }
-// Method Definition Index: 82024
+// Method Definition Index: 82044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LeapXRHandProvider_get_id_m24C279DA79CBF86E3AE6F774A6939A4DD2206B39 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3742,13 +3753,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LeapXRHandProvider_get_id_m24C279DA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
 		il2cpp_codegen_runtime_class_init_inline(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_StaticFields*)il2cpp_codegen_static_fields_for(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var))->___U3CidU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 82025
+// Method Definition Index: 82045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m44DAA09D62022325FE93D0161459D31F5C5BDA86 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3758,7 +3769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m44DAA09D62022
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var);
 		((LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_StaticFields*)il2cpp_codegen_static_fields_for(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var))->___U3CidU3Ek__BackingField = L_0;
@@ -3766,7 +3777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m44DAA09D62022
 		return;
 	}
 }
-// Method Definition Index: 82026
+// Method Definition Index: 82046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider__cctor_m5B297083991F18C0A472C5B87839AD050DEFA293 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3776,12 +3787,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider__cctor_m5B297083991F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:251>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:251>
 		LeapXRHandProvider_set_id_m44DAA09D62022325FE93D0161459D31F5C5BDA86_inline(_stringLiteral6F47BDE3662C9A176E211C6F34454239AFE2E4CA, NULL);
 		return;
 	}
 }
-// Method Definition Index: 82027
+// Method Definition Index: 82047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_RegisterDescriptor_mE1B61E31D01BF5D704A7FE41B7A7DFA300D1671E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3791,6 +3802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_RegisterDescriptor_mE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F47BDE3662C9A176E211C6F34454239AFE2E4CA);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3798,11 +3810,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_RegisterDescriptor_mE
 	Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:257>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:257>
+		il2cpp_codegen_runtime_class_init_inline(UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0;
 		L_0 = UltraleapSettings_get_Instance_mAAEEA62A2D8F9F43DFE9DCA1EFD4A9E329ABD35E(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:259>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:259>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -3833,18 +3846,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapXRHandProvider_RegisterDescriptor_mE
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:261>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:261>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:264>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:265>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:266>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:267>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:268>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:269>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:264>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:265>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:266>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:267>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:268>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:269>
 		il2cpp_codegen_initobj((&V_1), sizeof(Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81));
 		Cinfo_set_id_m06346C96717EB03644F6A1D07F922AED52B4E312_inline((&V_1), _stringLiteral6F47BDE3662C9A176E211C6F34454239AFE2E4CA, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_0_0_0_var) };
@@ -3857,13 +3870,13 @@ IL_001f:
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
 		Cinfo_set_subsystemTypeOverride_mEE9363B14C9632DD23E25A482DECB393B28E1169_inline((&V_1), L_9, NULL);
 		Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81 L_10 = V_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:271>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:271>
 		XRHandSubsystemDescriptor_Register_m9C6273F6EAA053F684929058B9A1113261DFF95F(L_10, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:272>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:272>
 		return;
 	}
 }
-// Method Definition Index: 82028
+// Method Definition Index: 82048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LeapXRHandProvider_DoesDescriptorExist_m684BB958A9FFCF96148D6C97F65485E5DCDB2DCD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3884,14 +3897,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LeapXRHandProvider_DoesDescriptorExist_m
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:276>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:276>
 		List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6* L_0 = (List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6*)il2cpp_codegen_object_new(List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6_il2cpp_TypeInfo_var);
 		List_1__ctor_m602711FCB3B8551951989E9BAA76587A6075680E(L_0, List_1__ctor_m602711FCB3B8551951989E9BAA76587A6075680E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:277>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:277>
 		List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6* L_1 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystemDescriptors_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_mAE6E6315D76A8CB7D661864B75603CCD02310EDD(L_1, SubsystemManager_GetSubsystemDescriptors_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_mAE6E6315D76A8CB7D661864B75603CCD02310EDD_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
 		NullCheck(L_1);
 		Enumerator_t6F19AD66A11B299B0730A807BF8934F042F37EC7 L_2;
 		L_2 = List_1_GetEnumerator_mB691906A9F3731AE4ECF81073DE28738F212AEB7(L_1, List_1_GetEnumerator_mB691906A9F3731AE4ECF81073DE28738F212AEB7_RuntimeMethod_var);
@@ -3915,10 +3928,10 @@ FINALLY_003a:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
 				XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_3;
 				L_3 = Enumerator_get_Current_m19EAE491139B403BA9F5390D326622C4C987933E_inline((&V_0), Enumerator_get_Current_m19EAE491139B403BA9F5390D326622C4C987933E_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:280>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:280>
 				NullCheck(L_3);
 				String_t* L_4;
 				L_4 = SubsystemDescriptorWithProvider_get_id_m9E92FDF45FE9BFB0B28C2AE3EFE475998D01BBC7_inline(L_3, NULL);
@@ -3930,14 +3943,14 @@ IL_0013_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:282>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:282>
 				V_1 = (bool)1;
 				goto IL_004a;
 			}
 
 IL_002f_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:278>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mBFE739D06CCFF0870EE3B0F741C2D6947D26D3E4((&V_0), Enumerator_MoveNext_mBFE739D06CCFF0870EE3B0F741C2D6947D26D3E4_RuntimeMethod_var);
 				if (L_6)
@@ -3957,13 +3970,13 @@ IL_002f_1:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:286>
 		return (bool)0;
 	}
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:287>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:287>
 		bool L_7 = V_1;
 		return L_7;
 	}
@@ -3976,7 +3989,7 @@ IL_004a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82029
+// Method Definition Index: 82049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunBeforeSceneLoad_mDBD426F13B6A061B8FA1AA1871F30D9044BF1A9B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4006,6 +4019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunBeforeSceneLoad_mDBD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemStarter_OnQuit_mD2F3AE89EB3FA495E6C3A5C3C6F696C5DBBBEBE7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F47BDE3662C9A176E211C6F34454239AFE2E4CA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8FA810B4A208F4C5FDFAAF9FB4D94B8124A5CA63);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE22705764B95C6D3B635AC1FC9ABBE0520BA4E11);
@@ -4018,11 +4032,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunBeforeSceneLoad_mDBD
 	memset((&V_2), 0, sizeof(V_2));
 	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:27>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:27>
+		il2cpp_codegen_runtime_class_init_inline(UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0;
 		L_0 = UltraleapSettings_get_Instance_mAAEEA62A2D8F9F43DFE9DCA1EFD4A9E329ABD35E(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:29>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4033,16 +4048,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunBeforeSceneLoad_mDBD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8FA810B4A208F4C5FDFAAF9FB4D94B8124A5CA63, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:32>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:32>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:35>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:35>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_3 = V_0;
 		NullCheck(L_3);
 		bool L_4 = L_3->___leapSubsystemEnabled;
@@ -4052,29 +4067,29 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:37>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:40>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:40>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, NULL, (intptr_t)((void*)SubsystemStarter_OnQuit_mD2F3AE89EB3FA495E6C3A5C3C6F696C5DBBBEBE7_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_quitting_m9DC9D4165EDB0FD93AB893655E26BF73566D2C1B(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:41>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:41>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, NULL, (intptr_t)((void*)SubsystemStarter_OnQuit_mD2F3AE89EB3FA495E6C3A5C3C6F696C5DBBBEBE7_RuntimeMethod_var), NULL);
 		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:44>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:44>
 		List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8* L_7 = (List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8*)il2cpp_codegen_object_new(List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8_il2cpp_TypeInfo_var);
 		List_1__ctor_mC36BA60E7FC5B0F5199DB2A9EC045E22748F501D(L_7, List_1__ctor_mC36BA60E7FC5B0F5199DB2A9EC045E22748F501D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:45>
 		List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8* L_8 = L_7;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisLeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977_mFAD6C3315FFC9752BA4B70A239B04F36921D0435(L_8, SubsystemManager_GetSubsystems_TisLeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977_mFAD6C3315FFC9752BA4B70A239B04F36921D0435_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
 		NullCheck(L_8);
 		Enumerator_t72631195547E200890FD5250B33C93308761ABAE L_9;
 		L_9 = List_1_GetEnumerator_m9CFABF06C980EAF66592EF2E0E91AC1FFF416A55(L_8, List_1_GetEnumerator_m9CFABF06C980EAF66592EF2E0E91AC1FFF416A55_RuntimeMethod_var);
@@ -4098,24 +4113,24 @@ FINALLY_008b:
 
 IL_0058_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_10;
 				L_10 = Enumerator_get_Current_m6612F451F1FF5C47886DAAF326CD3983D8B0DE76_inline((&V_1), Enumerator_get_Current_m6612F451F1FF5C47886DAAF326CD3983D8B0DE76_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:48>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:48>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_11 = L_10;
 				NullCheck(L_11);
 				SubsystemWithProvider_Stop_mB22AB4811D2636FCB317C0E54E8A7139D81A8E16(L_11, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:49>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:49>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_12 = L_11;
 				NullCheck(L_12);
 				SubsystemWithProvider_Destroy_m8161D5B71C856F836660430CED8550AA17438BAF(L_12, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:50>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:50>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_13 = L_12;
 				XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_14;
 				L_14 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_13, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
 				NullCheck(L_14);
 				VirtualActionInvoker0::Invoke(6, L_14);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:51>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:51>
 				XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_15;
 				L_15 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_13, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
 				NullCheck(L_15);
@@ -4124,7 +4139,7 @@ IL_0058_1:
 
 IL_0080_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:46>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_m2D0257E6986DE67E15FEF7DB27C5B3DA56F76EA0((&V_1), Enumerator_MoveNext_m2D0257E6986DE67E15FEF7DB27C5B3DA56F76EA0_RuntimeMethod_var);
 				if (L_16)
@@ -4144,14 +4159,14 @@ IL_0080_1:
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:54>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:54>
 		List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6* L_17 = (List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6*)il2cpp_codegen_object_new(List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6_il2cpp_TypeInfo_var);
 		List_1__ctor_m602711FCB3B8551951989E9BAA76587A6075680E(L_17, List_1__ctor_m602711FCB3B8551951989E9BAA76587A6075680E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:55>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:55>
 		List_1_t5C034992EE369F50EA54FF7867E707BBB1EC72E6* L_18 = L_17;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystemDescriptors_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_mAE6E6315D76A8CB7D661864B75603CCD02310EDD(L_18, SubsystemManager_GetSubsystemDescriptors_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_mAE6E6315D76A8CB7D661864B75603CCD02310EDD_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
 		NullCheck(L_18);
 		Enumerator_t6F19AD66A11B299B0730A807BF8934F042F37EC7 L_19;
 		L_19 = List_1_GetEnumerator_mB691906A9F3731AE4ECF81073DE28738F212AEB7(L_18, List_1_GetEnumerator_mB691906A9F3731AE4ECF81073DE28738F212AEB7_RuntimeMethod_var);
@@ -4175,11 +4190,11 @@ FINALLY_00de:
 
 IL_00ac_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
 				XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_20;
 				L_20 = Enumerator_get_Current_m19EAE491139B403BA9F5390D326622C4C987933E_inline((&V_2), Enumerator_get_Current_m19EAE491139B403BA9F5390D326622C4C987933E_RuntimeMethod_var);
 				V_3 = L_20;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:58>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:58>
 				XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_21 = V_3;
 				NullCheck(L_21);
 				String_t* L_22;
@@ -4192,20 +4207,20 @@ IL_00ac_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:60>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:60>
 				XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* L_24 = V_3;
 				NullCheck(L_24);
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_25;
 				L_25 = SubsystemDescriptorWithProvider_2_Create_mD4333093036BA638CDAE48A4EB5FF4758602F5DC(L_24, SubsystemDescriptorWithProvider_2_Create_mD4333093036BA638CDAE48A4EB5FF4758602F5DC_RuntimeMethod_var);
 				((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem = L_25;
 				Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem), (void*)L_25);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:61>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:61>
 				goto IL_00ec;
 			}
 
 IL_00d3_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:56>
 				bool L_26;
 				L_26 = Enumerator_MoveNext_mBFE739D06CCFF0870EE3B0F741C2D6947D26D3E4((&V_2), Enumerator_MoveNext_mBFE739D06CCFF0870EE3B0F741C2D6947D26D3E4_RuntimeMethod_var);
 				if (L_26)
@@ -4225,7 +4240,7 @@ IL_00d3_1:
 
 IL_00ec:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:65>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_27 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem;
 		if (!L_27)
 		{
@@ -4233,7 +4248,7 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:67>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_28 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem;
 		NullCheck(L_28);
 		bool L_29;
@@ -4244,17 +4259,17 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:69>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_30 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem;
 		NullCheck(L_30);
 		SubsystemWithProvider_Start_m720DC3EDB918F58D65CA4B12017D395788934644(L_30, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:71>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_31 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem;
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_32 = (SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548*)il2cpp_codegen_object_new(SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548_il2cpp_TypeInfo_var);
 		SubsystemUpdater__ctor_mDFF3EED82E3F9CA7181F9C12537F4313D9A306C1(L_32, L_31, NULL);
 		((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater), (void*)L_32);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:72>
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_33 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater;
 		NullCheck(L_33);
 		SubsystemUpdater_Start_mEC50F9FCA9412717D6599F92D2A68A925C393ADD(L_33, NULL);
@@ -4262,7 +4277,7 @@ IL_00ec:
 
 IL_0122:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:75>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_34 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem;
 		XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_35;
 		L_35 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_34, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
@@ -4273,14 +4288,14 @@ IL_0122:
 
 IL_0132:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:79>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:79>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE22705764B95C6D3B635AC1FC9ABBE0520BA4E11, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 82030
+// Method Definition Index: 82050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunAfterSceneLoad_m68DF4C21FB96DD53B70D6124ABC44EFF74375C35 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4293,6 +4308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunAfterSceneLoad_m68DF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindAnyObjectByType_TisLeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3_m7D7AB45B95C6853836698DA52DDFFD9DD7DF9C2D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2022F3E74E45A3B03C69CF62DB1B407B68FA7DB6);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral208FDF3918D7031B2413A8E36F7FE940022677E5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8B118981246C4D0857017E3133495E52A3F2303A);
@@ -4301,11 +4317,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunAfterSceneLoad_m68DF
 	UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* V_0 = NULL;
 	LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:86>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:86>
+		il2cpp_codegen_runtime_class_init_inline(UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0;
 		L_0 = UltraleapSettings_get_Instance_mAAEEA62A2D8F9F43DFE9DCA1EFD4A9E329ABD35E(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:88>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4327,18 +4344,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_RunAfterSceneLoad_m68DF
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:90>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:92>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		LeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3* L_5;
 		L_5 = Object_FindAnyObjectByType_TisLeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3_m7D7AB45B95C6853836698DA52DDFFD9DD7DF9C2D(Object_FindAnyObjectByType_TisLeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3_m7D7AB45B95C6853836698DA52DDFFD9DD7DF9C2D_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:95>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:95>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_6 = V_1;
 		bool L_7;
 		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -4348,24 +4365,24 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:97>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral208FDF3918D7031B2413A8E36F7FE940022677E5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:99>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_8, _stringLiteral2022F3E74E45A3B03C69CF62DB1B407B68FA7DB6, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:100>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8;
 		NullCheck(L_9);
 		LeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3* L_10;
 		L_10 = GameObject_AddComponent_TisLeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3_m571FB2B72BB9B845DDF607B3ACF298F8FA6F7C13(L_9, GameObject_AddComponent_TisLeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3_m571FB2B72BB9B845DDF607B3ACF298F8FA6F7C13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:101>
 		LeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3* L_11 = L_10;
 		NullCheck(L_11);
 		LeapXRServiceProvider_set_PositionDeviceRelativeToMainCamera_m1A00B33F10AC0F2D2DDFBFF9A7E972CB6B19B5BF_inline(L_11, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:102>
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_9, NULL);
 		goto IL_005a;
@@ -4373,14 +4390,14 @@ IL_0018:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:107>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8B118981246C4D0857017E3133495E52A3F2303A, NULL);
 	}
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:110>
 		XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_12 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___subsystemProvider;
 		if (!L_12)
 		{
@@ -4388,9 +4405,9 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:112>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:112>
 		XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_13 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___subsystemProvider;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:113>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:113>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_14 = V_1;
 		NullCheck(((LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9*)CastclassClass((RuntimeObject*)L_13, LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var)));
 		LeapXRHandProvider_set_TrackingProvider_mC90FA56C3314F2E6CA1C6CE0DA116C795A47AF07_inline(((LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9*)CastclassClass((RuntimeObject*)L_13, LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var)), L_14, NULL);
@@ -4398,11 +4415,11 @@ IL_005a:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:115>
 		return;
 	}
 }
-// Method Definition Index: 82031
+// Method Definition Index: 82051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_OnQuit_mD2F3AE89EB3FA495E6C3A5C3C6F696C5DBBBEBE7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4431,19 +4448,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter_OnQuit_mD2F3AE89EB3FA49
 	SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* G_B11_0 = NULL;
 	SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* G_B10_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:119>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, NULL, (intptr_t)((void*)SubsystemStarter_OnQuit_mD2F3AE89EB3FA495E6C3A5C3C6F696C5DBBBEBE7_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_quitting_m9DC9D4165EDB0FD93AB893655E26BF73566D2C1B(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:121>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:121>
 		List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8* L_1 = (List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8*)il2cpp_codegen_object_new(List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8_il2cpp_TypeInfo_var);
 		List_1__ctor_mC36BA60E7FC5B0F5199DB2A9EC045E22748F501D(L_1, List_1__ctor_mC36BA60E7FC5B0F5199DB2A9EC045E22748F501D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:122>
 		List_1_tB01DC9C451FAB984E166A56465431F7DD638DDA8* L_2 = L_1;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisLeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977_mFAD6C3315FFC9752BA4B70A239B04F36921D0435(L_2, SubsystemManager_GetSubsystems_TisLeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977_mFAD6C3315FFC9752BA4B70A239B04F36921D0435_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
 		NullCheck(L_2);
 		Enumerator_t72631195547E200890FD5250B33C93308761ABAE L_3;
 		L_3 = List_1_GetEnumerator_m9CFABF06C980EAF66592EF2E0E91AC1FFF416A55(L_2, List_1_GetEnumerator_m9CFABF06C980EAF66592EF2E0E91AC1FFF416A55_RuntimeMethod_var);
@@ -4467,24 +4484,24 @@ FINALLY_0057:
 
 IL_0024_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_4;
 				L_4 = Enumerator_get_Current_m6612F451F1FF5C47886DAAF326CD3983D8B0DE76_inline((&V_0), Enumerator_get_Current_m6612F451F1FF5C47886DAAF326CD3983D8B0DE76_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:126>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:126>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_5 = L_4;
 				NullCheck(L_5);
 				SubsystemWithProvider_Stop_mB22AB4811D2636FCB317C0E54E8A7139D81A8E16(L_5, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:127>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:127>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_6 = L_5;
 				NullCheck(L_6);
 				SubsystemWithProvider_Destroy_m8161D5B71C856F836660430CED8550AA17438BAF(L_6, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:128>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:128>
 				LeapHandsSubsystem_t559C14FE87A3A65B180FE17263C74CBFFBC62977* L_7 = L_6;
 				XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_8;
 				L_8 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_7, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
 				NullCheck(L_8);
 				VirtualActionInvoker0::Invoke(6, L_8);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:129>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:129>
 				XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* L_9;
 				L_9 = SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55(L_7, SubsystemExtensions_GetProvider_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_TisXRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73_TisXRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996_m8F07F6B6A9C7F1A8EAD385646EFD6AB36FB64E55_RuntimeMethod_var);
 				NullCheck(L_9);
@@ -4493,7 +4510,7 @@ IL_0024_1:
 
 IL_004c_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:124>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_m2D0257E6986DE67E15FEF7DB27C5B3DA56F76EA0((&V_0), Enumerator_MoveNext_m2D0257E6986DE67E15FEF7DB27C5B3DA56F76EA0_RuntimeMethod_var);
 				if (L_10)
@@ -4513,7 +4530,7 @@ IL_004c_1:
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:132>
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_11 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater;
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_12 = L_11;
 		if (L_12)
@@ -4535,7 +4552,7 @@ IL_0070:
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:133>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:133>
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_13 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater;
 		SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548* L_14 = L_13;
 		if (L_14)
@@ -4557,7 +4574,7 @@ IL_0080:
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:135>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___leapProviderGO;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -4568,7 +4585,7 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = ((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___leapProviderGO;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_17, NULL);
@@ -4576,23 +4593,23 @@ IL_0085:
 
 IL_009c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:140>
 		((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem = (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___m_Subsystem), (void*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:141>
 		((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater = (SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___updater), (void*)(SubsystemUpdater_t59BCE7E7B38E867C0FBDBBA8579C37C08BF26548*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:142>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:142>
 		((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___leapProviderGO = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___leapProviderGO), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:143>
 		((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___subsystemProvider = (XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4_il2cpp_TypeInfo_var))->___subsystemProvider), (void*)(XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/SubsystemStarter.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 82032
+// Method Definition Index: 82052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter__ctor_m678696D828060355F8972FF830AD3D284DD91B2E (SubsystemStarter_t382967472FC49179242385C45DB3FA8A432EB3B4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4608,7 +4625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemStarter__ctor_m678696D828060355
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82033
+// Method Definition Index: 82053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_Start_m0574B361EFF2F2310C5DCB0DE64ECD56A586A1F9 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4636,14 +4653,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_Start_m0574B361EFF2F
 	memset((&V_0), 0, sizeof(V_0));
 	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:69>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
 		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:70>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_1 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_1, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
 		NullCheck(L_1);
 		Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 L_2;
 		L_2 = List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A(L_1, List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A_RuntimeMethod_var);
@@ -4667,11 +4684,11 @@ FINALLY_0032:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3;
 				L_3 = Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_inline((&V_0), Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:74>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:74>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_4 = V_1;
 				if (!L_4)
 				{
@@ -4679,17 +4696,17 @@ IL_0013_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:76>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:76>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_5 = V_1;
 				__this->___currentSubsystem = L_5;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___currentSubsystem), (void*)L_5);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:77>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:77>
 				goto IL_0040;
 			}
 
 IL_0027_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:72>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B((&V_0), Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B_RuntimeMethod_var);
 				if (L_6)
@@ -4709,7 +4726,7 @@ IL_0027_1:
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:81>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___currentSubsystem;
 		if (L_7)
 		{
@@ -4717,16 +4734,16 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFB3C3B444800FC90C94AE3688F72D87BCF6DAD01, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:84>
 		return;
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:88>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = __this->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_9 = L_8;
 		NullCheck(L_9);
@@ -4738,7 +4755,7 @@ IL_0053:
 		NullCheck(L_9);
 		L_9->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_12, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_12, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:89>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_13 = __this->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_14 = L_13;
 		NullCheck(L_14);
@@ -4750,7 +4767,7 @@ IL_0053:
 		NullCheck(L_14);
 		L_14->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_17, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_14->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_17, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:91>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18;
 		L_18 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_18);
@@ -4758,7 +4775,7 @@ IL_0053:
 		L_19 = Component_GetComponent_TisTrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD_mD66D58E941D95457A6D16D8674487EC5982E6293(L_18, Component_GetComponent_TisTrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD_mD66D58E941D95457A6D16D8674487EC5982E6293_RuntimeMethod_var);
 		__this->____trackedPoseDriver = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackedPoseDriver), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:93>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:93>
 		TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* L_20 = __this->____trackedPoseDriver;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -4776,10 +4793,10 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:95>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:95>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF3235F37AA8609A767A26EEC159D754DED8F9766, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:96>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:96>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_23;
 		L_23 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_23);
@@ -4794,11 +4811,11 @@ IL_0053:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 82034
+// Method Definition Index: 82054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_OnDestroy_m8EFC16E1654143D160269FEEE9116B87C92C4D82 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4809,7 +4826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_OnDestroy_m8EFC16E16
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:102>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___currentSubsystem;
 		if (!L_0)
 		{
@@ -4817,7 +4834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_OnDestroy_m8EFC16E16
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:103>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = L_1;
 		NullCheck(L_2);
@@ -4833,15 +4850,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_OnDestroy_m8EFC16E16
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 82035
+// Method Definition Index: 82055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_Update_mD84F1F91FFC6B3E24728D615722E14FA92444C6E (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:108>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:108>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___currentSubsystem;
 		if (L_0)
 		{
@@ -4858,17 +4875,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_Update_mD84F1F91FFC6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:110>
 		XRHandsLeapProvider_CheckForSubsystem_m5A7A6ACFDF3488B6CB99C5BF5E7D258412C4B44E(__this, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:112>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 82036
+// Method Definition Index: 82056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_CheckForSubsystem_m5A7A6ACFDF3488B6CB99C5BF5E7D258412C4B44E (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4893,14 +4910,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_CheckForSubsystem_m5
 	memset((&V_0), 0, sizeof(V_0));
 	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:117>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:117>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
 		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:118>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:118>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_1 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_1, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
 		NullCheck(L_1);
 		Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 L_2;
 		L_2 = List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A(L_1, List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A_RuntimeMethod_var);
@@ -4924,11 +4941,11 @@ FINALLY_0032:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3;
 				L_3 = Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_inline((&V_0), Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:122>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:122>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_4 = V_1;
 				if (!L_4)
 				{
@@ -4936,17 +4953,17 @@ IL_0013_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:124>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:124>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_5 = V_1;
 				__this->___currentSubsystem = L_5;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___currentSubsystem), (void*)L_5);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:125>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:125>
 				goto IL_0040;
 			}
 
 IL_0027_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:120>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B((&V_0), Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B_RuntimeMethod_var);
 				if (L_6)
@@ -4966,7 +4983,7 @@ IL_0027_1:
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:129>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:129>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = __this->___currentSubsystem;
 		if (L_7)
 		{
@@ -4974,20 +4991,20 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFB3C3B444800FC90C94AE3688F72D87BCF6DAD01, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:133>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:133>
 		float L_8;
 		L_8 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___lastCheckForSubsystemTime = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:134>
 		return;
 	}
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:137>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_9 = __this->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_10 = L_9;
 		NullCheck(L_10);
@@ -4999,7 +5016,7 @@ IL_005e:
 		NullCheck(L_10);
 		L_10->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_13, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_13, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:138>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:138>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_14 = __this->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_15 = L_14;
 		NullCheck(L_15);
@@ -5011,7 +5028,7 @@ IL_005e:
 		NullCheck(L_15);
 		L_15->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_18, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_18, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:139>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_19;
 		L_19 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_19);
@@ -5019,11 +5036,11 @@ IL_005e:
 		L_20 = Component_GetComponent_TisTrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD_mD66D58E941D95457A6D16D8674487EC5982E6293(L_19, Component_GetComponent_TisTrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD_mD66D58E941D95457A6D16D8674487EC5982E6293_RuntimeMethod_var);
 		__this->____trackedPoseDriver = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackedPoseDriver), (void*)L_20);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 82037
+// Method Definition Index: 82057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F7E9682D11347030E5EDE87FCB595C97FE (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_updateSuccessFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5035,22 +5052,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:144>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_1 = (Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)(&__this->____currentFrame);
 		XRHandsLeapProvider_PopulateLeapFrame_m3CB7837CEE201AD0672C2019310C1ABAAF33BF76(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:146>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_2 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7_il2cpp_TypeInfo_var);
 		LeapTransform_set_translation_m55FFAA6816DCADBFA43805D62F1A4D255E820097_inline(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:147>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:147>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_4 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		LeapTransform_set_rotation_mA6E0EA797A32A69058C8D19887E3D7DD1251AFF5(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:148>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_6 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7;
 		L_7 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
@@ -5061,7 +5078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_8, NULL);
 		LeapTransform_set_scale_m66DCD094869679551F583F413D29A8E4642EA9EF(L_6, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:151>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:151>
 		TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* L_10 = __this->____trackedPoseDriver;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -5082,7 +5099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:153>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_14 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_15 = L_14;
 		il2cpp_codegen_runtime_class_init_inline(LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7_il2cpp_TypeInfo_var);
@@ -5096,7 +5113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_16, L_19, NULL);
 		LeapTransform_set_translation_m55FFAA6816DCADBFA43805D62F1A4D255E820097_inline(L_15, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:154>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_21 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_22 = L_21;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23;
@@ -5113,7 +5130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_UpdateHands_m47A049F
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:158>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:158>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_28;
 		L_28 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_28);
@@ -5123,7 +5140,7 @@ IL_00ae:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
 		L_30 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_29, NULL);
 		V_0 = L_30;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:159>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -5134,7 +5151,7 @@ IL_00ae:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:161>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_33 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_34 = L_33;
 		il2cpp_codegen_runtime_class_init_inline(LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7_il2cpp_TypeInfo_var);
@@ -5147,7 +5164,7 @@ IL_00ae:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_35, L_37, NULL);
 		LeapTransform_set_translation_m55FFAA6816DCADBFA43805D62F1A4D255E820097_inline(L_34, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:162>
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_39 = (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7*)(&__this->___trackerTransform);
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* L_40 = L_39;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41;
@@ -5163,30 +5180,30 @@ IL_00ae:
 
 IL_00ff:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:165>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_45 = __this->____currentFrame;
 		LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7 L_46 = __this->___trackerTransform;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_47;
 		L_47 = TransformExtensions_Transform_m638368531489C3357780B8DDF83C447CEB52D285(L_45, L_46, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:167>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:167>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_48 = __this->____currentFrame;
 		LeapProvider_DispatchUpdateFrameEvent_m59D6C54F74517020DE829C9861B4647B16C5DAC4(__this, L_48, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 82038
+// Method Definition Index: 82058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_FixedUpdate_m613F6DFA0C480BDD94B7F292645E5BC2A40793D2 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:172>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_0 = __this->____currentFrame;
 		LeapProvider_DispatchFixedFrameEvent_mA76251118218A730831F2E8AF34B924EB1356944(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 82039
+// Method Definition Index: 82059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapFrame_m3CB7837CEE201AD0672C2019310C1ABAAF33BF76 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** ___1_leapFrame, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5200,14 +5217,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapFrame_m3
 	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:177>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_0 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_1 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_0);
 		NullCheck(L_1);
 		List_1_tCA96B1C4A7E54281F3EF3CD46FB9DD70F2413D17* L_2 = L_1->___Hands;
 		NullCheck(L_2);
 		List_1_Clear_m4C824B5F6314A4E2A7C68041892DFCB0E28876CF_inline(L_2, List_1_Clear_m4C824B5F6314A4E2A7C68041892DFCB0E28876CF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:178>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_3 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_4 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_3);
 		int64_t L_5 = __this->____frameId;
@@ -5217,26 +5234,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapFrame_m3
 		int64_t L_7 = V_0;
 		NullCheck(L_4);
 		L_4->___Id = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:179>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_8 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_9 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_8);
 		NullCheck(L_9);
 		L_9->___DeviceID = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:180>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_10 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_11 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_10);
 		float L_12;
 		L_12 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		NullCheck(L_11);
 		L_11->___Timestamp = il2cpp_codegen_cast_double_to_int<int64_t>(((float)il2cpp_codegen_multiply(L_12, (1000000.0f))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:181>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_13 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_14 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_13);
 		float L_15;
 		L_15 = Time_get_smoothDeltaTime_m41881A3290CC95E6EF2D55289D1D872A45DC1775(NULL);
 		NullCheck(L_14);
 		L_14->___CurrentFramesPerSecond = ((float)((1.0f)/L_15));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:183>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_16 = ___0_subsystem;
 		NullCheck(L_16);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_17;
@@ -5254,14 +5271,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapFrame_m3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:185>
 		__this->____leftHandFirstSeen_ticks = ((int64_t)(-1));
 		goto IL_009e;
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:189>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:189>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_21 = ___0_subsystem;
 		NullCheck(L_21);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_22;
@@ -5270,7 +5287,7 @@ IL_0073:
 		L_23 = XRHandsLeapProvider_GetHandTimeVisible_mE2778BBCB95472C7D07EFE1C3D1EED10D271F40D(__this, 0, NULL);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_24 = (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)(&__this->____leftHand);
 		XRHandsLeapProvider_PopulateLeapHandFromXRHand_mF38A7CDC4EC5B14BE0D01CA5050E2D658F5CC8FF(__this, L_22, L_23, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:190>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_25 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_26 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_25);
 		NullCheck(L_26);
@@ -5282,7 +5299,7 @@ IL_0073:
 
 IL_009e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:193>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:193>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_29 = ___0_subsystem;
 		NullCheck(L_29);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_30;
@@ -5300,14 +5317,14 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:195>
 		__this->____rightHandFirstSeen_ticks = ((int64_t)(-1));
 		return;
 	}
 
 IL_00be:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:199>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_34 = ___0_subsystem;
 		NullCheck(L_34);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_35;
@@ -5316,7 +5333,7 @@ IL_00be:
 		L_36 = XRHandsLeapProvider_GetHandTimeVisible_mE2778BBCB95472C7D07EFE1C3D1EED10D271F40D(__this, 1, NULL);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_37 = (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)(&__this->____rightHand);
 		XRHandsLeapProvider_PopulateLeapHandFromXRHand_mF38A7CDC4EC5B14BE0D01CA5050E2D658F5CC8FF(__this, L_35, L_36, L_37, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:200>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0** L_38 = ___1_leapFrame;
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_39 = *((Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0**)L_38);
 		NullCheck(L_39);
@@ -5324,11 +5341,11 @@ IL_00be:
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_41 = __this->____rightHand;
 		NullCheck(L_40);
 		List_1_Add_m71C8B0A4BF875034EF7451FE11942F5E17F0646D_inline(L_40, L_41, List_1_Add_m71C8B0A4BF875034EF7451FE11942F5E17F0646D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:202>
 		return;
 	}
 }
-// Method Definition Index: 82040
+// Method Definition Index: 82060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapHandFromXRHand_mF38A7CDC4EC5B14BE0D01CA5050E2D658F5CC8FF (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_xrhand, float ___1_timeVisible, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** ___2_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5603,12 +5620,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider_PopulateLeapHandFrom
 	memset((&G_B48_3), 0, sizeof(G_B48_3));
 	Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* G_B48_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:206>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_xrhand;
 		NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 L_1;
 		L_1 = XRHandProcessingUtility_GetRawJointArray_mD04CE7C449A2A55D0C0B94C98328FA7A941A6326(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:208>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:208>
 		int32_t L_2;
 		L_2 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_xrhand), NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -5629,73 +5646,73 @@ IL_0014:
 IL_0015:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:210>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, 0);
 		V_13 = L_3;
 		bool L_4;
 		L_4 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_13), (&V_2), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:211>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, 1);
 		V_13 = L_5;
 		bool L_6;
 		L_6 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_13), (&V_3), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:213>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:213>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, 1);
 		V_13 = L_7;
 		bool L_8;
 		L_8 = XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B((&V_13), (&V_4), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
 		V_14 = 0;
 		goto IL_02e9;
 	}
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:217>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:217>
 		V_15 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:218>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:218>
 		V_16 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:219>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:219>
 		V_17 = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:220>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:220>
 		V_18 = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
 		V_21 = 0;
 		goto IL_0255;
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:224>
 		int32_t L_9 = V_14;
 		int32_t L_10 = V_21;
 		V_22 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_9, 5)), L_10)), 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:225>
 		int32_t L_11 = V_22;
 		V_23 = ((int32_t)il2cpp_codegen_add(L_11, 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:226>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:226>
 		int32_t L_12 = V_22;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, L_12);
 		V_24 = L_13;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:227>
 		int32_t L_14 = V_23;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, L_14);
 		V_25 = L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:229>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:229>
 		bool L_16;
 		L_16 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_24), (&V_26), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:230>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:230>
 		bool L_17;
 		L_17 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&V_25), (&V_27), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:231>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:231>
 		bool L_18;
 		L_18 = XRHandJoint_TryGetRadius_m992C3DC67D51BCF5F949503D98178BE191D2526D((&V_24), (&V_28), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:234>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:234>
 		int32_t L_19 = V_14;
 		if (L_19)
 		{
@@ -5710,7 +5727,7 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:236>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_21;
 		L_21 = IL2CPP_NATIVEARRAY_GET_ITEM(XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783, ((&V_0))->___m_Buffer, 4);
 		V_13 = L_21;
@@ -5738,27 +5755,27 @@ IL_00e5:
 IL_00ec:
 	{
 		V_30 = G_B10_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:239>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:239>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_30;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_27 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = L_27.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_26, L_28, NULL);
 		V_30 = L_29;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:240>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:240>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_30;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_30, (2.0f), NULL);
 		V_30 = L_31;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:242>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:243>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:244>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:245>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:246>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:247>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:248>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:249>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:242>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:245>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:246>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:247>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:248>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:249>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:250>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_32 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_33 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_32);
 		int32_t L_34 = V_21;
@@ -5956,13 +5973,13 @@ IL_0185:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58;
 		L_58 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(G_B19_2, L_57, NULL);
 		HandUtils_Fill_mB2727CC4C0B6EDC9A75DD01A35DBC5B820045AB0(G_B19_10, G_B19_9, G_B19_8, G_B19_7, G_B19_6, G_B19_5, G_B19_4, G_B19_3, L_58, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:251>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:251>
 		goto IL_024f;
 	}
 
 IL_0199:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:255>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:255>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_59 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_60 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_59);
 		NullCheck(L_60);
@@ -5978,15 +5995,15 @@ IL_0199:
 		int32_t L_67 = L_66;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_68 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
 		V_29 = L_68;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:257>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:258>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:259>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:260>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:261>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:262>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:263>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:264>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:265>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:257>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:258>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:259>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:260>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:261>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:262>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:263>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:264>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:265>
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_69 = V_29;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_70 = V_26;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = L_70.___position;
@@ -6017,7 +6034,7 @@ IL_0199:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_89 = V_26;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_90 = L_89.___rotation;
 		HandUtils_Fill_mB2727CC4C0B6EDC9A75DD01A35DBC5B820045AB0(L_69, L_71, L_73, L_79, L_80, L_86, ((float)il2cpp_codegen_multiply(L_87, (2.0f))), L_88, L_90, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:266>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:266>
 		float L_91 = V_17;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_92 = V_29;
 		NullCheck(L_92);
@@ -6025,7 +6042,7 @@ IL_0199:
 		float L_94;
 		L_94 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_91, L_93, NULL);
 		V_17 = L_94;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:268>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:268>
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_95 = V_29;
 		NullCheck(L_95);
 		int32_t L_96 = L_95->___Type;
@@ -6035,14 +6052,14 @@ IL_0199:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:270>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:270>
 		int32_t L_97 = V_22;
 		V_16 = L_97;
 	}
 
 IL_0231:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:273>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:273>
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_98 = V_29;
 		NullCheck(L_98);
 		int32_t L_99 = L_98->___Type;
@@ -6052,14 +6069,14 @@ IL_0231:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:275>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:275>
 		int32_t L_100 = V_23;
 		V_15 = L_100;
 	}
 
 IL_023f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:279>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:279>
 		int32_t L_101 = V_21;
 		if (!L_101)
 		{
@@ -6067,7 +6084,7 @@ IL_023f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:281>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:281>
 		float L_102 = V_18;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_103 = V_29;
 		NullCheck(L_103);
@@ -6077,14 +6094,14 @@ IL_023f:
 
 IL_024f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
 		int32_t L_105 = V_21;
 		V_21 = ((int32_t)il2cpp_codegen_add(L_105, 1));
 	}
 
 IL_0255:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:222>
 		int32_t L_106 = V_21;
 		if ((((int32_t)L_106) < ((int32_t)4)))
 		{
@@ -6092,17 +6109,17 @@ IL_0255:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:286>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:287>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:288>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:289>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:290>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:291>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:292>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:293>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:294>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:295>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:287>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:288>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:290>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:292>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:293>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:294>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:295>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:296>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_107 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_108 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_107);
 		NullCheck(L_108);
@@ -6249,14 +6266,14 @@ IL_02bf:
 		L_133 = Hands_GetFingerStrength_mD7A5E209927820E576F300B21DE89F7560D8887E(L_131, L_132, NULL);
 		int32_t L_134 = V_14;
 		HandUtils_Fill_mFA7165A81E5E32EC69D499168FA096C7883F0679(G_B37_6, G_B37_5, G_B37_4, G_B37_3, G_B37_2, G_B37_1, G_B37_0, L_128, L_129, (bool)((((double)((double)L_133)) < ((double)(0.40000000000000002)))? 1 : 0), L_134, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
 		int32_t L_135 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_135, 1));
 	}
 
 IL_02e9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:215>
 		int32_t L_136 = V_14;
 		if ((((int32_t)L_136) < ((int32_t)5)))
 		{
@@ -6264,19 +6281,19 @@ IL_02e9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:301>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_137 = ___2_hand;
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		float L_138;
 		L_138 = Hands_CalculateHandScale_m084C1C2794586908CBEB4094C4C617EBB2FEF20F(L_137, NULL);
 		V_5 = L_138;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:302>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:302>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_139 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_140 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_139);
 		int64_t L_141 = __this->____frameId;
 		NullCheck(L_140);
 		L_140->___FrameId = L_141;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:303>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_142 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_143 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_142);
 		int32_t L_144 = V_1;
@@ -6305,43 +6322,43 @@ IL_0319:
 	{
 		NullCheck(G_B42_1);
 		G_B42_1->___Id = G_B42_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:304>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:304>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_147 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_148 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_147);
 		NullCheck(L_148);
 		L_148->___Confidence = (1.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:305>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:305>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_149 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_150 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_149);
 		float L_151 = V_5;
 		NullCheck(L_150);
 		L_150->___PalmWidth = ((float)il2cpp_codegen_multiply(L_151, (0.0842500031f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:306>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:306>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_152 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_153 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_152);
 		int32_t L_154 = V_1;
 		NullCheck(L_153);
 		L_153->___IsLeft = (bool)((((int32_t)L_154) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:307>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:307>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_155 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_156 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_155);
 		float L_157 = ___1_timeVisible;
 		NullCheck(L_156);
 		L_156->___TimeVisible = L_157;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:308>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_158 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_159 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_158);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_160 = V_4;
 		NullCheck(L_159);
 		L_159->___PalmVelocity = L_160;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:309>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:309>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_161 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_162 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_161);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_163 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_164 = L_163.___position;
 		NullCheck(L_162);
 		L_162->___WristPosition = L_164;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:312>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:312>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_165 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_166 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_165);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_167 = V_3;
@@ -6387,7 +6404,7 @@ IL_037c:
 		L_174 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(G_B45_2, L_173, NULL);
 		NullCheck(G_B45_3);
 		G_B45_3->___Rotation = L_174;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:313>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:313>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_175 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_176 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_175);
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_177 = V_3;
@@ -6443,7 +6460,7 @@ IL_03b1:
 		L_188 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(G_B48_3, L_187, NULL);
 		NullCheck(G_B48_4);
 		G_B48_4->___PalmPosition = L_188;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:314>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:314>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_189 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_190 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_189);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_191 = ___2_hand;
@@ -6452,7 +6469,7 @@ IL_03b1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_193 = L_192->___PalmPosition;
 		NullCheck(L_190);
 		L_190->___StabilizedPalmPosition = L_193;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:315>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:315>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_194 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_195 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_194);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_196 = ___2_hand;
@@ -6465,7 +6482,7 @@ IL_03b1:
 		L_200 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_198, L_199, NULL);
 		NullCheck(L_195);
 		L_195->___PalmNormal = L_200;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:316>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:316>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_201 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_202 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_201);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_203 = ___2_hand;
@@ -6478,7 +6495,7 @@ IL_03b1:
 		L_207 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_205, L_206, NULL);
 		NullCheck(L_202);
 		L_202->___Direction = L_207;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:320>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:320>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_208 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_209 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_208);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_210 = ___2_hand;
@@ -6487,7 +6504,7 @@ IL_03b1:
 		L_211 = Hands_CalculateGrabStrength_m8A221CCE34D3455A1DDA301B13D2BEE69567B0B4(L_210, NULL);
 		NullCheck(L_209);
 		L_209->___GrabStrength = L_211;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:321>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:321>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_212 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_213 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_212);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_214 = ___2_hand;
@@ -6495,7 +6512,7 @@ IL_03b1:
 		L_215 = Hands_CalculatePinchStrength_mB76BBE0BCD8CB2A98E66DCD1D878B3A8B8B57705(L_214, NULL);
 		NullCheck(L_213);
 		L_213->___PinchStrength = L_215;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:322>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:322>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_216 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_217 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_216);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_218 = ___2_hand;
@@ -6503,7 +6520,7 @@ IL_03b1:
 		L_219 = Hands_CalculatePinchDistance_mC560074FDFC054D1ABCD776295D18810859FD56E(L_218, NULL);
 		NullCheck(L_217);
 		L_217->___PinchDistance = L_219;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:325>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:325>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_220 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_221 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_220);
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_222 = ___2_hand;
@@ -6516,32 +6533,32 @@ IL_03b1:
 		L_226 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_224, L_225, NULL);
 		NullCheck(L_221);
 		L_221->___PalmNormal = L_226;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:328>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:328>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_227 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_228 = L_227.___position;
 		V_6 = L_228;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:329>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:329>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_229 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_230 = L_229.___position;
 		V_7 = L_230;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:330>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:330>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_231 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_232 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_231);
 		NullCheck(L_232);
 		float L_233 = L_232->___PalmWidth;
 		V_8 = ((float)il2cpp_codegen_multiply(L_233, (0.600000024f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:333>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:333>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_234 = V_3;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_235 = L_234.___rotation;
 		V_9 = L_235;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:334>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:334>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_236 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_237;
 		L_237 = Vector3_get_back_mCA5A84170E8DE5CE38C0551B4CCAD647BF215E57_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_238;
 		L_238 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_236, L_237, NULL);
 		V_10 = L_238;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:335>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_239 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_240 = L_239.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_241 = V_10;
@@ -6550,7 +6567,7 @@ IL_03b1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_243;
 		L_243 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_240, L_242, NULL);
 		V_11 = L_243;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:336>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_244 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_245 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_246;
@@ -6558,15 +6575,15 @@ IL_03b1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_247;
 		L_247 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_246, (2.0f), NULL);
 		V_12 = L_247;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:337>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:338>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:339>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:340>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:341>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:342>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:343>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:344>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:337>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:338>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:339>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:340>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:341>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:342>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:343>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:344>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:345>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89** L_248 = ___2_hand;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_249 = *((Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89**)L_248);
 		NullCheck(L_249);
@@ -6578,11 +6595,11 @@ IL_03b1:
 		float L_255 = V_8;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_256 = V_9;
 		HandUtils_Fill_mD06999362C6205DBE6B5998EC192A73C7DDF7E47(L_250, L_251, L_252, L_253, L_254, (0.300000012f), L_255, L_256, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:346>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:346>
 		return;
 	}
 }
-// Method Definition Index: 82041
+// Method Definition Index: 82061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_mE2778BBCB95472C7D07EFE1C3D1EED10D271F40D (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, int32_t ___0_chirality, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6597,7 +6614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:350>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:350>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
 		L_0 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -6605,9 +6622,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_
 		int64_t L_1;
 		L_1 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_2), NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:352>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:352>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:353>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:353>
 		int32_t L_2 = ___0_chirality;
 		if (L_2)
 		{
@@ -6615,7 +6632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:355>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:355>
 		int64_t L_3 = __this->____leftHandFirstSeen_ticks;
 		if ((!(((uint64_t)L_3) == ((uint64_t)((int64_t)(-1))))))
 		{
@@ -6623,10 +6640,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:357>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:357>
 		int64_t L_4 = V_0;
 		__this->____leftHandFirstSeen_ticks = L_4;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:358>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:358>
 		int32_t L_5 = __this->____handId;
 		V_3 = L_5;
 		int32_t L_6 = V_3;
@@ -6637,7 +6654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsLeapProvider_GetHandTimeVisible_
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:360>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:360>
 		int64_t L_8 = V_0;
 		int64_t L_9 = __this->____leftHandFirstSeen_ticks;
 		V_1 = ((float)(((float)((int64_t)il2cpp_codegen_subtract(L_8, L_9)))/(10000000.0f)));
@@ -6646,7 +6663,7 @@ IL_003f:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:364>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:364>
 		int64_t L_10 = __this->____rightHandFirstSeen_ticks;
 		if ((!(((uint64_t)L_10) == ((uint64_t)((int64_t)(-1))))))
 		{
@@ -6654,10 +6671,10 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:366>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:366>
 		int64_t L_11 = V_0;
 		__this->____rightHandFirstSeen_ticks = L_11;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:367>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:367>
 		int32_t L_12 = __this->____handId;
 		V_3 = L_12;
 		int32_t L_13 = V_3;
@@ -6668,8 +6685,8 @@ IL_0051:
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:369>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:370>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:369>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:370>
 		int64_t L_15 = V_0;
 		int64_t L_16 = __this->____rightHandFirstSeen_ticks;
 		V_1 = ((float)(((float)((int64_t)il2cpp_codegen_subtract(L_15, L_16)))/(10000000.0f)));
@@ -6677,31 +6694,31 @@ IL_0079:
 
 IL_0089:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:373>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:373>
 		float L_17 = V_1;
 		return L_17;
 	}
 }
-// Method Definition Index: 82042
+// Method Definition Index: 82062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* XRHandsLeapProvider_get_CurrentFrame_m437B33B546CFC2DFD41C0CEA5D5B834D1740D514 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:386>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:386>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_0 = __this->____currentFrame;
 		return L_0;
 	}
 }
-// Method Definition Index: 82043
+// Method Definition Index: 82063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* XRHandsLeapProvider_get_CurrentFixedFrame_mE30D4F1066F9E6BCD9FFCDF3762F167B9890A193 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:392>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:392>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_0;
 		L_0 = VirtualFuncInvoker0< Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* >::Invoke(4, __this);
 		return L_0;
 	}
 }
-// Method Definition Index: 82044
+// Method Definition Index: 82064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__ctor_m152783FB47AFC6FA41B47C828397E1745EC89394 (XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6712,7 +6729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__ctor_m152783FB47AFC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:28>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:28>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -6721,28 +6738,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__ctor_m152783FB47AFC
 		memset((&L_2), 0, sizeof(L_2));
 		LeapTransform__ctor_m648A02EA667EE81DFEE3EBD7BC6E9E5310DD0116((&L_2), L_0, L_1, NULL);
 		__this->___trackerTransform = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:30>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:30>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_3 = (Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0*)il2cpp_codegen_object_new(Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0_il2cpp_TypeInfo_var);
 		Frame__ctor_m1F095012227FDE6487C4CC3DCC53C89ED114D849(L_3, 1, NULL);
 		__this->____currentFrame = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentFrame), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:32>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:32>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_4 = (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89*)il2cpp_codegen_object_new(Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89_il2cpp_TypeInfo_var);
 		Hand__ctor_mA7E436C2DE982D07E69684FF271D285EE3443145(L_4, NULL);
 		__this->____leftHand = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftHand), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:33>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:33>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_5 = (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89*)il2cpp_codegen_object_new(Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89_il2cpp_TypeInfo_var);
 		Hand__ctor_mA7E436C2DE982D07E69684FF271D285EE3443145(L_5, NULL);
 		__this->____rightHand = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightHand), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:64>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:64>
 		__this->____autoCreateTrackedPoseDriver = (bool)1;
 		LeapProvider__ctor_m9EB6CACCB7CA5E75E16D22A777E75CFE864ABB0E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 82045
+// Method Definition Index: 82065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__cctor_mAE3414FCAE3D71D8C799E6863DE67AF2B4897C75 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6754,11 +6771,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__cctor_mAE3414FCAE3D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:42>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:43>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:44>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:45>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:46>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:42>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:44>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:46>
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_0 = (QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)SZArrayNew(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var, (uint32_t)2);
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_1 = L_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -6772,11 +6789,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__cctor_mAE3414FCAE3D
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974)L_4);
 		((XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597_il2cpp_TypeInfo_var))->___ThumbMetacarpalRotationOffset = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsLeapProvider_t846A454358CBD08955815CED1F55F0C51BF16597_il2cpp_TypeInfo_var))->___ThumbMetacarpalRotationOffset), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:49>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:50>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:51>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:52>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:53>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:49>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:50>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:51>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:52>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsLeapProvider.cs:53>
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_5 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)2);
 		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_6 = L_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -6813,7 +6830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsLeapProvider__cctor_mAE3414FCAE3D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82046
+// Method Definition Index: 82066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61CCD0AC386483B916F6B98EB321DCA58F8FB05 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -6822,19 +6839,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:24>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:24>
 		V_0 = ((std::numeric_limits<float>::max)());
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:26>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:26>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = XRHandsUtils_GetHandRadialAxis_m53ADA8AECB0A26F8703660AAF1B299388954D24C(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:27>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:27>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_2 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = XRHandsUtils_GetHandDistalAxis_m6E583C3F07CAAA318FB7CD4F394D94B37F0FBC6A(L_2, NULL);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:29>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_4;
 		L_4 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)9), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_1;
@@ -6845,7 +6862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61
 		float L_9;
 		L_9 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_7, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:30>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:30>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_10;
 		L_10 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)14), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
@@ -6856,7 +6873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61
 		float L_15;
 		L_15 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_13, L_14, NULL);
 		V_0 = L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:31>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_16;
 		L_16 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)19), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
@@ -6867,7 +6884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61
 		float L_21;
 		L_21 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_19, L_20, NULL);
 		V_0 = L_21;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:32>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:32>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_22;
 		L_22 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)24), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_1;
@@ -6878,14 +6895,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateGrabStrength_mB61
 		float L_27;
 		L_27 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_25, L_26, NULL);
 		V_0 = L_27;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:35>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:35>
 		float L_28 = V_0;
 		float L_29;
 		L_29 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_28, (0.25f)))/(0.600000024f))), NULL);
 		return L_29;
 	}
 }
-// Method Definition Index: 82047
+// Method Definition Index: 82067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetFingerStrength_m27A92CC3EA42E36401B7DF501305976452DBC401 (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 ___0_midJoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_radialAxis, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_distalAxis, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6895,7 +6912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetFingerStrength_m27A92CC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:40>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:40>
 		int32_t L_0;
 		L_0 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___0_midJoint), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
@@ -6904,7 +6921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetFingerStrength_m27A92CC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:42>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:42>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_1 = ___0_midJoint;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = XRHandsUtils_FingerDirection_m63AE848A7FB6B6A7F0C3B05572C0557B820C016B(L_1, NULL);
@@ -6921,7 +6938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetFingerStrength_m27A92CC
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:45>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_7 = ___0_midJoint;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = XRHandsUtils_FingerDirection_m63AE848A7FB6B6A7F0C3B05572C0557B820C016B(L_7, NULL);
@@ -6936,7 +6953,7 @@ IL_0035:
 		return L_12;
 	}
 }
-// Method Definition Index: 82048
+// Method Definition Index: 82068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsUtils_FingerDirection_m63AE848A7FB6B6A7F0C3B05572C0557B820C016B (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 ___0_midJoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6948,7 +6965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:50>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:50>
 		bool L_0;
 		L_0 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&___0_midJoint), (&V_0), NULL);
 		if (!L_0)
@@ -6957,7 +6974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:52>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Pose_get_forward_m510527153754B6C2B2CDFDEE25D7168E3C82372A((&V_0), NULL);
@@ -6966,13 +6983,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:56>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:56>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_2;
 	}
 }
-// Method Definition Index: 82049
+// Method Definition Index: 82069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsUtils_GetHandRadialAxis_m53ADA8AECB0A26F8703660AAF1B299388954D24C (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -6990,12 +7007,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:62>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:62>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
 		L_0 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&___0_hand), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = L_0.___rotation;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:63>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:63>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = V_0;
 		float L_3 = L_2.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = V_0;
@@ -7013,50 +7030,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = V_0;
 		float L_17 = L_16.___w;
 		V_1 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_9)))), ((float)il2cpp_codegen_multiply(L_11, L_13)))), ((float)il2cpp_codegen_multiply(L_15, L_17))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:64>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:64>
 		float L_18 = V_1;
 		V_2 = ((float)((2.0f)/L_18));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:65>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = V_0;
 		float L_20 = L_19.___y;
 		float L_21 = V_2;
 		V_3 = ((float)il2cpp_codegen_multiply(L_20, L_21));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:65>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = V_0;
 		float L_23 = L_22.___z;
 		float L_24 = V_2;
 		V_4 = ((float)il2cpp_codegen_multiply(L_23, L_24));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:66>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25 = V_0;
 		float L_26 = L_25.___w;
 		float L_27 = V_3;
 		V_5 = ((float)il2cpp_codegen_multiply(L_26, L_27));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:66>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = V_0;
 		float L_29 = L_28.___w;
 		float L_30 = V_4;
 		V_6 = ((float)il2cpp_codegen_multiply(L_29, L_30));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:67>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_31 = V_0;
 		float L_32 = L_31.___x;
 		float L_33 = V_3;
 		V_7 = ((float)il2cpp_codegen_multiply(L_32, L_33));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:67>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = V_0;
 		float L_35 = L_34.___x;
 		float L_36 = V_4;
 		V_8 = ((float)il2cpp_codegen_multiply(L_35, L_36));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:68>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37 = V_0;
 		float L_38 = L_37.___y;
 		float L_39 = V_3;
 		V_9 = ((float)il2cpp_codegen_multiply(L_38, L_39));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:68>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = V_0;
 		float L_41 = L_40.___z;
 		float L_42 = V_4;
 		V_10 = ((float)il2cpp_codegen_multiply(L_41, L_42));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:70>
 		float L_43 = V_9;
 		float L_44 = V_10;
 		float L_45 = V_7;
@@ -7064,7 +7081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		float L_47 = V_8;
 		float L_48 = V_5;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_11), ((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_add(L_43, L_44)))), ((float)il2cpp_codegen_add(L_45, L_46)), ((float)il2cpp_codegen_subtract(L_47, L_48)), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:72>
 		int32_t L_49;
 		L_49 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_hand), NULL);
 		if ((!(((uint32_t)L_49) == ((uint32_t)1))))
@@ -7073,21 +7090,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:74>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:74>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_11;
 		return L_50;
 	}
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:78>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_51, NULL);
 		return L_52;
 	}
 }
-// Method Definition Index: 82050
+// Method Definition Index: 82070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsUtils_GetHandDistalAxis_m6E583C3F07CAAA318FB7CD4F394D94B37F0FBC6A (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -7104,12 +7121,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	float V_10 = 0.0f;
 	float V_11 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:84>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
 		L_0 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&___0_hand), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = L_0.___rotation;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:85>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:85>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = V_0;
 		float L_3 = L_2.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = V_0;
@@ -7127,55 +7144,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = V_0;
 		float L_17 = L_16.___w;
 		V_1 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_9)))), ((float)il2cpp_codegen_multiply(L_11, L_13)))), ((float)il2cpp_codegen_multiply(L_15, L_17))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:86>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:86>
 		float L_18 = V_1;
 		V_2 = ((float)((2.0f)/L_18));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = V_0;
 		float L_20 = L_19.___x;
 		float L_21 = V_2;
 		V_3 = ((float)il2cpp_codegen_multiply(L_20, L_21));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = V_0;
 		float L_23 = L_22.___y;
 		float L_24 = V_2;
 		V_4 = ((float)il2cpp_codegen_multiply(L_23, L_24));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:87>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25 = V_0;
 		float L_26 = L_25.___z;
 		float L_27 = V_2;
 		V_5 = ((float)il2cpp_codegen_multiply(L_26, L_27));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:88>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = V_0;
 		float L_29 = L_28.___w;
 		float L_30 = V_3;
 		V_6 = ((float)il2cpp_codegen_multiply(L_29, L_30));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:88>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_31 = V_0;
 		float L_32 = L_31.___w;
 		float L_33 = V_4;
 		V_7 = ((float)il2cpp_codegen_multiply(L_32, L_33));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:89>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = V_0;
 		float L_35 = L_34.___x;
 		float L_36 = V_3;
 		V_8 = ((float)il2cpp_codegen_multiply(L_35, L_36));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:89>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37 = V_0;
 		float L_38 = L_37.___x;
 		float L_39 = V_5;
 		V_9 = ((float)il2cpp_codegen_multiply(L_38, L_39));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:90>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = V_0;
 		float L_41 = L_40.___y;
 		float L_42 = V_4;
 		V_10 = ((float)il2cpp_codegen_multiply(L_41, L_42));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:90>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43 = V_0;
 		float L_44 = L_43.___y;
 		float L_45 = V_5;
 		V_11 = ((float)il2cpp_codegen_multiply(L_44, L_45));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:92>
 		float L_46 = V_9;
 		float L_47 = V_7;
 		float L_48 = V_11;
@@ -7185,11 +7202,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		memset((&L_52), 0, sizeof(L_52));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_52), ((float)il2cpp_codegen_add(L_46, L_47)), ((float)il2cpp_codegen_subtract(L_48, L_49)), ((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_add(L_50, L_51)))), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:93>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:93>
 		return L_52;
 	}
 }
-// Method Definition Index: 82051
+// Method Definition Index: 82071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchStrength_mE44B3E912E9AA378E4B837C7BC312FF95B345649 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, int32_t ___1_jointToCompare, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -7206,16 +7223,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchStrength_mE4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:98>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		float L_1;
 		L_1 = XRHandsUtils_CalculateHandScale_mFAC1CE70DCD8E0800195B7999C4D245B260F4231(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:101>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:102>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_3;
 		L_3 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 6, NULL);
 		V_4 = L_3;
@@ -7227,7 +7244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchStrength_mE4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:102>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = L_5.___position;
 		V_1 = L_6;
@@ -7235,7 +7252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchStrength_mE4
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:105>
 		int32_t L_7 = ___1_jointToCompare;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_8;
 		L_8 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), L_7, NULL);
@@ -7248,7 +7265,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:107>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
@@ -7257,13 +7274,13 @@ IL_0029:
 		V_7 = L_13;
 		float L_14;
 		L_14 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:110>
 		float L_15 = V_0;
 		V_5 = ((float)il2cpp_codegen_multiply((0.0599999987f), L_15));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:111>
 		float L_16 = V_0;
 		V_6 = ((float)il2cpp_codegen_multiply((0.0219999999f), L_16));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:112>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:112>
 		float L_17 = V_5;
 		float L_18 = V_6;
 		float L_19 = V_5;
@@ -7274,11 +7291,11 @@ IL_0029:
 
 IL_0074:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:115>
 		return (0.0f);
 	}
 }
-// Method Definition Index: 82052
+// Method Definition Index: 82072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchDistance_m6EFAE82AE4401EFF4A8AAEF68623145B4DF11810 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, int32_t ___1_jointToCompare, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -7292,11 +7309,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchDistance_m6E
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:121>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:121>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:122>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_1;
 		L_1 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 6, NULL);
 		V_3 = L_1;
@@ -7308,7 +7325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchDistance_m6E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:122>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___position;
 		V_0 = L_4;
@@ -7316,7 +7333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculatePinchDistance_m6E
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:125>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:125>
 		int32_t L_5 = ___1_jointToCompare;
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_6;
 		L_6 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), L_5, NULL);
@@ -7329,7 +7346,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:127>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8.___position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
@@ -7338,17 +7355,17 @@ IL_0021:
 		V_4 = L_11;
 		float L_12;
 		L_12 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_4), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:128>
 		return L_12;
 	}
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:131>
 		return (0.0f);
 	}
 }
-// Method Definition Index: 82053
+// Method Definition Index: 82073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsUtils_GetStablePinchPosition_mAB3859080961DDB7E8CED9D4815C20DF981F7D1D (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -7362,15 +7379,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:136>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:136>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:137>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:139>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_2;
 		L_2 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)10), NULL);
 		V_4 = L_2;
@@ -7382,7 +7399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:139>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4.___position;
 		V_0 = L_5;
@@ -7390,7 +7407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:140>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_6;
 		L_6 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 5, NULL);
 		V_4 = L_6;
@@ -7402,7 +7419,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:140>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8.___position;
 		V_1 = L_9;
@@ -7410,7 +7427,7 @@ IL_0029:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:141>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
@@ -7418,7 +7435,7 @@ IL_0045:
 		return L_12;
 	}
 }
-// Method Definition Index: 82054
+// Method Definition Index: 82074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetMetacarpalLength_mF4D145650230C401C7332F40871913228A7B3171 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, int32_t ___1_fingerIndex, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -7432,13 +7449,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetMetacarpalLength_mF4D14
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:146>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:148>
 		il2cpp_codegen_initobj((&V_1), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:149>
 		il2cpp_codegen_initobj((&V_2), sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:151>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:151>
 		V_3 = (bool)0;
 		int32_t L_0 = ___1_fingerIndex;
 		switch (L_0)
@@ -7471,8 +7488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_GetMetacarpalLength_mF4D14
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:156>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:157>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:156>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:157>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_1;
 		L_1 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 4, NULL);
 		V_4 = L_1;
@@ -7495,16 +7512,16 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:159>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:161>
 		goto IL_0133;
 	}
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:163>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:164>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_5;
 		L_5 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 8, NULL);
 		V_4 = L_5;
@@ -7527,16 +7544,16 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:166>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:168>
 		goto IL_0133;
 	}
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:170>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:171>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_9;
 		L_9 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)13), NULL);
 		V_4 = L_9;
@@ -7559,16 +7576,16 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:173>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:175>
 		goto IL_0133;
 	}
 
 IL_00d5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:177>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:178>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_13;
 		L_13 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)18), NULL);
 		V_4 = L_13;
@@ -7591,16 +7608,16 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:180>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:182>
 		goto IL_0133;
 	}
 
 IL_0105:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:184>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:185>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_17;
 		L_17 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)23), NULL);
 		V_4 = L_17;
@@ -7623,13 +7640,13 @@ IL_0105:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:187>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:187>
 		V_3 = (bool)1;
 	}
 
 IL_0133:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:194>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:194>
 		bool L_21 = V_3;
 		if (!L_21)
 		{
@@ -7637,7 +7654,7 @@ IL_0133:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:196>
 		float L_22 = V_0;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_23 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23.___position;
@@ -7653,33 +7670,33 @@ IL_0133:
 
 IL_0153:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:199>
 		float L_29 = V_0;
 		return L_29;
 	}
 }
-// Method Definition Index: 82055
+// Method Definition Index: 82075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateHandScale_mFAC1CE70DCD8E0800195B7999C4D245B260F4231 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:205>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:205>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:209>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		float L_1;
 		L_1 = XRHandsUtils_GetMetacarpalLength_mF4D145650230C401C7332F40871913228A7B3171(L_0, 1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:210>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_2 = ___0_hand;
 		float L_3;
 		L_3 = XRHandsUtils_GetMetacarpalLength_mF4D145650230C401C7332F40871913228A7B3171(L_2, 2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:211>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_4 = ___0_hand;
 		float L_5;
 		L_5 = XRHandsUtils_GetMetacarpalLength_mF4D145650230C401C7332F40871913228A7B3171(L_4, 3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:212>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:212>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_6 = ___0_hand;
 		float L_7;
 		L_7 = XRHandsUtils_GetMetacarpalLength_mF4D145650230C401C7332F40871913228A7B3171(L_6, 4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:214>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsUtils.cs:214>
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add((0.0f), ((float)(((float)(L_1/(0.0681200027f)))/(4.0f))))), ((float)(((float)(L_3/(0.0645999983f)))/(4.0f))))), ((float)(((float)(L_5/(0.0579999983f)))/(4.0f))))), ((float)(((float)(L_7/(0.0536900014f)))/(4.0f)))));
 	}
 }
@@ -7691,11 +7708,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsUtils_CalculateHandScale_mFAC1CE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82056
+// Method Definition Index: 82076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED LeapHandState_get_format_m9F3380FDE4CDFB862D2E008F66516A5287E5EB5C (LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:25>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:25>
 		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		FourCC__ctor_mFE3A3F80C6900CD18CB9BDD3C9B604823F2E791F((&L_0), ((int32_t)76), ((int32_t)72), ((int32_t)78), ((int32_t)68), NULL);
@@ -7719,7 +7736,7 @@ IL2CPP_EXTERN_C  FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED LeapHandState_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82057
+// Method Definition Index: 82077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B5756F7BB9F99* LeapHandInput_get_leftHand_mA0DCFA364B521AC8F18F3D9C5C20C3FDFA2B70D2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7731,7 +7748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B57
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:81>
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_0 = ((CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var))->___LeftHand;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
@@ -7740,7 +7757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B57
 		return L_1;
 	}
 }
-// Method Definition Index: 82058
+// Method Definition Index: 82078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B5756F7BB9F99* LeapHandInput_get_rightHand_m0D11BAB336E5DA011041C70F155E3413425E088B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7752,7 +7769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B57
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:82>
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_0 = ((CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var))->___RightHand;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
@@ -7761,7 +7778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B57
 		return L_1;
 	}
 }
-// Method Definition Index: 82059
+// Method Definition Index: 82079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput_Initialize_mD0B0BD7DD1E22F32FBCD2ED5C2F748805812FCA3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7772,6 +7789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput_Initialize_mD0B0BD7DD1E22F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A22C5F9462314C3908B2A1E2930933522747428);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B63B36F1955BB256ACB753BD29B4EE01A88B4B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF9C2ABCED32078D6CDF1C376BB3B6B6873073FA);
@@ -7781,12 +7799,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput_Initialize_mD0B0BD7DD1E22F
 	InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:87>
+		il2cpp_codegen_runtime_class_init_inline(UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0;
 		L_0 = UltraleapSettings_get_Instance_mAAEEA62A2D8F9F43DFE9DCA1EFD4A9E329ABD35E(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:89>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:90>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -7808,17 +7827,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput_Initialize_mD0B0BD7DD1E22F
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:92>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:99>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:100>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:101>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:102>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:103>
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555* L_5 = (&V_1);
 		il2cpp_codegen_initobj(L_5, sizeof(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555));
 		il2cpp_codegen_runtime_class_init_inline(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_il2cpp_TypeInfo_var);
@@ -7832,11 +7851,11 @@ IL_0018:
 		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_8), L_7, Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_RegisterLayout_TisLeapHandInput_t747B8420ACCCED904F7FC7DCCA6B5756F7BB9F99_m8822657B2922C8C1F1AB5DE0B5EEDDB5B37DFC72(_stringLiteral9B63B36F1955BB256ACB753BD29B4EE01A88B4B3, L_8, InputSystem_RegisterLayout_TisLeapHandInput_t747B8420ACCCED904F7FC7DCCA6B5756F7BB9F99_m8822657B2922C8C1F1AB5DE0B5EEDDB5B37DFC72_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandInput.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 82060
+// Method Definition Index: 82080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput__ctor_m64126F4091868C46B4472C5EBA39716EEDB09A7B (LeapHandInput_t747B8420ACCCED904F7FC7DCCA6B5756F7BB9F99* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7852,7 +7871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeapHandInput__ctor_m64126F4091868C46B44
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82061
+// Method Definition Index: 82081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_Startup_mAC91A59617F945CEB2EA28DAA3523F1E98037452 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7871,6 +7890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_Startup_mAC91A
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandsInputActionUpdater_OnQuit_m9715BBD0BFE5CE99E131162568D1AF51D2BDA316_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandsInputActionUpdater_UpdateHands_m8FA63ED237FC737151AAF6F17D706A8070D40816_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
@@ -7881,14 +7901,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_Startup_mAC91A
 	memset((&V_0), 0, sizeof(V_0));
 	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:34>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:34>
+		il2cpp_codegen_runtime_class_init_inline(UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0;
 		L_0 = UltraleapSettings_get_Instance_mAAEEA62A2D8F9F43DFE9DCA1EFD4A9E329ABD35E(NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:37>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:38>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_1 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -7921,20 +7942,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_Startup_mAC91A
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:40>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:40>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:44>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:44>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_7 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
 		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_7, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:45>
 		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_8 = L_7;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_8, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
 		NullCheck(L_8);
 		Enumerator_t113DB3F5383D089A36122B57BF9D89584E685717 L_9;
 		L_9 = List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A(L_8, List_1_GetEnumerator_m3B7B2239AF0A875059EB2D6A3C6628DF8BBC3B0A_RuntimeMethod_var);
@@ -7958,11 +7979,11 @@ FINALLY_0061:
 
 IL_0043_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_10;
 				L_10 = Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_inline((&V_0), Enumerator_get_Current_m5C4BDC63A264792548752CA2A57757318F00EF65_RuntimeMethod_var);
 				V_1 = L_10;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:49>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:49>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = V_1;
 				if (!L_11)
 				{
@@ -7970,18 +7991,18 @@ IL_0043_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:51>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:51>
 				XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 				((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem = L_12;
 				Il2CppCodeGenWriteBarrier((void**)(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem), (void*)L_12);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:52>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:52>
 				goto IL_006f;
 			}
 
 IL_0056_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:47>
 				bool L_13;
 				L_13 = Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B((&V_0), Enumerator_MoveNext_m4BFD43202E0F65FD83D7D593613C1B5FBA029A4B_RuntimeMethod_var);
 				if (L_13)
@@ -8001,7 +8022,7 @@ IL_0056_1:
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:56>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_14 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem;
 		if (L_14)
@@ -8010,25 +8031,25 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:58>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralB46A3EBAD154EC2617219D8CA14AE0F03A408B45, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:59>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:59>
 		return;
 	}
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:64>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:64>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_15 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_15, NULL, (intptr_t)((void*)XRHandsInputActionUpdater_OnQuit_m9715BBD0BFE5CE99E131162568D1AF51D2BDA316_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_quitting_m9DC9D4165EDB0FD93AB893655E26BF73566D2C1B(L_15, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:65>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_16, NULL, (intptr_t)((void*)XRHandsInputActionUpdater_OnQuit_m9715BBD0BFE5CE99E131162568D1AF51D2BDA316_RuntimeMethod_var), NULL);
 		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_16, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_17 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_18 = L_17;
@@ -8041,7 +8062,7 @@ IL_0081:
 		NullCheck(L_18);
 		L_18->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_21, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_21, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:68>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_22 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_23 = L_22;
 		NullCheck(L_23);
@@ -8053,7 +8074,7 @@ IL_0081:
 		NullCheck(L_23);
 		L_23->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_26, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_23->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_26, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:71>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_27 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_27);
 		bool L_28 = L_27->___updateMetaInputSystem;
@@ -8063,7 +8084,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:73>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_29;
 		L_29 = MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline(NULL);
 		if (L_29)
@@ -8072,7 +8093,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:75>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_30;
 		L_30 = MetaAimHand_CreateHand_mF1109A9DEE13152B98B86958E9E5B9D165FB26BB(((int32_t)256), NULL);
 		MetaAimHand_set_left_m419A1439F8F77D7FADDFCACB6438BE34733F4B45_inline(L_30, NULL);
@@ -8080,7 +8101,7 @@ IL_0081:
 
 IL_0111:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:77>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_31;
 		L_31 = MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline(NULL);
 		if (L_31)
@@ -8089,7 +8110,7 @@ IL_0111:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:79>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:79>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_32;
 		L_32 = MetaAimHand_CreateHand_mF1109A9DEE13152B98B86958E9E5B9D165FB26BB(((int32_t)512), NULL);
 		MetaAimHand_set_right_m2FE64B96A9598F4F521D014D655A1E8D6974F2D5_inline(L_32, NULL);
@@ -8097,16 +8118,16 @@ IL_0111:
 
 IL_0127:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		XRHandsInputActionUpdater_SetupDefaultStateGetters_m4B751E92044C7BCA0B171829FAF2BBF0986446DD(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:85>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:85>
 		XRHandsInputActionUpdater_OnDeviceAdded_m6F79E5E72FE24919E5218479D5B983B0B514E6AD(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:86>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 82062
+// Method Definition Index: 82082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnQuit_m9715BBD0BFE5CE99E131162568D1AF51D2BDA316 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8122,15 +8143,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnQuit_m9715BB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		XRHandsInputActionUpdater_OnDeviceRemoved_m15C95AAE2942C5B89D561FF49DFC7E150CC5C02F(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:92>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, NULL, (intptr_t)((void*)XRHandsInputActionUpdater_OnQuit_m9715BBD0BFE5CE99E131162568D1AF51D2BDA316_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_quitting_m9DC9D4165EDB0FD93AB893655E26BF73566D2C1B(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:94>
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___currentSubsystem;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = L_1;
 		NullCheck(L_2);
@@ -8142,7 +8163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnQuit_m9715BB
 		NullCheck(L_2);
 		L_2->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_5, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_5, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:96>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:96>
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_6 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_6);
 		bool L_7 = L_6->___updateMetaInputSystem;
@@ -8152,7 +8173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnQuit_m9715BB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:98>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_8;
 		L_8 = MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline(NULL);
 		if (!L_8)
@@ -8161,18 +8182,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnQuit_m9715BB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:100>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_9;
 		L_9 = MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_RemoveDevice_mBA895DEE9FCFC53AC9040DE72860D95ABFB5E858(L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:101>
 		MetaAimHand_set_left_m419A1439F8F77D7FADDFCACB6438BE34733F4B45_inline((MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA*)NULL, NULL);
 	}
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:104>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_10;
 		L_10 = MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline(NULL);
 		if (!L_10)
@@ -8181,22 +8202,22 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:106>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:106>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_11;
 		L_11 = MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_RemoveDevice_mBA895DEE9FCFC53AC9040DE72860D95ABFB5E858(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:107>
 		MetaAimHand_set_right_m2FE64B96A9598F4F521D014D655A1E8D6974F2D5_inline((MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA*)NULL, NULL);
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 82063
+// Method Definition Index: 82083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateHands_m8FA63ED237FC737151AAF6F17D706A8070D40816 (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_updateSuccessFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8207,7 +8228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateHands_m8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:114>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -8217,7 +8238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateHands_m8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:116>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_1 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightDevice;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = ___0_subsystem;
@@ -8225,7 +8246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateHands_m8
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_3;
 		L_3 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_2, NULL);
 		XRHandsInputActionUpdater_UpdateStateWithLeapHand_mBEC1DE536204BF520191F09458B42A9B7AE18219(L_1, L_3, (&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightState), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:117>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:117>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_4 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftDevice;
 		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_5 = ___0_subsystem;
 		NullCheck(L_5);
@@ -8236,11 +8257,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateHands_m8
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 82064
+// Method Definition Index: 82084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateStateWithLeapHand_mBEC1DE536204BF520191F09458B42A9B7AE18219 (InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___0_inputDevice, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* ___2_handState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8252,7 +8273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateStateWit
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:126>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:126>
 		bool L_0;
 		L_0 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&___1_hand), NULL);
 		if (!L_0)
@@ -8261,7 +8282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateStateWit
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:128>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_1 = ___2_handState;
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_2 = ___1_hand;
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
@@ -8271,7 +8292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_UpdateStateWit
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:132>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_3 = ___2_handState;
 		int32_t L_4 = L_3->___tracked;
 		if (!L_4)
@@ -8280,20 +8301,20 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:134>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_5 = ___2_handState;
 		L_5->___tracked = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:136>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:136>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_6 = ___2_handState;
 		L_6->___activating = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:137>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_7 = ___2_handState;
 		L_7->___selecting = (0.0f);
 	}
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_8 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_8);
@@ -8311,7 +8332,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:143>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_11 = ___0_inputDevice;
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_12 = ___2_handState;
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 L_13 = (*(LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7*)L_12);
@@ -8321,7 +8342,7 @@ IL_0037:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_14 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_14);
@@ -8332,7 +8353,7 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:148>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_16 = ___2_handState;
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 L_17 = (*(LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7*)L_16);
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_18 = ___1_hand;
@@ -8342,11 +8363,11 @@ IL_005b:
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 82065
+// Method Definition Index: 82085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_ConvertLeapHandToState_mE953936D77FC29FFECB898B40DF3958DFBAFD4E2 (LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* ___0_state, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8360,7 +8381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_ConvertLeapHan
 	LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:158>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:158>
 		int32_t L_0;
 		L_0 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___1_hand), NULL);
 		if ((((int32_t)L_0) == ((int32_t)1)))
@@ -8385,7 +8406,7 @@ IL_0011:
 IL_0016:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:160>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_3 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_4 = V_0;
 		IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* L_5 = L_4.___trackedDelegate;
@@ -8394,7 +8415,7 @@ IL_0016:
 		int32_t L_7;
 		L_7 = IntFromHandDelegate_Invoke_m0F0749032A105B5A8F60F5052D9DD10350C5D6F6_inline(L_5, L_6, NULL);
 		L_3->___tracked = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:162>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_8 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_9 = V_0;
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* L_10 = L_9.___selectDelegate;
@@ -8403,7 +8424,7 @@ IL_0016:
 		float L_12;
 		L_12 = FloatFromHandDelegate_Invoke_mEF4F6B58C9D96BC5DB2DC0C8B3152B3CB0DC6134_inline(L_10, L_11, NULL);
 		L_8->___selecting = L_12;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:163>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_13 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_14 = V_0;
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* L_15 = L_14.___activateDelegate;
@@ -8412,7 +8433,7 @@ IL_0016:
 		float L_17;
 		L_17 = FloatFromHandDelegate_Invoke_mEF4F6B58C9D96BC5DB2DC0C8B3152B3CB0DC6134_inline(L_15, L_16, NULL);
 		L_13->___activating = L_17;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:165>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_18 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_19 = V_0;
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* L_20 = L_19.___palmPositionDelegate;
@@ -8421,7 +8442,7 @@ IL_0016:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_inline(L_20, L_21, NULL);
 		L_18->___palmPosition = L_22;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:166>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_23 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_24 = V_0;
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* L_25 = L_24.___palmDirectionDelegate;
@@ -8430,7 +8451,7 @@ IL_0016:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27;
 		L_27 = RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_inline(L_25, L_26, NULL);
 		L_23->___palmDirection = L_27;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:168>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_28 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_29 = V_0;
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* L_30 = L_29.___aimPositionDelegate;
@@ -8439,7 +8460,7 @@ IL_0016:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_inline(L_30, L_31, NULL);
 		L_28->___aimPosition = L_32;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:169>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_33 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_34 = V_0;
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* L_35 = L_34.___aimDirectionDelegate;
@@ -8448,7 +8469,7 @@ IL_0016:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37;
 		L_37 = RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_inline(L_35, L_36, NULL);
 		L_33->___aimDirection = L_37;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:171>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_38 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_39 = V_0;
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* L_40 = L_39.___pinchPositionDelegate;
@@ -8457,7 +8478,7 @@ IL_0016:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_inline(L_40, L_41, NULL);
 		L_38->___pinchPosition = L_42;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:172>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_43 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_44 = V_0;
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* L_45 = L_44.___pinchDirectionDelegate;
@@ -8466,7 +8487,7 @@ IL_0016:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47;
 		L_47 = RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_inline(L_45, L_46, NULL);
 		L_43->___pinchDirection = L_47;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:174>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_48 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_49 = V_0;
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* L_50 = L_49.___pokePositionDelegate;
@@ -8475,7 +8496,7 @@ IL_0016:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_inline(L_50, L_51, NULL);
 		L_48->___pokePosition = L_52;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:175>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7* L_53 = ___0_state;
 		LeapHandStateDelegates_tF18DA0A0901092EA8D984158FC90C2546CE16FEB L_54 = V_0;
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* L_55 = L_54.___pokeDirectionDelegate;
@@ -8484,11 +8505,11 @@ IL_0016:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_57;
 		L_57 = RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_inline(L_55, L_56, NULL);
 		L_53->___pokeDirection = L_57;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 82066
+// Method Definition Index: 82086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SendMetaAimStateUpdate_m07069BC8CBDEE7ED338D8841E9A32EAA55BC11D3 (LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 ___0_state, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8520,11 +8541,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SendMetaAimSta
 	int32_t G_B16_0 = 0;
 	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* G_B16_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:180>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_0;
 		L_0 = MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:182>
 		int32_t L_1;
 		L_1 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___1_hand), NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
@@ -8533,7 +8554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SendMetaAimSta
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:184>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_2;
 		L_2 = MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline(NULL);
 		V_0 = L_2;
@@ -8541,7 +8562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SendMetaAimSta
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:187>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:187>
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 L_3 = ___0_state;
 		int32_t L_4 = L_3.___tracked;
 		if (L_4)
@@ -8550,7 +8571,7 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:190>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_5 = V_0;
 		NullCheck(L_5);
 		Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* L_6;
@@ -8559,7 +8580,7 @@ IL_0016:
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mFF0CCDC30A5D62C6990D27B74ED270AD31881BD7(L_6, L_7, (-1.0), InputSystem_QueueDeltaStateEvent_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mFF0CCDC30A5D62C6990D27B74ED270AD31881BD7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:191>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_8 = V_0;
 		NullCheck(L_8);
 		QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1* L_9;
@@ -8567,13 +8588,13 @@ IL_0016:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
 		L_10 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		InputSystem_QueueDeltaStateEvent_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m14B468181A571FC5630CCFD6A589FC979C49F103(L_9, L_10, (-1.0), InputSystem_QueueDeltaStateEvent_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m14B468181A571FC5630CCFD6A589FC979C49F103_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:193>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:193>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_11 = V_0;
 		NullCheck(L_11);
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_12;
 		L_12 = TrackedDevice_get_trackingState_m6E39667A7F4D0671E0E4A60E7750706FF427E819_inline(L_11, NULL);
 		InputSystem_QueueDeltaStateEvent_TisInputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D_mF8073D5DBC894BF2551E67D740F75CFDC11CFDB0(L_12, 0, (-1.0), InputSystem_QueueDeltaStateEvent_TisInputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D_mF8073D5DBC894BF2551E67D740F75CFDC11CFDB0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:194>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:194>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_13 = V_0;
 		NullCheck(L_13);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_14;
@@ -8584,20 +8605,20 @@ IL_0016:
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:198>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:198>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_15 = V_0;
 		NullCheck(L_15);
 		IntegerControl_tA24544EFF42204852F638FF5147F754962C997AB* L_16;
 		L_16 = TrackedDevice_get_trackingState_m6E39667A7F4D0671E0E4A60E7750706FF427E819_inline(L_15, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisInputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D_mF8073D5DBC894BF2551E67D740F75CFDC11CFDB0(L_16, 3, (-1.0), InputSystem_QueueDeltaStateEvent_TisInputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D_mF8073D5DBC894BF2551E67D740F75CFDC11CFDB0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:199>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_17 = V_0;
 		NullCheck(L_17);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_18;
 		L_18 = TrackedDevice_get_isTracked_m0ACE3CF86BDFE28D1E6C52460285B7F97B4C7419_inline(L_17, NULL);
 		InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154(L_18, (bool)1, (-1.0), InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:201>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:201>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_19 = V_0;
 		NullCheck(L_19);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_20;
@@ -8628,7 +8649,7 @@ IL_00be:
 	{
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154(G_B7_1, (bool)G_B7_0, (-1.0), InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:202>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_23 = V_0;
 		NullCheck(L_23);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_24;
@@ -8659,7 +8680,7 @@ IL_00e5:
 	{
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154(G_B10_1, (bool)G_B10_0, (-1.0), InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:203>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_27 = V_0;
 		NullCheck(L_27);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_28;
@@ -8690,7 +8711,7 @@ IL_010c:
 	{
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154(G_B13_1, (bool)G_B13_0, (-1.0), InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:204>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:204>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_31 = V_0;
 		NullCheck(L_31);
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_32;
@@ -8721,7 +8742,7 @@ IL_0133:
 	{
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154(G_B16_1, (bool)G_B16_0, (-1.0), InputSystem_QueueDeltaStateEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mC7C188EAF2771209B80FA18F31A7FE494BFAC154_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:206>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_35 = V_0;
 		NullCheck(L_35);
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_36;
@@ -8730,7 +8751,7 @@ IL_0133:
 		float L_38;
 		L_38 = XRHandsUtils_CalculatePinchStrength_mE44B3E912E9AA378E4B837C7BC312FF95B345649(L_37, ((int32_t)11), NULL);
 		InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A(L_36, L_38, (-1.0), InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:207>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:207>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_39 = V_0;
 		NullCheck(L_39);
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_40;
@@ -8739,7 +8760,7 @@ IL_0133:
 		float L_42;
 		L_42 = XRHandsUtils_CalculatePinchStrength_mE44B3E912E9AA378E4B837C7BC312FF95B345649(L_41, ((int32_t)16), NULL);
 		InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A(L_40, L_42, (-1.0), InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:208>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:208>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_43 = V_0;
 		NullCheck(L_43);
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_44;
@@ -8748,7 +8769,7 @@ IL_0133:
 		float L_46;
 		L_46 = XRHandsUtils_CalculatePinchStrength_mE44B3E912E9AA378E4B837C7BC312FF95B345649(L_45, ((int32_t)21), NULL);
 		InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A(L_44, L_46, (-1.0), InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:209>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_47 = V_0;
 		NullCheck(L_47);
 		AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* L_48;
@@ -8757,7 +8778,7 @@ IL_0133:
 		float L_50;
 		L_50 = XRHandsUtils_CalculatePinchStrength_mE44B3E912E9AA378E4B837C7BC312FF95B345649(L_49, ((int32_t)26), NULL);
 		InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A(L_48, L_50, (-1.0), InputSystem_QueueDeltaStateEvent_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m895DB9D8BDF1622CC9E0437148843B4E93B5AE4A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:211>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_51 = V_0;
 		NullCheck(L_51);
 		Vector3Control_t32D7E4836F56C2FDC61BF0D96ED455DEFA6C949A* L_52;
@@ -8765,7 +8786,7 @@ IL_0133:
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 L_53 = ___0_state;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = L_53.___aimPosition;
 		InputSystem_QueueDeltaStateEvent_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mFF0CCDC30A5D62C6990D27B74ED270AD31881BD7(L_52, L_54, (-1.0), InputSystem_QueueDeltaStateEvent_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mFF0CCDC30A5D62C6990D27B74ED270AD31881BD7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:212>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:212>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_55 = V_0;
 		NullCheck(L_55);
 		QuaternionControl_t18A2F742850FC2FD82A1F980A35C188A29F1A0B1* L_56;
@@ -8773,11 +8794,11 @@ IL_0133:
 		LeapHandState_tA16A20AD46D6CCA2732B56E084E5B910F4A363A7 L_57 = ___0_state;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = L_57.___aimDirection;
 		InputSystem_QueueDeltaStateEvent_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m14B468181A571FC5630CCFD6A589FC979C49F103(L_56, L_58, (-1.0), InputSystem_QueueDeltaStateEvent_TisQuaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_m14B468181A571FC5630CCFD6A589FC979C49F103_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:214>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:214>
 		return;
 	}
 }
-// Method Definition Index: 82067
+// Method Definition Index: 82087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SetupDefaultStateGetters_m4B751E92044C7BCA0B171829FAF2BBF0986446DD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8806,7 +8827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SetupDefaultSt
 	PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** V_2 = NULL;
 	RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:224>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C** L_0 = (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___trackedDelegate);
 		V_0 = L_0;
@@ -8827,7 +8848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_SetupDefaultSt
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:225>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7** L_5 = (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___selectDelegate);
 		V_1 = L_5;
@@ -8848,7 +8869,7 @@ IL_001d:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:226>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:226>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7** L_10 = (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___activateDelegate);
 		V_1 = L_10;
@@ -8869,7 +8890,7 @@ IL_003a:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:227>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_15 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___palmPositionDelegate);
 		V_2 = L_15;
@@ -8890,7 +8911,7 @@ IL_0057:
 
 IL_0074:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:228>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:228>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_20 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___palmDirectionDelegate);
 		V_3 = L_20;
@@ -8911,7 +8932,7 @@ IL_0074:
 
 IL_0091:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:229>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:229>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_25 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___aimPositionDelegate);
 		V_2 = L_25;
@@ -8932,7 +8953,7 @@ IL_0091:
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:230>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:230>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_30 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___aimDirectionDelegate);
 		V_3 = L_30;
@@ -8953,7 +8974,7 @@ IL_00ae:
 
 IL_00cb:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:231>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:231>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_35 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___pinchPositionDelegate);
 		V_2 = L_35;
@@ -8974,7 +8995,7 @@ IL_00cb:
 
 IL_00e8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:232>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:232>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_40 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___pinchDirectionDelegate);
 		V_3 = L_40;
@@ -8995,7 +9016,7 @@ IL_00e8:
 
 IL_0105:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:233>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:233>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_45 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___pokePositionDelegate);
 		V_2 = L_45;
@@ -9016,7 +9037,7 @@ IL_0105:
 
 IL_0122:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:234>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:234>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_50 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftHandStateDelegates)->___pokeDirectionDelegate);
 		V_3 = L_50;
@@ -9037,7 +9058,7 @@ IL_0122:
 
 IL_013f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:236>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C** L_55 = (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___trackedDelegate);
 		V_0 = L_55;
@@ -9058,7 +9079,7 @@ IL_013f:
 
 IL_015c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:237>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:237>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7** L_60 = (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___selectDelegate);
 		V_1 = L_60;
@@ -9079,7 +9100,7 @@ IL_015c:
 
 IL_0179:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:238>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:238>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7** L_65 = (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___activateDelegate);
 		V_1 = L_65;
@@ -9100,7 +9121,7 @@ IL_0179:
 
 IL_0196:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:239>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:239>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_70 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___palmPositionDelegate);
 		V_2 = L_70;
@@ -9121,7 +9142,7 @@ IL_0196:
 
 IL_01b3:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:240>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:240>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_75 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___palmDirectionDelegate);
 		V_3 = L_75;
@@ -9142,7 +9163,7 @@ IL_01b3:
 
 IL_01d0:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:241>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:241>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_80 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___aimPositionDelegate);
 		V_2 = L_80;
@@ -9163,7 +9184,7 @@ IL_01d0:
 
 IL_01ed:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:242>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:242>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_85 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___aimDirectionDelegate);
 		V_3 = L_85;
@@ -9184,7 +9205,7 @@ IL_01ed:
 
 IL_020a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:243>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_90 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___pinchPositionDelegate);
 		V_2 = L_90;
@@ -9205,7 +9226,7 @@ IL_020a:
 
 IL_0227:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:244>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_95 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___pinchDirectionDelegate);
 		V_3 = L_95;
@@ -9226,7 +9247,7 @@ IL_0227:
 
 IL_0244:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:245>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:245>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2** L_100 = (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___pokePositionDelegate);
 		V_2 = L_100;
@@ -9247,7 +9268,7 @@ IL_0244:
 
 IL_0261:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:246>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:246>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8** L_105 = (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8**)(&(&((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightHandStateDelegates)->___pokeDirectionDelegate);
 		V_3 = L_105;
@@ -9268,24 +9289,24 @@ IL_0261:
 
 IL_027e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:247>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:247>
 		return;
 	}
 }
-// Method Definition Index: 82068
+// Method Definition Index: 82088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandsInputActionUpdater_GetTrackedState_m7EB72A56ABAFC770C8A1BD3AD47044272C8D5B0E (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:251>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:251>
 		return 3;
 	}
 }
-// Method Definition Index: 82069
+// Method Definition Index: 82089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsInputActionUpdater_GetSelecting_mBF81D23F9F32CD258B2F4B51E02F841EC58E8D86 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:256>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:256>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		float L_1;
 		L_1 = XRHandsUtils_CalculateGrabStrength_mB61CCD0AC386483B916F6B98EB321DCA58F8FB05(L_0, NULL);
@@ -9309,12 +9330,12 @@ IL_0016:
 		return ((float)G_B3_0);
 	}
 }
-// Method Definition Index: 82070
+// Method Definition Index: 82090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandsInputActionUpdater_GetActvating_m6A07D4FE64CD575019CF92E84D90FA7445C60E15 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:261>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:261>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		float L_1;
 		L_1 = XRHandsUtils_CalculatePinchDistance_m6EFAE82AE4401EFF4A8AAEF68623145B4DF11810(L_0, ((int32_t)11), NULL);
@@ -9338,7 +9359,7 @@ IL_0013:
 		return ((float)G_B3_0);
 	}
 }
-// Method Definition Index: 82071
+// Method Definition Index: 82091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsInputActionUpdater_GetPalmPosition_mF9BB2F1CC0EBBA4657943606EF3DE43A49E68F34 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
@@ -9346,7 +9367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:266>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:266>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_0;
 		L_0 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 2, NULL);
 		V_1 = L_0;
@@ -9358,7 +9379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:268>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:268>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
 		return L_3;
@@ -9366,13 +9387,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:271>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:271>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_4;
 	}
 }
-// Method Definition Index: 82072
+// Method Definition Index: 82092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRHandsInputActionUpdater_GetPalmDirection_m36EF01769C488E53F44E9554C1E2AC49A0BEEA86 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9388,7 +9409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:276>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:276>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_0;
 		L_0 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 2, NULL);
 		V_1 = L_0;
@@ -9400,7 +9421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:278>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:278>
 		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Pose_get_up_m5431E350242BEBB0CD7B0AAF9DC9468DC6DDFE5C((&V_0), NULL);
@@ -9418,24 +9439,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:281>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:281>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
 		L_7 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_7;
 	}
 }
-// Method Definition Index: 82073
+// Method Definition Index: 82093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsInputActionUpdater_GetAimPosition_m718D264F8E1BBB5470704D92FEC435BF13153013 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:286>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = XRHandsUtils_GetStablePinchPosition_mAB3859080961DDB7E8CED9D4815C20DF981F7D1D(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 82074
+// Method Definition Index: 82094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRHandsInputActionUpdater_GetAimDirection_mAB2E2680689BA3760D30442BABAD412A45106BE5 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9447,7 +9468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:291>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -9458,18 +9479,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		return L_2;
 	}
 }
-// Method Definition Index: 82075
+// Method Definition Index: 82095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsInputActionUpdater_GetPinchPosition_m782D174C8AD54E2B28B60BB116AB8F7A02C32CBB (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:296>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = XRHandsUtils_GetStablePinchPosition_mAB3859080961DDB7E8CED9D4815C20DF981F7D1D(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 82076
+// Method Definition Index: 82096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRHandsInputActionUpdater_GetPinchDirection_m919DEB75F22AA7B2449D8CC862AE28C35FDB56A4 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
@@ -9479,7 +9500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:301>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_0;
 		L_0 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 8, NULL);
 		V_1 = L_0;
@@ -9491,7 +9512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:303>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_2 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = XRHandsUtils_GetStablePinchPosition_mAB3859080961DDB7E8CED9D4815C20DF981F7D1D(L_2, NULL);
@@ -9509,13 +9530,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:306>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:306>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_9;
 	}
 }
-// Method Definition Index: 82077
+// Method Definition Index: 82097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandsInputActionUpdater_GetPokePosition_mD1C3369819EA82DE44612C543AD42CFF391C0E93 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
@@ -9523,7 +9544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:311>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:311>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_0;
 		L_0 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)11), NULL);
 		V_1 = L_0;
@@ -9535,7 +9556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:313>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:313>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
 		return L_3;
@@ -9543,13 +9564,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:316>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:316>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_4;
 	}
 }
-// Method Definition Index: 82078
+// Method Definition Index: 82098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRHandsInputActionUpdater_GetPokeDirection_m3498EF2A1D9D9474EFBC52C8D36BD0D5D234C30E (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
@@ -9561,7 +9582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:321>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:321>
 		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_0;
 		L_0 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), ((int32_t)11), NULL);
 		V_2 = L_0;
@@ -9584,7 +9605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:323>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:323>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4.___position;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = V_1;
@@ -9601,13 +9622,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:326>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:326>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
 		L_11 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_11;
 	}
 }
-// Method Definition Index: 82079
+// Method Definition Index: 82099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRHandsInputActionUpdater_GetSimpleShoulderPinchDirection_mAE5DA42F79C270A7A5038897D925AE5CB64FEA4B (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -9626,7 +9647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_2;
 	memset((&G_B3_2), 0, sizeof(G_B3_2));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:336>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
 		L_0 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_0);
@@ -9636,7 +9657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:337>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:337>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_down_mF62B2AE7C5AC31EAC9CB62797C7190C90A7A8599_inline(NULL);
@@ -9645,7 +9666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:338>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:338>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
@@ -9681,7 +9702,7 @@ IL_0042:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(G_B3_2, L_10, NULL);
 		V_0 = L_11;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:341>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:341>
 		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_12 = ___0_hand;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = XRHandsUtils_GetStablePinchPosition_mAB3859080961DDB7E8CED9D4815C20DF981F7D1D(L_12, NULL);
@@ -9689,14 +9710,14 @@ IL_0042:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_13, L_14, NULL);
 		V_0 = L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:343>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:343>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
 		L_17 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline(L_16, NULL);
 		return L_17;
 	}
 }
-// Method Definition Index: 82080
+// Method Definition Index: 82100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceAdded_m6F79E5E72FE24919E5218479D5B983B0B514E6AD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9715,7 +9736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceAdded_
 	memset((&V_1), 0, sizeof(V_1));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:352>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:352>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_0 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_0);
@@ -9726,7 +9747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceAdded_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:354>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:354>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_2;
 		L_2 = MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline(NULL);
 		if (L_2)
@@ -9735,14 +9756,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceAdded_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:356>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:356>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_3;
 		L_3 = MetaAimHand_CreateHand_mF1109A9DEE13152B98B86958E9E5B9D165FB26BB(((int32_t)256), NULL);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:359>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:359>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_4;
 		L_4 = MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline(NULL);
 		if (L_4)
@@ -9751,14 +9772,14 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:361>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:361>
 		MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* L_5;
 		L_5 = MetaAimHand_CreateHand_mF1109A9DEE13152B98B86958E9E5B9D165FB26BB(((int32_t)512), NULL);
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:365>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:365>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		UltraleapSettings_t55ADFB72D961B66E5B8CDCAEB9ACDB0B8F4DDBAD* L_6 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___ultraleapSettings;
 		NullCheck(L_6);
@@ -9769,17 +9790,17 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:367>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:368>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:369>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:370>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:371>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:367>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:368>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:369>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:370>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:371>
 		il2cpp_codegen_initobj((&V_1), sizeof(InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F));
 		InputDeviceDescription_set_manufacturer_mDDC21FFBAA6CD78960A6160779DEF264F780D031_inline((&V_1), _stringLiteral9A22C5F9462314C3908B2A1E2930933522747428, NULL);
 		InputDeviceDescription_set_product_m7449178AB405AD172791ACF81AE7D38EFDBAE6BF_inline((&V_1), _stringLiteral9B63B36F1955BB256ACB753BD29B4EE01A88B4B3, NULL);
 		InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F L_8 = V_1;
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:373>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:373>
 		InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_10;
@@ -9790,14 +9811,14 @@ IL_0030:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:377>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:377>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_11 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftDevice;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_12 = ((CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var))->___LeftHand;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_SetDeviceUsage_mEE432569109A001D84790EF9F5B3E69EC6BAB8EC(L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:378>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:378>
 		goto IL_0082;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -9813,18 +9834,18 @@ IL_0030:
 CATCH_007a:
 	{
 		RuntimeObject* L_13 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:379>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:381>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:379>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:381>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var)));
 		XRHandsInputActionUpdater_ShowWarning_m01DB73AEA5A3D7E9621C5DCE95C713D82DE30A09(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:382>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:382>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0082;
 	}
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:384>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:384>
 		InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F L_14 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_15;
@@ -9835,14 +9856,14 @@ IL_0082:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:388>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:388>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_16 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightDevice;
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_17 = ((CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t64965B2AAF01FEDD2C0216C34CEF31C651464D78_il2cpp_TypeInfo_var))->___RightHand;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
 		InputSystem_SetDeviceUsage_mEE432569109A001D84790EF9F5B3E69EC6BAB8EC(L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:389>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:389>
 		goto IL_00a6;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -9858,22 +9879,22 @@ IL_0082:
 CATCH_009e:
 	{
 		RuntimeObject* L_18 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:390>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:392>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:390>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:392>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var)));
 		XRHandsInputActionUpdater_ShowWarning_m01DB73AEA5A3D7E9621C5DCE95C713D82DE30A09(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:393>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:393>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00a6;
 	}
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:395>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:395>
 		return;
 	}
 }
-// Method Definition Index: 82081
+// Method Definition Index: 82101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_ShowWarning_m01DB73AEA5A3D7E9621C5DCE95C713D82DE30A09 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9884,14 +9905,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_ShowWarning_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:399>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:399>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFD6061FCC1EBE3461D654E59FE8BE4F71F760116, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:400>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:400>
 		return;
 	}
 }
-// Method Definition Index: 82082
+// Method Definition Index: 82102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceRemoved_m15C95AAE2942C5B89D561FF49DFC7E150CC5C02F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9902,7 +9923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceRemove
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:404>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:404>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftDevice;
 		if (!L_0)
@@ -9911,7 +9932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceRemove
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:406>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:406>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_1 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___leftDevice;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
@@ -9920,7 +9941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater_OnDeviceRemove
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:408>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:408>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_2 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightDevice;
 		if (!L_2)
@@ -9929,7 +9950,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:410>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:410>
 		il2cpp_codegen_runtime_class_init_inline(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_3 = ((XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_StaticFields*)il2cpp_codegen_static_fields_for(XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3_il2cpp_TypeInfo_var))->___rightDevice;
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
@@ -9938,11 +9959,11 @@ IL_0011:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:412>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/XRHandsInputActionUpdater.cs:412>
 		return;
 	}
 }
-// Method Definition Index: 82083
+// Method Definition Index: 82103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater__ctor_mCA705706F44A9DE5BCE8B3B293665AF0F6585C9B (XRHandsInputActionUpdater_t3A69E1ABBCAAE0BA5879B31652D6FBB7F2960CF3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9950,7 +9971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater__ctor_mCA70570
 		return;
 	}
 }
-// Method Definition Index: 82084
+// Method Definition Index: 82104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandsInputActionUpdater__cctor_m088E9F3D9EB5774021400F41A89692BFFAD23A2F (const RuntimeMethod* method) 
 {
 	{
@@ -10113,7 +10134,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_IntFromHandDelegate_t36B7E1F3FD9
 
 	return returnValue;
 }
-// Method Definition Index: 82085
+// Method Definition Index: 82105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntFromHandDelegate__ctor_mE40ECA905A9B3EBD53DED92EDC4AA69524D796B1 (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10142,13 +10163,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntFromHandDelegate__ctor_mE40ECA905A9B3
 	}
 	__this->___extra_arg = (intptr_t)&IntFromHandDelegate_Invoke_m0F0749032A105B5A8F60F5052D9DD10350C5D6F6_Multicast;
 }
-// Method Definition Index: 82086
+// Method Definition Index: 82106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntFromHandDelegate_Invoke_m0F0749032A105B5A8F60F5052D9DD10350C5D6F6 (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82087
+// Method Definition Index: 82107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IntFromHandDelegate_BeginInvoke_m88FDC55342904707ED89B4AF1B64262D1E6BEEC8 (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10161,7 +10182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IntFromHandDelegate_BeginInvok
 	__d_args[0] = Box(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_il2cpp_TypeInfo_var, &___0_hand);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 82088
+// Method Definition Index: 82108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntFromHandDelegate_EndInvoke_mB9CE085D9751B41396AD7F14F44E1BCA906F50DF (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10213,7 +10234,7 @@ IL2CPP_EXTERN_C  float DelegatePInvokeWrapper_FloatFromHandDelegate_tD5033A5DB26
 
 	return returnValue;
 }
-// Method Definition Index: 82089
+// Method Definition Index: 82109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatFromHandDelegate__ctor_m2B8F0776C3ECFE545D26FA6092AB43D87149F6E0 (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10242,13 +10263,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatFromHandDelegate__ctor_m2B8F0776C3E
 	}
 	__this->___extra_arg = (intptr_t)&FloatFromHandDelegate_Invoke_mEF4F6B58C9D96BC5DB2DC0C8B3152B3CB0DC6134_Multicast;
 }
-// Method Definition Index: 82090
+// Method Definition Index: 82110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatFromHandDelegate_Invoke_mEF4F6B58C9D96BC5DB2DC0C8B3152B3CB0DC6134 (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82091
+// Method Definition Index: 82111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FloatFromHandDelegate_BeginInvoke_mC0371442164FB1D18F24EC5C4BF38AC6D113B1D5 (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10261,7 +10282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FloatFromHandDelegate_BeginInv
 	__d_args[0] = Box(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_il2cpp_TypeInfo_var, &___0_hand);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 82092
+// Method Definition Index: 82112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatFromHandDelegate_EndInvoke_m150016C45540C5658D50F9AB5318700943AB5E04 (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10314,7 +10335,7 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 DelegatePInvo
 
 	return returnValue;
 }
-// Method Definition Index: 82093
+// Method Definition Index: 82113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionFromHandDelegate__ctor_m3FC00DFDF596220559D004DA1FE0E0785CB9FE6C (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10343,13 +10364,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionFromHandDelegate__ctor_m3FC00DFD
 	}
 	__this->___extra_arg = (intptr_t)&PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_Multicast;
 }
-// Method Definition Index: 82094
+// Method Definition Index: 82114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82095
+// Method Definition Index: 82115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PositionFromHandDelegate_BeginInvoke_m44035D9777FA74DC8FCF621606F2C3CDA55221FE (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10362,7 +10383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PositionFromHandDelegate_Begin
 	__d_args[0] = Box(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_il2cpp_TypeInfo_var, &___0_hand);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 82096
+// Method Definition Index: 82116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PositionFromHandDelegate_EndInvoke_m27BF16246A76A88CFECD3AE87BD74BCD9A4945B7 (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10415,7 +10436,7 @@ IL2CPP_EXTERN_C  Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 DelegatePI
 
 	return returnValue;
 }
-// Method Definition Index: 82097
+// Method Definition Index: 82117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationFromHandDelegate__ctor_mE5BC93A4D557E00EC60E876B724ECED896F04BB8 (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10444,13 +10465,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationFromHandDelegate__ctor_mE5BC93A4
 	}
 	__this->___extra_arg = (intptr_t)&RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_Multicast;
 }
-// Method Definition Index: 82098
+// Method Definition Index: 82118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82099
+// Method Definition Index: 82119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RotationFromHandDelegate_BeginInvoke_m00B5460196514D2FC50EB97702F996CB867E399C (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10463,7 +10484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RotationFromHandDelegate_Begin
 	__d_args[0] = Box(XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_il2cpp_TypeInfo_var, &___0_hand);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 82100
+// Method Definition Index: 82120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 RotationFromHandDelegate_EndInvoke_m23B7F7E3A0C850C0B534BF9E361EF70F8B1D7201 (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10649,7 +10670,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 82025
+// Method Definition Index: 82045
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m44DAA09D62022325FE93D0161459D31F5C5BDA86_inline (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10659,7 +10680,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:250>
 		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var);
 		((LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_StaticFields*)il2cpp_codegen_static_fields_for(LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9_il2cpp_TypeInfo_var))->___U3CidU3Ek__BackingField = L_0;
@@ -10667,7 +10688,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_id_m4
 		return;
 	}
 }
-// Method Definition Index: 76227
+// Method Definition Index: 76247
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m06346C96717EB03644F6A1D07F922AED52B4E312_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10678,7 +10699,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m06346C96717EB0
 		return;
 	}
 }
-// Method Definition Index: 76229
+// Method Definition Index: 76249
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_m17C35A2C89EBCAD9286D73F9A3AF610B7FF64A4C_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10689,7 +10710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_m17C3
 		return;
 	}
 }
-// Method Definition Index: 76231
+// Method Definition Index: 76251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverride_mEE9363B14C9632DD23E25A482DECB393B28E1169_inline (Cinfo_t54937489C8009C9FC12A5574A0C0A5DFFEB41E81* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10700,7 +10721,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverr
 		return;
 	}
 }
-// Method Definition Index: 82377
+// Method Definition Index: 82397
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SubsystemDescriptorWithProvider_get_id_m9E92FDF45FE9BFB0B28C2AE3EFE475998D01BBC7_inline (SubsystemDescriptorWithProvider_t2A61A2C951A4A179E898CF207726BF6B5AF474D5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10708,7 +10729,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* SubsystemDescriptorWith
 		return L_0;
 	}
 }
-// Method Definition Index: 82404
+// Method Definition Index: 82424
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10716,41 +10737,41 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_ru
 		return L_0;
 	}
 }
-// Method Definition Index: 64644
+// Method Definition Index: 64662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapXRServiceProvider_set_PositionDeviceRelativeToMainCamera_m1A00B33F10AC0F2D2DDFBFF9A7E972CB6B19B5BF_inline (LeapXRServiceProvider_t26BE841654166CEB7ABC02A2B1046EF30B4C4DC3* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/LeapXRServiceProvider.cs:260>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/LeapXRServiceProvider.cs:260>
 		bool L_0 = ___0_value;
 		__this->____positionDeviceRelativeToMainCamera = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/LeapXRServiceProvider.cs:260>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/LeapXRServiceProvider.cs:260>
 		return;
 	}
 }
-// Method Definition Index: 82013
+// Method Definition Index: 82033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapXRHandProvider_set_TrackingProvider_mC90FA56C3314F2E6CA1C6CE0DA116C795A47AF07_inline (LeapXRHandProvider_t637397FA969A7DCA49C6030D4DB46439B4C261D9* __this, LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:38>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = ___0_value;
 		__this->___trackingProvider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___trackingProvider), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRHandsSubsystem/LeapHandsSubsystem.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 64055
+// Method Definition Index: 64058
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LeapTransform_set_translation_m55FFAA6816DCADBFA43805D62F1A4D255E820097_inline (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:199>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		__this->____translation = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:200>
 		return;
 	}
 }
-// Method Definition Index: 83036
+// Method Definition Index: 83119
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedPoseDriver_get_UseRelativeTransform_m364C0EC379CBD6898EA09712A3245B3D9E69114B_inline (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10759,16 +10780,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedPoseDriver_get_UseRel
 		return L_0;
 	}
 }
-// Method Definition Index: 64054
+// Method Definition Index: 64057
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 LeapTransform_get_translation_m0563F8D29130BE56698336C88F2333337A2E7E0F_inline (LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Plugins/LeapCSharp/LeapTransform.cs:196>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____translation;
 		return L_0;
 	}
 }
-// Method Definition Index: 83038
+// Method Definition Index: 83121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackedPoseDriver_get_originPose_mBE222A120504DAAF230CE41A3A8BAB847FE28D08_inline (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10882,7 +10903,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_64;
 	}
 }
-// Method Definition Index: 76195
+// Method Definition Index: 76215
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10891,7 +10912,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4
 		return L_0;
 	}
 }
-// Method Definition Index: 76046
+// Method Definition Index: 76066
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10900,7 +10921,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4
 		return L_0;
 	}
 }
-// Method Definition Index: 76197
+// Method Definition Index: 76217
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10909,7 +10930,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4
 		return L_0;
 	}
 }
-// Method Definition Index: 76045
+// Method Definition Index: 76065
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11200,7 +11221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A3
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
-// Method Definition Index: 76044
+// Method Definition Index: 76064
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11209,7 +11230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87
 		return L_0;
 	}
 }
-// Method Definition Index: 75970
+// Method Definition Index: 75990
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* MetaAimHand_get_left_m0E99853A17B9E8F930121D4F15A04DA6B667A1D4_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11224,7 +11245,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetaAimHand_t032A58BAD3A5F9E9234D
 		return L_0;
 	}
 }
-// Method Definition Index: 75971
+// Method Definition Index: 75991
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MetaAimHand_set_left_m419A1439F8F77D7FADDFCACB6438BE34733F4B45_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11241,7 +11262,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MetaAimHand_set_left_m419A14
 		return;
 	}
 }
-// Method Definition Index: 75972
+// Method Definition Index: 75992
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* MetaAimHand_get_right_mA1156C57D7B39F069FBAEA7D1B8E90FC97CD1818_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11256,7 +11277,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MetaAimHand_t032A58BAD3A5F9E9234D
 		return L_0;
 	}
 }
-// Method Definition Index: 75973
+// Method Definition Index: 75993
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MetaAimHand_set_right_m2FE64B96A9598F4F521D014D655A1E8D6974F2D5_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11273,25 +11294,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MetaAimHand_set_right_m2FE64
 		return;
 	}
 }
-// Method Definition Index: 82086
+// Method Definition Index: 82106
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IntFromHandDelegate_Invoke_m0F0749032A105B5A8F60F5052D9DD10350C5D6F6_inline (IntFromHandDelegate_t36B7E1F3FD95A1A9EB3FEDC00BBD682D7D5CB35C* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82090
+// Method Definition Index: 82110
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FloatFromHandDelegate_Invoke_mEF4F6B58C9D96BC5DB2DC0C8B3152B3CB0DC6134_inline (FloatFromHandDelegate_tD5033A5DB2697D811BE1C4DC5258C8DCB03B88F7* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82094
+// Method Definition Index: 82114
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PositionFromHandDelegate_Invoke_mA74903180A08F81297393A3448DDADE9C0038C6F_inline (PositionFromHandDelegate_t65ADDB3ECDC549AC392AE5C6205D08B3E78EDBE2* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_hand, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 82098
+// Method Definition Index: 82118
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 RotationFromHandDelegate_Invoke_m9B7EF584C4C081A819DD8985DAD79568B2F019DC_inline (RotationFromHandDelegate_t63C390BFACC5B1377078365D5B776CDE6E524CA8* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
 {
 	typedef Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 (*FunctionPointerType) (RuntimeObject*, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471, const RuntimeMethod*);
@@ -11333,7 +11354,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 75974
+// Method Definition Index: 75994
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* MetaAimHand_get_indexPressed_m3133A152A84D2CD7F87AE66149ACC30AA13C21F2_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11342,7 +11363,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 75976
+// Method Definition Index: 75996
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* MetaAimHand_get_middlePressed_mD8A9626F2ADE4D1755F96EC2D7ABA8E5DF2400F6_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11351,7 +11372,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 75978
+// Method Definition Index: 75998
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* MetaAimHand_get_ringPressed_m8C95675EC31C22CD0AD5834F17B4EABB08B5CE6C_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11360,7 +11381,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 75980
+// Method Definition Index: 76000
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* MetaAimHand_get_littlePressed_m675968AD2CFEC8EC1288EEFDBF31ACE7A6E7181F_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11369,7 +11390,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7A
 		return L_0;
 	}
 }
-// Method Definition Index: 75984
+// Method Definition Index: 76004
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* MetaAimHand_get_pinchStrengthIndex_m463981E78ADD7635AE6CB3F6FCE94F7BE735FE4D_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11378,7 +11399,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 75986
+// Method Definition Index: 76006
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* MetaAimHand_get_pinchStrengthMiddle_m1AFC81B72E6C08805689FFFA8727EE03F282BD22_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11387,7 +11408,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 75988
+// Method Definition Index: 76008
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* MetaAimHand_get_pinchStrengthRing_mAE78EF0B061AC05154C4FC717A541A789ADB024B_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11396,7 +11417,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C
 		return L_0;
 	}
 }
-// Method Definition Index: 75990
+// Method Definition Index: 76010
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7* MetaAimHand_get_pinchStrengthLittle_m64DD64C04E2598F83C41D818CCF7874042B9301D_inline (MetaAimHand_t032A58BAD3A5F9E9234DCE813FF38E45FFCA7ACA* __this, const RuntimeMethod* method) 
 {
 	{

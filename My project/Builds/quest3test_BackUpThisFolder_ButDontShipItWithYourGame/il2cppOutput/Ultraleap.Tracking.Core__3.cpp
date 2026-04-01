@@ -199,7 +199,7 @@ struct XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F;
 struct XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976;
 struct XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52;
 struct U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA;
-struct U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4;
+struct U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8;
 struct U3CU3Ec__DisplayClass30_0_t1E1D6DA1E68BCAD5F483BB69D2214B9A180CE5E2;
@@ -271,7 +271,7 @@ IL2CPP_EXTERN_C RuntimeClass* Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E_
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Utils_t428B11E8BF4003BA0CCE68EA2AAAE3A306B1CFB4_il2cpp_TypeInfo_var;
@@ -409,8 +409,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_Pop_m682D32993E1CB092C642F495A93915
 IL2CPP_EXTERN_C const RuntimeMethod* Stack_1_Push_m4D734379CC958AED5ED7FF36A9467EDCE6AFDF56_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Stack_1__ctor_mE8BC3D8693065B793B1A0CA19DA48B1F049CB940_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_mD57EF92803677F82B0E9DAA69A707DD9BFD70DC8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__55_0_mF3F3BF541B87E1B70E9D1EF08E57D4BEAF0B93A9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass44_0_U3CensureTransformExistsU3Eb__0_mFC909CF586E5B4F2AE1937D160C3D229EA514848_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_ctorU3Eb__53_0_m27D4128BF7852A150E953BFDD00B1D44BD22C6F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass42_0_U3CensureTransformExistsU3Eb__0_m05BEE2FBB54881A5CDDE8746ED06A5F0557859F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VectorHand_FillBytes_m9D2A82071522A57C4A12B7E338D2E163A4BF93F8_RuntimeMethod_var;
@@ -1001,7 +1001,7 @@ struct __StaticArrayInitTypeSizeU3D20_tAAD49C566BCE514C47FDACC5E1ECF363BD0C469A
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D7312_t2BBAC68DDB9EFC397765047837304B2C284271E8 
+struct __StaticArrayInitTypeSizeU3D7445_t3F3512B63564D8F72A406754FEBC9EB2DF794BAE 
 {
 	union
 	{
@@ -1011,7 +1011,7 @@ struct __StaticArrayInitTypeSizeU3D7312_t2BBAC68DDB9EFC397765047837304B2C284271E
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D7312_t2BBAC68DDB9EFC397765047837304B2C284271E8__padding[7312];
+		uint8_t __StaticArrayInitTypeSizeU3D7445_t3F3512B63564D8F72A406754FEBC9EB2DF794BAE__padding[7445];
 	};
 };
 #pragma pack(pop, tp)
@@ -1470,7 +1470,6 @@ struct Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89  : public RuntimeObject
 };
 struct IndentAttribute_t683028D648E1D25AC0691912651F196D9D79C694  : public CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C
 {
-	float ___width;
 };
 struct InspectorNameAttribute_t2AF735AB4B59C25F633D232BABC5D99555EDF6CB  : public CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C
 {
@@ -1552,7 +1551,7 @@ struct XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A
 	int32_t ___m_Tracked;
 	uint64_t ___m_UniqueID;
 };
-struct U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4  : public RuntimeObject
+struct U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263  : public RuntimeObject
 {
 	int32_t ___singlePoint;
 };
@@ -1711,7 +1710,6 @@ struct AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4  : public MonoBe
 	bool ____attachmentPointsDirty;
 	int32_t ____chirality;
 	bool ____isTracked;
-	bool ____isBeingDestroyed;
 	AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* ____attachmentPointFlagConstants;
 };
 struct AttachmentHandEnableDisable_t6B64874D7A55CD60DD16DB66F624194F5CD7658D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -1845,8 +1843,8 @@ struct U3CPrivateImplementationDetailsU3E_t7C98EA897F49D2766814794003349C204C0BC
 	__StaticArrayInitTypeSizeU3D16_tFACE990600B40E4E33D936D3D076798A2E76742A ___03CFEBED9103C51752DEC01DA98B5F0CE1FFC3025841DC677907BA793BD1E0D8;
 	__StaticArrayInitTypeSizeU3D16_tFACE990600B40E4E33D936D3D076798A2E76742A ___2CDB3B2EBF6CE09860AF80D3BEA7C35C9FC301CDFEBBEBCEFA7E6D8835A0C427;
 	__StaticArrayInitTypeSizeU3D16_tFACE990600B40E4E33D936D3D076798A2E76742A ___31E08BEAB2520F6349B925439F0BF1562990BAB92F60D2B26FC9C9F1CEFFA625;
-	__StaticArrayInitTypeSizeU3D11847_t75C6CEADC74D7674C13BC3ADF25CB3269AA8A4B9 ___36CB9534D31B0D8AE2FEE8B3419D48A3D7020289CC41029EE607BDCA5A05C381;
-	__StaticArrayInitTypeSizeU3D7312_t2BBAC68DDB9EFC397765047837304B2C284271E8 ___6143258A7D378550AA0EA08229678966B4116A68B421E68856ED283C08E54885;
+	__StaticArrayInitTypeSizeU3D11847_t75C6CEADC74D7674C13BC3ADF25CB3269AA8A4B9 ___48CDE5BB1F4ABC04CA45FB34117C77DE34F211611F58BBE3AEC58614F57AF6A4;
+	__StaticArrayInitTypeSizeU3D7445_t3F3512B63564D8F72A406754FEBC9EB2DF794BAE ___5FA1FE971D3291F3F057491D351107004E0BD5677F988739B1B6C73A6E58E7FB;
 	__StaticArrayInitTypeSizeU3D16_tFACE990600B40E4E33D936D3D076798A2E76742A ___A99BFAFAC8EBD8177DD849E60FA589D8820E1496CE91CA25A679669251006E27;
 	__StaticArrayInitTypeSizeU3D20_tAAD49C566BCE514C47FDACC5E1ECF363BD0C469A ___D56348DE8F0FBFC7C0156AE017018C152EDDE85657A5C774BD475DE00CFE1840;
 	__StaticArrayInitTypeSizeU3D16_tFACE990600B40E4E33D936D3D076798A2E76742A ___EEBA265169F47A674800907E56E094026F63EA18739620C49E9D095A5EADE3B0;
@@ -1931,7 +1929,7 @@ struct XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields
 struct U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields
 {
 	U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA* ___U3CU3E9;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__55_0;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__53_0;
 };
 struct U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8_StaticFields
 {
@@ -3472,7 +3470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeArray* Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9 (Type_t* ___0_enumType, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57 (RuntimeArray* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Array_GetEnumerator_mDB7E2AF23F2BDC715D429C71CA3B8D0151F0DC1E (RuntimeArray* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass44_0__ctor_m8D47C43D82BA44B802D54CEAB9255481EA8BE216 (U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_0__ctor_m7E85D5608AA9EF00B3919C0C5A8E45745FCFAA72 (U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_IsSinglePoint_mD12539D5E446020AF95B27823CFD98528FC4D5EF (int32_t ___0_points, const RuntimeMethod* method) ;
 inline AttachmentPointBehaviourU5BU5D_t03A704C73A2E8292ACE50A3FF324E3758061E2A9* GameObject_GetComponentsInChildren_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m413303537CFACECD32452F4326DE71A11DC03613 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -3674,23 +3672,23 @@ IL2CPP_EXTERN_C void ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C381393
 IL2CPP_EXTERN_C void ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933_marshal_com_cleanup(ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 65540
+// Method Definition Index: 65561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChildrenEnumerator__ctor_mDEA5C2E948B48B73C6D629536C08273ACCD93479 (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1326>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1326>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		__this->____t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____t), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1327>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1327>
 		__this->____idx = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1328>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1328>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_t;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_1, NULL);
 		__this->____count = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1329>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1329>
 		return;
 	}
 }
@@ -3701,11 +3699,11 @@ IL2CPP_EXTERN_C  void ChildrenEnumerator__ctor_mDEA5C2E948B48B73C6D629536C08273A
 	_thisAdjusted = reinterpret_cast<ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933*>(__this + _offset);
 	ChildrenEnumerator__ctor_mDEA5C2E948B48B73C6D629536C08273ACCD93479(_thisAdjusted, ___0_t, method);
 }
-// Method Definition Index: 65541
+// Method Definition Index: 65562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933 ChildrenEnumerator_GetEnumerator_mB8C896C6F329D4FA340949A1E32C15BB23E9E54A (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1331>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1331>
 		ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933 L_0 = (*(ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933*)__this);
 		return L_0;
 	}
@@ -3719,11 +3717,11 @@ IL2CPP_EXTERN_C  ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933 Ch
 	_returnValue = ChildrenEnumerator_GetEnumerator_mB8C896C6F329D4FA340949A1E32C15BB23E9E54A(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65542
+// Method Definition Index: 65563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChildrenEnumerator_MoveNext_mD1AF7BA2D214E47BEEBC784E58D5895E964BA1E8 (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1335>
 		int32_t L_0 = __this->____idx;
 		int32_t L_1 = __this->____count;
 		if ((((int32_t)L_0) >= ((int32_t)L_1)))
@@ -3732,14 +3730,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChildrenEnumerator_MoveNext_mD1AF7BA2D21
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1335>
 		int32_t L_2 = __this->____idx;
 		__this->____idx = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1336>
 		int32_t L_3 = __this->____idx;
 		int32_t L_4 = __this->____count;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
@@ -3748,13 +3746,13 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1336>
 		return (bool)0;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1336>
 		return (bool)1;
 	}
 }
@@ -3767,7 +3765,7 @@ IL2CPP_EXTERN_C  bool ChildrenEnumerator_MoveNext_mD1AF7BA2D214E47BEEBC784E58D58
 	_returnValue = ChildrenEnumerator_MoveNext_mD1AF7BA2D214E47BEEBC784E58D5895E964BA1E8(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65543
+// Method Definition Index: 65564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ChildrenEnumerator_get_Current_m3D21D6D987EAF14FE5B71FB5FF0421E77C9C2C92 (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3777,7 +3775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1340>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1340>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____t;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3810,11 +3808,11 @@ IL2CPP_EXTERN_C  Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ChildrenEn
 	_returnValue = ChildrenEnumerator_get_Current_m3D21D6D987EAF14FE5B71FB5FF0421E77C9C2C92(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65544
+// Method Definition Index: 65565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChildrenEnumerator_System_Collections_IEnumerator_get_Current_m47BBA93FC657149971A0353EF6300B59BCFB131C (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1342>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1342>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = ChildrenEnumerator_get_Current_m3D21D6D987EAF14FE5B71FB5FF0421E77C9C2C92(__this, NULL);
 		return L_0;
@@ -3829,19 +3827,19 @@ IL2CPP_EXTERN_C  RuntimeObject* ChildrenEnumerator_System_Collections_IEnumerato
 	_returnValue = ChildrenEnumerator_System_Collections_IEnumerator_get_Current_m47BBA93FC657149971A0353EF6300B59BCFB131C(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65545
+// Method Definition Index: 65566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChildrenEnumerator_Reset_m849F966A753CB8F3DF167A3B5053AA4F15472BA0 (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1345>
 		__this->____idx = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1346>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1346>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____t;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_0, NULL);
 		__this->____count = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1347>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1347>
 		return;
 	}
 }
@@ -3852,11 +3850,11 @@ IL2CPP_EXTERN_C  void ChildrenEnumerator_Reset_m849F966A753CB8F3DF167A3B5053AA4F
 	_thisAdjusted = reinterpret_cast<ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933*>(__this + _offset);
 	ChildrenEnumerator_Reset_m849F966A753CB8F3DF167A3B5053AA4F15472BA0(_thisAdjusted, method);
 }
-// Method Definition Index: 65546
+// Method Definition Index: 65567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChildrenEnumerator_Dispose_mD2BC4FD0599B0878D7DF36E93532404C0D5A8573 (ChildrenEnumerator_t66A889D6D36B87144FE8B486B00D5389C3813933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:1348>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:1348>
 		return;
 	}
 }
@@ -3875,19 +3873,19 @@ IL2CPP_EXTERN_C  void ChildrenEnumerator_Dispose_mD2BC4FD0599B0878D7DF36E9353240
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65547
+// Method Definition Index: 65568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLineRectEnumerator__ctor_m405B2553B84E92FEFB23497B9493148CDB7D6795 (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_rect, int32_t ___1_numLines, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2830>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2830>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___0_rect;
 		__this->___rect = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2831>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2831>
 		int32_t L_1 = ___1_numLines;
 		__this->___numLines = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2832>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2832>
 		__this->___index = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2833>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2833>
 		return;
 	}
 }
@@ -3898,7 +3896,7 @@ IL2CPP_EXTERN_C  void HorizontalLineRectEnumerator__ctor_m405B2553B84E92FEFB2349
 	_thisAdjusted = reinterpret_cast<HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317*>(__this + _offset);
 	HorizontalLineRectEnumerator__ctor_m405B2553B84E92FEFB23497B9493148CDB7D6795(_thisAdjusted, ___0_rect, ___1_numLines, method);
 }
-// Method Definition Index: 65548
+// Method Definition Index: 65569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HorizontalLineRectEnumerator_get_eachHeight_m8BCF830562D8EA8700AC4DC0CFD2BF4C4640785D (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3908,7 +3906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HorizontalLineRectEnumerator_get_eachHe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2835>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2835>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_0 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___rect);
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		float L_1;
@@ -3926,7 +3924,7 @@ IL2CPP_EXTERN_C  float HorizontalLineRectEnumerator_get_eachHeight_m8BCF830562D8
 	_returnValue = HorizontalLineRectEnumerator_get_eachHeight_m8BCF830562D8EA8700AC4DC0CFD2BF4C4640785D(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65549
+// Method Definition Index: 65570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D HorizontalLineRectEnumerator_get_Current_m05F534027C195901F510847BD6725837B0B21EDF (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3936,8 +3934,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2841>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2842>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2841>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2842>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_0 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___rect);
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		float L_1;
@@ -3968,14 +3966,14 @@ IL2CPP_EXTERN_C  Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D HorizontalLineRe
 	_returnValue = HorizontalLineRectEnumerator_get_Current_m05F534027C195901F510847BD6725837B0B21EDF(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65550
+// Method Definition Index: 65571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HorizontalLineRectEnumerator_MoveNext_m81544461340AD991E33C14B57E9CB2E049022C27 (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2847>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2847>
 		int32_t L_0 = __this->___index;
 		__this->___index = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2848>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2848>
 		int32_t L_1 = __this->___index;
 		int32_t L_2 = __this->___numLines;
 		return (bool)((((int32_t)L_1) < ((int32_t)L_2))? 1 : 0);
@@ -3990,11 +3988,11 @@ IL2CPP_EXTERN_C  bool HorizontalLineRectEnumerator_MoveNext_m81544461340AD991E33
 	_returnValue = HorizontalLineRectEnumerator_MoveNext_m81544461340AD991E33C14B57E9CB2E049022C27(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65551
+// Method Definition Index: 65572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317 HorizontalLineRectEnumerator_GetEnumerator_mD74C9188A1D336B220EE889CF5CCEFAC256DE5D3 (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2850>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2850>
 		HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317 L_0 = (*(HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317*)__this);
 		return L_0;
 	}
@@ -4008,13 +4006,13 @@ IL2CPP_EXTERN_C  HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318C
 	_returnValue = HorizontalLineRectEnumerator_GetEnumerator_mD74C9188A1D336B220EE889CF5CCEFAC256DE5D3(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65552
+// Method Definition Index: 65573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HorizontalLineRectEnumerator_Reset_m1A4B59F21B3F66A12705E3E80C28A10155207C5F (HorizontalLineRectEnumerator_tB9CB7360A9C408ED7D9FFED72D0B8318CE160317* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2854>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2854>
 		__this->___index = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:2855>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:2855>
 		return;
 	}
 }
@@ -4033,7 +4031,7 @@ IL2CPP_EXTERN_C  void HorizontalLineRectEnumerator_Reset_m1A4B59F21B3F66A12705E3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65553
+// Method Definition Index: 65574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mBB5AAAC35CA281B52757E102997FF58CCB7BFDD1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4050,7 +4048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mBB5AAAC35CA281B52757E102
 		return;
 	}
 }
-// Method Definition Index: 65554
+// Method Definition Index: 65575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m9F966901725962E17EC50FB06E6064019E836426 (U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4058,11 +4056,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m9F966901725962E17EC50FB06
 		return;
 	}
 }
-// Method Definition Index: 65555
+// Method Definition Index: 65576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGenerateNiceNameU3Eb__30_3_mEFDB084381BF77A8B1C096C0B392C2109B9D113C (U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:545>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:545>
 		Il2CppChar L_0 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_1;
@@ -4085,17 +4083,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGenerateNiceNameU3Eb__30_3_mE
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:547>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:547>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:550>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:550>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 65556
+// Method Definition Index: 65577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__34_0_m3F0874798C97B3904EC9B9A8CB35D13A10321457 (U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8* __this, float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4108,7 +4106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__3
 	String_t* G_B2_0 = NULL;
 	String_t* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:709>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:709>
 		String_t* L_0;
 		L_0 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&___0_f), _stringLiteral2C3D4826D5236B3C9A914C5CE2E3D8CEA48AC7CE, NULL);
 		String_t* L_1 = L_0;
@@ -4128,7 +4126,7 @@ IL_0015:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 65557
+// Method Definition Index: 65578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__34_1_mEA82C31C1DC73029D50CB8E8151B8F1828694F0B (U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8* __this, float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4139,7 +4137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:710>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:710>
 		String_t* L_0;
 		L_0 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&___0_f), _stringLiteral2C3D4826D5236B3C9A914C5CE2E3D8CEA48AC7CE, NULL);
 		String_t* L_1;
@@ -4147,7 +4145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__3
 		return L_1;
 	}
 }
-// Method Definition Index: 65558
+// Method Definition Index: 65579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__34_2_mC69846B454DA84FDFD66C856766DF2787E0C78D0 (U3CU3Ec_t92122070B9A40E12EFE30419C1697977BFD446A8* __this, float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4161,7 +4159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CToCodeArrayStringU3Eb__3
 	String_t* G_B2_0 = NULL;
 	String_t* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:711>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:711>
 		float L_0 = ___0_f;
 		V_0 = ((float)il2cpp_codegen_multiply(L_0, (1000.0f)));
 		String_t* L_1;
@@ -4191,7 +4189,7 @@ IL_001d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65559
+// Method Definition Index: 65580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m09A324A8081BDE89C162537C0AFA737FB1EB6016 (U3CU3Ec__DisplayClass30_0_t1E1D6DA1E68BCAD5F483BB69D2214B9A180CE5E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4199,11 +4197,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m09A324A
 		return;
 	}
 }
-// Method Definition Index: 65560
+// Method Definition Index: 65581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNiceNameU3Eb__0_mE872192FF7D87B51DBE2C27B7E04A30C30E12946 (U3CU3Ec__DisplayClass30_0_t1E1D6DA1E68BCAD5F483BB69D2214B9A180CE5E2* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:497>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:497>
 		String_t* L_0 = __this->___curr;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -4227,13 +4225,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNic
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:499>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:499>
 		return (bool)0;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:503>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:503>
 		Il2CppChar L_5 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_6;
@@ -4244,13 +4242,13 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:505>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:505>
 		return (bool)0;
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:508>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:508>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		String_t* L_7;
 		L_7 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&___0_c), NULL);
@@ -4259,15 +4257,15 @@ IL_002d:
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, L_8, NULL);
 		__this->___curr = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___curr), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:509>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:509>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 65561
+// Method Definition Index: 65582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNiceNameU3Eb__1_m66F61487AAD014D85A9EFA8FEB0A4FFFBE29CAFE (U3CU3Ec__DisplayClass30_0_t1E1D6DA1E68BCAD5F483BB69D2214B9A180CE5E2* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:515>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:515>
 		Il2CppChar L_0 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_1;
@@ -4278,13 +4276,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNic
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:517>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:517>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:521>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:521>
 		Il2CppChar L_2 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_3;
@@ -4295,13 +4293,13 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:523>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:523>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:526>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:526>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		String_t* L_4;
 		L_4 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&___0_c), NULL);
@@ -4310,15 +4308,15 @@ IL_0014:
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, L_5, NULL);
 		__this->___curr = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___curr), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:527>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:527>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 65562
+// Method Definition Index: 65583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNiceNameU3Eb__2_m10567937B771733F6380F427DA76CB34BC8DF6AC (U3CU3Ec__DisplayClass30_0_t1E1D6DA1E68BCAD5F483BB69D2214B9A180CE5E2* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:533>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:533>
 		Il2CppChar L_0 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_1;
@@ -4329,13 +4327,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass30_0_U3CGenerateNic
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:535>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:535>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:538>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:538>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		String_t* L_2;
 		L_2 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&___0_c), NULL);
@@ -4344,7 +4342,7 @@ IL_000a:
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, L_3, NULL);
 		__this->___curr = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___curr), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:539>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:539>
 		return (bool)1;
 	}
 }
@@ -4356,7 +4354,7 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65563
+// Method Definition Index: 65584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m8841E17C287A88187DF824E6A41208556601DAC4 (U3CU3Ec__DisplayClass46_0_t4A21D75105118621EC8F8601498E023B0B4DEE65* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4364,11 +4362,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m8841E17
 		return;
 	}
 }
-// Method Definition Index: 65564
+// Method Definition Index: 65585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass46_0_U3CNextTupleU3Eb__0_m9B26BD10C1BDC8288D5E8AD2FC31874784ABA7F0 (U3CU3Ec__DisplayClass46_0_t4A21D75105118621EC8F8601498E023B0B4DEE65* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/Utils.cs:891>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/Utils.cs:891>
 		int32_t L_0 = ___0_i;
 		int32_t L_1 = __this->___maxValue;
 		return ((int32_t)(((int32_t)il2cpp_codegen_add(L_0, 1))%L_1));
@@ -4382,7 +4380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass46_0_U3CNextTupl
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65567
+// Method Definition Index: 65588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV__ctor_m6A6CC52EB2B3F0423ACFF69E5D3BAAD5B51E705F (VisualFOV_t32EE7DEAE53338E7630D3BDE04E7F83998E79FF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4392,49 +4390,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV__ctor_m6A6CC52EB2B3F0423ACFF69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:25>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:25>
 		__this->___VerticalFOV = (90.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:26>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:26>
 		__this->___MaxDistance = (100.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:27>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:27>
 		__this->___OptimalMaxDistance = (50.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:28>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:28>
 		__this->___MinDistance = (1.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:31>
 		__this->___RayCount = ((int32_t)10);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:39>
 		__this->___ShowMaximumField = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:41>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:41>
 		__this->___ShowOptimalField = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:47>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:47>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:49>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:49>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_0, NULL);
 		__this->___OptimalFOVMesh = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OptimalFOVMesh), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:50>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:50>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_1, NULL);
 		__this->___NoTrackingFOVMesh = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NoTrackingFOVMesh), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:51>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:51>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_2, NULL);
 		__this->___MaxFOVMesh = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MaxFOVMesh), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:53>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:53>
 		VisualFOV_UpdateFOVS_m0B72AF51B3ECC51437AE109F39FC38AA88046D0D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:54>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 65568
+// Method Definition Index: 65589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_UpdateFOVS_m0B72AF51B3ECC51437AE109F39FC38AA88046D0D (VisualFOV_t32EE7DEAE53338E7630D3BDE04E7F83998E79FF5* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:61>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:61>
 		bool L_0 = __this->___ShowNoTrackingField;
 		if (!L_0)
 		{
@@ -4442,7 +4440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_UpdateFOVS_m0B72AF51B3ECC51437
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:63>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:63>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = __this->___NoTrackingFOVMesh;
 		float L_2 = __this->___MinDistance;
 		VisualFOV_DrawFOV_m02DE80D0788853A7F1D5E18F138AA2A486C6DC69(__this, L_1, (0.0f), L_2, NULL);
@@ -4450,10 +4448,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_UpdateFOVS_m0B72AF51B3ECC51437
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:65>
 		float L_3 = __this->___MinDistance;
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:66>
 		bool L_4 = __this->___ShowOptimalField;
 		if (!L_4)
 		{
@@ -4461,19 +4459,19 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:68>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5 = __this->___OptimalFOVMesh;
 		float L_6 = V_0;
 		float L_7 = __this->___OptimalMaxDistance;
 		VisualFOV_DrawFOV_m02DE80D0788853A7F1D5E18F138AA2A486C6DC69(__this, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:69>
 		float L_8 = __this->___OptimalMaxDistance;
 		V_0 = L_8;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:71>
 		bool L_9 = __this->___ShowMaximumField;
 		if (!L_9)
 		{
@@ -4481,7 +4479,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:73>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_10 = __this->___MaxFOVMesh;
 		float L_11 = V_0;
 		float L_12 = __this->___MaxDistance;
@@ -4490,11 +4488,11 @@ IL_0048:
 
 IL_0063:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 65569
+// Method Definition Index: 65590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_DrawFOV_m02DE80D0788853A7F1D5E18F138AA2A486C6DC69 (VisualFOV_t32EE7DEAE53338E7630D3BDE04E7F83998E79FF5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, float ___1_minDistance, float ___2_maxDistance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4538,23 +4536,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_DrawFOV_m02DE80D0788853A7F1D5E
 	memset((&V_13), 0, sizeof(V_13));
 	int32_t V_14 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:79>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:79>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:80>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:80>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_1 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_1, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:81>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_2, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:82>
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_3 = (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*)il2cpp_codegen_object_new(List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
 		List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F(L_3, List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:83>
 		int32_t L_4 = __this->___RayCount;
 		if ((((int32_t)L_4) <= ((int32_t)0)))
 		{
@@ -4578,47 +4576,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualFOV_DrawFOV_m02DE80D0788853A7F1D5E
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:84>
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:85>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:85>
 		int32_t L_7 = __this->___RayCount;
 		int32_t L_8 = __this->___RayCount;
 		V_4 = ((int32_t)il2cpp_codegen_multiply(L_7, L_8));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:87>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:88>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:89>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:88>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:90>
 		il2cpp_codegen_initobj((&V_8), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline((&V_8), L_9, NULL);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_10 = V_8;
 		V_5 = L_10;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:93>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:93>
 		float L_11 = __this->___HorizontalFOV;
 		V_7 = ((float)(((-L_11))/(2.0f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
 		V_9 = 0;
 		goto IL_0554;
 	}
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:96>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:96>
 		float L_12 = __this->___VerticalFOV;
 		V_10 = ((float)(((-L_12))/(2.0f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
 		V_11 = 0;
 		goto IL_0422;
 	}
 
 IL_0091:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:99>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((-90.0f), (0.0f), (0.0f), NULL);
 		float L_14 = V_10;
@@ -4632,7 +4630,7 @@ IL_0091:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_17, L_18, NULL);
 		Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline((&V_5), L_19, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:101>
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_20 = V_5;
 		float L_21 = ___2_maxDistance;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22;
@@ -4648,7 +4646,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:103>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_6), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
@@ -4656,7 +4654,7 @@ IL_0091:
 		float L_27;
 		L_27 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_25, L_26, NULL);
 		V_12 = L_27;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:104>
 		float L_28 = V_12;
 		float L_29 = ___1_minDistance;
 		if ((!(((float)L_28) < ((float)L_29))))
@@ -4665,7 +4663,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:106>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:106>
 		bool L_30 = __this->___ShowRaycasts;
 		if (!L_30)
 		{
@@ -4673,7 +4671,7 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:107>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
@@ -4703,7 +4701,7 @@ IL_0091:
 
 IL_0156:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:108>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:108>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_42 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
 		L_43 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
@@ -4723,7 +4721,7 @@ IL_0156:
 		L_50 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_43, L_49, NULL);
 		NullCheck(L_42);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_42, L_50, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:109>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:109>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_51 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_6), NULL);
@@ -4738,7 +4736,7 @@ IL_0156:
 
 IL_01a9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:113>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:113>
 		bool L_55 = __this->___ShowRaycasts;
 		if (!L_55)
 		{
@@ -4746,7 +4744,7 @@ IL_01a9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:114>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
 		L_56 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
@@ -4801,7 +4799,7 @@ IL_01a9:
 
 IL_0248:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:115>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_80 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81;
 		L_81 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
@@ -4821,7 +4819,7 @@ IL_0248:
 		L_88 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_81, L_87, NULL);
 		NullCheck(L_80);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_80, L_88, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:116>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_89 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
 		L_90 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_6), NULL);
@@ -4836,7 +4834,7 @@ IL_0248:
 
 IL_0297:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:121>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:121>
 		bool L_93 = __this->___ShowRaycasts;
 		if (!L_93)
 		{
@@ -4844,7 +4842,7 @@ IL_0297:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:122>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94;
 		L_94 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
@@ -4867,7 +4865,7 @@ IL_0297:
 
 IL_02d2:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:123>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:123>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_104 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105;
 		L_105 = Ray_get_origin_m97604A8F180316A410DCD77B7D74D04522FA1BA6_inline((&V_5), NULL);
@@ -4880,7 +4878,7 @@ IL_02d2:
 		L_109 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_105, L_108, NULL);
 		NullCheck(L_104);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_104, L_109, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:124>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:124>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_110 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111;
 		L_111 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline((&V_5), NULL);
@@ -4893,7 +4891,7 @@ IL_02d2:
 
 IL_0304:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:127>
 		int32_t L_114 = V_9;
 		if ((((int32_t)L_114) <= ((int32_t)0)))
 		{
@@ -4901,7 +4899,7 @@ IL_0304:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:130>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:130>
 		int32_t L_115 = V_11;
 		int32_t L_116 = __this->___RayCount;
 		if ((((int32_t)L_115) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_116, 1)))))
@@ -4910,7 +4908,7 @@ IL_0304:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:132>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_117 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_118 = V_1;
 		NullCheck(L_118);
@@ -4919,7 +4917,7 @@ IL_0304:
 		int32_t L_120 = __this->___RayCount;
 		NullCheck(L_117);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_117, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_119, L_120)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:133>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:133>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_121 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_122 = V_1;
 		NullCheck(L_122);
@@ -4928,7 +4926,7 @@ IL_0304:
 		int32_t L_124 = __this->___RayCount;
 		NullCheck(L_121);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_121, ((int32_t)il2cpp_codegen_subtract(L_123, L_124)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:134>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_125 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_126 = V_1;
 		NullCheck(L_126);
@@ -4936,7 +4934,7 @@ IL_0304:
 		L_127 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_126, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_125);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_125, ((int32_t)il2cpp_codegen_subtract(L_127, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:136>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:136>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_128 = V_2;
 		int32_t L_129 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_130 = V_1;
@@ -4945,7 +4943,7 @@ IL_0304:
 		L_131 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_130, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_128);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_128, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_129, L_131)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:137>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_132 = V_2;
 		int32_t L_133 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_134 = V_1;
@@ -4955,7 +4953,7 @@ IL_0304:
 		int32_t L_136 = __this->___RayCount;
 		NullCheck(L_132);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_132, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_133, L_135)), L_136)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:138>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:138>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_137 = V_2;
 		int32_t L_138 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_139 = V_1;
@@ -4969,7 +4967,7 @@ IL_0304:
 
 IL_038d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:141>
 		int32_t L_142 = V_11;
 		if ((((int32_t)L_142) <= ((int32_t)0)))
 		{
@@ -4985,7 +4983,7 @@ IL_038d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:144>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_145 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_146 = V_1;
 		NullCheck(L_146);
@@ -4994,7 +4992,7 @@ IL_038d:
 		int32_t L_148 = __this->___RayCount;
 		NullCheck(L_145);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_145, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_147, L_148)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:145>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_149 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_150 = V_1;
 		NullCheck(L_150);
@@ -5002,7 +5000,7 @@ IL_038d:
 		L_151 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_150, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_149);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_149, ((int32_t)il2cpp_codegen_subtract(L_151, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:146>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_152 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_153 = V_1;
 		NullCheck(L_153);
@@ -5010,7 +5008,7 @@ IL_038d:
 		L_154 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_153, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_152);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_152, ((int32_t)il2cpp_codegen_subtract(L_154, 2)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:148>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_155 = V_2;
 		int32_t L_156 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_157 = V_1;
@@ -5019,7 +5017,7 @@ IL_038d:
 		L_158 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_157, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_155);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_155, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_156, L_158)), 2)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:149>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_159 = V_2;
 		int32_t L_160 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_161 = V_1;
@@ -5028,7 +5026,7 @@ IL_038d:
 		L_162 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_161, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_159);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_159, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_160, L_162)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:150>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_163 = V_2;
 		int32_t L_164 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_165 = V_1;
@@ -5042,19 +5040,19 @@ IL_038d:
 
 IL_0407:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:153>
 		float L_168 = V_10;
 		float L_169 = __this->___VerticalFOV;
 		int32_t L_170 = __this->___RayCount;
 		V_10 = ((float)il2cpp_codegen_add(L_168, ((float)(L_169/((float)((int32_t)il2cpp_codegen_subtract(L_170, 1)))))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
 		int32_t L_171 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_171, 1));
 	}
 
 IL_0422:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:97>
 		int32_t L_172 = V_11;
 		int32_t L_173 = __this->___RayCount;
 		if ((((int32_t)L_172) < ((int32_t)L_173)))
@@ -5063,7 +5061,7 @@ IL_0422:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:157>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:157>
 		int32_t L_174 = V_9;
 		if ((((int32_t)L_174) <= ((int32_t)0)))
 		{
@@ -5071,7 +5069,7 @@ IL_0422:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:160>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_175 = V_2;
 		int32_t L_176 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_177 = V_1;
@@ -5081,7 +5079,7 @@ IL_0422:
 		int32_t L_179 = __this->___RayCount;
 		NullCheck(L_175);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_175, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_176, L_178)), L_179)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:161>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_180 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_181 = V_1;
 		NullCheck(L_181);
@@ -5091,7 +5089,7 @@ IL_0422:
 		int32_t L_184 = __this->___RayCount;
 		NullCheck(L_180);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_180, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_182, L_183)), L_184)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:162>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_185 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_186 = V_1;
 		NullCheck(L_186);
@@ -5100,7 +5098,7 @@ IL_0422:
 		int32_t L_188 = __this->___RayCount;
 		NullCheck(L_185);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_185, ((int32_t)il2cpp_codegen_subtract(L_187, L_188)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:164>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_189 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_190 = V_1;
 		NullCheck(L_190);
@@ -5110,7 +5108,7 @@ IL_0422:
 		int32_t L_193 = __this->___RayCount;
 		NullCheck(L_189);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_189, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_191, L_192)), L_193)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:165>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_194 = V_2;
 		int32_t L_195 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_196 = V_1;
@@ -5120,7 +5118,7 @@ IL_0422:
 		int32_t L_198 = __this->___RayCount;
 		NullCheck(L_194);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_194, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_195, L_197)), L_198)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:166>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_199 = V_2;
 		int32_t L_200 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_201 = V_1;
@@ -5131,7 +5129,7 @@ IL_0422:
 		int32_t L_204 = __this->___RayCount;
 		NullCheck(L_199);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_199, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_200, L_202)), L_203)), L_204)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:168>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_205 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_206 = V_1;
 		NullCheck(L_206);
@@ -5139,7 +5137,7 @@ IL_0422:
 		L_207 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_206, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_205);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_205, ((int32_t)il2cpp_codegen_subtract(L_207, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:169>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_208 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_209 = V_1;
 		NullCheck(L_209);
@@ -5148,7 +5146,7 @@ IL_0422:
 		int32_t L_211 = __this->___RayCount;
 		NullCheck(L_208);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_208, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_210, L_211)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:170>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_212 = V_2;
 		int32_t L_213 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_214 = V_1;
@@ -5157,7 +5155,7 @@ IL_0422:
 		L_215 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_214, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_212);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_212, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_213, L_215)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:172>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_216 = V_2;
 		int32_t L_217 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_218 = V_1;
@@ -5167,7 +5165,7 @@ IL_0422:
 		int32_t L_220 = __this->___RayCount;
 		NullCheck(L_216);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_216, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_217, L_219)), L_220)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:173>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_221 = V_2;
 		int32_t L_222 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_223 = V_1;
@@ -5176,7 +5174,7 @@ IL_0422:
 		L_224 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_223, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_221);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_221, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_222, L_224)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:174>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_225 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_226 = V_1;
 		NullCheck(L_226);
@@ -5189,19 +5187,19 @@ IL_0422:
 
 IL_0539:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:176>
 		float L_229 = V_7;
 		float L_230 = __this->___HorizontalFOV;
 		int32_t L_231 = __this->___RayCount;
 		V_7 = ((float)il2cpp_codegen_add(L_229, ((float)(L_230/((float)((int32_t)il2cpp_codegen_subtract(L_231, 1)))))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
 		int32_t L_232 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_232, 1));
 	}
 
 IL_0554:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:94>
 		int32_t L_233 = V_9;
 		int32_t L_234 = __this->___RayCount;
 		if ((((int32_t)L_233) < ((int32_t)L_234)))
@@ -5210,14 +5208,14 @@ IL_0554:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
 		V_14 = 1;
 		goto IL_0626;
 	}
 
 IL_0569:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:182>
 		int32_t L_235 = V_14;
 		if ((((int32_t)L_235) <= ((int32_t)0)))
 		{
@@ -5225,34 +5223,34 @@ IL_0569:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:184>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_236 = V_2;
 		int32_t L_237 = V_14;
 		NullCheck(L_236);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_236, L_237, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:185>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_238 = V_2;
 		int32_t L_239 = V_14;
 		NullCheck(L_238);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_238, ((int32_t)il2cpp_codegen_subtract(L_239, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:186>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_240 = V_2;
 		int32_t L_241 = V_4;
 		int32_t L_242 = V_14;
 		NullCheck(L_240);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_240, ((int32_t)il2cpp_codegen_add(L_241, L_242)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:188>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:188>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_243 = V_2;
 		int32_t L_244 = V_14;
 		NullCheck(L_243);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_243, ((int32_t)il2cpp_codegen_subtract(L_244, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:189>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:189>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_245 = V_2;
 		int32_t L_246 = V_4;
 		int32_t L_247 = V_14;
 		NullCheck(L_245);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_245, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_246, L_247)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:190>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_248 = V_2;
 		int32_t L_249 = V_4;
 		int32_t L_250 = V_14;
@@ -5262,7 +5260,7 @@ IL_0569:
 
 IL_05ad:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:193>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:193>
 		int32_t L_251 = V_14;
 		int32_t L_252 = __this->___RayCount;
 		if ((((int32_t)L_251) >= ((int32_t)L_252)))
@@ -5271,7 +5269,7 @@ IL_05ad:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:195>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_253 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_254 = V_1;
 		NullCheck(L_254);
@@ -5280,7 +5278,7 @@ IL_05ad:
 		int32_t L_256 = V_14;
 		NullCheck(L_253);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_253, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_255, L_256)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:196>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_257 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_258 = V_1;
 		NullCheck(L_258);
@@ -5289,7 +5287,7 @@ IL_05ad:
 		int32_t L_260 = V_14;
 		NullCheck(L_257);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_257, ((int32_t)il2cpp_codegen_subtract(L_259, L_260)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:197>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:197>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_261 = V_2;
 		int32_t L_262 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_263 = V_1;
@@ -5299,7 +5297,7 @@ IL_05ad:
 		int32_t L_265 = V_14;
 		NullCheck(L_261);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_261, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_262, L_264)), L_265)), 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:199>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_266 = V_2;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_267 = V_1;
 		NullCheck(L_267);
@@ -5308,7 +5306,7 @@ IL_05ad:
 		int32_t L_269 = V_14;
 		NullCheck(L_266);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_266, ((int32_t)il2cpp_codegen_subtract(L_268, L_269)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:200>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_270 = V_2;
 		int32_t L_271 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_272 = V_1;
@@ -5318,7 +5316,7 @@ IL_05ad:
 		int32_t L_274 = V_14;
 		NullCheck(L_270);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_270, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_271, L_273)), L_274)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:201>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:201>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_275 = V_2;
 		int32_t L_276 = V_4;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_277 = V_1;
@@ -5332,14 +5330,14 @@ IL_05ad:
 
 IL_0620:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
 		int32_t L_280 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_280, 1));
 	}
 
 IL_0626:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:180>
 		int32_t L_281 = V_14;
 		int32_t L_282 = __this->___RayCount;
 		if ((((int32_t)L_281) < ((int32_t)L_282)))
@@ -5348,12 +5346,12 @@ IL_0626:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:205>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:205>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_283 = V_1;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_284 = V_0;
 		NullCheck(L_283);
 		List_1_AddRange_m5074E49FED0A20D75EEBFEF32BD7C59CBB6F0FEE(L_283, L_284, List_1_AddRange_m5074E49FED0A20D75EEBFEF32BD7C59CBB6F0FEE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:207>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:207>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_285 = ___0_mesh;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_286 = V_1;
 		NullCheck(L_286);
@@ -5361,7 +5359,7 @@ IL_0626:
 		L_287 = List_1_ToArray_mF7A66D08104196EBAE0E29F0DD9BA140656EA5F3(L_286, List_1_ToArray_mF7A66D08104196EBAE0E29F0DD9BA140656EA5F3_RuntimeMethod_var);
 		NullCheck(L_285);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_285, L_287, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:208>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:208>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_288 = ___0_mesh;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_289 = V_2;
 		NullCheck(L_289);
@@ -5369,7 +5367,7 @@ IL_0626:
 		L_290 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_289, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
 		NullCheck(L_288);
 		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_288, L_290, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:209>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_291 = ___0_mesh;
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_292 = V_3;
 		NullCheck(L_292);
@@ -5377,11 +5375,11 @@ IL_0626:
 		L_293 = List_1_ToArray_m9F2A058632994B7A2310424880C089F9DE5B1BA5(L_292, List_1_ToArray_m9F2A058632994B7A2310424880C089F9DE5B1BA5_RuntimeMethod_var);
 		NullCheck(L_291);
 		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_291, L_293, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:210>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_294 = ___0_mesh;
 		NullCheck(L_294);
 		Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_294, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/VisualFOV.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/VisualFOV.cs:211>
 		return;
 	}
 }
@@ -5393,7 +5391,7 @@ IL_0626:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65570
+// Method Definition Index: 65591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXREnabled_m95AFC447DCAA391B0AC1FF40DD09E6ABC2A3893B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5404,7 +5402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXREnabled_m95AFC447DCAA3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:34>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -5417,7 +5415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXREnabled_m95AFC447DCAA3
 		return L_2;
 	}
 }
-// Method Definition Index: 65571
+// Method Definition Index: 65592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXRDevicePresent_m725BBED781E9AE1B20E73D277009E27AB81479AF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5428,7 +5426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXRDevicePresent_m725BBED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_0;
 		L_0 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -5444,7 +5442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsXRDevicePresent_m725BBED
 		return L_3;
 	}
 }
-// Method Definition Index: 65572
+// Method Definition Index: 65593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsUserPresent_m8A1562FAD42C111CE5E560ADD4EEC7FFFC8901F4 (bool ___0_defaultPresence, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5465,14 +5463,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsUserPresent_m8A1562FAD42
 	memset((&V_1), 0, sizeof(V_1));
 	bool V_2 = false;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:52>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:52>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
 		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:53>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:53>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = V_0;
 		InputDevices_GetDevicesWithCharacteristics_m82F54DE2802FCE4EB730FCFBF8731CA91A27DEB0(1, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:55>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:55>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -5491,17 +5489,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsUserPresent_m8A1562FAD42
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:57>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:57>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral8157B3513E505DEF8C88E20E7B5BD2893412E108, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:58>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___outputPresenceWarning = (bool)1;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:61>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:61>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -5512,13 +5510,13 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:63>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:63>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_7 = V_0;
 		NullCheck(L_7);
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_8;
 		L_8 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_7, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:64>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
 		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_9 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___userPresence;
 		bool L_10;
@@ -5529,19 +5527,19 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:66>
 		bool L_11 = V_2;
 		return L_11;
 	}
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:69>
 		bool L_12 = ___0_defaultPresence;
 		return L_12;
 	}
 }
-// Method Definition Index: 65573
+// Method Definition Index: 65594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRSupportUtil_GetXRNodeCenterEyeLocalPosition_m07A8B9F1167CF0FDACF92293E34F822DA6343F77 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5563,11 +5561,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:74>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:74>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -5592,12 +5590,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:79>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:80>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:79>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:80>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				if ((!(((uint32_t)L_4) == ((uint32_t)2))))
@@ -5614,7 +5612,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:82>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:82>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 				V_3 = L_6;
 				goto IL_0057;
@@ -5622,7 +5620,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:77>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_7)
@@ -5642,7 +5640,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:86>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:86>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_8;
@@ -5650,12 +5648,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:87>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_3;
 		return L_9;
 	}
 }
-// Method Definition Index: 65574
+// Method Definition Index: 65595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRSupportUtil_GetXRNodeCenterEyeLocalRotation_m1D8F2BF05113498B199AF4B0EACFA16CDCAB0420 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5677,11 +5675,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:91>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -5706,12 +5704,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:96>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:97>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:96>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:97>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				if ((!(((uint32_t)L_4) == ((uint32_t)2))))
@@ -5728,7 +5726,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:99>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:99>
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
 				V_3 = L_6;
 				goto IL_0057;
@@ -5736,7 +5734,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:94>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_7)
@@ -5756,7 +5754,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:103>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
 		L_8 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_8;
@@ -5764,12 +5762,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:104>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_3;
 		return L_9;
 	}
 }
-// Method Definition Index: 65575
+// Method Definition Index: 65596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRSupportUtil_GetXRNodeHeadLocalPosition_m1AED05D7F1D01CE0208012F569E1E43737F8FFCF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5791,11 +5789,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:108>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:108>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -5820,12 +5818,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:113>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:114>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:113>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:114>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				if ((!(((uint32_t)L_4) == ((uint32_t)3))))
@@ -5842,7 +5840,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:116>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:116>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 				V_3 = L_6;
 				goto IL_0057;
@@ -5850,7 +5848,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:111>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_7)
@@ -5870,7 +5868,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:120>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_8;
@@ -5878,12 +5876,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:121>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:121>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_3;
 		return L_9;
 	}
 }
-// Method Definition Index: 65576
+// Method Definition Index: 65597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRSupportUtil_GetXRNodeHeadLocalRotation_m6E243357C570C78B859D5677819410D744C794C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5905,11 +5903,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:125>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:125>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -5934,12 +5932,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:130>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:131>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:130>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:131>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				if ((!(((uint32_t)L_4) == ((uint32_t)3))))
@@ -5956,7 +5954,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:133>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:133>
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
 				V_3 = L_6;
 				goto IL_0057;
@@ -5964,7 +5962,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:128>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_7)
@@ -5984,7 +5982,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:137>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
 		L_8 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_8;
@@ -5992,12 +5990,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:138>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:138>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_3;
 		return L_9;
 	}
 }
-// Method Definition Index: 65577
+// Method Definition Index: 65598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRSupportUtil_GetXRNodeLocalPosition_mBDF29EAAAC76EFF6758822327865A2EA67B01717 (int32_t ___0_node, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6019,11 +6017,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:142>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:142>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -6048,12 +6046,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:147>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:148>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:147>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:148>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				int32_t L_5 = ___0_node;
@@ -6071,7 +6069,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:150>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:150>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 				V_3 = L_7;
 				goto IL_0057;
@@ -6079,7 +6077,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:145>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_8)
@@ -6099,7 +6097,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:154>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_9;
@@ -6107,12 +6105,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:155>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_3;
 		return L_10;
 	}
 }
-// Method Definition Index: 65578
+// Method Definition Index: 65599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 XRSupportUtil_GetXRNodeLocalRotation_mE4A4B19FB8F5016E24308CE1B2B427579394050B (int32_t ___0_node, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6134,11 +6132,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:159>
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		InputTracking_GetNodeStates_mA2E8D154A47C817ED74AD42F6B38A9C906A57A67(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_1 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates;
 		NullCheck(L_1);
 		Enumerator_tE98C59D61609F3870A665CC445013D4CD641CEAD L_2;
@@ -6163,12 +6161,12 @@ FINALLY_0043:
 
 IL_0017_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
 				XRNodeState_t683158812A1D80A6BC73DB97405BB0B795A9111A L_3;
 				L_3 = Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_inline((&V_1), Enumerator_get_Current_mD0D94B293CBE7F1F394B0682AF603A72FBED7B53_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:164>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:165>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:164>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:165>
 				int32_t L_4;
 				L_4 = XRNodeState_get_nodeType_mFC49286B25FF7732CE6CAF231A1DE5C083C13932((&V_2), NULL);
 				int32_t L_5 = ___0_node;
@@ -6186,7 +6184,7 @@ IL_0017_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:167>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:167>
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = V_0;
 				V_3 = L_7;
 				goto IL_0057;
@@ -6194,7 +6192,7 @@ IL_0017_1:
 
 IL_0038_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:162>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32((&V_1), Enumerator_MoveNext_m554D09004F3CA1F349AC0B84F21996392C777B32_RuntimeMethod_var);
 				if (L_8)
@@ -6214,7 +6212,7 @@ IL_0038_1:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:170>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		return L_9;
@@ -6222,12 +6220,12 @@ IL_0051:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:171>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = V_3;
 		return L_10;
 	}
 }
-// Method Definition Index: 65579
+// Method Definition Index: 65600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil_Recenter_mB3F05C05BCF530840753B7102EE263BC64675B74 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6243,14 +6241,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil_Recenter_mB3F05C05BCF53084
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:175>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
 		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:176>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = V_0;
 		InputDevices_GetDevicesWithCharacteristics_m82F54DE2802FCE4EB730FCFBF8731CA91A27DEB0(1, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:177>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -6261,56 +6259,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil_Recenter_mB3F05C05BCF53084
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:178>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:180>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = V_0;
 		NullCheck(L_4);
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_5;
 		L_5 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_4, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:181>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_6;
 		L_6 = InputDevice_get_subsystem_mF78D9FF3EC606129608E19A0B22F25A80E005FFF((&V_1), NULL);
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = XRInputSubsystem_TryRecenter_m4F8888E40ED79139DCB81D56A67C03B4D931A6BB(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:183>
 		InputTracking_Recenter_m1843AECFE9093882149E6B197E6EFEB6151E6C7C(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 65580
+// Method Definition Index: 65601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSupportUtil_GetGPUTime_m31488E73AC69DCB52F28781051343573B57598F5 (const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:189>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:189>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:190>
 		bool L_0;
 		L_0 = XRStats_TryGetGPUTimeLastFrame_mBA5DF9EBBAEAE27F75273CBEB41F57D4A34C5672((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:191>
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 65581
+// Method Definition Index: 65602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRSupportUtil_GetLoadedDeviceName_mC22A04B3EA371668289F0358EEB6906A1B1FEBB7 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:196>
 		String_t* L_0;
 		L_0 = XRSettings_get_loadedDeviceName_mAEB3908916B98A9E8CF2FD8754B5AAB096245243(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 65582
+// Method Definition Index: 65603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsRoomScale_m7680BE0B4162E5AA37648C7C932FDD6AE3FE8A7B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6326,14 +6324,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsRoomScale_m7680BE0B4162E
 	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:202>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
 		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:203>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = V_0;
 		InputDevices_GetDevicesWithCharacteristics_m82F54DE2802FCE4EB730FCFBF8731CA91A27DEB0(1, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:205>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:205>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -6344,19 +6342,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsRoomScale_m7680BE0B4162E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:207>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:207>
 		return (bool)0;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:210>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = V_0;
 		NullCheck(L_4);
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_5;
 		L_5 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_4, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:211>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_6;
 		L_6 = InputDevice_get_subsystem_mF78D9FF3EC606129608E19A0B22F25A80E005FFF((&V_1), NULL);
 		NullCheck(L_6);
@@ -6368,7 +6366,7 @@ IL_0017:
 		return L_10;
 	}
 }
-// Method Definition Index: 65583
+// Method Definition Index: 65604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsLargePlayspace_m80FA3715A1EE97196D728D1FDE4CE1085CA76034 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6397,14 +6395,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsLargePlayspace_m80FA3715
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:217>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:217>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
 		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:218>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:218>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = V_0;
 		InputDevices_GetDevicesWithCharacteristics_m82F54DE2802FCE4EB730FCFBF8731CA91A27DEB0(1, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:220>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:220>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -6415,19 +6413,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSupportUtil_IsLargePlayspace_m80FA3715
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:222>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:222>
 		return (bool)0;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:225>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = V_0;
 		NullCheck(L_4);
 		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_5;
 		L_5 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_4, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:226>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:226>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_6;
 		L_6 = InputDevice_get_subsystem_mF78D9FF3EC606129608E19A0B22F25A80E005FFF((&V_1), NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var);
@@ -6435,9 +6433,9 @@ IL_0017:
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = XRInputSubsystem_TryGetBoundaryPoints_m7FEEF524DD8B85151CE8C99378DD690825951C3B(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:227>
 		il2cpp_codegen_initobj((&V_2), sizeof(Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_9 = ((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->____boundaryPoints;
 		NullCheck(L_9);
 		Enumerator_t609488A9291E792D6A59707FF2BF03FBB727E047 L_10;
@@ -6462,18 +6460,18 @@ FINALLY_0063:
 
 IL_0046_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 				L_11 = Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_inline((&V_3), Enumerator_get_Current_m098C9AE095DEFD00B1B0314A772330F537805EE2_RuntimeMethod_var);
 				V_4 = L_11;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:230>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:230>
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_4;
 				Bounds_Encapsulate_m1FCA57C58536ADB67B85A703470C6F5BFB837C2F_inline((&V_2), L_12, NULL);
 			}
 
 IL_0058_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:228>
 				bool L_13;
 				L_13 = Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A((&V_3), Enumerator_MoveNext_m9C3D158CB944A2244D518FA7989D8312ACCD7C8A_RuntimeMethod_var);
 				if (L_13)
@@ -6493,7 +6491,7 @@ IL_0058_1:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:233>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:233>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_2), NULL);
 		V_5 = L_14;
@@ -6502,7 +6500,7 @@ IL_0071:
 		return (bool)((((float)L_15) > ((float)(1.0f)))? 1 : 0);
 	}
 }
-// Method Definition Index: 65584
+// Method Definition Index: 65605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil__cctor_mBBE3FEBD96E591A985AECA772E49D78D1953C543 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6516,18 +6514,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil__cctor_mBBE3FEBD96E591A985
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:27>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:28>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:27>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:28>
 		List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87* L_0 = (List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87*)il2cpp_codegen_object_new(List_1_t8AE5A65CCFBC753343962D38B82C801F7BDE3C87_il2cpp_TypeInfo_var);
 		List_1__ctor_mD8E218B8766DD801CC5B221926CE287ADBE84E32(L_0, List_1__ctor_mD8E218B8766DD801CC5B221926CE287ADBE84E32_RuntimeMethod_var);
 		((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___nodeStates), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:29>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_1 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_1, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->____boundaryPoints = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->____boundaryPoints), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:49>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/XRSupportUtil.cs:49>
 		((XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_StaticFields*)il2cpp_codegen_static_fields_for(XRSupportUtil_t343EEB69D974DF0527D6727B9C46943654A95E6D_il2cpp_TypeInfo_var))->___outputPresenceWarning = (bool)0;
 		return;
 	}
@@ -6540,7 +6538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupportUtil__cctor_mBBE3FEBD96E591A985
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65585
+// Method Definition Index: 65606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* XRLeapProviderManager_get_LeapProvider_mD0D076CD858729D31C15A099A82F13FE031587BC (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6550,7 +6548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LeapProvider_t616C3A87E2E3B45581185573136B9B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:55>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:55>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = __this->____leapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6571,7 +6569,7 @@ IL_0015:
 		return L_3;
 	}
 }
-// Method Definition Index: 65586
+// Method Definition Index: 65607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_set_LeapProvider_mCE54593B61B46EFDB88B128A624EDA4A3D9F2E6E (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6585,7 +6583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_set_LeapProvider_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:59>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -6605,13 +6603,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_set_LeapProvider_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:61>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:61>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_3 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_4 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_4, __this, (intptr_t)((void*)XRLeapProviderManager_HandleFixedFrame_m9241CF0D56EEADDBC77697C61C1B0A0A5ACFCD1E_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		LeapProvider_remove_OnFixedFrame_m06AA7118B84369A3F618B31F9FE8D3301A2B9969(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:62>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:62>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_5 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_6 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_6, __this, (intptr_t)((void*)XRLeapProviderManager_HandleUpdateFrame_m2D8C2465535866C85F53F35029E2DD613C6EA974_RuntimeMethod_var), NULL);
@@ -6621,11 +6619,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_set_LeapProvider_m
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:65>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_7 = ___0_value;
 		__this->____leapProvider = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leapProvider), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_8;
 		L_8 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -6645,25 +6643,25 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:69>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_11 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_12 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_12, __this, (intptr_t)((void*)XRLeapProviderManager_HandleFixedFrame_m9241CF0D56EEADDBC77697C61C1B0A0A5ACFCD1E_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		LeapProvider_remove_OnFixedFrame_m06AA7118B84369A3F618B31F9FE8D3301A2B9969(L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:70>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_13 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_14 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_14, __this, (intptr_t)((void*)XRLeapProviderManager_HandleFixedFrame_m9241CF0D56EEADDBC77697C61C1B0A0A5ACFCD1E_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		LeapProvider_add_OnFixedFrame_m8D98686CDA9A3E26DBCCE45BA14A13F72ABD7974(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:71>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_15 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_16 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_16, __this, (intptr_t)((void*)XRLeapProviderManager_HandleUpdateFrame_m2D8C2465535866C85F53F35029E2DD613C6EA974_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		LeapProvider_remove_OnUpdateFrame_m12BA3771A7AEC59A0166ED39DCF6B817C93CEA69(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:72>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_17 = __this->____leapProvider;
 		Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501* L_18 = (Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501*)il2cpp_codegen_object_new(Action_1_t267970F9E08D45A1F355E565C381A362BCFD4501_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC20D220AF12C1F82C8EB1A89D2A77A32A1D283C0(L_18, __this, (intptr_t)((void*)XRLeapProviderManager_HandleUpdateFrame_m2D8C2465535866C85F53F35029E2DD613C6EA974_RuntimeMethod_var), NULL);
@@ -6673,15 +6671,15 @@ IL_0043:
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:74>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 65587
+// Method Definition Index: 65608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* XRLeapProviderManager_get_CurrentFrame_m37517072BF10A31A46096D6BD17EBE6DE770E797 (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:77>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0;
 		L_0 = XRLeapProviderManager_get_LeapProvider_mD0D076CD858729D31C15A099A82F13FE031587BC(__this, NULL);
 		NullCheck(L_0);
@@ -6690,11 +6688,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		return L_1;
 	}
 }
-// Method Definition Index: 65588
+// Method Definition Index: 65609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* XRLeapProviderManager_get_CurrentFixedFrame_mDAE1CA455EB0773D52D0103182A706DE59352DA6 (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:78>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0;
 		L_0 = XRLeapProviderManager_get_LeapProvider_mD0D076CD858729D31C15A099A82F13FE031587BC(__this, NULL);
 		NullCheck(L_0);
@@ -6703,7 +6701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EB
 		return L_1;
 	}
 }
-// Method Definition Index: 65589
+// Method Definition Index: 65610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRLeapProviderManager_Start_m83BA91C3C72AA28EDDE0BB8BC9318CD5FAA86A52 (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6722,7 +6720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XRLeapProviderManager_Start_m8
 		return L_1;
 	}
 }
-// Method Definition Index: 65590
+// Method Definition Index: 65611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_SelectTrackingSource_mE9B332D2D05A4AC8A81952C716EEAEF453088E18 (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, int32_t ___0__source, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6737,7 +6735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_SelectTrackingSour
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:143>
 		int32_t L_0 = ___0__source;
 		if (L_0)
 		{
@@ -6745,16 +6743,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_SelectTrackingSour
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:145>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralF163988485B21307EEE77AFDE7FCB817D201A266, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:146>
 		___0__source = 2;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:149>
 		int32_t L_1 = ___0__source;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
@@ -6762,10 +6760,10 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:151>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:151>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_2 = __this->___openXRLeapProvider;
 		XRLeapProviderManager_set_LeapProvider_mCE54593B61B46EFDB88B128A624EDA4A3D9F2E6E(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:153>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_3 = __this->___openXRLeapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -6786,7 +6784,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral35429AC3B59A5A2470AD083F151F96C324A789F4, NULL);
 		goto IL_0052;
@@ -6794,14 +6792,14 @@ IL_0010:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:159>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6BECD16CB6899E87ACBC98DD5902E0F4C8B50B32, NULL);
 	}
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:162>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_7 = __this->___leapXRServiceProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -6812,7 +6810,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:164>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_9 = __this->___leapXRServiceProvider;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -6824,13 +6822,13 @@ IL_0052:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:169>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0FE729E0B9DAA767F003A49C87E4942CAA71A328, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:171>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_11 = __this->___leapXRServiceProvider;
 		XRLeapProviderManager_set_LeapProvider_mCE54593B61B46EFDB88B128A624EDA4A3D9F2E6E(__this, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:173>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_12 = __this->___openXRLeapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -6841,7 +6839,7 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:175>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_14 = __this->___openXRLeapProvider;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -6852,33 +6850,33 @@ IL_0071:
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:179>
 		return;
 	}
 }
-// Method Definition Index: 65591
+// Method Definition Index: 65612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_HandleUpdateFrame_m2D8C2465535866C85F53F35029E2DD613C6EA974 (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* ___0__frame, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:186>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_0 = ___0__frame;
 		LeapProvider_DispatchUpdateFrameEvent_m59D6C54F74517020DE829C9861B4647B16C5DAC4(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:187>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 65592
+// Method Definition Index: 65613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager_HandleFixedFrame_m9241CF0D56EEADDBC77697C61C1B0A0A5ACFCD1E (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* ___0__frame, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:194>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:194>
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_0 = ___0__frame;
 		LeapProvider_DispatchFixedFrameEvent_mA76251118218A730831F2E8AF34B924EB1356944(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:195>
 		return;
 	}
 }
-// Method Definition Index: 65593
+// Method Definition Index: 65614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager__ctor_m1FE280E07B35A3015047FD9490BFE2AF8DB0210B (XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6902,7 +6900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRLeapProviderManager__ctor_m1FE280E07B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65594
+// Method Definition Index: 65615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__13__ctor_m979A6F7D385425802A9C62A5B5EEE1278D197502 (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6912,14 +6910,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__13__ctor_m979A6F7D38542580
 		return;
 	}
 }
-// Method Definition Index: 65595
+// Method Definition Index: 65616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__13_System_IDisposable_Dispose_m3E25EF7FD84F613C72FBFC89064129240BBA55C6 (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 65596
+// Method Definition Index: 65617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__13_MoveNext_m314DB808FA99F030CC0B6F983D066580C598492C (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6961,7 +6959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__13_MoveNext_m314DB808FA99F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:95>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:95>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_4 = V_1;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___trackingSource;
@@ -6976,7 +6974,7 @@ IL_0017:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:102>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_6 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_6, NULL);
 		__this->___U3CU3E2__current = L_6;
@@ -6992,9 +6990,9 @@ IL_003f:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:98>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:99>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:100>
 		il2cpp_codegen_runtime_class_init_inline(XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE_il2cpp_TypeInfo_var);
 		XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* L_7;
 		L_7 = XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline(NULL);
@@ -7040,7 +7038,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:105>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_16 = V_1;
 		NullCheck(L_16);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_17 = L_16->___openXRLeapProvider;
@@ -7065,7 +7063,7 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:107>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_22 = V_1;
 		NullCheck(L_22);
 		XRLeapProviderManager_SelectTrackingSource_mE9B332D2D05A4AC8A81952C716EEAEF453088E18(L_22, 1, NULL);
@@ -7074,7 +7072,7 @@ IL_0046:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:109>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:109>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_23 = V_1;
 		NullCheck(L_23);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_24 = L_23->___leapXRServiceProvider;
@@ -7099,7 +7097,7 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:111>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_29 = V_1;
 		NullCheck(L_29);
 		XRLeapProviderManager_SelectTrackingSource_mE9B332D2D05A4AC8A81952C716EEAEF453088E18(L_29, 2, NULL);
@@ -7108,7 +7106,7 @@ IL_00a1:
 
 IL_00c6:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:113>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:113>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_30 = V_1;
 		NullCheck(L_30);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_31 = L_30->___openXRLeapProvider;
@@ -7133,7 +7131,7 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:115>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_36 = V_1;
 		NullCheck(L_36);
 		XRLeapProviderManager_SelectTrackingSource_mE9B332D2D05A4AC8A81952C716EEAEF453088E18(L_36, 1, NULL);
@@ -7142,16 +7140,16 @@ IL_00c6:
 
 IL_00eb:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral7D5D0225EE77347A8A8EC4C2D631DE074A3962AB, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:120>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:120>
 		return (bool)0;
 	}
 
 IL_00f7:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:126>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:126>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_37 = V_1;
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_38 = V_1;
 		NullCheck(L_38);
@@ -7162,7 +7160,7 @@ IL_00f7:
 
 IL_0103:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:129>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:129>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_40 = V_1;
 		NullCheck(L_40);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_41;
@@ -7172,7 +7170,7 @@ IL_0103:
 		L_42 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_41, NULL);
 		NullCheck(L_42);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_42, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:131>
 		XRLeapProviderManager_t49D425F150F96982938EF4DCEA4949297510E53F* L_43 = V_1;
 		NullCheck(L_43);
 		Action_1_t0A12AE118FE569109431C06B01578C597A29354A* L_44 = L_43->___OnProviderSet;
@@ -7200,11 +7198,11 @@ IL_0120:
 
 IL_012b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/XRLeapProviderManager.cs:133>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/XRLeapProviderManager.cs:133>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65597
+// Method Definition Index: 65618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1A2B02B9C58CE27344B572C9736D23EA1B68CAD1 (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7212,7 +7210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__13_System_Collec
 		return L_0;
 	}
 }
-// Method Definition Index: 65598
+// Method Definition Index: 65619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_mD57EF92803677F82B0E9DAA69A707DD9BFD70DC8 (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7221,7 +7219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartU3Ed__13_System_Collections_IEnu
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_mD57EF92803677F82B0E9DAA69A707DD9BFD70DC8_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 65599
+// Method Definition Index: 65620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__13_System_Collections_IEnumerator_get_Current_mC63EA59964487429E5246F4AD53B8D8EAB28E78E (U3CStartU3Ed__13_tFEFC7279396FD64BB463B2B2597EEDD2DDBD2C6A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7237,7 +7235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartU3Ed__13_System_Collec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65600
+// Method Definition Index: 65621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneReadmePing__ctor_m8D38EBDA2B839EE6E58B112B1B49BA68146443B3 (SceneReadmePing_t32449BD24E203550CE14B3169EF7A748AD5F7673* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7253,7 +7251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneReadmePing__ctor_m8D38EBDA2B839EE6E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65602
+// Method Definition Index: 65623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_add_OnPostRenderGizmos_mCB829C0BA9BD696C8D10D4B070EC0863567D8E52 (Action_1_tD268291BF34D58CFBC33B8D303E05AB0DDDD07CE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7296,7 +7294,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 65603
+// Method Definition Index: 65624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_remove_OnPostRenderGizmos_m75FAB5E6130A890C8F3EEAE412E82C80C683E882 (Action_1_tD268291BF34D58CFBC33B8D303E05AB0DDDD07CE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7339,7 +7337,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 65604
+// Method Definition Index: 65625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_m66EA92E91C2FA509F90C9714B167A90609B1CD25 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** ___0_drawer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7349,12 +7347,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:69>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:69>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_0 = ___0_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_1 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:70>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_2 = ___0_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_3 = *((RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D**)L_2);
 		if (!L_3)
@@ -7363,22 +7361,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_m6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:72>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_4 = ___0_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_5 = *((RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D**)L_4);
 		NullCheck(L_5);
 		RuntimeGizmoDrawer_ResetMatrixAndColorState_m744B4F9AA8A34F21D636D28F938F04870433A8F0(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:73>
 		return (bool)1;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:77>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65605
+// Method Definition Index: 65626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_mCDC738E260C03C23251FF5D2A188CCBA57FDA17B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_attatchedGameObject, RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** ___1_drawer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7388,12 +7386,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_mC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:91>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_0 = ___1_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_1 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:92>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_2 = ___1_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_3 = *((RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D**)L_2);
 		if (!L_3)
@@ -7414,22 +7412,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_TryGetGizmoDrawer_mC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:94>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:94>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D** L_7 = ___1_drawer;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_8 = *((RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D**)L_7);
 		NullCheck(L_8);
 		RuntimeGizmoDrawer_ResetMatrixAndColorState_m744B4F9AA8A34F21D636D28F938F04870433A8F0(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:95>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:95>
 		return (bool)1;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:99>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65606
+// Method Definition Index: 65627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnValidate_m725ACC087BAA3DD66657F823FE2EF1B8E1586BCC (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7451,7 +7449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnValidate_m725ACC08
 	String_t* G_B6_0 = NULL;
 	String_t* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:105>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->____gizmoShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7462,7 +7460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnValidate_m725ACC08
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:107>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2;
 		L_2 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral8B139D77D2B1724C548601AEC13F30BA9A862D9B, NULL);
 		__this->____gizmoShader = L_2;
@@ -7471,15 +7469,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnValidate_m725ACC08
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:110>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3 = __this->____gizmoShader;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_4, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:111>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = L_4;
 		NullCheck(L_5);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_5, ((int32_t)61), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:112>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:112>
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_5, NULL);
@@ -7489,7 +7487,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:114>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_7 = __this->____gizmoShader;
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = L_7;
 		if (L_8)
@@ -7522,7 +7520,7 @@ IL_0050:
 		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B6_1, G_B6_0, _stringLiteral9DF5A2966CE922E27A3ABBEEC2A4B4083311AAB4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_10, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:115>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_11;
 		L_11 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral8B139D77D2B1724C548601AEC13F30BA9A862D9B, NULL);
 		__this->____gizmoShader = L_11;
@@ -7531,7 +7529,7 @@ IL_0050:
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:118>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:118>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_12 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		if (!L_12)
 		{
@@ -7546,17 +7544,17 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:120>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:120>
 		RuntimeGizmoManager_assignDrawerParams_mD353605B107AF626D5EBA02EC181E04330ED31F5(__this, NULL);
 	}
 
 IL_0083:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 65607
+// Method Definition Index: 65628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_Reset_m1C9AF1E62CFAC3407EFDEC6C363113E348B34A40 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7566,16 +7564,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_Reset_m1C9AF1E62CFAC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:126>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:126>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0;
 		L_0 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral8B139D77D2B1724C548601AEC13F30BA9A862D9B, NULL);
 		__this->____gizmoShader = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____gizmoShader), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 65608
+// Method Definition Index: 65629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnEnable_m999B735059F96EF2619033B6D5F192C024F06206 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7591,7 +7589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnEnable_m999B735059
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:132>
 		bool L_0 = __this->____enabledForBuild;
 		if (L_0)
 		{
@@ -7599,29 +7597,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnEnable_m999B735059
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:134>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:135>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:139>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_1 = (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)il2cpp_codegen_object_new(RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D_il2cpp_TypeInfo_var);
 		RuntimeGizmoDrawer__ctor_m5E539170E7F3C8F749F93F31D99AD5DF0250FE2E(L_1, NULL);
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:140>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_2 = (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)il2cpp_codegen_object_new(RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D_il2cpp_TypeInfo_var);
 		RuntimeGizmoDrawer__ctor_m5E539170E7F3C8F749F93F31D99AD5DF0250FE2E(L_2, NULL);
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:142>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:142>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_3 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		NullCheck(L_3);
 		RuntimeGizmoDrawer_BeginGuard_m014DA0563745B89AD192DECFF5AF694E4ECAAF9A(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:144>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_4 = __this->____gizmoShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -7632,7 +7630,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:146>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:146>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_6;
 		L_6 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral8B139D77D2B1724C548601AEC13F30BA9A862D9B, NULL);
 		__this->____gizmoShader = L_6;
@@ -7641,11 +7639,11 @@ IL_0010:
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:149>
 		RuntimeGizmoManager_generateMeshes_m4A62A5FBADF7EADD58F57EFC3EB0BA1D0DC4D49F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:150>
 		RuntimeGizmoManager_assignDrawerParams_mD353605B107AF626D5EBA02EC181E04330ED31F5(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:153>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_7 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_8 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_8, __this, (intptr_t)((void*)RuntimeGizmoManager_onPostRender_m0621CD945DEA99C75B2AA033ABE79DE08922D7D6_RuntimeMethod_var), NULL);
@@ -7653,7 +7651,7 @@ IL_004c:
 		L_9 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_7, L_8, NULL);
 		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_9, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_9, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:154>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_10 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_11 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_11, __this, (intptr_t)((void*)RuntimeGizmoManager_onPostRender_m0621CD945DEA99C75B2AA033ABE79DE08922D7D6_RuntimeMethod_var), NULL);
@@ -7661,11 +7659,11 @@ IL_004c:
 		L_12 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_10, L_11, NULL);
 		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_12, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:155>
 		return;
 	}
 }
-// Method Definition Index: 65609
+// Method Definition Index: 65630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnDisable_m4ECFB46016D21B21335D88CD58A2C0393E1C7B96 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7678,13 +7676,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnDisable_m4ECFB4601
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:159>
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer = (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer), (void*)(RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:160>
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer = (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer), (void*)(RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:162>
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_0 = ((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender;
 		CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* L_1 = (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)il2cpp_codegen_object_new(CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var);
 		CameraCallback__ctor_mB48D13F30E749B551E4692E4F2D762C375F62B41(L_1, __this, (intptr_t)((void*)RuntimeGizmoManager_onPostRender_m0621CD945DEA99C75B2AA033ABE79DE08922D7D6_RuntimeMethod_var), NULL);
@@ -7692,11 +7690,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_OnDisable_m4ECFB4601
 		L_2 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_0, L_1, NULL);
 		((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender = ((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_2, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields*)il2cpp_codegen_static_fields_for(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var))->___onPostRender), (void*)((CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD*)CastclassSealed((RuntimeObject*)L_2, CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 65610
+// Method Definition Index: 65631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_Update_m543FA90FA9DC7626DA8A76158C122400EBB52B4F (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7719,39 +7717,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_Update_m543FA90FA9DC
 	int32_t V_2 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:169>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
 		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:170>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = __this->____objList;
 		Scene_GetRootGameObjects_m099D50FE3AF09AEE788071DA9AE620C8E6675DF0((&V_0), L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
 		V_1 = 0;
 		goto IL_008f;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:173>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = __this->____objList;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_2, L_3, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:174>
 		List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8* L_5 = __this->____gizmoList;
 		NullCheck(L_4);
 		GameObject_GetComponentsInChildren_TisIRuntimeGizmoComponent_t90A4843B0EB2D465F19A40376A94892031A4BFC1_m29A636588962E2F4300B056412D5E7C0B8E2B51B(L_4, (bool)0, L_5, GameObject_GetComponentsInChildren_TisIRuntimeGizmoComponent_t90A4843B0EB2D465F19A40376A94892031A4BFC1_m29A636588962E2F4300B056412D5E7C0B8E2B51B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
 		V_2 = 0;
 		goto IL_007d;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:177>
 		List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8* L_6 = __this->____gizmoList;
 		int32_t L_7 = V_2;
 		NullCheck(L_6);
@@ -7768,14 +7766,14 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:182>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_11 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_11);
 		RuntimeGizmoDrawer_ResetMatrixAndColorState_m744B4F9AA8A34F21D636D28F938F04870433A8F0(L_11, NULL);
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:186>
 		List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8* L_12 = __this->____gizmoList;
 		int32_t L_13 = V_2;
 		NullCheck(L_12);
@@ -7784,7 +7782,7 @@ IL_0033:
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_15 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_14);
 		InterfaceActionInvoker1< RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* >::Invoke(0, IRuntimeGizmoComponent_t90A4843B0EB2D465F19A40376A94892031A4BFC1_il2cpp_TypeInfo_var, L_14, L_15);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:187>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:187>
 		goto IL_0079;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -7800,24 +7798,24 @@ IL_0033:
 CATCH_0072:
 	{
 		Exception_t* L_16 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:190>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_16, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:191>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0079;
 	}
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
 		int32_t L_17 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:175>
 		int32_t L_18 = V_2;
 		List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8* L_19 = __this->____gizmoList;
 		NullCheck(L_19);
@@ -7829,14 +7827,14 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
 		int32_t L_21 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_008f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:171>
 		int32_t L_22 = V_1;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_23 = __this->____objList;
 		NullCheck(L_23);
@@ -7848,13 +7846,13 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:195>
 		__this->____readyForSwap = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:196>
 		return;
 	}
 }
-// Method Definition Index: 65611
+// Method Definition Index: 65632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_onPostRender_m0621CD945DEA99C75B2AA033ABE79DE08922D7D6 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7864,7 +7862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_onPostRender_m0621CD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:200>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7880,13 +7878,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_onPostRender_m0621CD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:200>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:220>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:220>
 		bool L_4 = __this->____readyForSwap;
 		if (!L_4)
 		{
@@ -7894,7 +7892,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:222>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:222>
 		Action_1_tD268291BF34D58CFBC33B8D303E05AB0DDDD07CE* L_5 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->___OnPostRenderGizmos;
 		if (!L_5)
 		{
@@ -7902,11 +7900,11 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:224>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_6 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_6);
 		RuntimeGizmoDrawer_ResetMatrixAndColorState_m744B4F9AA8A34F21D636D28F938F04870433A8F0(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:225>
 		Action_1_tD268291BF34D58CFBC33B8D303E05AB0DDDD07CE* L_7 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->___OnPostRenderGizmos;
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_8 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_7);
@@ -7915,26 +7913,26 @@ IL_0015:
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:228>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:228>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_9 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:229>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:229>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_10 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:230>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:230>
 		((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:233>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:233>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_11 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		NullCheck(L_11);
 		RuntimeGizmoDrawer_BeginGuard_m014DA0563745B89AD192DECFF5AF694E4ECAAF9A(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:236>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_12 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_12);
 		RuntimeGizmoDrawer_EndGuard_mC01120879D732F9EDAADF0672AEC72A32C55B5D6(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:238>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:238>
 		__this->____readyForSwap = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:239>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:239>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_13 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		NullCheck(L_13);
 		RuntimeGizmoDrawer_ClearAllGizmos_mF779ABB803F1ECCE6B5732A5B674B7A38DB05E49(L_13, NULL);
@@ -7942,15 +7940,15 @@ IL_003d:
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:242>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:242>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_14 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		NullCheck(L_14);
 		RuntimeGizmoDrawer_DrawAllGizmosToScreen_m6511E9569B69679C4494B047A5A143D85B966286(L_14, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:243>
 		return;
 	}
 }
-// Method Definition Index: 65612
+// Method Definition Index: 65633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_areGizmosDisabled_m4F9F73C0E61ACD739573AE1B09888AA258929422 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7963,19 +7961,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeGizmoManager_areGizmosDisabled_m4
 	bool V_0 = false;
 	RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:247>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:247>
 		V_0 = (bool)0;
 	}
 
 IL_0002:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:250>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_transform;
 		NullCheck(L_0);
 		RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* L_1;
 		L_1 = Component_GetComponentInParent_TisRuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC_mD295241AB8714CEDB1550245A52CC092CCDA61E3(L_0, Component_GetComponentInParent_TisRuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC_mD295241AB8714CEDB1550245A52CC092CCDA61E3_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:251>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:251>
 		RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -7986,7 +7984,7 @@ IL_0002:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:256>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:256>
 		RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* L_4 = V_1;
 		NullCheck(L_4);
 		bool L_5;
@@ -7997,21 +7995,21 @@ IL_0002:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:258>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:258>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:259>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:259>
 		goto IL_002f;
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:262>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:262>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = ___0_transform;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_6, NULL);
 		___0_transform = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:263>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:263>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_transform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -8024,12 +8022,12 @@ IL_001e:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:265>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:265>
 		bool L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 65613
+// Method Definition Index: 65634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_assignDrawerParams_mD353605B107AF626D5EBA02EC181E04330ED31F5 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8040,7 +8038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_assignDrawerParams_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:270>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:270>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->____gizmoShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8051,12 +8049,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_assignDrawerParams_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:272>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:272>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_2 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3 = __this->____gizmoShader;
 		NullCheck(L_2);
 		RuntimeGizmoDrawer_set_gizmoShader_m262C12D80585E0CB230825B1736F67669B647BC6(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:273>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:273>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_4 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_5 = __this->____gizmoShader;
 		NullCheck(L_4);
@@ -8065,59 +8063,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_assignDrawerParams_m
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:276>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:276>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_6 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_7 = __this->____sphereMesh;
 		NullCheck(L_6);
 		L_6->___sphereMesh = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___sphereMesh), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:277>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:277>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_8 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_9 = __this->____cubeMesh;
 		NullCheck(L_8);
 		L_8->___cubeMesh = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___cubeMesh), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:278>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:278>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_10 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_11 = __this->____wireSphereMesh;
 		NullCheck(L_10);
 		L_10->___wireSphereMesh = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___wireSphereMesh), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:279>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:279>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_12 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____frontDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_13 = __this->____wireCubeMesh;
 		NullCheck(L_12);
 		L_12->___wireCubeMesh = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&L_12->___wireCubeMesh), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:281>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:281>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_14 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_15 = __this->____sphereMesh;
 		NullCheck(L_14);
 		L_14->___sphereMesh = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&L_14->___sphereMesh), (void*)L_15);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:282>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:282>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_16 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_17 = __this->____cubeMesh;
 		NullCheck(L_16);
 		L_16->___cubeMesh = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&L_16->___cubeMesh), (void*)L_17);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:283>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:283>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_18 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_19 = __this->____wireSphereMesh;
 		NullCheck(L_18);
 		L_18->___wireSphereMesh = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___wireSphereMesh), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:284>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:284>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_20 = ((RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_StaticFields*)il2cpp_codegen_static_fields_for(RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095_il2cpp_TypeInfo_var))->____backDrawer;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_21 = __this->____wireCubeMesh;
 		NullCheck(L_20);
 		L_20->___wireCubeMesh = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&L_20->___wireCubeMesh), (void*)L_21);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:285>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:285>
 		return;
 	}
 }
-// Method Definition Index: 65614
+// Method Definition Index: 65635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_generateMeshes_m4A62A5FBADF7EADD58F57EFC3EB0BA1D0DC4D49F (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8153,28 +8151,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_generateMeshes_m4A62
 	float V_11 = 0.0f;
 	int32_t V_12 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:289>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_0, NULL);
 		__this->____cubeMesh = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cubeMesh), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:290>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:290>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = __this->____cubeMesh;
 		NullCheck(L_1);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_1, _stringLiteral49E1A2D2081F0445AF2971DF647D59D1F8C494A4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:291>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = __this->____cubeMesh;
 		NullCheck(L_2);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_2, ((int32_t)61), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:293>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:293>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_3 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_3, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:294>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:294>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_4, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:296>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)3);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = L_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -8192,14 +8190,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_generateMeshes_m4A62
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_11);
 		V_2 = L_10;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
 		V_4 = 0;
 		goto IL_00c8;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:299>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_12 = V_0;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_13 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_14 = V_2;
@@ -8220,7 +8218,7 @@ IL_0064:
 		int32_t L_25 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_24, 2))%3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
 		RuntimeGizmoManager_addQuad_m0A35749A97B3723A9112E004F47740FDC848AC60(__this, L_12, L_13, L_17, L_22, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:300>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:300>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_27 = V_0;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_28 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = V_2;
@@ -8241,14 +8239,14 @@ IL_0064:
 		int32_t L_40 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_39, 2))%3));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
 		RuntimeGizmoManager_addQuad_m0A35749A97B3723A9112E004F47740FDC848AC60(__this, L_27, L_28, L_33, L_37, L_41, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
 		int32_t L_42 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:297>
 		int32_t L_43 = V_4;
 		if ((((int32_t)L_43) < ((int32_t)3)))
 		{
@@ -8256,12 +8254,12 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:303>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_44 = __this->____cubeMesh;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_45 = V_0;
 		NullCheck(L_44);
 		Mesh_SetVertices_mCE01139EEEC3D10B4A6CEA1749FD84DABC53599E(L_44, L_45, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:304>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:304>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_46 = __this->____cubeMesh;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_47 = V_1;
 		NullCheck(L_47);
@@ -8269,61 +8267,61 @@ IL_00c8:
 		L_48 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_47, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
 		NullCheck(L_46);
 		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_46, L_48, 2, 0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:305>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:305>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_49 = __this->____cubeMesh;
 		NullCheck(L_49);
 		Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_49, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:306>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:306>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_50 = __this->____cubeMesh;
 		NullCheck(L_50);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_50, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:307>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:307>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_51 = __this->____cubeMesh;
 		NullCheck(L_51);
 		Mesh_UploadMeshData_mE4C94F263DAA8CAC1641FE137E1CE7D3F09396EB(L_51, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:309>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:309>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_52 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_52, NULL);
 		__this->____wireCubeMesh = L_52;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____wireCubeMesh), (void*)L_52);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:310>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_53 = __this->____wireCubeMesh;
 		NullCheck(L_53);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_53, _stringLiteralE9549D48AFFB5EC889E48496B42002A67671D91C, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:311>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:311>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_54 = __this->____wireCubeMesh;
 		NullCheck(L_54);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_54, ((int32_t)61), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:313>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:313>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_55 = V_0;
 		NullCheck(L_55);
 		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_55, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:314>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:314>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_56 = V_1;
 		NullCheck(L_56);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_56, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
 		V_5 = 1;
 		goto IL_018b;
 	}
 
 IL_0147:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
 		V_6 = 1;
 		goto IL_0180;
 	}
 
 IL_014c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
 		V_7 = 1;
 		goto IL_0175;
 	}
 
 IL_0151:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:322>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:322>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_57 = V_0;
 		int32_t L_58 = V_5;
 		int32_t L_59 = V_6;
@@ -8335,14 +8333,14 @@ IL_0151:
 		L_62 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_61, NULL);
 		NullCheck(L_57);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_57, L_62, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
 		int32_t L_63 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_subtract(L_63, 2));
 	}
 
 IL_0175:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:320>
 		int32_t L_64 = V_7;
 		if ((((int32_t)L_64) >= ((int32_t)(-1))))
 		{
@@ -8350,14 +8348,14 @@ IL_0175:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
 		int32_t L_65 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_65, 2));
 	}
 
 IL_0180:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:318>
 		int32_t L_66 = V_6;
 		if ((((int32_t)L_66) >= ((int32_t)(-1))))
 		{
@@ -8365,14 +8363,14 @@ IL_0180:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
 		int32_t L_67 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_67, 2));
 	}
 
 IL_018b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:316>
 		int32_t L_68 = V_5;
 		if ((((int32_t)L_68) >= ((int32_t)(-1))))
 		{
@@ -8380,24 +8378,24 @@ IL_018b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:327>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:327>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_69 = V_1;
 		RuntimeGizmoManager_addCorner_m3FA9F9BFB4B51D16168158AFE0AEBAC641B2E38E(__this, L_69, 0, 1, 2, 4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:328>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:328>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_70 = V_1;
 		RuntimeGizmoManager_addCorner_m3FA9F9BFB4B51D16168158AFE0AEBAC641B2E38E(__this, L_70, 3, 1, 2, 7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:329>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:329>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_71 = V_1;
 		RuntimeGizmoManager_addCorner_m3FA9F9BFB4B51D16168158AFE0AEBAC641B2E38E(__this, L_71, 5, 1, 4, 7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:330>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:330>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_72 = V_1;
 		RuntimeGizmoManager_addCorner_m3FA9F9BFB4B51D16168158AFE0AEBAC641B2E38E(__this, L_72, 6, 2, 4, 7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:332>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:332>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_73 = __this->____wireCubeMesh;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_74 = V_0;
 		NullCheck(L_73);
 		Mesh_SetVertices_mCE01139EEEC3D10B4A6CEA1749FD84DABC53599E(L_73, L_74, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:333>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:333>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_75 = __this->____wireCubeMesh;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_76 = V_1;
 		NullCheck(L_76);
@@ -8405,86 +8403,86 @@ IL_018b:
 		L_77 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_76, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
 		NullCheck(L_75);
 		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_75, L_77, 3, 0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:334>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:334>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_78 = __this->____wireCubeMesh;
 		NullCheck(L_78);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_78, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:335>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_79 = __this->____wireCubeMesh;
 		NullCheck(L_79);
 		Mesh_UploadMeshData_mE4C94F263DAA8CAC1641FE137E1CE7D3F09396EB(L_79, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:337>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:337>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_80 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
 		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_80, NULL);
 		__this->____wireSphereMesh = L_80;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____wireSphereMesh), (void*)L_80);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:338>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:338>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_81 = __this->____wireSphereMesh;
 		NullCheck(L_81);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_81, _stringLiteral724CDF737F48E10CD2E3E2E741BE4BB034333F8C, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:339>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:339>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_82 = __this->____wireSphereMesh;
 		NullCheck(L_82);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_82, ((int32_t)61), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:341>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:341>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_83 = V_0;
 		NullCheck(L_83);
 		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_83, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:342>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:342>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_84 = V_1;
 		NullCheck(L_84);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_84, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:344>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:344>
 		V_3 = ((int32_t)96);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
 		V_8 = 0;
 		goto IL_02d2;
 	}
 
 IL_0231:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:347>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:347>
 		int32_t L_85 = V_8;
 		V_9 = ((float)(((float)il2cpp_codegen_multiply((6.28318548f), ((float)L_85)))/(32.0f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:348>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:348>
 		float L_86 = V_9;
 		float L_87;
 		L_87 = cosf(L_86);
 		V_10 = ((float)il2cpp_codegen_multiply((0.5f), L_87));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:349>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:349>
 		float L_88 = V_9;
 		float L_89;
 		L_89 = sinf(L_88);
 		V_11 = ((float)il2cpp_codegen_multiply((0.5f), L_89));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
 		V_12 = 0;
 		goto IL_028b;
 	}
 
 IL_0265:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:353>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:353>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_90 = V_1;
 		int32_t L_91 = V_8;
 		int32_t L_92 = V_12;
 		int32_t L_93 = V_3;
 		NullCheck(L_90);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_90, ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_91, 3)), L_92))%L_93)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:354>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:354>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_94 = V_1;
 		int32_t L_95 = V_8;
 		int32_t L_96 = V_12;
 		int32_t L_97 = V_3;
 		NullCheck(L_94);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_94, ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_95, 3)), L_96)), 3))%L_97)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
 		int32_t L_98 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_98, 1));
 	}
 
 IL_028b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:351>
 		int32_t L_99 = V_12;
 		if ((((int32_t)L_99) < ((int32_t)3)))
 		{
@@ -8492,7 +8490,7 @@ IL_028b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:357>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:357>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_100 = V_0;
 		float L_101 = V_10;
 		float L_102 = V_11;
@@ -8501,7 +8499,7 @@ IL_028b:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_103), L_101, L_102, (0.0f), NULL);
 		NullCheck(L_100);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_100, L_103, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:358>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:358>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_104 = V_0;
 		float L_105 = V_10;
 		float L_106 = V_11;
@@ -8510,7 +8508,7 @@ IL_028b:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_107), (0.0f), L_105, L_106, NULL);
 		NullCheck(L_104);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_104, L_107, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:359>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:359>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_108 = V_0;
 		float L_109 = V_10;
 		float L_110 = V_11;
@@ -8519,14 +8517,14 @@ IL_028b:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_111), L_109, (0.0f), L_110, NULL);
 		NullCheck(L_108);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_108, L_111, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
 		int32_t L_112 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_112, 1));
 	}
 
 IL_02d2:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:345>
 		int32_t L_113 = V_8;
 		if ((((int32_t)L_113) < ((int32_t)((int32_t)32))))
 		{
@@ -8534,12 +8532,12 @@ IL_02d2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:362>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:362>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_114 = __this->____wireSphereMesh;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_115 = V_0;
 		NullCheck(L_114);
 		Mesh_SetVertices_mCE01139EEEC3D10B4A6CEA1749FD84DABC53599E(L_114, L_115, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:363>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:363>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_116 = __this->____wireSphereMesh;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_117 = V_1;
 		NullCheck(L_117);
@@ -8547,19 +8545,19 @@ IL_02d2:
 		L_118 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_117, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
 		NullCheck(L_116);
 		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_116, L_118, 3, 0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:364>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:364>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_119 = __this->____wireSphereMesh;
 		NullCheck(L_119);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_119, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:365>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:365>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_120 = __this->____wireSphereMesh;
 		NullCheck(L_120);
 		Mesh_UploadMeshData_mE4C94F263DAA8CAC1641FE137E1CE7D3F09396EB(L_120, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:366>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:366>
 		return;
 	}
 }
-// Method Definition Index: 65615
+// Method Definition Index: 65636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B3723A9112E004F47740FDC848AC60 (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___0_verts, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___1_indexes, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_normal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_axis1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_axis2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8571,7 +8569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:370>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:370>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = ___1_indexes;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_1 = ___0_verts;
 		NullCheck(L_1);
@@ -8579,7 +8577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_2 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_1, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_0);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_0, L_2, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:371>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:371>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_3 = ___1_indexes;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_4 = ___0_verts;
 		NullCheck(L_4);
@@ -8587,7 +8585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_5 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_4, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_3);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_3, ((int32_t)il2cpp_codegen_add(L_5, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:372>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:372>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_6 = ___1_indexes;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_7 = ___0_verts;
 		NullCheck(L_7);
@@ -8595,7 +8593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_8 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_7, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_6);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_6, ((int32_t)il2cpp_codegen_add(L_8, 2)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:373>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:373>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_9 = ___1_indexes;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_10 = ___0_verts;
 		NullCheck(L_10);
@@ -8603,7 +8601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_11 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_10, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
 		NullCheck(L_9);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_9, ((int32_t)il2cpp_codegen_add(L_11, 3)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:375>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:375>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_12 = ___0_verts;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___3_axis1;
@@ -8616,7 +8614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_18 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_17, NULL);
 		NullCheck(L_12);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_12, L_18, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:376>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:376>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_19 = ___0_verts;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = ___3_axis1;
@@ -8629,7 +8627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_25 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_24, NULL);
 		NullCheck(L_19);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_19, L_25, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:377>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:377>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_26 = ___0_verts;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = ___3_axis1;
@@ -8642,7 +8640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_32 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_31, NULL);
 		NullCheck(L_26);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_26, L_32, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:378>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:378>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_33 = ___0_verts;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = ___2_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = ___3_axis1;
@@ -8655,11 +8653,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addQuad_m0A35749A97B
 		L_39 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_38, NULL);
 		NullCheck(L_33);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_33, L_39, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:379>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:379>
 		return;
 	}
 }
-// Method Definition Index: 65616
+// Method Definition Index: 65637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addCorner_m3FA9F9BFB4B51D16168158AFE0AEBAC641B2E38E (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___0_indexes, int32_t ___1_a, int32_t ___2_b, int32_t ___3_c, int32_t ___4_d, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8669,41 +8667,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager_addCorner_m3FA9F9BFB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:383>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:383>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = ___0_indexes;
 		int32_t L_1 = ___1_a;
 		NullCheck(L_0);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_0, L_1, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:383>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:383>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = ___0_indexes;
 		int32_t L_3 = ___2_b;
 		NullCheck(L_2);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_2, L_3, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:384>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:384>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = ___0_indexes;
 		int32_t L_5 = ___1_a;
 		NullCheck(L_4);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_4, L_5, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:384>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:384>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_6 = ___0_indexes;
 		int32_t L_7 = ___3_c;
 		NullCheck(L_6);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_6, L_7, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:385>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:385>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_8 = ___0_indexes;
 		int32_t L_9 = ___1_a;
 		NullCheck(L_8);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_8, L_9, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:385>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:385>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_10 = ___0_indexes;
 		int32_t L_11 = ___4_d;
 		NullCheck(L_10);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_10, L_11, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:386>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:386>
 		return;
 	}
 }
-// Method Definition Index: 65617
+// Method Definition Index: 65638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager__ctor_m51FFA1F682112F82E42D8F3AD3EF52AE3512193E (RuntimeGizmoManager_t0EB541922A33A61806D4C45DF9CD7D6CB4E97095* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8716,16 +8714,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager__ctor_m51FFA1F682112
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:34>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:34>
 		__this->____displayInGameView = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:38>
 		__this->____enabledForBuild = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:165>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->____objList = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____objList), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:166>
 		List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8* L_1 = (List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8*)il2cpp_codegen_object_new(List_1_t34EB911EBEEEB30ECDD5F28FBFFE168C5DECDBD8_il2cpp_TypeInfo_var);
 		List_1__ctor_mBF4EFAE09A79B0D7B16329C9E1A74CFB32419845(L_1, List_1__ctor_mBF4EFAE09A79B0D7B16329C9E1A74CFB32419845_RuntimeMethod_var);
 		__this->____gizmoList = L_1;
@@ -8742,7 +8740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoManager__ctor_m51FFA1F682112
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65618
+// Method Definition Index: 65639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* RuntimeGizmoDrawer_get_gizmoShader_m2F10CDE3DD158394EB952404BAA6F65429FC1A2B (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8752,7 +8750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:415>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:415>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->____gizmoMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8763,13 +8761,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:417>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:417>
 		return (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692*)NULL;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:421>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:421>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->____gizmoMaterial;
 		NullCheck(L_2);
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3;
@@ -8777,7 +8775,7 @@ IL_0010:
 		return L_3;
 	}
 }
-// Method Definition Index: 65619
+// Method Definition Index: 65640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_gizmoShader_m262C12D80585E0CB230825B1736F67669B647BC6 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8789,7 +8787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_gizmoShader_m262C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:426>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:426>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->____gizmoMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8800,17 +8798,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_gizmoShader_m262C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:428>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:428>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = ___0_value;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
 		__this->____gizmoMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____gizmoMaterial), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:429>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:429>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->____gizmoMaterial;
 		NullCheck(L_4);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_4, _stringLiteral583F3071657B9261C1CE162619653937D562E018, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:430>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:430>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->____gizmoMaterial;
 		NullCheck(L_5);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_5, ((int32_t)61), NULL);
@@ -8819,16 +8817,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_gizmoShader_m262C
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:434>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:434>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->____gizmoMaterial;
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_7 = ___0_value;
 		NullCheck(L_6);
 		Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:436>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:436>
 		return;
 	}
 }
-// Method Definition Index: 65620
+// Method Definition Index: 65641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_BeginGuard_m014DA0563745B89AD192DECFF5AF694E4ECAAF9A (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8838,17 +8836,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_BeginGuard_m014DA0563
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:446>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:446>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = __this->____operations;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mF305CEC5417BE4F379623605097C0D1D42902BF7_inline(L_0, List_1_get_Count_mF305CEC5417BE4F379623605097C0D1D42902BF7_RuntimeMethod_var);
 		__this->____operationCountOnGuard = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:447>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:447>
 		return;
 	}
 }
-// Method Definition Index: 65621
+// Method Definition Index: 65642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_EndGuard_mC01120879D732F9EDAADF0672AEC72A32C55B5D6 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8860,47 +8858,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_EndGuard_mC01120879D7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:454>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:454>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = __this->____operations;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_mF305CEC5417BE4F379623605097C0D1D42902BF7_inline(L_0, List_1_get_Count_mF305CEC5417BE4F379623605097C0D1D42902BF7_RuntimeMethod_var);
 		int32_t L_2 = __this->____operationCountOnGuard;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:455>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:455>
 		__this->____operationCountOnGuard = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:457>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:457>
 		if (!((((int32_t)L_1) > ((int32_t)L_2))? 1 : 0))
 		{
 			goto IL_0026;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:459>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:459>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral75636993258DBEE764E9436B15E8A2174712EDCE, NULL);
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:461>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:461>
 		return;
 	}
 }
-// Method Definition Index: 65622
+// Method Definition Index: 65643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_RelativeTo_mAB1C34FC5BDF4B5791A0AC83DA88A9A139843835 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:468>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:468>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_transform;
 		NullCheck(L_0);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_0, NULL);
 		RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:469>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:469>
 		return;
 	}
 }
-// Method Definition Index: 65623
+// Method Definition Index: 65644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_PushMatrix_mA14DA389371B932430D18DF0535E0979D0EB2735 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8910,16 +8908,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_PushMatrix_mA14DA3893
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:476>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:476>
 		Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E* L_0 = __this->____matrixStack;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = __this->____currMatrix;
 		NullCheck(L_0);
 		Stack_1_Push_m4D734379CC958AED5ED7FF36A9467EDCE6AFDF56(L_0, L_1, Stack_1_Push_m4D734379CC958AED5ED7FF36A9467EDCE6AFDF56_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:477>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:477>
 		return;
 	}
 }
-// Method Definition Index: 65624
+// Method Definition Index: 65645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_PopMatrix_m02B02804D31504E184B4A1F7A448629C59C3E38A (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8929,42 +8927,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_PopMatrix_m02B02804D3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:484>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:484>
 		Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E* L_0 = __this->____matrixStack;
 		NullCheck(L_0);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
 		L_1 = Stack_1_Pop_m682D32993E1CB092C642F495A93915B11F401A7F(L_0, Stack_1_Pop_m682D32993E1CB092C642F495A93915B11F401A7F_RuntimeMethod_var);
 		RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:485>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:485>
 		return;
 	}
 }
-// Method Definition Index: 65625
+// Method Definition Index: 65646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_ResetMatrixAndColorState_m744B4F9AA8A34F21D636D28F938F04870433A8F0 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:492>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:492>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0;
 		L_0 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 		RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:493>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:493>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:494>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:494>
 		return;
 	}
 }
-// Method Definition Index: 65626
+// Method Definition Index: 65647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:503>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:503>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____currColor;
 		return L_0;
 	}
 }
-// Method Definition Index: 65627
+// Method Definition Index: 65648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8975,7 +8973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_color_m9701C6E0CA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:507>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:507>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____currColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_value;
 		bool L_2;
@@ -8986,38 +8984,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_color_m9701C6E0CA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:509>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:509>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:511>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:511>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_value;
 		__this->____currColor = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:512>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:512>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_4 = __this->____operations;
 		NullCheck(L_4);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_4, 2, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:513>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:513>
 		List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF* L_5 = __this->____colors;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = __this->____currColor;
 		NullCheck(L_5);
 		List_1_Add_m4EA3769821DBDED34CA0EBACD784AC6C1A536C1A_inline(L_5, L_6, List_1_Add_m4EA3769821DBDED34CA0EBACD784AC6C1A536C1A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:514>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:514>
 		return;
 	}
 }
-// Method Definition Index: 65628
+// Method Definition Index: 65649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 RuntimeGizmoDrawer_get_matrix_mFE3995D29ECD479957A617C4418E2B76A9F3C9B5 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:524>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:524>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = __this->____currMatrix;
 		return L_0;
 	}
 }
-// Method Definition Index: 65629
+// Method Definition Index: 65650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9028,7 +9026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_matrix_m307FDBF50
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:528>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:528>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = __this->____currMatrix;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = ___0_value;
 		bool L_2;
@@ -9039,47 +9037,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_set_matrix_m307FDBF50
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:530>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:530>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:532>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:532>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3 = ___0_value;
 		__this->____currMatrix = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:533>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:533>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_4 = __this->____operations;
 		NullCheck(L_4);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_4, 0, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:534>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:534>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_5 = __this->____matrices;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6 = __this->____currMatrix;
 		NullCheck(L_5);
 		List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_inline(L_5, L_6, List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:535>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:535>
 		return;
 	}
 }
-// Method Definition Index: 65630
+// Method Definition Index: 65651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawMesh_mF161011F0799BCCE26DFCA6F40FD96F94480A9B0 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_matrix, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:543>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:543>
 		RuntimeGizmoDrawer_setWireMode_m355C0197E02EBB31940D2C417A527A4DB759791D(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:544>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:544>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_mesh;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = ___1_matrix;
 		RuntimeGizmoDrawer_drawMeshInternal_mE3674117D313279243B2C866607EE84380B671CF(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:545>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:545>
 		return;
 	}
 }
-// Method Definition Index: 65631
+// Method Definition Index: 65652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawMesh_m5A0AB8B10B4762B7E2AE7A4183D15433DE7594EC (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_scale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:552>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:552>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_mesh;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_rotation;
@@ -9087,29 +9085,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawMesh_m5A0AB8B10B4
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
 		L_4 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_1, L_2, L_3, NULL);
 		RuntimeGizmoDrawer_DrawMesh_mF161011F0799BCCE26DFCA6F40FD96F94480A9B0(__this, L_0, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:553>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:553>
 		return;
 	}
 }
-// Method Definition Index: 65632
+// Method Definition Index: 65653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireMesh_m3D344EFCBA77C94215E2F277801629FBBEB5E8F2 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_matrix, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:560>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:560>
 		RuntimeGizmoDrawer_setWireMode_m355C0197E02EBB31940D2C417A527A4DB759791D(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:561>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:561>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_mesh;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = ___1_matrix;
 		RuntimeGizmoDrawer_drawMeshInternal_mE3674117D313279243B2C866607EE84380B671CF(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:562>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:562>
 		return;
 	}
 }
-// Method Definition Index: 65633
+// Method Definition Index: 65654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireMesh_mBF13ABE030A6EB6301D47AFCCAF78163BEDD23C0 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_scale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:569>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:569>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_mesh;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_rotation;
@@ -9117,11 +9115,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireMesh_mBF13ABE
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
 		L_4 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_1, L_2, L_3, NULL);
 		RuntimeGizmoDrawer_DrawWireMesh_m3D344EFCBA77C94215E2F277801629FBBEB5E8F2(__this, L_0, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:570>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:570>
 		return;
 	}
 }
-// Method Definition Index: 65634
+// Method Definition Index: 65655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9132,11 +9130,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawLine_m7DAF008511D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:577>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:577>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = __this->____operations;
 		NullCheck(L_0);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_0, 3, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:578>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:578>
 		List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380* L_1 = __this->____lines;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_b;
@@ -9145,41 +9143,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawLine_m7DAF008511D
 		Line__ctor_mF3583772CDDA26D45BD63424DEE32EB0A783D561((&L_4), L_2, L_3, NULL);
 		NullCheck(L_1);
 		List_1_Add_mAA390306B213A7C6E06D4E9C6A41CBC5A5E7AA64_inline(L_1, L_4, List_1_Add_mAA390306B213A7C6E06D4E9C6A41CBC5A5E7AA64_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:579>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:579>
 		return;
 	}
 }
-// Method Definition Index: 65635
+// Method Definition Index: 65656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawCube_mD686D184F2F15F32AAE5E542270031375C6C0979 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:586>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:586>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___cubeMesh;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_size;
 		RuntimeGizmoDrawer_DrawMesh_m5A0AB8B10B4762B7E2AE7A4183D15433DE7594EC(__this, L_0, L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:587>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:587>
 		return;
 	}
 }
-// Method Definition Index: 65636
+// Method Definition Index: 65657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCube_m69FB1818F7FB51D3E9FFD1E9BA46FDE1626CFB74 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:594>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:594>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___wireCubeMesh;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_size;
 		RuntimeGizmoDrawer_DrawWireMesh_mBF13ABE030A6EB6301D47AFCCAF78163BEDD23C0(__this, L_0, L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:595>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:595>
 		return;
 	}
 }
-// Method Definition Index: 65637
+// Method Definition Index: 65658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawSphere_mC765055407C5994F2407EC05E39C8F0947F21DF9 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, float ___1_radius, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9189,7 +9187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawSphere_mC76505540
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:604>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:604>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___sphereMesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9200,7 +9198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawSphere_mC76505540
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:606>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:606>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB8FF521C83E206B0BCF5260210582A9866FEFFEA)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeGizmoDrawer_DrawSphere_mC765055407C5994F2407EC05E39C8F0947F21DF9_RuntimeMethod_var)));
@@ -9208,7 +9206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawSphere_mC76505540
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:609>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:609>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = __this->___sphereMesh;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_center;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
@@ -9221,11 +9219,11 @@ IL_0019:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, (2.0f), NULL);
 		RuntimeGizmoDrawer_DrawMesh_m5A0AB8B10B4762B7E2AE7A4183D15433DE7594EC(__this, L_3, L_4, L_5, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:610>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:610>
 		return;
 	}
 }
-// Method Definition Index: 65638
+// Method Definition Index: 65659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireSphere_m1ACC9C6BF2D549294F8DDA149C5C0813FB7FBF18 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_pose, float ___1_radius, int32_t ___2_numSegments, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9238,16 +9236,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireSphere_m1ACC9
 	WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:614>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:614>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = __this->____operations;
 		NullCheck(L_0);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_0, 4, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:615>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:616>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:617>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:618>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:619>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:620>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:615>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:616>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:617>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:618>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:619>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:620>
 		List_1_tF690857786575320C4620253B8274D3AC883F4F4* L_1 = __this->____wireSpheres;
 		il2cpp_codegen_initobj((&V_0), sizeof(WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___0_pose;
@@ -9259,15 +9257,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireSphere_m1ACC9
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_5 = V_0;
 		NullCheck(L_1);
 		List_1_Add_mF4CE408032B346E8B453838EF05D070EABA491B1_inline(L_1, L_5, List_1_Add_mF4CE408032B346E8B453838EF05D070EABA491B1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:621>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:621>
 		return;
 	}
 }
-// Method Definition Index: 65639
+// Method Definition Index: 65660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireSphere_mFAFF09702B145F25A70A141A85AFB76A283F81A0 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, float ___1_radius, int32_t ___2_numSegments, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:628>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:628>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_center;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -9277,11 +9275,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireSphere_mFAFF0
 		float L_3 = ___1_radius;
 		int32_t L_4 = ___2_numSegments;
 		RuntimeGizmoDrawer_DrawWireSphere_m1ACC9C6BF2D549294F8DDA149C5C0813FB7FBF18(__this, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:629>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:629>
 		return;
 	}
 }
-// Method Definition Index: 65640
+// Method Definition Index: 65661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawEllipsoid_m0844048F0B5CDF63BBEC8B3431F62331CCC60B20 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_foci1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_foci2, float ___2_minorAxis, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -9292,9 +9290,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawEllipsoid_m084404
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:637>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:637>
 		RuntimeGizmoDrawer_PushMatrix_mA14DA389371B932430D18DF0535E0979D0EB2735(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:638>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:638>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_foci1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_foci2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -9302,7 +9300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawEllipsoid_m084404
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2, (2.0f), NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:639>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:639>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_foci1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_foci2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
@@ -9310,8 +9308,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawEllipsoid_m084404
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
 		L_7 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:640>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:641>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:640>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:641>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_foci1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___1_foci2;
 		float L_10;
@@ -9324,29 +9322,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawEllipsoid_m084404
 		float L_14;
 		L_14 = sqrtf(((float)il2cpp_codegen_add(L_11, L_13)));
 		V_2 = ((float)il2cpp_codegen_multiply(L_14, (2.0f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:642>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:642>
 		float L_15 = ___2_minorAxis;
 		float L_16 = ___2_minorAxis;
 		float L_17 = V_2;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), L_15, L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:644>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:644>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_3;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_21;
 		L_21 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_18, L_19, L_20, NULL);
 		RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61(__this, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:646>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:646>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		RuntimeGizmoDrawer_DrawWireSphere_mFAFF09702B145F25A70A141A85AFB76A283F81A0(__this, L_22, (0.5f), ((int32_t)32), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:647>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:647>
 		RuntimeGizmoDrawer_PopMatrix_m02B02804D31504E184B4A1F7A448629C59C3E38A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:648>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:648>
 		return;
 	}
 }
-// Method Definition Index: 65641
+// Method Definition Index: 65662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF731403E77EB6CF995DFD9ED645E520CD26005 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_start, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_end, float ___2_radius, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -9358,7 +9356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:656>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:656>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_end;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -9370,7 +9368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:657>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:657>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
@@ -9378,7 +9376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_Slerp_m6CA14E5B6F6217802BAA0ADD2C9D086C741BA09C_inline(L_6, L_8, (0.5f), NULL);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:658>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:658>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
@@ -9390,7 +9388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_13, L_14, NULL);
 		V_2 = L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:660>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:660>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___1_end;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
@@ -9398,19 +9396,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		V_3 = L_18;
 		float L_19;
 		L_19 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_3), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:663>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:663>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_0;
 		float L_22 = ___2_radius;
 		RuntimeGizmoDrawer_DrawLineWireCircle_mB8C8EB7CD0291D9BA2672D5997745F607F69E149(__this, L_20, L_21, L_22, 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:664>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:664>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = ___1_end;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_24, NULL);
 		float L_26 = ___2_radius;
 		RuntimeGizmoDrawer_DrawLineWireCircle_mB8C8EB7CD0291D9BA2672D5997745F607F69E149(__this, L_23, L_25, L_26, 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:667>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:667>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
@@ -9420,7 +9418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_30, L_31, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_29, L_32, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:668>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:668>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
@@ -9430,7 +9428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_36, L_37, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_35, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:669>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:669>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
@@ -9440,7 +9438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
 		L_44 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_42, L_43, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_41, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:670>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:670>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
@@ -9450,13 +9448,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
 		L_50 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_48, L_49, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_47, L_50, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:673>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:673>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_1;
 		float L_54 = ___2_radius;
 		RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF(__this, L_51, L_52, L_53, L_54, (0.5f), 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:674>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:674>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = ___0_start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_2;
@@ -9464,7 +9462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		L_58 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_57, NULL);
 		float L_59 = ___2_radius;
 		RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF(__this, L_55, L_56, L_58, L_59, (0.5f), 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:675>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:675>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = ___1_end;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_1;
@@ -9472,21 +9470,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireCapsule_m5DF7
 		L_63 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_62, NULL);
 		float L_64 = ___2_radius;
 		RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF(__this, L_60, L_61, L_63, L_64, (0.5f), 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:676>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:676>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = ___1_end;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67 = V_2;
 		float L_68 = ___2_radius;
 		RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF(__this, L_65, L_66, L_67, L_68, (0.5f), 8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:677>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:677>
 		return;
 	}
 }
-// Method Definition Index: 65642
+// Method Definition Index: 65663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawLineWireCircle_mB8C8EB7CD0291D9BA2672D5997745F607F69E149 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, float ___2_radius, int32_t ___3_numCircleSegments, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:681>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:681>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_center;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_normal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_normal;
@@ -9498,11 +9496,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawLineWireCircle_mB
 		float L_6 = ___2_radius;
 		int32_t L_7 = ___3_numCircleSegments;
 		RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF(__this, L_0, L_1, L_5, L_6, (1.0f), L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:682>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:682>
 		return;
 	}
 }
-// Method Definition Index: 65643
+// Method Definition Index: 65664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireArc_mD5121656A1F86A2CC7C76C1CADE79A1C7AB51ADF (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_radialStartDirection, float ___3_radius, float ___4_fractionOfCircleToDraw, int32_t ___5_numCircleSegments, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -9514,41 +9512,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawWireArc_mD5121656
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:687>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:687>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___1_normal), NULL);
 		___1_normal = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:688>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:688>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___2_radialStartDirection), NULL);
 		float L_2 = ___3_radius;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:690>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:690>
 		int32_t L_4 = ___5_numCircleSegments;
 		float L_5 = ___4_fractionOfCircleToDraw;
 		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_4), L_5)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:691>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:691>
 		int32_t L_6 = ___5_numCircleSegments;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___1_normal;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
 		L_8 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline(((float)((360.0f)/((float)L_6))), L_7, NULL);
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
 		V_4 = 0;
 		goto IL_0059;
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:694>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:694>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_9, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:695>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:695>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___0_center;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
@@ -9558,17 +9556,17 @@ IL_0035:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_15, L_16, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_14, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:696>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:696>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		V_0 = L_18;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:692>
 		int32_t L_20 = V_4;
 		int32_t L_21 = V_2;
 		if ((((int32_t)L_20) < ((int32_t)L_21)))
@@ -9577,11 +9575,11 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:698>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:698>
 		return;
 	}
 }
-// Method Definition Index: 65644
+// Method Definition Index: 65665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawColliders_m4847985AD83FEBC7CD9E2098F01F94726FACA595 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, bool ___1_useWireframe, bool ___2_traverseHierarchy, bool ___3_drawTriggers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9596,9 +9594,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawColliders_m484798
 	int32_t V_0 = 0;
 	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:705>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:705>
 		RuntimeGizmoDrawer_PushMatrix_mA14DA389371B932430D18DF0535E0979D0EB2735(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:707>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:707>
 		bool L_0 = ___2_traverseHierarchy;
 		if (!L_0)
 		{
@@ -9606,7 +9604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawColliders_m484798
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:709>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:709>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_gameObject;
 		List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* L_2 = __this->____colliderList;
 		NullCheck(L_1);
@@ -9616,7 +9614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawColliders_m484798
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:713>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:713>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_gameObject;
 		List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* L_4 = __this->____colliderList;
 		NullCheck(L_3);
@@ -9625,27 +9623,27 @@ IL_0017:
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
 		V_0 = 0;
 		goto IL_0059;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:718>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:718>
 		List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* L_5 = __this->____colliderList;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7;
 		L_7 = List_1_get_Item_m6482D1D8869174A6C7B0CEAF95DFDFBB73625587(L_5, L_6, List_1_get_Item_m6482D1D8869174A6C7B0CEAF95DFDFBB73625587_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:719>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:719>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = V_1;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_8, NULL);
 		RuntimeGizmoDrawer_RelativeTo_mAB1C34FC5BDF4B5791A0AC83DA88A9A139843835(__this, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:721>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:721>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_10 = V_1;
 		NullCheck(L_10);
 		bool L_11;
@@ -9665,21 +9663,21 @@ IL_0027:
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:723>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:723>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_13 = V_1;
 		RuntimeGizmoDrawer_DrawCollider_m8FD1F3A45020E14B297C93F39C0D741E40FFEF92(__this, L_13, (bool)1, (bool)1, NULL);
 	}
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
 		int32_t L_14 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:716>
 		int32_t L_15 = V_0;
 		List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* L_16 = __this->____colliderList;
 		NullCheck(L_16);
@@ -9691,13 +9689,13 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:726>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:726>
 		RuntimeGizmoDrawer_PopMatrix_m02B02804D31504E184B4A1F7A448629C59C3E38A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:727>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:727>
 		return;
 	}
 }
-// Method Definition Index: 65645
+// Method Definition Index: 65666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawCollider_m8FD1F3A45020E14B297C93F39C0D741E40FFEF92 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_collider, bool ___1_useWireframe, bool ___2_skipMatrixSetup, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9750,7 +9748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawCollider_m8FD1F3A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B27_3;
 	memset((&G_B27_3), 0, sizeof(G_B27_3));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:732>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:732>
 		bool L_0 = ___2_skipMatrixSetup;
 		if (L_0)
 		{
@@ -9758,9 +9756,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawCollider_m8FD1F3A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:734>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:734>
 		RuntimeGizmoDrawer_PushMatrix_mA14DA389371B932430D18DF0535E0979D0EB2735(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:735>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:735>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = ___0_collider;
 		NullCheck(L_1);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -9770,7 +9768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawCollider_m8FD1F3A
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:738>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:738>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___0_collider;
 		if (!((BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23*)IsInstClass((RuntimeObject*)L_3, BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_il2cpp_TypeInfo_var)))
 		{
@@ -9778,10 +9776,10 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:740>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:740>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_4 = ___0_collider;
 		V_0 = ((BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23*)IsInstClass((RuntimeObject*)L_4, BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:741>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:741>
 		bool L_5 = ___1_useWireframe;
 		if (!L_5)
 		{
@@ -9789,7 +9787,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:743>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:743>
 		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_6 = V_0;
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -9804,7 +9802,7 @@ IL_0015:
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:747>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:747>
 		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_10 = V_0;
 		NullCheck(L_10);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
@@ -9819,7 +9817,7 @@ IL_003e:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:750>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:750>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = ___0_collider;
 		if (!((SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275*)IsInstClass((RuntimeObject*)L_14, SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_il2cpp_TypeInfo_var)))
 		{
@@ -9827,10 +9825,10 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:752>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:752>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_15 = ___0_collider;
 		V_1 = ((SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275*)IsInstClass((RuntimeObject*)L_15, SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:753>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:753>
 		bool L_16 = ___1_useWireframe;
 		if (!L_16)
 		{
@@ -9838,7 +9836,7 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:755>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:755>
 		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_17 = V_1;
 		NullCheck(L_17);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
@@ -9853,7 +9851,7 @@ IL_0055:
 
 IL_0080:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:759>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:759>
 		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_21 = V_1;
 		NullCheck(L_21);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
@@ -9868,7 +9866,7 @@ IL_0080:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:762>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:762>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_25 = ___0_collider;
 		if (!((CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808*)IsInstClass((RuntimeObject*)L_25, CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_il2cpp_TypeInfo_var)))
 		{
@@ -9876,10 +9874,10 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:764>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:764>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_26 = ___0_collider;
 		V_2 = ((CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808*)IsInstClass((RuntimeObject*)L_26, CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:765>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:765>
 		bool L_27 = ___1_useWireframe;
 		if (!L_27)
 		{
@@ -9887,7 +9885,7 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:768>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:768>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_28 = V_2;
 		NullCheck(L_28);
 		int32_t L_29;
@@ -9916,27 +9914,27 @@ IL_0097:
 
 IL_00cc:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:770>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:770>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
 		V_3 = L_31;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:770>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:770>
 		goto IL_00e2;
 	}
 
 IL_00d4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:771>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:771>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		V_3 = L_32;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:771>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:771>
 		goto IL_00e2;
 	}
 
 IL_00dc:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:772>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:772>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		V_3 = L_33;
@@ -9944,8 +9942,8 @@ IL_00dc:
 
 IL_00e2:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:774>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:775>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:774>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:775>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_34 = V_2;
 		NullCheck(L_34);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
@@ -9990,11 +9988,11 @@ IL_00e2:
 
 IL_013b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:779>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:779>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
 		L_54 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_5 = L_54;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:780>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:780>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
 		L_56 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
@@ -10009,9 +10007,9 @@ IL_013b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
 		L_61 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_55, L_60, NULL);
 		V_5 = L_61;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:781>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:782>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:783>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:781>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:782>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:783>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_5;
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_63 = V_2;
 		NullCheck(L_63);
@@ -10116,7 +10114,7 @@ IL_018f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
 		L_75 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(G_B27_3, L_74, NULL);
 		V_5 = L_75;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:784>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:784>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_76 = V_2;
 		NullCheck(L_76);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
@@ -10128,7 +10126,7 @@ IL_018f:
 
 IL_01c4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:787>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:787>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_79 = ___0_collider;
 		if (!((MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455*)IsInstClass((RuntimeObject*)L_79, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455_il2cpp_TypeInfo_var)))
 		{
@@ -10136,10 +10134,10 @@ IL_01c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:789>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:789>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_80 = ___0_collider;
 		V_6 = ((MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455*)IsInstClass((RuntimeObject*)L_80, MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:790>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:790>
 		MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_81 = V_6;
 		NullCheck(L_81);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_82;
@@ -10153,7 +10151,7 @@ IL_01c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:792>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:792>
 		bool L_84 = ___1_useWireframe;
 		if (!L_84)
 		{
@@ -10161,7 +10159,7 @@ IL_01c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:794>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:794>
 		MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_85 = V_6;
 		NullCheck(L_85);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_86;
@@ -10174,7 +10172,7 @@ IL_01c4:
 
 IL_01fa:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:798>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:798>
 		MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* L_88 = V_6;
 		NullCheck(L_88);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_89;
@@ -10186,7 +10184,7 @@ IL_01fa:
 
 IL_020c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:803>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:803>
 		bool L_91 = ___2_skipMatrixSetup;
 		if (L_91)
 		{
@@ -10194,17 +10192,17 @@ IL_020c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:805>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:805>
 		RuntimeGizmoDrawer_PopMatrix_m02B02804D31504E184B4A1F7A448629C59C3E38A(__this, NULL);
 	}
 
 IL_0215:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:807>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:807>
 		return;
 	}
 }
-// Method Definition Index: 65646
+// Method Definition Index: 65667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_mB2B5C5C01225074E5D5CC3DE5BFFAF8FD070FDB6 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_lerpColor, float ___2_lerpCoeff, Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___3_overrideScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10224,7 +10222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_mB2B5C5C
 	memset((&V_4), 0, sizeof(V_4));
 	float V_5 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:822>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:822>
 		bool L_0;
 		L_0 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&___3_overrideScale), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
 		if (!L_0)
@@ -10233,7 +10231,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_mB2B5C5C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:824>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:824>
 		float L_1;
 		L_1 = Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA((&___3_overrideScale), Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		V_0 = L_1;
@@ -10242,13 +10240,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_mB2B5C5C
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:828>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:828>
 		V_0 = (0.0599999987f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:830>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:830>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
 		V_3 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:831>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:831>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3;
 		L_3 = RuntimeGizmoDrawer_get_matrix_mFE3995D29ECD479957A617C4418E2B76A9F3C9B5_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_pos;
@@ -10257,7 +10255,7 @@ IL_0013:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6;
 		L_6 = Matrix4x4_op_Multiply_m319DF5B7DD9C9499EB8A5682FA63B1AAF0EE87A4_inline(L_3, L_5, NULL);
 		V_4 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:832>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:832>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -10268,7 +10266,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:834>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:834>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_9, NULL);
@@ -10282,7 +10280,7 @@ IL_0013:
 		float L_14;
 		L_14 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_10, L_13, NULL);
 		V_5 = L_14;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:836>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:836>
 		float L_15 = V_0;
 		float L_16 = V_5;
 		V_0 = ((float)il2cpp_codegen_multiply(L_15, L_16));
@@ -10290,16 +10288,16 @@ IL_0013:
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:840>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:840>
 		float L_17 = V_0;
 		V_1 = ((float)(L_17/(2.0f)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:842>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:842>
 		V_2 = (0.600000024f);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:844>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:844>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
 		L_18 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:845>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:845>
 		float L_19 = ___2_lerpCoeff;
 		if ((((float)L_19) == ((float)(0.0f))))
 		{
@@ -10307,7 +10305,7 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:845>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:845>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
 		L_20 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = ___1_lerpColor;
@@ -10320,7 +10318,7 @@ IL_0059:
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:846>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:846>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
@@ -10331,7 +10329,7 @@ IL_008d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_25, L_28, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_24, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:847>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:847>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
 		L_30 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		float L_31 = V_2;
@@ -10339,7 +10337,7 @@ IL_008d:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_32;
 		L_32 = Utils_WithAlpha_m00DC2366C1F1CEF52DAEF870B18B49190880BFBF(L_30, L_31, NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_32, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:848>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:848>
 		float L_33 = ___2_lerpCoeff;
 		if ((((float)L_33) == ((float)(0.0f))))
 		{
@@ -10347,7 +10345,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:848>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:848>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
 		L_34 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_35 = ___1_lerpColor;
@@ -10360,7 +10358,7 @@ IL_008d:
 
 IL_00d1:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:849>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:849>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
@@ -10371,11 +10369,11 @@ IL_00d1:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
 		L_43 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_39, L_42, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_38, L_43, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:851>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:851>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		L_44 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:852>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:852>
 		float L_45 = ___2_lerpCoeff;
 		if ((((float)L_45) == ((float)(0.0f))))
 		{
@@ -10383,7 +10381,7 @@ IL_00d1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:852>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:852>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		L_46 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_47 = ___1_lerpColor;
@@ -10396,7 +10394,7 @@ IL_00d1:
 
 IL_010f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:853>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:853>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
@@ -10407,7 +10405,7 @@ IL_010f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_51, L_54, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_50, L_55, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:854>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:854>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_56;
 		L_56 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		float L_57 = V_2;
@@ -10415,7 +10413,7 @@ IL_010f:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_58;
 		L_58 = Utils_WithAlpha_m00DC2366C1F1CEF52DAEF870B18B49190880BFBF(L_56, L_57, NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_58, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:855>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:855>
 		float L_59 = ___2_lerpCoeff;
 		if ((((float)L_59) == ((float)(0.0f))))
 		{
@@ -10423,7 +10421,7 @@ IL_010f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:855>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:855>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_60;
 		L_60 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_61 = ___1_lerpColor;
@@ -10436,7 +10434,7 @@ IL_010f:
 
 IL_0153:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:856>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:856>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66;
@@ -10447,11 +10445,11 @@ IL_0153:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
 		L_69 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_65, L_68, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_64, L_69, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:858>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:858>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_70;
 		L_70 = Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline(NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_70, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:859>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:859>
 		float L_71 = ___2_lerpCoeff;
 		if ((((float)L_71) == ((float)(0.0f))))
 		{
@@ -10459,7 +10457,7 @@ IL_0153:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:859>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:859>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_72;
 		L_72 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_73 = ___1_lerpColor;
@@ -10472,7 +10470,7 @@ IL_0153:
 
 IL_0191:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:860>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:860>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78;
@@ -10483,7 +10481,7 @@ IL_0191:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81;
 		L_81 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_77, L_80, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_76, L_81, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:861>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:861>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_82;
 		L_82 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		float L_83 = V_2;
@@ -10491,7 +10489,7 @@ IL_0191:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_84;
 		L_84 = Utils_WithAlpha_m00DC2366C1F1CEF52DAEF870B18B49190880BFBF(L_82, L_83, NULL);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(__this, L_84, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:862>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:862>
 		float L_85 = ___2_lerpCoeff;
 		if ((((float)L_85) == ((float)(0.0f))))
 		{
@@ -10499,7 +10497,7 @@ IL_0191:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:862>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:862>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_86;
 		L_86 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_87 = ___1_lerpColor;
@@ -10512,7 +10510,7 @@ IL_0191:
 
 IL_01d5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:863>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:863>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = ___0_pos;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
@@ -10523,28 +10521,28 @@ IL_01d5:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
 		L_95 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_91, L_94, NULL);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(__this, L_90, L_95, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:864>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:864>
 		return;
 	}
 }
-// Method Definition Index: 65647
+// Method Definition Index: 65668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_m4EB6A4C8C5073CA0CD4DB9B9A057DCCC13C8709E (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) 
 {
 	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:873>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:873>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_pos;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75));
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_2 = V_0;
 		RuntimeGizmoDrawer_DrawPosition_mB2B5C5C01225074E5D5CC3DE5BFFAF8FD070FDB6(__this, L_0, L_1, (0.0f), L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:874>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:874>
 		return;
 	}
 }
-// Method Definition Index: 65648
+// Method Definition Index: 65669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_m5D975D6E8F578F5AD99813D4238AB38F191498B8 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, float ___1_overrideScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10554,7 +10552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_m5D975D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:878>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:878>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_pos;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
@@ -10563,11 +10561,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawPosition_m5D975D6
 		memset((&L_3), 0, sizeof(L_3));
 		Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420((&L_3), L_2, Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var);
 		RuntimeGizmoDrawer_DrawPosition_mB2B5C5C01225074E5D5CC3DE5BFFAF8FD070FDB6(__this, L_0, L_1, (0.0f), L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:879>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:879>
 		return;
 	}
 }
-// Method Definition Index: 65649
+// Method Definition Index: 65670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_ClearAllGizmos_mF779ABB803F1ECCE6B5732A5B674B7A38DB05E49 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10582,45 +10580,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_ClearAllGizmos_mF779A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:883>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:883>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = __this->____operations;
 		NullCheck(L_0);
 		List_1_Clear_m7FDDF34B5E3C344F02D123B8554ADBC4011544EA_inline(L_0, List_1_Clear_m7FDDF34B5E3C344F02D123B8554ADBC4011544EA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:884>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:884>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_1 = __this->____matrices;
 		NullCheck(L_1);
 		List_1_Clear_m4F37CEBAD8C743CA95E08E9B63BD651EBA702782_inline(L_1, List_1_Clear_m4F37CEBAD8C743CA95E08E9B63BD651EBA702782_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:885>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:885>
 		List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF* L_2 = __this->____colors;
 		NullCheck(L_2);
 		List_1_Clear_mE5CCE3E4C785E8D9A9482D1E9D78F42472075F81_inline(L_2, List_1_Clear_mE5CCE3E4C785E8D9A9482D1E9D78F42472075F81_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:886>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:886>
 		List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380* L_3 = __this->____lines;
 		NullCheck(L_3);
 		List_1_Clear_mAB1A9533A3B11E14A9CC67FFE25A0E459CB9D719_inline(L_3, List_1_Clear_mAB1A9533A3B11E14A9CC67FFE25A0E459CB9D719_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:887>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:887>
 		List_1_tF690857786575320C4620253B8274D3AC883F4F4* L_4 = __this->____wireSpheres;
 		NullCheck(L_4);
 		List_1_Clear_mEB86471CC150DDF6C3598A7E2BB5543994F18A79_inline(L_4, List_1_Clear_mEB86471CC150DDF6C3598A7E2BB5543994F18A79_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:888>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:888>
 		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* L_5 = __this->____meshes;
 		NullCheck(L_5);
 		List_1_Clear_m2A7F6C398C8494D1C584E5B59E33A460BBEDC75F_inline(L_5, List_1_Clear_m2A7F6C398C8494D1C584E5B59E33A460BBEDC75F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:889>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:889>
 		__this->____isInWireMode = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:890>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:890>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6;
 		L_6 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 		__this->____currMatrix = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:891>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:891>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		__this->____currColor = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:892>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:892>
 		return;
 	}
 }
-// Method Definition Index: 65650
+// Method Definition Index: 65671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawAllGizmosToScreen_m6511E9569B69679C4494B047A5A143D85B966286 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10656,45 +10654,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_DrawAllGizmosToScreen
 
 FINALLY_01ec:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:968>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:968>
 				GL_set_wireframe_m9D41BF9B676AA23D52292471C6DAFE5B2720EFFE((bool)0, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:969>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:969>
 				return;
 			}
 		});
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:898>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:898>
 				V_0 = 0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:899>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:899>
 				V_1 = 0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:900>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:900>
 				V_2 = 0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:901>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:901>
 				V_3 = 0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:902>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:902>
 				V_4 = 0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:904>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:904>
 				V_5 = (-1);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:905>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:905>
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0;
 				L_0 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 				__this->____currMatrix = L_0;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:906>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:906>
 				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 				L_1 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 				__this->____currColor = L_1;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:908>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:908>
 				GL_set_wireframe_m9D41BF9B676AA23D52292471C6DAFE5B2720EFFE((bool)0, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
 				V_6 = 0;
 				goto IL_01d8_1;
 			}
 
 IL_0032_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:912>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:912>
 				List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_2 = __this->____operations;
 				int32_t L_3 = V_6;
 				NullCheck(L_2);
@@ -10736,7 +10734,7 @@ IL_0032_1:
 
 IL_0065_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:916>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:916>
 				List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_6 = __this->____matrices;
 				int32_t L_7 = V_0;
 				int32_t L_8 = L_7;
@@ -10745,13 +10743,13 @@ IL_0065_1:
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_9;
 				L_9 = List_1_get_Item_m7ECA8E19707EB7795F4BC62BE1D6B35C34B5DF42(L_6, L_8, List_1_get_Item_m7ECA8E19707EB7795F4BC62BE1D6B35C34B5DF42_RuntimeMethod_var);
 				__this->____currMatrix = L_9;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:917>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:917>
 				goto IL_01d2_1;
 			}
 
 IL_0080_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:920>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:920>
 				List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF* L_10 = __this->____colors;
 				int32_t L_11 = V_1;
 				int32_t L_12 = L_11;
@@ -10760,31 +10758,31 @@ IL_0080_1:
 				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
 				L_13 = List_1_get_Item_mE616D49F5F6197745A12A06084EEE9E6FFCF017F(L_10, L_12, List_1_get_Item_mE616D49F5F6197745A12A06084EEE9E6FFCF017F_RuntimeMethod_var);
 				__this->____currColor = L_13;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:921>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:921>
 				V_5 = (-1);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:922>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:922>
 				goto IL_01d2_1;
 			}
 
 IL_009e_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:925>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:925>
 				bool L_14;
 				L_14 = GL_get_wireframe_m6DC3D40913456AB481BA719570E513DC41815F53(NULL);
 				GL_set_wireframe_m9D41BF9B676AA23D52292471C6DAFE5B2720EFFE((bool)((((int32_t)L_14) == ((int32_t)0))? 1 : 0), NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:926>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:926>
 				goto IL_01d2_1;
 			}
 
 IL_00b0_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:929>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:929>
 				il2cpp_codegen_initobj((&V_10), sizeof(Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11));
 				Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_15 = V_10;
 				RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, (&V_5), (bool)1, L_15, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:931>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:931>
 				GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(1, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:932>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:932>
 				List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380* L_16 = __this->____lines;
 				int32_t L_17 = V_2;
 				int32_t L_18 = L_17;
@@ -10793,35 +10791,35 @@ IL_00b0_1:
 				Line_t9285855CC230085DFDB9A67CBEBE677A8BC24256 L_19;
 				L_19 = List_1_get_Item_m6F4A8C00B4CB5D820922D8D04BADF7FACF2C2FE0(L_16, L_18, List_1_get_Item_m6F4A8C00B4CB5D820922D8D04BADF7FACF2C2FE0_RuntimeMethod_var);
 				V_8 = L_19;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:933>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:933>
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_20 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 				Line_t9285855CC230085DFDB9A67CBEBE677A8BC24256 L_21 = V_8;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = L_21.___a;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 				L_23 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E_inline(L_20, L_22, NULL);
 				GL_Vertex_m54BA6BE5B0E6F856EEE3671D1C59CEF7D5C13B72(L_23, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:934>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:934>
 				Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_24 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 				Line_t9285855CC230085DFDB9A67CBEBE677A8BC24256 L_25 = V_8;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = L_25.___b;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
 				L_27 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E_inline(L_24, L_26, NULL);
 				GL_Vertex_m54BA6BE5B0E6F856EEE3671D1C59CEF7D5C13B72(L_27, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:935>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:935>
 				GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:936>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:936>
 				goto IL_01d2_1;
 			}
 
 IL_0113_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:939>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:939>
 				il2cpp_codegen_initobj((&V_10), sizeof(Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11));
 				Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_28 = V_10;
 				RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, (&V_5), (bool)1, L_28, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:941>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:941>
 				GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(1, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:942>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:942>
 				List_1_tF690857786575320C4620253B8274D3AC883F4F4* L_29 = __this->____wireSpheres;
 				int32_t L_30 = V_3;
 				int32_t L_31 = L_30;
@@ -10830,18 +10828,18 @@ IL_0113_1:
 				WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_32;
 				L_32 = List_1_get_Item_mF96AA86993648A101CD4AF5C0AB010D0C048D9C9(L_29, L_31, List_1_get_Item_mF96AA86993648A101CD4AF5C0AB010D0C048D9C9_RuntimeMethod_var);
 				V_9 = L_32;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:943>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:943>
 				WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_33 = V_9;
 				RuntimeGizmoDrawer_drawWireSphereNow_mEA899813EC96A911D8F58C3A3324ADC163CBF0FC(__this, L_33, (&V_5), NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:944>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:944>
 				GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:945>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:945>
 				goto IL_01d2_1;
 			}
 
 IL_0152_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:948>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:948>
 				bool L_34;
 				L_34 = GL_get_wireframe_m6DC3D40913456AB481BA719570E513DC41815F53(NULL);
 				if (!L_34)
@@ -10850,7 +10848,7 @@ IL_0152_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:950>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:950>
 				il2cpp_codegen_initobj((&V_10), sizeof(Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11));
 				Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_35 = V_10;
 				RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, (&V_5), (bool)1, L_35, NULL);
@@ -10859,7 +10857,7 @@ IL_0152_1:
 
 IL_016e_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:954>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:954>
 				il2cpp_codegen_initobj((&V_10), sizeof(Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11));
 				Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_36 = V_10;
 				RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, (&V_5), (bool)0, L_36, NULL);
@@ -10867,8 +10865,8 @@ IL_016e_1:
 
 IL_0181_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:957>
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:958>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:957>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:958>
 				List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* L_37 = __this->____meshes;
 				int32_t L_38 = V_4;
 				int32_t L_39 = L_38;
@@ -10888,13 +10886,13 @@ IL_0181_1:
 				L_46 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline(L_41, L_45, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 				Graphics_DrawMeshNow_m421C1C4546C4EB772D727AAC58DEC9CCCBF81897(L_40, L_46, NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:959>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:959>
 				goto IL_01d2_1;
 			}
 
 IL_01b5_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:962>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:962>
 				Il2CppFakeBox<int32_t> L_47(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OperationType_tDAB7F007A5546F20B0CA50222A90875E209B9363_il2cpp_TypeInfo_var)), (&V_7));
 				String_t* L_48;
 				L_48 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_47), NULL);
@@ -10907,14 +10905,14 @@ IL_01b5_1:
 
 IL_01d2_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
 				int32_t L_51 = V_6;
 				V_6 = ((int32_t)il2cpp_codegen_add(L_51, 1));
 			}
 
 IL_01d8_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:910>
 				int32_t L_52 = V_6;
 				List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_53 = __this->____operations;
 				NullCheck(L_53);
@@ -10926,7 +10924,7 @@ IL_01d8_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:965>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:965>
 				goto IL_01f3;
 			}
 		}
@@ -10938,31 +10936,31 @@ IL_01d8_1:
 
 IL_01f3:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:970>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:970>
 		return;
 	}
 }
-// Method Definition Index: 65651
+// Method Definition Index: 65672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawLineNow_m3127A113FA130D1DC960BCE300623B7B2A58AC65 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:974>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:974>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E_inline(L_0, L_1, NULL);
 		GL_Vertex_m54BA6BE5B0E6F856EEE3671D1C59CEF7D5C13B72(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:975>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:975>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_3 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Matrix4x4_MultiplyPoint_m20E910B65693559BFDE99382472D8DD02C862E7E_inline(L_3, L_4, NULL);
 		GL_Vertex_m54BA6BE5B0E6F856EEE3671D1C59CEF7D5C13B72(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:976>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:976>
 		return;
 	}
 }
-// Method Definition Index: 65652
+// Method Definition Index: 65673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireArcNow_m2256159B19ECE32DB1C8402F8CC40A5EB4900BF8 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_radialStartDirection, float ___3_radius, float ___4_fractionOfCircleToDraw, int32_t ___5_numCircleSegments, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -10974,41 +10972,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireArcNow_m22561
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:982>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:982>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___1_normal), NULL);
 		___1_normal = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:983>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:983>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___2_radialStartDirection), NULL);
 		float L_2 = ___3_radius;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:985>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:985>
 		int32_t L_4 = ___5_numCircleSegments;
 		float L_5 = ___4_fractionOfCircleToDraw;
 		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_4), L_5)));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:986>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:986>
 		int32_t L_6 = ___5_numCircleSegments;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___1_normal;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
 		L_8 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline(((float)((360.0f)/((float)L_6))), L_7, NULL);
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
 		V_4 = 0;
 		goto IL_0059;
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:989>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:989>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_9, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:991>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:991>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___0_center;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
@@ -11018,17 +11016,17 @@ IL_0035:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_15, L_16, NULL);
 		RuntimeGizmoDrawer_drawLineNow_m3127A113FA130D1DC960BCE300623B7B2A58AC65(__this, L_14, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:993>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:993>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		V_0 = L_18;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:987>
 		int32_t L_20 = V_4;
 		int32_t L_21 = V_2;
 		if ((((int32_t)L_20) < ((int32_t)L_21)))
@@ -11037,17 +11035,17 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:995>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:995>
 		return;
 	}
 }
-// Method Definition Index: 65653
+// Method Definition Index: 65674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setCurrentPassColorIfNew_mEE38A48DC59AAFA6E59EDC6B9EB059A9CC05E2CF (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_desiredColor, int32_t* ___1_curPass, const RuntimeMethod* method) 
 {
 	Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:999>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:999>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____currColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_desiredColor;
 		bool L_2;
@@ -11058,10 +11056,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setCurrentPassColorIf
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1001>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1001>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_desiredColor;
 		__this->____currColor = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1002>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1002>
 		int32_t* L_4 = ___1_curPass;
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11));
 		Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_5 = V_0;
@@ -11070,11 +11068,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setCurrentPassColorIf
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1004>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1004>
 		return;
 	}
 }
-// Method Definition Index: 65654
+// Method Definition Index: 65675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawPlaneSoftenedWireArcNow_m6A367C316475570C84A9984AB80E7FE6A010D762 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_circleNormal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_radialStartDirection, float ___3_radius, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___4_inFrontOfPlaneColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___5_behindPlaneColor, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___6_planeNormal, int32_t* ___7_curPass, float ___8_fractionOfCircleToDraw, int32_t ___9_numCircleSegments, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11104,59 +11102,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawPlaneSoftenedWire
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1017>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1017>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____currColor;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1019>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1019>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___6_planeNormal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_circleNormal;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_1, L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1020>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1020>
 		int32_t L_4 = ___9_numCircleSegments;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_circleNormal;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
 		L_6 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80_inline(((float)((360.0f)/((float)L_4))), L_5, NULL);
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1021>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1021>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___2_radialStartDirection;
 		float L_8 = ___3_radius;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_7, L_8, NULL);
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
 		V_4 = 0;
 		goto IL_00ea;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1024>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1024>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_10, L_11, NULL);
 		V_5 = L_12;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1025>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1025>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___1_circleNormal;
 		float L_16;
 		L_16 = Vector3_SignedAngle_m76C77F9D7BAF5969FA5B7500ED2D5FF9F9FA4153_inline(L_13, L_14, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1026>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1026>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___1_circleNormal;
 		float L_20;
 		L_20 = Vector3_SignedAngle_m76C77F9D7BAF5969FA5B7500ED2D5FF9F9FA4153_inline(L_17, L_18, L_19, NULL);
 		V_6 = L_20;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1027>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1027>
 		V_7 = (bool)((((float)L_16) < ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1028>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1028>
 		float L_21 = V_6;
 		V_8 = (bool)((((float)L_21) < ((float)(0.0f)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1030>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1030>
 		bool L_22 = V_7;
 		bool L_23 = V_8;
 		if ((((int32_t)L_22) == ((int32_t)L_23)))
@@ -11165,29 +11163,29 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1032>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1032>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = ___4_inFrontOfPlaneColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25 = ___5_behindPlaneColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
 		L_26 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_24, L_25, (0.5f), NULL);
 		V_9 = L_26;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1033>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1033>
 		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1034>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1034>
 		int32_t* L_27 = ___7_curPass;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = V_9;
 		Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_29;
 		memset((&L_29), 0, sizeof(L_29));
 		Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3((&L_29), L_28, Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3_RuntimeMethod_var);
 		RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, L_27, (bool)1, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1035>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1035>
 		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(1, NULL);
 		goto IL_00d8;
 	}
 
 IL_0094:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1037>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1037>
 		bool L_30 = V_7;
 		if (!L_30)
 		{
@@ -11195,58 +11193,58 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1039>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1039>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31 = ___4_inFrontOfPlaneColor;
 		V_10 = L_31;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1040>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1040>
 		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1041>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1041>
 		int32_t* L_32 = ___7_curPass;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33 = V_10;
 		Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3((&L_34), L_33, Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3_RuntimeMethod_var);
 		RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, L_32, (bool)1, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1042>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1042>
 		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(1, NULL);
 		goto IL_00d8;
 	}
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1046>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1046>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_35 = ___5_behindPlaneColor;
 		V_11 = L_35;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1047>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1047>
 		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1048>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1048>
 		int32_t* L_36 = ___7_curPass;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_37 = V_11;
 		Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3((&L_38), L_37, Nullable_1__ctor_m1479132C827AFD1E484F6E6D749F74E90BB687D3_RuntimeMethod_var);
 		RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C(__this, L_36, (bool)1, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1049>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1049>
 		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(1, NULL);
 	}
 
 IL_00d8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1052>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1052>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_5;
 		RuntimeGizmoDrawer_drawLineNow_m3127A113FA130D1DC960BCE300623B7B2A58AC65(__this, L_39, L_40, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1054>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1054>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_5;
 		V_3 = L_41;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
 		int32_t L_42 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00ea:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1022>
 		int32_t L_43 = V_4;
 		int32_t L_44 = ___9_numCircleSegments;
 		if ((((int32_t)L_43) < ((int32_t)((int32_t)il2cpp_codegen_add(L_44, 1)))))
@@ -11255,14 +11253,14 @@ IL_00ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1057>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1057>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_45 = V_0;
 		__this->____currColor = L_45;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1058>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1058>
 		return;
 	}
 }
-// Method Definition Index: 65655
+// Method Definition Index: 65676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA899813EC96A911D8F58C3A3324ADC163CBF0FC (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 ___0_wireSphere, int32_t* ___1_curPass, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11290,22 +11288,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1063>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1063>
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_0 = ___0_wireSphere;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1 = L_0.___pose;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = L_1.___position;
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1064>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1064>
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_3 = ___0_wireSphere;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4 = L_3.___pose;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = L_4.___rotation;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1066>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1066>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_6 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline(L_6, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1068>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1068>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9;
 		L_9 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
 		NullCheck(L_9);
@@ -11321,7 +11319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1069>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1069>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_15 = (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)(&__this->____currMatrix);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16;
 		L_16 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD_inline(L_15, NULL);
@@ -11330,9 +11328,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Matrix4x4_MultiplyVector_mFD12F86A473E90BBB0002149ABA3917B2A518937_inline((&V_8), L_17, NULL);
 		V_3 = L_18;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1072>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1073>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1074>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1072>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1073>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1074>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_3;
@@ -11344,33 +11342,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_25 = ___0_wireSphere;
 		int32_t L_26 = L_25.___numSegments;
 		RuntimeGizmoDrawer_drawWireArcNow_m2256159B19ECE32DB1C8402F8CC40A5EB4900BF8(__this, L_19, L_20, L_22, L_24, (1.0f), L_26, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1077>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1077>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27 = L_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
 		L_28 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_27, L_28, NULL);
 		V_4 = L_29;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1078>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1078>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = L_27;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
 		L_32 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_30, L_31, NULL);
 		V_5 = L_32;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1079>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1079>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 		L_34 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_30, L_33, NULL);
 		V_6 = L_34;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1081>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1082>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1083>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1084>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1085>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1086>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1087>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1081>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1082>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1083>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1084>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1085>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1086>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1087>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_4;
@@ -11387,13 +11385,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_47 = ___0_wireSphere;
 		int32_t L_48 = L_47.___numSegments;
 		RuntimeGizmoDrawer_drawPlaneSoftenedWireArcNow_m6A367C316475570C84A9984AB80E7FE6A010D762(__this, L_35, L_36, L_37, L_39, L_40, L_44, L_45, L_46, (1.0f), L_48, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1088>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1089>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1090>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1091>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1092>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1093>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1094>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1088>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1089>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1090>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1091>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1092>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1093>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1094>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_5;
@@ -11410,13 +11408,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_61 = ___0_wireSphere;
 		int32_t L_62 = L_61.___numSegments;
 		RuntimeGizmoDrawer_drawPlaneSoftenedWireArcNow_m6A367C316475570C84A9984AB80E7FE6A010D762(__this, L_49, L_50, L_51, L_53, L_54, L_58, L_59, L_60, (1.0f), L_62, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1095>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1096>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1097>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1098>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1099>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1100>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1095>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1096>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1097>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1098>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1099>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1101>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = V_6;
@@ -11433,11 +11431,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawWireSphereNow_mEA
 		WireSphere_t10461909B2BD0C84B08D9CBEE489347AA05EED46 L_75 = ___0_wireSphere;
 		int32_t L_76 = L_75.___numSegments;
 		RuntimeGizmoDrawer_drawPlaneSoftenedWireArcNow_m6A367C316475570C84A9984AB80E7FE6A010D762(__this, L_63, L_64, L_65, L_67, L_68, L_72, L_73, L_74, (1.0f), L_76, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1102>
 		return;
 	}
 }
-// Method Definition Index: 65656
+// Method Definition Index: 65677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setPass_m87E532C3E3B55927F13707AEBE6C5A230AC92B5C (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, int32_t* ___0_currPass, bool ___1_isUnlit, Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 ___2_desiredCurrColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11450,9 +11448,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setPass_m87E532C3E3B5
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1107>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1108>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1108>
 		bool L_0;
 		L_0 = Nullable_1_get_HasValue_mFAF0B4EEA878E596C80258FE3BDA57CEF40C8D7F_inline((&___2_desiredCurrColor), Nullable_1_get_HasValue_mFAF0B4EEA878E596C80258FE3BDA57CEF40C8D7F_RuntimeMethod_var);
 		if (!L_0)
@@ -11461,14 +11459,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setPass_m87E532C3E3B5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1110>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->____currColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Nullable_1_get_Value_m3FC15B40E747AA6A9F2AB10A00C46ABE84393637((&___2_desiredCurrColor), Nullable_1_get_Value_m3FC15B40E747AA6A9F2AB10A00C46ABE84393637_RuntimeMethod_var);
 		bool L_3;
 		L_3 = Color_op_Inequality_mF1C733BA10E60B086AB950A71143678AE76C4D92_inline(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1111>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		L_4 = Nullable_1_get_Value_m3FC15B40E747AA6A9F2AB10A00C46ABE84393637((&___2_desiredCurrColor), Nullable_1_get_Value_m3FC15B40E747AA6A9F2AB10A00C46ABE84393637_RuntimeMethod_var);
 		__this->____currColor = L_4;
@@ -11476,7 +11474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setPass_m87E532C3E3B5
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1115>
 		bool L_5 = ___1_isUnlit;
 		if (!L_5)
 		{
@@ -11484,7 +11482,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1117>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1117>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_6 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->____currColor);
 		float L_7 = L_6->___a;
 		if ((!(((float)L_7) < ((float)(1.0f)))))
@@ -11493,21 +11491,21 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1119>
 		V_1 = 1;
 		goto IL_0060;
 	}
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1123>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1123>
 		V_1 = 0;
 		goto IL_0060;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1128>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_8 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->____currColor);
 		float L_9 = L_8->___a;
 		if ((!(((float)L_9) < ((float)(1.0f)))))
@@ -11516,20 +11514,20 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1130>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1130>
 		V_1 = 3;
 		goto IL_0060;
 	}
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1134>
 		V_1 = 2;
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1138>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1138>
 		int32_t* L_10 = ___0_currPass;
 		int32_t L_11 = *((int32_t*)L_10);
 		int32_t L_12 = V_1;
@@ -11540,16 +11538,16 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1140>
 		int32_t* L_14 = ___0_currPass;
 		int32_t L_15 = V_1;
 		*((int32_t*)L_14) = (int32_t)L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1141>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = __this->____gizmoMaterial;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17 = __this->____currColor;
 		NullCheck(L_16);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1142>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1142>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = __this->____gizmoMaterial;
 		int32_t* L_19 = ___0_currPass;
 		int32_t L_20 = *((int32_t*)L_19);
@@ -11560,11 +11558,11 @@ IL_0060:
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1144>
 		return;
 	}
 }
-// Method Definition Index: 65657
+// Method Definition Index: 65678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawMeshInternal_mE3674117D313279243B2C866607EE84380B671CF (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_mesh, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_matrix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11577,7 +11575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawMeshInternal_mE36
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1148>
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = ___0_mesh;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11588,7 +11586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawMeshInternal_mE36
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1150>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_2 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral888259FAC05FB5500F85A59B332922CD49C7A667)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeGizmoDrawer_drawMeshInternal_mE3674117D313279243B2C866607EE84380B671CF_RuntimeMethod_var)));
@@ -11596,25 +11594,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_drawMeshInternal_mE36
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1152>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_3 = __this->____operations;
 		NullCheck(L_3);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_3, 5, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1153>
 		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* L_4 = __this->____meshes;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5 = ___0_mesh;
 		NullCheck(L_4);
 		List_1_Add_m0AA44AA37E6B2131E4A3A94A5D1C42F44336D28A_inline(L_4, L_5, List_1_Add_m0AA44AA37E6B2131E4A3A94A5D1C42F44336D28A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1154>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_6 = __this->____matrices;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_7 = ___1_matrix;
 		NullCheck(L_6);
 		List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_inline(L_6, L_7, List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1155>
 		return;
 	}
 }
-// Method Definition Index: 65658
+// Method Definition Index: 65679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setWireMode_m355C0197E02EBB31940D2C417A527A4DB759791D (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, bool ___0_wireMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11624,7 +11622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setWireMode_m355C0197
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1159>
 		bool L_0 = __this->____isInWireMode;
 		bool L_1 = ___0_wireMode;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -11633,22 +11631,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer_setWireMode_m355C0197
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1161>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_2 = __this->____operations;
 		NullCheck(L_2);
 		List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_inline(L_2, 1, List_1_Add_mB195DC919CFF01570D34C575BD0FF4F3600F479D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1162>
 		bool L_3 = ___0_wireMode;
 		__this->____isInWireMode = L_3;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1164>
 		return;
 	}
 }
-// Method Definition Index: 65659
+// Method Definition Index: 65680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer__ctor_m5E539170E7F3C8F749F93F31D99AD5DF0250FE2E (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11673,52 +11671,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer__ctor_m5E539170E7F3C8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:396>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:396>
 		List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA* L_0 = (List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA*)il2cpp_codegen_object_new(List_1_t436A89C39923D343AE32C0CBBBAF69D7D774D8FA_il2cpp_TypeInfo_var);
 		List_1__ctor_mA5DE7731F9C2FA457103C8C0DDA00CF390D2D7DF(L_0, List_1__ctor_mA5DE7731F9C2FA457103C8C0DDA00CF390D2D7DF_RuntimeMethod_var);
 		__this->____operations = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____operations), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:397>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:397>
 		List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452* L_1 = (List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452*)il2cpp_codegen_object_new(List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452_il2cpp_TypeInfo_var);
 		List_1__ctor_m7E96FE86519334BAB0B856C18ACB490B91E293A7(L_1, List_1__ctor_m7E96FE86519334BAB0B856C18ACB490B91E293A7_RuntimeMethod_var);
 		__this->____matrices = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____matrices), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:398>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:398>
 		List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF* L_2 = (List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF*)il2cpp_codegen_object_new(List_1_t242CDEAEC9C92000DA96982CDB9D592DDE2AADAF_il2cpp_TypeInfo_var);
 		List_1__ctor_mE1298EFE02E4CF09A9513D04C6D0FE12C4A5A96D(L_2, List_1__ctor_mE1298EFE02E4CF09A9513D04C6D0FE12C4A5A96D_RuntimeMethod_var);
 		__this->____colors = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____colors), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:399>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:399>
 		List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380* L_3 = (List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380*)il2cpp_codegen_object_new(List_1_t4E6EBE3A1BA49E23F426BBE223E87528BCC7A380_il2cpp_TypeInfo_var);
 		List_1__ctor_mA99E55294BFE23CC61F26CAC470FFFC2B25D4DEB(L_3, List_1__ctor_mA99E55294BFE23CC61F26CAC470FFFC2B25D4DEB_RuntimeMethod_var);
 		__this->____lines = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lines), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:400>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:400>
 		List_1_tF690857786575320C4620253B8274D3AC883F4F4* L_4 = (List_1_tF690857786575320C4620253B8274D3AC883F4F4*)il2cpp_codegen_object_new(List_1_tF690857786575320C4620253B8274D3AC883F4F4_il2cpp_TypeInfo_var);
 		List_1__ctor_mFA6613B24D4F7A4E7454D7A054584D19A37781E0(L_4, List_1__ctor_mFA6613B24D4F7A4E7454D7A054584D19A37781E0_RuntimeMethod_var);
 		__this->____wireSpheres = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____wireSpheres), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:401>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:401>
 		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* L_5 = (List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4*)il2cpp_codegen_object_new(List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4_il2cpp_TypeInfo_var);
 		List_1__ctor_mCE9A346DD934EB013274F9CABE1C5B887A7B7D47(L_5, List_1__ctor_mCE9A346DD934EB013274F9CABE1C5B887A7B7D47_RuntimeMethod_var);
 		__this->____meshes = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____meshes), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:403>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:403>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
 		L_6 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		__this->____currColor = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:404>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:404>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_7;
 		L_7 = Matrix4x4_get_identity_m6568A73831F3E2D587420D20FF423959D7D8AB56_inline(NULL);
 		__this->____currMatrix = L_7;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:405>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:405>
 		Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E* L_8 = (Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E*)il2cpp_codegen_object_new(Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E_il2cpp_TypeInfo_var);
 		Stack_1__ctor_mE8BC3D8693065B793B1A0CA19DA48B1F049CB940(L_8, Stack_1__ctor_mE8BC3D8693065B793B1A0CA19DA48B1F049CB940_RuntimeMethod_var);
 		__this->____matrixStack = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____matrixStack), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:409>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:409>
 		__this->____operationCountOnGuard = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:700>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:700>
 		List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* L_9 = (List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252*)il2cpp_codegen_object_new(List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252_il2cpp_TypeInfo_var);
 		List_1__ctor_m0CDD6F02F45026B4267E7117C5DDC188F87EE7BE(L_9, List_1__ctor_m0CDD6F02F45026B4267E7117C5DDC188F87EE7BE_RuntimeMethod_var);
 		__this->____colliderList = L_9;
@@ -11743,17 +11741,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoDrawer__ctor_m5E539170E7F3C8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65660
+// Method Definition Index: 65681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Line__ctor_mF3583772CDDA26D45BD63424DEE32EB0A783D561 (Line_t9285855CC230085DFDB9A67CBEBE677A8BC24256* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1182>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		__this->___a = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1183>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_b;
 		__this->___b = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1184>
 		return;
 	}
 }
@@ -11780,17 +11778,17 @@ IL2CPP_EXTERN_C  void Line__ctor_mF3583772CDDA26D45BD63424DEE32EB0A783D561_Adjus
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65661
+// Method Definition Index: 65682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawPose_mB39D01556781AE7662576EAB7D5798FB21C74215 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* ___0_drawer, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_pose, float ___2_radius, bool ___3_drawCube, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1202>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_0 = ___0_drawer;
 		NullCheck(L_0);
 		RuntimeGizmoDrawer_PushMatrix_mA14DA389371B932430D18DF0535E0979D0EB2735(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1204>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1204>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_1 = ___0_drawer;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___1_pose;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
@@ -11802,13 +11800,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawPose_mB39D015
 		L_7 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_3, L_5, L_6, NULL);
 		NullCheck(L_1);
 		RuntimeGizmoDrawer_set_matrix_m307FDBF503CA38EADF7780E7698FC64E90F66E61(L_1, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1206>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_8 = ___0_drawer;
 		NullCheck(L_8);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		L_9 = RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline(L_8, NULL);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1209>
 		bool L_10 = ___3_drawCube;
 		if (!L_10)
 		{
@@ -11816,7 +11814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawPose_mB39D015
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1211>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_11 = ___0_drawer;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -11833,31 +11831,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawPose_mB39D015
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1213>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1213>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_17 = ___0_drawer;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		float L_19 = ___2_radius;
 		NullCheck(L_17);
 		RuntimeGizmoDrawer_DrawPosition_m5D975D6E8F578F5AD99813D4238AB38F191498B8(L_17, L_18, ((float)il2cpp_codegen_multiply(L_19, (2.0f))), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1215>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_20 = ___0_drawer;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21 = V_0;
 		NullCheck(L_20);
 		RuntimeGizmoDrawer_set_color_m9701C6E0CA2901BE1F3EDB406A7BBB696813B819(L_20, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1217>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1217>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_22 = ___0_drawer;
 		NullCheck(L_22);
 		RuntimeGizmoDrawer_PopMatrix_m02B02804D31504E184B4A1F7A448629C59C3E38A(L_22, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1218>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1218>
 		return;
 	}
 }
-// Method Definition Index: 65662
+// Method Definition Index: 65683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawRay_mB47CF84381D43038821F383DAC8D078AD9DF7A10 (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* ___0_drawer, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_direction, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1223>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1223>
 		RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* L_0 = ___0_drawer;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_position;
@@ -11866,7 +11864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawRay_mB47CF843
 		L_4 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2, L_3, NULL);
 		NullCheck(L_0);
 		RuntimeGizmoDrawer_DrawLine_m7DAF008511D015A52C8784CACE050E2C7D4E5E48(L_0, L_1, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:1224>
 		return;
 	}
 }
@@ -11878,15 +11876,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoExtensions_DrawRay_mB47CF843
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65663
+// Method Definition Index: 65684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoToggle_OnEnable_m7391C042666B0A6D47BD70FFCA77D2E1CDF1E34B (RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoToggle.cs:23>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoToggle.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 65664
+// Method Definition Index: 65685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoToggle__ctor_mA3A78E60EABC754EDDC34D22807425D276F99E13 (RuntimeGizmoToggle_t55F145FEAE24DA89828EDB28E1C4DB5EF7FD00FC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11902,19 +11900,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeGizmoToggle__ctor_mA3A78E60EABC75
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65665
+// Method Definition Index: 65686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreCollisionsInChildren_Start_m64B44C0A5696ADA496FB18433B125BCECD7FEDD7 (IgnoreCollisionsInChildren_t556539E495526E06722E80B690DDE9DA12B1F34F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		IgnoreCollisionsInChildren_IgnoreCollisionsInChildrenOf_m8BC9D518772FFB5948144A203ACAB3BED325C7D9(L_0, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:32>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 65666
+// Method Definition Index: 65687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreCollisionsInChildren_IgnoreCollisionsInChildrenOf_m8BC9D518772FFB5948144A203ACAB3BED325C7D9 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_ignore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11928,27 +11926,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreCollisionsInChildren_IgnoreCollisi
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:36>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		NullCheck(L_0);
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_1;
 		L_1 = Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m6FCDC69D916F8EB31E6219C8FB86B8BD98D146B3(L_0, (bool)1, Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m6FCDC69D916F8EB31E6219C8FB86B8BD98D146B3_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
 		V_1 = 0;
 		goto IL_002e;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
 		V_2 = 0;
 		goto IL_0024;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:41>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:41>
 		int32_t L_2 = V_1;
 		int32_t L_3 = V_2;
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
@@ -11957,7 +11955,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:43>
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
@@ -11975,14 +11973,14 @@ IL_0010:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
 		int32_t L_13 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:39>
 		int32_t L_14 = V_2;
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_15 = V_0;
 		NullCheck(L_15);
@@ -11992,14 +11990,14 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:37>
 		int32_t L_17 = V_1;
 		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_18 = V_0;
 		NullCheck(L_18);
@@ -12009,11 +12007,11 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:46>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/IgnoreCollisionsInChildren.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 65667
+// Method Definition Index: 65688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreCollisionsInChildren__ctor_m237F0228CD73B72A6321CDE97D38C8C002D48698 (IgnoreCollisionsInChildren_t556539E495526E06722E80B690DDE9DA12B1F34F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12029,11 +12027,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreCollisionsInChildren__ctor_m237F02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65670
+// Method Definition Index: 65691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 VectorHand_get_palmPose_mD326AE4DDA7F7088D18A27D8689B7630E8A40F28 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:54>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:54>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___palmPos;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = __this->___palmRot;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
@@ -12042,7 +12040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		return L_2;
 	}
 }
-// Method Definition Index: 65671
+// Method Definition Index: 65692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12052,8 +12050,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:65>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:66>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:66>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = __this->____backingJointPositions;
 		if (!L_0)
 		{
@@ -12071,7 +12069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:68>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)25));
 		__this->____backingJointPositions = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____backingJointPositions), (void*)L_2);
@@ -12079,63 +12077,63 @@ IL_0014:
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:70>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->____backingJointPositions;
 		return L_3;
 	}
 }
-// Method Definition Index: 65672
+// Method Definition Index: 65693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__ctor_m7B4DC35D41FB6A85FFDBABF244E26ED5AE7F4C31 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:87>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 65673
+// Method Definition Index: 65694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__ctor_mC2BF889972D87B455FD3760BFE319A4845DF2C74 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:95>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:95>
 		VectorHand__ctor_m7B4DC35D41FB6A85FFDBABF244E26ED5AE7F4C31(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:97>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_hand;
 		VectorHand_Encode_mC70BE8FF99DCE7CB1D088AF19913CA60399ACC9D(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 65674
+// Method Definition Index: 65695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__ctor_m9B67A0E57854D92614D6EC923E3C6D9E483BA7F4 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, bool ___0_isLeft, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_palmPos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_palmRot, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___3_jointPositions, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:100>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:102>
 		bool L_0 = ___0_isLeft;
 		__this->___isLeft = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:103>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_palmPos;
 		__this->___palmPos = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:104>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:104>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_palmRot;
 		__this->___palmRot = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:105>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = ___3_jointPositions;
 		__this->____backingJointPositions = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____backingJointPositions), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:106>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 65675
+// Method Definition Index: 65696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* VectorHand_CopyFrom_m1C49ECC7BDD4873BE93F5B023051D036F64C5C2E (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* ___0_h, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:113>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:113>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_0 = ___0_h;
 		if (!L_0)
 		{
@@ -12143,29 +12141,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC96
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_1 = ___0_h;
 		NullCheck(L_1);
 		bool L_2 = L_1->___isLeft;
 		__this->___isLeft = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_3 = ___0_h;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3->___palmPos;
 		__this->___palmPos = L_4;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:115>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_5 = ___0_h;
 		NullCheck(L_5);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5->___palmRot;
 		__this->___palmRot = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
 		V_0 = 0;
 		goto IL_0047;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:117>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:117>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = __this->____backingJointPositions;
 		int32_t L_8 = V_0;
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_9 = ___0_h;
@@ -12178,14 +12176,14 @@ IL_002b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_13);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
 		int32_t L_14 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:116>
 		int32_t L_15 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16;
 		L_16 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
@@ -12198,11 +12196,11 @@ IL_0047:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:119>
 		return __this;
 	}
 }
-// Method Definition Index: 65676
+// Method Definition Index: 65697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_Encode_mC70BE8FF99DCE7CB1D088AF19913CA60399ACC9D (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_fromHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12219,32 +12217,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_Encode_mC70BE8FF99DCE7CB1D088
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:130>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:130>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_fromHand;
 		NullCheck(L_0);
 		bool L_1 = L_0->___IsLeft;
 		__this->___isLeft = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:131>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_2 = ___0_fromHand;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2->___PalmPosition;
 		__this->___palmPos = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:132>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_4 = ___0_fromHand;
 		NullCheck(L_4);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = L_4->___Rotation;
 		__this->___palmRot = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:134>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:134>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
 		V_1 = 0;
 		goto IL_00ad;
 	}
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:137>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:138>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:138>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_6 = ___0_fromHand;
 		NullCheck(L_6);
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_7 = L_6->___fingers;
@@ -12265,7 +12263,7 @@ IL_002d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = VectorHand_ToLocal_mB45C8B8F58C5A96AE47BFA159DF87EC6F3315F14(L_14, L_15, L_16, NULL);
 		V_2 = L_17;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:139>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_18;
 		L_18 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_19 = V_0;
@@ -12274,15 +12272,15 @@ IL_002d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_2;
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_21);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
 		V_3 = 0;
 		goto IL_00a5;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:142>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:142>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:143>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_22 = ___0_fromHand;
 		NullCheck(L_22);
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_23 = L_22->___fingers;
@@ -12304,7 +12302,7 @@ IL_0068:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 		L_34 = VectorHand_ToLocal_mB45C8B8F58C5A96AE47BFA159DF87EC6F3315F14(L_31, L_32, L_33, NULL);
 		V_4 = L_34;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:144>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_35;
 		L_35 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_36 = V_0;
@@ -12313,14 +12311,14 @@ IL_0068:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_4;
 		NullCheck(L_35);
 		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_37), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_38);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
 		int32_t L_39 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_00a5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:140>
 		int32_t L_40 = V_3;
 		if ((((int32_t)L_40) < ((int32_t)4)))
 		{
@@ -12328,14 +12326,14 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
 		int32_t L_41 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_41, 1));
 	}
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:135>
 		int32_t L_42 = V_1;
 		if ((((int32_t)L_42) < ((int32_t)5)))
 		{
@@ -12343,11 +12341,11 @@ IL_00ad:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:147>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:147>
 		return;
 	}
 }
-// Method Definition Index: 65677
+// Method Definition Index: 65698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_Decode_m0341F2651DB450996D8363076FD80C95ECABB7E4 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_intoHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12416,39 +12414,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_Decode_m0341F2651DB450996D836
 	int64_t G_B26_1 = 0;
 	Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* G_B26_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:160>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:161>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:162>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_2 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:163>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		V_3 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
 		V_5 = 0;
 		goto IL_01be;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
 		V_6 = 0;
 		goto IL_016b;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:170>
 		int32_t L_3 = V_5;
 		int32_t L_4 = V_6;
 		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_3, 4)), L_4));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:171>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5;
 		L_5 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_6 = V_5;
@@ -12457,7 +12455,7 @@ IL_0024:
 		int32_t L_8 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_6, 5)), L_7));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:172>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10;
 		L_10 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_11 = V_5;
@@ -12466,7 +12464,7 @@ IL_0024:
 		int32_t L_13 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_11, 5)), L_12)), 1));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:174>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
@@ -12484,7 +12482,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:177>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21;
 		L_21 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		V_3 = L_21;
@@ -12493,12 +12491,12 @@ IL_0024:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:181>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:182>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:183>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:184>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:185>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:186>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
@@ -12575,7 +12573,7 @@ IL_00bc:
 
 IL_00c7:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:190>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = __this->___palmPos;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = __this->___palmRot;
@@ -12583,20 +12581,20 @@ IL_00c7:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
 		L_41 = VectorHand_ToWorld_mACE30E041E9151C8FF7D3B9250539E61BAAAA249(L_38, L_39, L_40, NULL);
 		V_2 = L_41;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:191>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = __this->___palmPos;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = __this->___palmRot;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
 		L_45 = VectorHand_ToWorld_mACE30E041E9151C8FF7D3B9250539E61BAAAA249(L_42, L_43, L_44, NULL);
 		V_1 = L_45;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:192>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:192>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = __this->___palmRot;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47 = V_3;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48;
 		L_48 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_46, L_47, NULL);
 		V_3 = L_48;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:194>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:194>
 		int32_t L_49 = V_5;
 		if (L_49)
 		{
@@ -12611,7 +12609,7 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:196>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_51 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_52 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_StaticFields*)il2cpp_codegen_static_fields_for(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___ThumbMetacarpalRotationOffset;
@@ -12653,15 +12651,15 @@ IL_0113:
 
 IL_011e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:199>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:200>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:201>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:202>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:203>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:204>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:205>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:206>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:207>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:200>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:201>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:204>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:205>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:207>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_58 = ___0_intoHand;
 		int32_t L_59 = V_0;
 		Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* L_60;
@@ -12691,14 +12689,14 @@ IL_011e:
 		int32_t L_75 = V_6;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_76 = V_3;
 		HandUtils_Fill_mB2727CC4C0B6EDC9A75DD01A35DBC5B820045AB0(L_60, L_61, L_62, L_66, L_70, L_74, (0.00999999978f), L_75, L_76, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
 		int32_t L_77 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_77, 1));
 	}
 
 IL_016b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:168>
 		int32_t L_78 = V_6;
 		if ((((int32_t)L_78) < ((int32_t)4)))
 		{
@@ -12706,17 +12704,17 @@ IL_016b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:209>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:210>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:211>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:212>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:213>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:214>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:215>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:216>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:217>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:218>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:219>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:209>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:211>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:212>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:213>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:214>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:216>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:217>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:218>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:219>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_79 = ___0_intoHand;
 		NullCheck(L_79);
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_80 = L_79->___fingers;
@@ -12761,14 +12759,14 @@ IL_018a:
 		L_90 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		int32_t L_91 = V_5;
 		HandUtils_Fill_mFA7165A81E5E32EC69D499168FA096C7883F0679(G_B21_2, G_B21_1, G_B21_0, L_85, (10.0f), L_86, L_90, (1.0f), (1.0f), (bool)1, L_91, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, (Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
 		int32_t L_92 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_92, 1));
 	}
 
 IL_01be:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:166>
 		int32_t L_93 = V_5;
 		if ((((int32_t)L_93) < ((int32_t)5)))
 		{
@@ -12776,13 +12774,13 @@ IL_01be:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:223>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:224>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:225>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:226>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:227>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:228>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:229>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:223>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:224>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:226>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:228>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:229>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_94 = ___0_intoHand;
 		NullCheck(L_94);
 		Arm_t815E7BECAD3D441AB95AC4BDD2246EB79853F14F* L_95 = L_94->___Arm;
@@ -12812,37 +12810,37 @@ IL_01be:
 		L_108 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_109 = __this->___palmRot;
 		HandUtils_Fill_mD06999362C6205DBE6B5998EC192A73C7DDF7E47(L_95, L_99, L_103, L_107, L_108, (0.300000012f), (0.0500000007f), L_109, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:232>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:232>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110 = __this->___palmPos;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_111 = __this->___palmRot;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_112;
 		memset((&L_112), 0, sizeof(L_112));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_112), L_110, L_111, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:234>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:234>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_113 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_StaticFields*)il2cpp_codegen_static_fields_for(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___tweakWristPosition;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_114;
 		L_114 = PoseExtensions_mul_m22C4DA1AD6AC838AAE62AA9AC56409C8D71D0A45(L_112, L_113, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_115 = L_114.___position;
 		V_4 = L_115;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:235>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:236>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:237>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:238>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:239>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:240>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:241>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:242>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:243>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:244>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:245>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:246>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:247>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:248>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:249>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:250>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:251>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:252>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:253>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:235>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:237>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:238>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:239>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:240>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:241>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:242>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:245>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:246>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:247>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:248>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:249>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:250>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:251>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:252>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:253>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_116 = ___0_intoHand;
 		bool L_117 = __this->___isLeft;
 		if (L_117)
@@ -12888,30 +12886,30 @@ IL_0286:
 		L_128 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_126, L_127, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129 = V_4;
 		HandUtils_Fill_mF151547C3CCA73E79266287EF382BCB5A24CD4C4(G_B26_2, G_B26_1, G_B26_0, (1.0f), (0.5f), (0.5f), (50.0f), (0.0850000009f), L_118, (1.0f), (FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481*)NULL, L_119, L_120, L_121, L_124, L_125, L_128, L_129, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:255>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:255>
 		return;
 	}
 }
-// Method Definition Index: 65678
+// Method Definition Index: 65699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VectorHand_get_numBytesRequired_mC5AE1B21CF80DCA0A341C0805E01C375A1FFF31A (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:269>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:269>
 		return ((int32_t)86);
 	}
 }
-// Method Definition Index: 65679
+// Method Definition Index: 65700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_ReadBytes_m6C475D535641A8A96A57794E8C11997C595A0822 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t ___1_offset, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:278>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:278>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		VectorHand_ReadBytes_m11766DE0DB889BA31986CD6AA46C52D92FA73B5D(__this, L_0, (&___1_offset), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:279>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:279>
 		return;
 	}
 }
-// Method Definition Index: 65680
+// Method Definition Index: 65701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_ReadBytes_m11766DE0DB889BA31986CD6AA46C52D92FA73B5D (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t* ___1_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12938,7 +12936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_ReadBytes_m11766DE0DB889BA319
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B4_2 = NULL;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B4_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:287>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:287>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		NullCheck(L_0);
 		int32_t* L_1 = ___1_offset;
@@ -12951,10 +12949,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_ReadBytes_m11766DE0DB889BA319
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:289>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:290>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:291>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:292>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:290>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:292>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
 		NullCheck(L_5);
@@ -13030,7 +13028,7 @@ IL_003c:
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:296>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = ___0_bytes;
 		int32_t* L_22 = ___1_offset;
 		int32_t* L_23 = ___1_offset;
@@ -13043,16 +13041,16 @@ IL_0069:
 		int32_t L_27 = L_26;
 		uint8_t L_28 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
 		__this->___isLeft = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
 		V_1 = 0;
 		goto IL_00a3;
 	}
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:301>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:302>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:302>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:303>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_29 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___palmPos);
 		int32_t L_30 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_31 = ___0_bytes;
@@ -13063,14 +13061,14 @@ IL_0081:
 		float L_34;
 		L_34 = Convert_ToSingle_m1FE68C7536D0D2D074E862D398F6D6BCD7B5959C(L_33, NULL);
 		Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_inline(L_29, L_30, ((float)(L_34/(4096.0f))), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
 		int32_t L_35 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00a3:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:299>
 		int32_t L_36 = V_1;
 		if ((((int32_t)L_36) < ((int32_t)3)))
 		{
@@ -13078,28 +13076,28 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:305>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:305>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = ___0_bytes;
 		int32_t* L_38 = ___1_offset;
 		il2cpp_codegen_runtime_class_init_inline(Utils_t428B11E8BF4003BA0CCE68EA2AAAE3A306B1CFB4_il2cpp_TypeInfo_var);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_39;
 		L_39 = Utils_DecompressBytesToQuat_m09C15EBA93DF021157FC4D6B27A3256E51404EB8(L_37, L_38, NULL);
 		__this->___palmRot = L_39;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
 		V_2 = 0;
 		goto IL_00ef;
 	}
 
 IL_00b8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
 		V_3 = 0;
 		goto IL_00e7;
 	}
 
 IL_00bc:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:312>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:312>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_40;
 		L_40 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_41 = V_2;
@@ -13119,14 +13117,14 @@ IL_00bc:
 		float L_51;
 		L_51 = VectorHandExtensions_ByteToFloat_m1BC877AEE8845E2FAE3FFAF510B606441574FE67(L_50, (0.300000012f), NULL);
 		Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_inline(((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_41))), L_42, L_51, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
 		int32_t L_52 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
 IL_00e7:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:310>
 		int32_t L_53 = V_3;
 		if ((((int32_t)L_53) < ((int32_t)3)))
 		{
@@ -13134,14 +13132,14 @@ IL_00e7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
 		int32_t L_54 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_54, 1));
 	}
 
 IL_00ef:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:308>
 		int32_t L_55 = V_2;
 		if ((((int32_t)L_55) < ((int32_t)((int32_t)25))))
 		{
@@ -13149,11 +13147,11 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:315>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:315>
 		return;
 	}
 }
-// Method Definition Index: 65681
+// Method Definition Index: 65702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m9D2A82071522A57C4A12B7E338D2E163A4BF93F8 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytesToFill, int32_t* ___1_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13175,7 +13173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m9D2A82071522A57C4A
 	int32_t G_B7_1 = 0;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B7_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:326>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:326>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = __this->____backingJointPositions;
 		if (L_0)
 		{
@@ -13183,9 +13181,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m9D2A82071522A57C4A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:328>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:329>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:330>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:328>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:329>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:330>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_1 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEDCA091ABA8073815841C8654D6DF50E24EA3152)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VectorHand_FillBytes_m9D2A82071522A57C4A12B7E338D2E163A4BF93F8_RuntimeMethod_var)));
@@ -13193,7 +13191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m9D2A82071522A57C4A
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:333>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:333>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___0_bytesToFill;
 		NullCheck(L_2);
 		int32_t* L_3 = ___1_offset;
@@ -13206,10 +13204,10 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:335>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:336>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:337>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:338>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:336>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:337>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:338>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		NullCheck(L_7);
@@ -13254,7 +13252,7 @@ IL_0013:
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:342>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:342>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = ___0_bytesToFill;
 		int32_t* L_23 = ___1_offset;
 		int32_t* L_24 = ___1_offset;
@@ -13291,16 +13289,16 @@ IL_0090:
 	{
 		NullCheck(G_B7_2);
 		(G_B7_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B7_1), (uint8_t)G_B7_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
 		V_1 = 0;
 		goto IL_00b7;
 	}
 
 IL_0095:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:347>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:348>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:349>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:347>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:348>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:349>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_29 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___palmPos);
 		int32_t L_30 = V_1;
 		float L_31;
@@ -13311,14 +13309,14 @@ IL_0095:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_33 = ___0_bytesToFill;
 		int32_t* L_34 = ___1_offset;
 		BitConverterNonAlloc_GetBytes_m7EB0CE005ACD3393FC9C71BC4F50CB986EFCC934(L_32, L_33, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
 		int32_t L_35 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00b7:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:345>
 		int32_t L_36 = V_1;
 		if ((((int32_t)L_36) < ((int32_t)3)))
 		{
@@ -13326,28 +13324,28 @@ IL_00b7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:353>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:353>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37 = __this->___palmRot;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_38 = ___0_bytesToFill;
 		int32_t* L_39 = ___1_offset;
 		il2cpp_codegen_runtime_class_init_inline(Utils_t428B11E8BF4003BA0CCE68EA2AAAE3A306B1CFB4_il2cpp_TypeInfo_var);
 		Utils_CompressQuatToBytes_m69E70BC49B3AB544072DB56AEDDD3413D82AABDD(L_37, L_38, L_39, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
 		V_2 = 0;
 		goto IL_0103;
 	}
 
 IL_00cc:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
 		V_3 = 0;
 		goto IL_00fb;
 	}
 
 IL_00d0:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:360>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:361>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:360>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:361>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_40 = ___0_bytesToFill;
 		int32_t* L_41 = ___1_offset;
 		int32_t* L_42 = ___1_offset;
@@ -13367,14 +13365,14 @@ IL_00d0:
 		L_50 = VectorHandExtensions_FloatToByte_mC9AAD39EE1B90CE23AFC855E2D846067AA4DE232(L_49, (0.300000012f), NULL);
 		NullCheck(L_40);
 		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(L_45), (uint8_t)L_50);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
 		int32_t L_51 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_51, 1));
 	}
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:358>
 		int32_t L_52 = V_3;
 		if ((((int32_t)L_52) < ((int32_t)3)))
 		{
@@ -13382,14 +13380,14 @@ IL_00fb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
 		int32_t L_53 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_53, 1));
 	}
 
 IL_0103:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:356>
 		int32_t L_54 = V_2;
 		if ((((int32_t)L_54) < ((int32_t)((int32_t)25))))
 		{
@@ -13397,45 +13395,45 @@ IL_0103:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:364>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:364>
 		return;
 	}
 }
-// Method Definition Index: 65682
+// Method Definition Index: 65703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m926179570E60B12AB45627162EF77C3BB33CCEA5 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytesToFill, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:374>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:374>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:375>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:375>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytesToFill;
 		VectorHand_FillBytes_m9D2A82071522A57C4A12B7E338D2E163A4BF93F8(__this, L_0, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:376>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:376>
 		return;
 	}
 }
-// Method Definition Index: 65683
+// Method Definition Index: 65704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_ReadBytes_mDFF28C05A3A7EA320763AB5A86556FBCDE9B0794 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t* ___1_offset, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___2_intoHand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:385>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:385>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		int32_t* L_1 = ___1_offset;
 		VectorHand_ReadBytes_m11766DE0DB889BA31986CD6AA46C52D92FA73B5D(__this, L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:386>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:386>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_2 = ___2_intoHand;
 		VectorHand_Decode_m0341F2651DB450996D8363076FD80C95ECABB7E4(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:387>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:387>
 		return;
 	}
 }
-// Method Definition Index: 65684
+// Method Definition Index: 65705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m02575578CD077070DE2E0729E0A2C19B5F93369E (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t* ___1_offset, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___2_fromHand, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:396>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:396>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___2_fromHand;
 		if (L_0)
 		{
@@ -13443,7 +13441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m02575578CD077070DE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
 		int32_t* L_1 = ___1_offset;
 		int32_t L_2 = *((int32_t*)L_1);
 		V_0 = L_2;
@@ -13452,19 +13450,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_FillBytes_m02575578CD077070DE
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:400>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:400>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_bytes;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(L_4), (uint8_t)0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:398>
 		int32_t L_6 = V_0;
 		int32_t* L_7 = ___1_offset;
 		int32_t L_8 = *((int32_t*)L_7);
@@ -13479,18 +13477,18 @@ IL_0010:
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:405>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:405>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_9 = ___2_fromHand;
 		VectorHand_Encode_mC70BE8FF99DCE7CB1D088AF19913CA60399ACC9D(__this, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:406>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:406>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = ___0_bytes;
 		int32_t* L_11 = ___1_offset;
 		VectorHand_FillBytes_m9D2A82071522A57C4A12B7E338D2E163A4BF93F8(__this, L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:408>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:408>
 		return;
 	}
 }
-// Method Definition Index: 65685
+// Method Definition Index: 65706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* VectorHand_get_s_cachedVectorHand_mD72C1F2B8288B9021FD80B6CD361EF628912F89A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13500,7 +13498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC96
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:416>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:416>
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_0 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingCachedVectorHand;
 		if (L_0)
@@ -13509,7 +13507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC96
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:418>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:418>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_1 = (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2*)il2cpp_codegen_object_new(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand__ctor_m7B4DC35D41FB6A85FFDBABF244E26ED5AE7F4C31(L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
@@ -13519,13 +13517,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VectorHand_t3351179B54DF7FB3360BA4759C62BEC96
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:420>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:420>
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_2 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingCachedVectorHand;
 		return L_2;
 	}
 }
-// Method Definition Index: 65686
+// Method Definition Index: 65707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* VectorHand_get_s_jointsBuffer_m551E58DA8C2D4774F7DF86C7AF931B77FE99B330 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13536,7 +13534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:430>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:430>
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingJointsBuffer;
 		if (L_0)
@@ -13545,7 +13543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:432>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:432>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)25));
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingJointsBuffer = L_1;
@@ -13554,13 +13552,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:434>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:434>
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = ((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingJointsBuffer;
 		return L_2;
 	}
 }
-// Method Definition Index: 65687
+// Method Definition Index: 65708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_m76F5E03FCC051ABFDA599F44A1F2FF8383C5EEF0 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___1_fromHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13570,16 +13568,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_m76F5E03FCC05
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:445>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:445>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_1 = ___1_fromHand;
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand_StaticFillBytes_m5DF6D60FF7AB2FA1B5F51806DF36DD1B470CEA86(L_0, 0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:446>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:446>
 		return;
 	}
 }
-// Method Definition Index: 65688
+// Method Definition Index: 65709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_m5DF6D60FF7AB2FA1B5F51806DF36DD1B470CEA86 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t ___1_offset, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___2_fromHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13589,16 +13587,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_m5DF6D60FF7AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:455>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:455>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_1 = ___2_fromHand;
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand_StaticFillBytes_mA2A416214963E8DCDFCE38CCDE2EEACF38092155(L_0, (&___1_offset), L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:456>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:456>
 		return;
 	}
 }
-// Method Definition Index: 65689
+// Method Definition Index: 65710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_mA2A416214963E8DCDFCE38CCDE2EEACF38092155 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t* ___1_offset, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___2_fromHand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13608,7 +13606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_mA2A416214963
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:466>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:466>
 		il2cpp_codegen_runtime_class_init_inline(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var);
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_0;
 		L_0 = VectorHand_get_s_cachedVectorHand_mD72C1F2B8288B9021FD80B6CD361EF628912F89A(NULL);
@@ -13617,7 +13615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_mA2A416214963
 		NullCheck(L_0);
 		L_0->____backingJointPositions = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->____backingJointPositions), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:467>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:467>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_2;
 		L_2 = VectorHand_get_s_cachedVectorHand_mD72C1F2B8288B9021FD80B6CD361EF628912F89A(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_bytes;
@@ -13625,15 +13623,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand_StaticFillBytes_mA2A416214963
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_5 = ___2_fromHand;
 		NullCheck(L_2);
 		VectorHand_FillBytes_m02575578CD077070DE2E0729E0A2C19B5F93369E(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:468>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:468>
 		return;
 	}
 }
-// Method Definition Index: 65690
+// Method Definition Index: 65711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 VectorHand_ToWorld_mACE30E041E9151C8FF7D3B9250539E61BAAAA249 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_localPoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_localOrigin, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_localRot, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:481>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:481>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___2_localRot;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_localPoint;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -13644,11 +13642,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 65691
+// Method Definition Index: 65712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 VectorHand_ToLocal_mB45C8B8F58C5A96AE47BFA159DF87EC6F3315F14 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_localOrigin, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_localRot, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:491>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:491>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___2_localRot;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline(L_0, NULL);
@@ -13661,12 +13659,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_5;
 	}
 }
-// Method Definition Index: 65692
+// Method Definition Index: 65713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VectorHand_FillLerped_m77FAAD0F81173DEDC3D35014AAAFBC509966EA54 (VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* __this, VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* ___0_a, VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:504>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:504>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_0 = ___0_a;
 		if (!L_0)
 		{
@@ -13683,13 +13681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VectorHand_FillLerped_m77FAAD0F81173DEDC
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:504>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:504>
 		return (bool)0;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:505>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:505>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_2 = ___0_a;
 		NullCheck(L_2);
 		bool L_3 = L_2->___isLeft;
@@ -13702,8 +13700,8 @@ IL_0008:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:507>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:508>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:507>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:508>
 		Exception_t* L_6 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC93E939657D1934FA225E244831D9F5A374DAD42)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VectorHand_FillLerped_m77FAAD0F81173DEDC3D35014AAAFBC509966EA54_RuntimeMethod_var)));
@@ -13711,12 +13709,12 @@ IL_0008:
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:510>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:510>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_7 = ___0_a;
 		NullCheck(L_7);
 		bool L_8 = L_7->___isLeft;
 		__this->___isLeft = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:511>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:511>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_9 = ___0_a;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9->___palmPos;
@@ -13727,7 +13725,7 @@ IL_0021:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_LerpUnclamped_m4109A459C1DB823310A10B8B1E80CB6877418347_inline(L_10, L_12, L_13, NULL);
 		__this->___palmPos = L_14;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:512>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:512>
 		VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2* L_15 = ___0_a;
 		NullCheck(L_15);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = L_15->___palmRot;
@@ -13738,15 +13736,15 @@ IL_0021:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
 		L_20 = Quaternion_SlerpUnclamped_mAE7F4DF2F239831CCAA1DFB52F313E5AED52D32D_inline(L_16, L_18, L_19, NULL);
 		__this->___palmRot = L_20;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
 		V_0 = 0;
 		goto IL_008f;
 	}
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:515>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:516>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:515>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:516>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21;
 		L_21 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
 		int32_t L_22 = V_0;
@@ -13771,14 +13769,14 @@ IL_0061:
 		L_34 = Vector3_LerpUnclamped_m4109A459C1DB823310A10B8B1E80CB6877418347_inline(L_27, L_32, L_33, NULL);
 		NullCheck(L_21);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_34);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
 		int32_t L_35 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_008f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:513>
 		int32_t L_36 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_37;
 		L_37 = VectorHand_get_jointPositions_m06CF48E704842386B03DA93FEBAF20AEFB95D8D2(__this, NULL);
@@ -13789,11 +13787,11 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:518>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:518>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 65693
+// Method Definition Index: 65714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__cctor_m366571097C02688D0F83B6BB6A2BAC08F63E022B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13805,11 +13803,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__cctor_m366571097C02688D0F83B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:75>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:76>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:77>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:78>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:79>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:76>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:79>
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_0 = (QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)SZArrayNew(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var, (uint32_t)2);
 		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_1 = L_0;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -13823,13 +13821,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__cctor_m366571097C02688D0F83B
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974)L_4);
 		((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_StaticFields*)il2cpp_codegen_static_fields_for(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___ThumbMetacarpalRotationOffset = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_StaticFields*)il2cpp_codegen_static_fields_for(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___ThumbMetacarpalRotationOffset), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:152>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), (0.0f), (-0.0149999997f), (-0.0649999976f), NULL);
 		((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_StaticFields*)il2cpp_codegen_static_fields_for(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___tweakWristPosition = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:424>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:425>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:424>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:425>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)25));
 		((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingJointsBuffer = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(VectorHand_t3351179B54DF7FB3360BA4759C62BEC9691477C2_il2cpp_TypeInfo_var))->___s_backingJointsBuffer), (void*)L_6);
@@ -13844,11 +13842,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorHand__cctor_m366571097C02688D0F83B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65694
+// Method Definition Index: 65715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B4916* VectorHandExtensions_GetBone_m77B66A4066B32E3B84743FB027731E0E10B90A83 (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_hand, int32_t ___1_boneIdx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:548>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:548>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_hand;
 		NullCheck(L_0);
 		FingerU5BU5D_t3136FB71E6C1576E9E421E4F5D3FE8CC68A2B481* L_1 = L_0->___fingers;
@@ -13865,40 +13863,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bone_t9EAC470DD1A22B62B51336982A5832A8AC2B491
 		return L_8;
 	}
 }
-// Method Definition Index: 65695
+// Method Definition Index: 65716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t VectorHandExtensions_FloatToByte_mC9AAD39EE1B90CE23AFC855E2D846067AA4DE232 (float ___0_inFloat, float ___1_movementRange, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:556>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:556>
 		float L_0 = ___0_inFloat;
 		float L_1 = ___1_movementRange;
 		float L_2 = ___1_movementRange;
 		float L_3;
 		L_3 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_0, ((float)(((-L_1))/(2.0f))), ((float)(L_2/(2.0f))), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:557>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:557>
 		float L_4 = ___1_movementRange;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:558>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:558>
 		float L_5 = ___1_movementRange;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:559>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:560>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:559>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:560>
 		float L_6;
 		L_6 = floorf(((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_add(L_3, ((float)(L_4/(2.0f)))))/L_5)), (255.0f))));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:561>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:561>
 		return (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(L_6);
 	}
 }
-// Method Definition Index: 65696
+// Method Definition Index: 65717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VectorHandExtensions_ByteToFloat_m1BC877AEE8845E2FAE3FFAF510B606441574FE67 (uint8_t ___0_inByte, float ___1_movementRange, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:569>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:569>
 		uint8_t L_0 = ___0_inByte;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:570>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:571>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:570>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:571>
 		float L_1 = ___1_movementRange;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:572>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:572>
 		float L_2 = ___1_movementRange;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Encoding/VectorHand.cs:573>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Encoding/VectorHand.cs:573>
 		return ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)(((float)L_0)/(255.0f))), L_1)), ((float)(L_2/(2.0f)))));
 	}
 }
@@ -13910,7 +13908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VectorHandExtensions_ByteToFloat_m1BC87
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65697
+// Method Definition Index: 65718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfo_t* CombinablePropertyAttribute_get_fieldInfo_mCD88835337F2FB7DD3731353CDD9E367D1C1A387 (CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13921,7 +13919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfo_t* CombinablePropertyAttribute_get_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:82>
 		bool L_0 = __this->____isInitialized;
 		if (L_0)
 		{
@@ -13929,32 +13927,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfo_t* CombinablePropertyAttribute_get_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:84>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:85>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral913A2FB93B5ADF88588C1515078BA3724B02BA80, NULL);
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:87>
 		FieldInfo_t* L_1 = __this->____fieldInfo;
 		return L_1;
 	}
 }
-// Method Definition Index: 65698
+// Method Definition Index: 65719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CombinablePropertyAttribute_set_fieldInfo_m5B31649CD3E586E319077406424395D7988FA5E2 (CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C* __this, FieldInfo_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:91>
 		FieldInfo_t* L_0 = ___0_value;
 		__this->____fieldInfo = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____fieldInfo), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 65699
+// Method Definition Index: 65720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* CombinablePropertyAttribute_get_targets_m541B9C268D406B664817FDCB41A48FC7F81A41AC (CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13965,7 +13963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:100>
 		bool L_0 = __this->____isInitialized;
 		if (L_0)
 		{
@@ -13973,32 +13971,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:102>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:103>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral913A2FB93B5ADF88588C1515078BA3724B02BA80, NULL);
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:105>
 		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_1 = __this->____targets;
 		return L_1;
 	}
 }
-// Method Definition Index: 65700
+// Method Definition Index: 65721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CombinablePropertyAttribute_set_targets_mF2BD4E7B8871EAF930FC272A99F061BB36934E51 (CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C* __this, ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:109>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:109>
 		ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* L_0 = ___0_value;
 		__this->____targets = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____targets), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/CombinablePropertyAttribute.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 65701
+// Method Definition Index: 65722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133 (CombinablePropertyAttribute_t408EE41C2F51D2DB02A1612EFAFC674F41C3784C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14014,7 +14012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CombinablePropertyAttribute__ctor_mB64DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65702
+// Method Definition Index: 65723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableAttribute__ctor_m92AE7EE6BFC401B27D5F13244DDD303D82D9F6E7 (DisableAttribute_t4B296A38A49BF988A87F7F94A277729B1F416E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14030,27 +14028,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableAttribute__ctor_m92AE7EE6BFC401B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65703
+// Method Definition Index: 65724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F (DisableIfBase_t7DFDE74B8DF54313C4F5883EA36A6861EE9DDE19* __this, RuntimeObject* ___0_isEqualTo, RuntimeObject* ___1_isNotEqualTo, bool ___2_isAndOperation, bool ___3_nullIsValid, bool ___4_equalToComparison, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___5_propertyNames, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:37>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:38>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:40>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:40>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___5_propertyNames;
 		__this->___propertyNames = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___propertyNames), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:41>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:41>
 		bool L_1 = ___2_isAndOperation;
 		__this->___isAndOperation = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:42>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:42>
 		bool L_2 = ___3_nullIsValid;
 		__this->___nullIsValid = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:43>
 		bool L_3 = ___4_equalToComparison;
 		__this->___equalToComparison = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:45>
 		bool L_4 = ___3_nullIsValid;
 		if (!L_4)
 		{
@@ -14058,7 +14056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfBase__ctor_m5DEC5B32FB1AB46D59B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:47>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:47>
 		bool L_5 = ___4_equalToComparison;
 		if (!L_5)
 		{
@@ -14066,29 +14064,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfBase__ctor_m5DEC5B32FB1AB46D59B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:49>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:49>
 		RuntimeObject* L_6 = ___0_isEqualTo;
 		__this->___testValue = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___testValue), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:50>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:50>
 		__this->___disableResult = (bool)1;
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:54>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:54>
 		RuntimeObject* L_7 = ___1_isNotEqualTo;
 		__this->___testValue = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___testValue), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:55>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:55>
 		__this->___disableResult = (bool)0;
 		return;
 	}
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:60>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:60>
 		RuntimeObject* L_8 = ___0_isEqualTo;
 		RuntimeObject* L_9 = ___1_isNotEqualTo;
 		if ((!(((uint32_t)((!(((RuntimeObject*)(RuntimeObject*)L_8) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((uint32_t)((!(((RuntimeObject*)(RuntimeObject*)L_9) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)))))
@@ -14097,7 +14095,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:62>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:62>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_10 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD6F14E940DF59D7A895DE56E009E9CB7BC1460CB)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F_RuntimeMethod_var)));
@@ -14105,7 +14103,7 @@ IL_004b:
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:65>
 		RuntimeObject* L_11 = ___0_isEqualTo;
 		if (!L_11)
 		{
@@ -14113,18 +14111,18 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:67>
 		RuntimeObject* L_12 = ___0_isEqualTo;
 		__this->___testValue = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___testValue), (void*)L_12);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:68>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:68>
 		__this->___disableResult = (bool)1;
 		goto IL_0084;
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:70>
 		RuntimeObject* L_13 = ___1_isNotEqualTo;
 		if (!L_13)
 		{
@@ -14132,17 +14130,17 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:72>
 		RuntimeObject* L_14 = ___1_isNotEqualTo;
 		__this->___testValue = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___testValue), (void*)L_14);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:73>
 		__this->___disableResult = (bool)0;
 	}
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:76>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:76>
 		RuntimeObject* L_15 = __this->___testValue;
 		if (((RuntimeObject*)IsInstSealed((RuntimeObject*)L_15, il2cpp_defaults.boolean_class)))
 		{
@@ -14157,7 +14155,7 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:78>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_17 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_17, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9FCC9AA7DDE1288BBE404F7AD0E66C65B8749718)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F_RuntimeMethod_var)));
@@ -14165,7 +14163,7 @@ IL_0084:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:82>
 		return;
 	}
 }
@@ -14177,7 +14175,7 @@ IL_00a9:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65704
+// Method Definition Index: 65725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIf__ctor_m7671862DD4608C8FFA70A8AA030187F2C6E3335B (DisableIf_tC6E3BB15E7C49968956CF5087C1BA41052E305F8* __this, String_t* ___0_propertyName, RuntimeObject* ___1_isEqualTo, RuntimeObject* ___2_isNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14187,7 +14185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIf__ctor_m7671862DD4608C8FFA70A8A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:149>
 		RuntimeObject* L_0 = ___1_isEqualTo;
 		RuntimeObject* L_1 = ___2_isNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
@@ -14196,7 +14194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIf__ctor_m7671862DD4608C8FFA70A8A
 		NullCheck(L_3);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_4);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)1, (bool)0, (bool)0, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:150>
 		return;
 	}
 }
@@ -14208,7 +14206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIf__ctor_m7671862DD4608C8FFA70A8A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65705
+// Method Definition Index: 65726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfEqual__ctor_mEDD3C1DEC39E8AEF641B3BE762FCD76404A37D09 (DisableIfEqual_t752392492492CACC19943A234F5E5C235D59C89F* __this, String_t* ___0_propertyName, RuntimeObject* ___1_To, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14218,7 +14216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfEqual__ctor_mEDD3C1DEC39E8AEF64
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:156>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:156>
 		RuntimeObject* L_0 = ___1_To;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
@@ -14226,7 +14224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfEqual__ctor_mEDD3C1DEC39E8AEF64
 		NullCheck(L_2);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_3);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, NULL, (bool)1, (bool)1, (bool)1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:157>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:157>
 		return;
 	}
 }
@@ -14238,7 +14236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfEqual__ctor_mEDD3C1DEC39E8AEF64
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65706
+// Method Definition Index: 65727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfNotEqual__ctor_mD172C692CCFAB1DFE4957D3195F2B7A7E03A421B (DisableIfNotEqual_tB96ACB4C3BFAAF860BD9F8AD9ED62EEAEBAB60DC* __this, String_t* ___0_propertyName, RuntimeObject* ___1_To, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14248,7 +14246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfNotEqual__ctor_mD172C692CCFAB1D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:163>
 		RuntimeObject* L_0 = ___1_To;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
@@ -14256,7 +14254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfNotEqual__ctor_mD172C692CCFAB1D
 		NullCheck(L_2);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_3);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, NULL, L_0, (bool)1, (bool)1, (bool)0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:164>
 		return;
 	}
 }
@@ -14268,7 +14266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfNotEqual__ctor_mD172C692CCFAB1D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65707
+// Method Definition Index: 65728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6EF12B6B56E01FE6646FF46334833CC53CC922A8 (DisableIfAny_tA4CED4D1BD980DAC6FE41B9BB2E6A5EC7BD679FD* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, RuntimeObject* ___2_areEqualTo, RuntimeObject* ___3_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14278,7 +14276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6EF12B6B56E01FE6646F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:171>
 		RuntimeObject* L_0 = ___2_areEqualTo;
 		RuntimeObject* L_1 = ___3_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
@@ -14291,11 +14289,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6EF12B6B56E01FE6646F
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)0, (bool)0, (bool)0, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:172>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:172>
 		return;
 	}
 }
-// Method Definition Index: 65708
+// Method Definition Index: 65729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m98D722D43D58C5C93F3D03EA78E26B2CF166F9C5 (DisableIfAny_tA4CED4D1BD980DAC6FE41B9BB2E6A5EC7BD679FD* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, String_t* ___2_propertyName3, RuntimeObject* ___3_areEqualTo, RuntimeObject* ___4_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14305,7 +14303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m98D722D43D58C5C93F3D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:175>
 		RuntimeObject* L_0 = ___3_areEqualTo;
 		RuntimeObject* L_1 = ___4_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
@@ -14322,11 +14320,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m98D722D43D58C5C93F3D
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_8);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)0, (bool)0, (bool)0, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 65709
+// Method Definition Index: 65730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6F6660C743609535D6F2677D15CDB9D8684FF2F4 (DisableIfAny_tA4CED4D1BD980DAC6FE41B9BB2E6A5EC7BD679FD* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, String_t* ___2_propertyName3, String_t* ___3_propertyName4, RuntimeObject* ___4_areEqualTo, RuntimeObject* ___5_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14336,7 +14334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6F6660C743609535D6F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:179>
 		RuntimeObject* L_0 = ___4_areEqualTo;
 		RuntimeObject* L_1 = ___5_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -14357,7 +14355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6F6660C743609535D6F2
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_10);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)0, (bool)0, (bool)0, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:180>
 		return;
 	}
 }
@@ -14369,7 +14367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAny__ctor_m6F6660C743609535D6F2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65710
+// Method Definition Index: 65731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m36D653BC3224E9C6A2CAC074CC0C327866FB8BB8 (DisableIfAll_t23A83B4FF3D25A8E18AB439166DE19022C5AF332* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, RuntimeObject* ___2_areEqualTo, RuntimeObject* ___3_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14379,7 +14377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m36D653BC3224E9C6A2CA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:187>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:187>
 		RuntimeObject* L_0 = ___2_areEqualTo;
 		RuntimeObject* L_1 = ___3_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
@@ -14392,11 +14390,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m36D653BC3224E9C6A2CA
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)1, (bool)0, (bool)0, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:188>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 65711
+// Method Definition Index: 65732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2BB6EF5C74DF1EC13A1720D326C61232EF1E6CC8 (DisableIfAll_t23A83B4FF3D25A8E18AB439166DE19022C5AF332* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, String_t* ___2_propertyName3, RuntimeObject* ___3_areEqualTo, RuntimeObject* ___4_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14406,7 +14404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2BB6EF5C74DF1EC13A17
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:191>
 		RuntimeObject* L_0 = ___3_areEqualTo;
 		RuntimeObject* L_1 = ___4_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
@@ -14423,11 +14421,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2BB6EF5C74DF1EC13A17
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_8);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)1, (bool)0, (bool)0, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:192>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 65712
+// Method Definition Index: 65733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2A540A5A5BD59320DD6B7E3B6A89E0DEFEAEB760 (DisableIfAll_t23A83B4FF3D25A8E18AB439166DE19022C5AF332* __this, String_t* ___0_propertyName1, String_t* ___1_propertyName2, String_t* ___2_propertyName3, String_t* ___3_propertyName4, RuntimeObject* ___4_areEqualTo, RuntimeObject* ___5_areNotEqualTo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14437,7 +14435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2A540A5A5BD59320DD6B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:195>
 		RuntimeObject* L_0 = ___4_areEqualTo;
 		RuntimeObject* L_1 = ___5_areNotEqualTo;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
@@ -14458,7 +14456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2A540A5A5BD59320DD6B
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_10);
 		DisableIfBase__ctor_m5DEC5B32FB1AB46D59BC0C890F82927275B78A1F(__this, L_0, L_1, (bool)1, (bool)0, (bool)0, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/DisableIf.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/DisableIf.cs:196>
 		return;
 	}
 }
@@ -14470,7 +14468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisableIfAll__ctor_m2A540A5A5BD59320DD6B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65713
+// Method Definition Index: 65734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditTimeOnly__ctor_m551003505F7C580E0B305052D8EEF280D753A05D (EditTimeOnly_t820B8599FF31313E367D36DDF39F718DCD788D53* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14486,13 +14484,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EditTimeOnly__ctor_m551003505F7C580E0B30
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65714
+// Method Definition Index: 65735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumFlags__ctor_mFAB1AEF530D17C9508A3414B6AB662F877DF0BD5 (EnumFlags_t915950C50834344EB1D1F0C423D291477B9B02B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/EnumFlags.cs:22>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/EnumFlags.cs:22>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/EnumFlags.cs:22>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/EnumFlags.cs:22>
 		return;
 	}
 }
@@ -14504,12 +14502,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnumFlags__ctor_mFAB1AEF530D17C9508A3414
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65715
+// Method Definition Index: 65736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndentAttribute__ctor_m8AF2563F9244A09944977D62FFAFA028A1E62610 (IndentAttribute_t683028D648E1D25AC0691912651F196D9D79C694* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/Indent.cs:18>
-		__this->___width = (20.0f);
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
 		return;
 	}
@@ -14522,17 +14518,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndentAttribute__ctor_m8AF2563F9244A0994
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65716
+// Method Definition Index: 65737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorNameAttribute__ctor_m342A0552A56339D89990F4F0C21DA8109C539777 (InspectorNameAttribute_t2AF735AB4B59C25F633D232BABC5D99555EDF6CB* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/InspectorName.cs:19>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/InspectorName.cs:19>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/InspectorName.cs:21>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/InspectorName.cs:21>
 		String_t* L_0 = ___0_name;
 		__this->___name = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/InspectorName.cs:22>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/InspectorName.cs:22>
 		return;
 	}
 }
@@ -14544,16 +14540,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorNameAttribute__ctor_m342A0552A5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65717
+// Method Definition Index: 65738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxValue__ctor_m2813494148C90DF45662185C3F3FAB74174D9470 (MaxValue_t50AD426EF83CE4F8767C4F6B15A546ED93BA8C3F* __this, float ___0_maxValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MaxValue.cs:22>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MaxValue.cs:22>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MaxValue.cs:24>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MaxValue.cs:24>
 		float L_0 = ___0_maxValue;
 		__this->___maxValue = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MaxValue.cs:25>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MaxValue.cs:25>
 		return;
 	}
 }
@@ -14565,39 +14561,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxValue__ctor_m2813494148C90DF45662185C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65718
+// Method Definition Index: 65739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinMax__ctor_mD0EF89EC43192FFEA85E22E59BE90C44BBFDD107 (MinMax_t2DF6642676AABD7BC8F5EAD01A5C6654DA0F1EE1* __this, float ___0_min, float ___1_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:26>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:26>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:28>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:28>
 		float L_0 = ___0_min;
 		__this->___min = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:29>
 		float L_1 = ___1_max;
 		__this->___max = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:30>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:30>
 		__this->___isInt = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 65719
+// Method Definition Index: 65740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinMax__ctor_mA6E55953C8EFA5F81791BF723B6474C52B620C20 (MinMax_t2DF6642676AABD7BC8F5EAD01A5C6654DA0F1EE1* __this, int32_t ___0_min, int32_t ___1_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:33>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:33>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:35>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:35>
 		int32_t L_0 = ___0_min;
 		__this->___min = ((float)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:36>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:36>
 		int32_t L_1 = ___1_max;
 		__this->___max = ((float)L_1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:37>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:37>
 		__this->___isInt = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinMax.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinMax.cs:38>
 		return;
 	}
 }
@@ -14609,16 +14605,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinMax__ctor_mA6E55953C8EFA5F81791BF723B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65720
+// Method Definition Index: 65741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinValue__ctor_m25FF2845E681624A8AD63DA92BF3B6827F5F29C7 (MinValue_tDC971EA45AA09382AF331CA81A4A95ACE0764DA8* __this, float ___0_minValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinValue.cs:22>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinValue.cs:22>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinValue.cs:24>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinValue.cs:24>
 		float L_0 = ___0_minValue;
 		__this->___minValue = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/MinValue.cs:25>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/MinValue.cs:25>
 		return;
 	}
 }
@@ -14630,17 +14626,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MinValue__ctor_m25FF2845E681624A8AD63DA9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65721
+// Method Definition Index: 65742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnEditorChangeAttribute__ctor_m80C660CFD1559C6C1B43FFC2B34295EE4C3E4779 (OnEditorChangeAttribute_t0B4F85684410ED3EE31F5B472CC83E226F43E317* __this, String_t* ___0_methodName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:33>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:33>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:35>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:35>
 		String_t* L_0 = ___0_methodName;
 		__this->___methodName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___methodName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:36>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/OnEditorChange.cs:36>
 		return;
 	}
 }
@@ -14652,17 +14648,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnEditorChangeAttribute__ctor_m80C660CFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65722
+// Method Definition Index: 65743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitsAttribute__ctor_mF9B1EAAB10C7CB035043FD321587AA6B58E3C033 (UnitsAttribute_tB050CFA8179EB1EA3427E6E677B72E0E1820D48D* __this, String_t* ___0__unitsName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/Units.cs:21>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/Units.cs:21>
 		CombinablePropertyAttribute__ctor_mB64DBB592EEAFFCD813BE4E381E9BAE87A867133(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/Units.cs:23>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/Units.cs:23>
 		String_t* L_0 = ___0__unitsName;
 		__this->___unitsName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___unitsName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attributes/Units.cs:24>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attributes/Units.cs:24>
 		return;
 	}
 }
@@ -14674,93 +14670,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitsAttribute__ctor_mF9B1EAAB10C7CB0350
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65723
+// Method Definition Index: 65744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 AttachmentHand_get_points_m0E6460F0CDDCF817BCA394E9D2963DBEBF5F116F (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:99>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:99>
 		AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		AttachmentPointsEnumerator__ctor_m9BEC93592E8F395769A005C41C5A10A1300184E6((&L_0), __this, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 65724
+// Method Definition Index: 65745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentHand_get_chirality_m84A6A5F58376EE85BD099349D5812277DF5F173B (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		int32_t L_0 = __this->____chirality;
 		return L_0;
 	}
 }
-// Method Definition Index: 65725
+// Method Definition Index: 65746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_set_chirality_mB2950269277D8ED26AFD95770F0F8B62CE071C08 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		int32_t L_0 = ___0_value;
 		__this->____chirality = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 65726
+// Method Definition Index: 65747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentHand_get_isTracked_m4BC60684D15357A6B8E3E45E7582BAFDFC59DADD (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		bool L_0 = __this->____isTracked;
 		return L_0;
 	}
 }
-// Method Definition Index: 65727
+// Method Definition Index: 65748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_set_isTracked_m2BF51BB53945401ACF00F2DD4D30E089754A14C9 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		bool L_0 = ___0_value;
 		__this->____isTracked = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 65728
+// Method Definition Index: 65749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_OnValidate_m3774F88F2B60CBCCA522E40C0CCE9F9C54FA51F8 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:131>
 		AttachmentHand_initializeAttachmentPointFlagConstants_mD0F1C3DBB8F5D5FB46611911F0CDEDEA25AC3D63(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:132>
 		return;
 	}
 }
-// Method Definition Index: 65729
+// Method Definition Index: 65750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_Awake_mEBD9AB57EECBE017FEA64C4A11830DC1AE4F2EEC (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:136>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:136>
 		AttachmentHand_initializeAttachmentPointFlagConstants_mD0F1C3DBB8F5D5FB46611911F0CDEDEA25AC3D63(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:137>
 		return;
 	}
 }
-// Method Definition Index: 65730
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_OnDestroy_m96E35DA5E8343017EB2AA017A0D581E637E60FEF (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:146>
-		__this->____isBeingDestroyed = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:147>
-		return;
-	}
-}
-// Method Definition Index: 65731
+// Method Definition Index: 65751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* AttachmentHand_GetBehaviourForPoint_m7DA3F4501A53685FF38669B23A28D54C8B686A3B (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_singlePoint, const RuntimeMethod* method) 
 {
 	AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:155>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:154>
 		V_0 = (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E*)NULL;
 		int32_t L_0 = ___0_singlePoint;
 		if ((((int32_t)L_0) > ((int32_t)((int32_t)2048))))
@@ -15017,208 +15003,208 @@ IL_0121:
 
 IL_0147:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:160>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_28 = __this->___wrist;
 		V_0 = L_28;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:160>
 		goto IL_0220;
 	}
 
 IL_0153:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:161>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_29 = __this->___palm;
 		V_0 = L_29;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:161>
 		goto IL_0220;
 	}
 
 IL_015f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:163>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_30 = __this->___thumbProximalJoint;
 		V_0 = L_30;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:163>
 		goto IL_0220;
 	}
 
 IL_016b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:164>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_31 = __this->___thumbDistalJoint;
 		V_0 = L_31;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:164>
 		goto IL_0220;
 	}
 
 IL_0177:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:165>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_32 = __this->___thumbTip;
 		V_0 = L_32;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:165>
 		goto IL_0220;
 	}
 
 IL_0183:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:167>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_33 = __this->___indexKnuckle;
 		V_0 = L_33;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:168>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:167>
 		goto IL_0220;
 	}
 
 IL_018f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:168>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_34 = __this->___indexMiddleJoint;
 		V_0 = L_34;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:168>
 		goto IL_0220;
 	}
 
 IL_019b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:169>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_35 = __this->___indexDistalJoint;
 		V_0 = L_35;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:169>
 		goto IL_0220;
 	}
 
 IL_01a4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:170>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_36 = __this->___indexTip;
 		V_0 = L_36;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:170>
 		goto IL_0220;
 	}
 
 IL_01ad:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:172>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_37 = __this->___middleKnuckle;
 		V_0 = L_37;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:172>
 		goto IL_0220;
 	}
 
 IL_01b6:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:173>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_38 = __this->___middleMiddleJoint;
 		V_0 = L_38;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:173>
 		goto IL_0220;
 	}
 
 IL_01bf:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:174>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_39 = __this->___middleDistalJoint;
 		V_0 = L_39;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:174>
 		goto IL_0220;
 	}
 
 IL_01c8:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:175>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_40 = __this->___middleTip;
 		V_0 = L_40;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:176>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:175>
 		goto IL_0220;
 	}
 
 IL_01d1:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:177>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_41 = __this->___ringKnuckle;
 		V_0 = L_41;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:177>
 		goto IL_0220;
 	}
 
 IL_01da:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:178>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_42 = __this->___ringMiddleJoint;
 		V_0 = L_42;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:178>
 		goto IL_0220;
 	}
 
 IL_01e3:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:179>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_43 = __this->___ringDistalJoint;
 		V_0 = L_43;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:179>
 		goto IL_0220;
 	}
 
 IL_01ec:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:180>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_44 = __this->___ringTip;
 		V_0 = L_44;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:180>
 		goto IL_0220;
 	}
 
 IL_01f5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:182>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_45 = __this->___pinkyKnuckle;
 		V_0 = L_45;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:182>
 		goto IL_0220;
 	}
 
 IL_01fe:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:183>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_46 = __this->___pinkyMiddleJoint;
 		V_0 = L_46;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:183>
 		goto IL_0220;
 	}
 
 IL_0207:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:184>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_47 = __this->___pinkyDistalJoint;
 		V_0 = L_47;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:184>
 		goto IL_0220;
 	}
 
 IL_0210:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:185>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_48 = __this->___pinkyTip;
 		V_0 = L_48;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:185>
 		goto IL_0220;
 	}
 
 IL_0219:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:188>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:187>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_49 = __this->___pinchPoint;
 		V_0 = L_49;
 	}
 
 IL_0220:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:190>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_50 = V_0;
 		return L_50;
 	}
 }
-// Method Definition Index: 65732
+// Method Definition Index: 65752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_refreshAttachmentTransforms_m211DDAE604E0DF913EEF43BE1C1672534D6AAF84 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_points, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15233,7 +15219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_refreshAttachmentTransfor
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:196>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:195>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_0 = __this->____attachmentPointFlagConstants;
 		if (!L_0)
 		{
@@ -15251,15 +15237,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_refreshAttachmentTransfor
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:198>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:197>
 		AttachmentHand_initializeAttachmentPointFlagConstants_mD0F1C3DBB8F5D5FB46611911F0CDEDEA25AC3D63(__this, NULL);
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:202>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:201>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:202>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_2 = __this->____attachmentPointFlagConstants;
 		V_1 = L_2;
 		V_2 = 0;
@@ -15268,14 +15254,14 @@ IL_0017:
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:202>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_3 = V_1;
 		int32_t L_4 = V_2;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		int32_t L_6 = (int32_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:205>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:204>
 		int32_t L_7 = V_3;
 		if (!L_7)
 		{
@@ -15283,8 +15269,8 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:207>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:208>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:206>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:207>
 		int32_t L_8 = ___0_points;
 		int32_t L_9 = V_3;
 		bool L_10;
@@ -15333,7 +15319,7 @@ IL_0043:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:209>
 		V_0 = (bool)1;
 	}
 
@@ -15345,7 +15331,7 @@ IL_005d:
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:203>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:202>
 		int32_t L_21 = V_2;
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_22 = V_1;
 		NullCheck(L_22);
@@ -15355,7 +15341,7 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:214>
 		bool L_23 = V_0;
 		if (!L_23)
 		{
@@ -15363,9 +15349,9 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:219>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:218>
 		AttachmentHand_flattenAttachmentTransformHierarchy_m85B36158134D8799387EADF066A01EDC315FEEA5(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:221>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:220>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_24 = __this->____attachmentPointFlagConstants;
 		V_1 = L_24;
 		V_2 = 0;
@@ -15374,14 +15360,14 @@ IL_0061:
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:221>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:220>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_25 = V_1;
 		int32_t L_26 = V_2;
 		NullCheck(L_25);
 		int32_t L_27 = L_26;
 		int32_t L_28 = (int32_t)(L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
 		V_4 = L_28;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:223>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:222>
 		int32_t L_29 = V_4;
 		if (!L_29)
 		{
@@ -15389,7 +15375,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:225>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:224>
 		int32_t L_30 = ___0_points;
 		int32_t L_31 = V_4;
 		bool L_32;
@@ -15400,7 +15386,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:226>
 		int32_t L_33 = V_4;
 		AttachmentHand_ensureTransformExists_m3B7B8A0F0FE3703A7D56FD55000846716A5EA531(__this, L_33, NULL);
 		goto IL_00a0;
@@ -15408,7 +15394,7 @@ IL_007b:
 
 IL_0098:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:231>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:230>
 		int32_t L_34 = V_4;
 		AttachmentHand_ensureTransformDoesNotExist_m291210EC805BACB96C1F261C0436996D462D902B(__this, L_34, NULL);
 	}
@@ -15421,7 +15407,7 @@ IL_00a0:
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:221>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:220>
 		int32_t L_36 = V_2;
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_37 = V_1;
 		NullCheck(L_37);
@@ -15431,13 +15417,13 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:235>
 		AttachmentHand_organizeAttachmentTransforms_mFDBBE57BB41EFD939AF947C2372E7C09F310A878(__this, NULL);
 	}
 
 IL_00b0:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:239>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:238>
 		bool L_38 = __this->____attachmentPointsDirty;
 		if (!L_38)
 		{
@@ -15445,29 +15431,29 @@ IL_00b0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:241>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:240>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_39 = __this->___OnAttachmentPointsModified;
 		NullCheck(L_39);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_39, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:242>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:241>
 		__this->____attachmentPointsDirty = (bool)0;
 	}
 
 IL_00ca:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:243>
 		return;
 	}
 }
-// Method Definition Index: 65733
+// Method Definition Index: 65753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_notifyPointBehaviourDeleted_mD20AE1479166836B119E965A3BDFB1FA066352F7 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* ___0_point, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:260>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:259>
 		return;
 	}
 }
-// Method Definition Index: 65734
+// Method Definition Index: 65754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_initializeAttachmentPointFlagConstants_mD0F1C3DBB8F5D5FB46611911F0CDEDEA25AC3D63 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15485,7 +15471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_initializeAttachmentPoint
 	int32_t V_3 = 0;
 	RuntimeObject* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:267>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:266>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (AttachmentPointFlags_tEC4453ACBDCFF68FAB7BE5CA3CD372EE92098C84_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -15494,8 +15480,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_initializeAttachmentPoint
 		RuntimeArray* L_2;
 		L_2 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:268>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:269>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:267>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:268>
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_3 = __this->____attachmentPointFlagConstants;
 		if (!L_3)
 		{
@@ -15525,7 +15511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_initializeAttachmentPoint
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:271>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:270>
 		RuntimeArray* L_8 = V_0;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -15537,9 +15523,9 @@ IL_0031:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:273>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:272>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:274>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:273>
 		RuntimeArray* L_11 = V_0;
 		NullCheck(L_11);
 		RuntimeObject* L_12;
@@ -15581,13 +15567,13 @@ IL_0083:
 
 IL_004d_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:274>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:273>
 				RuntimeObject* L_16 = V_2;
 				NullCheck(L_16);
 				RuntimeObject* L_17;
 				L_17 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_16);
 				V_3 = ((*(int32_t*)UnBox(L_17, il2cpp_defaults.int32_class)));
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:276>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:275>
 				AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_18 = __this->____attachmentPointFlagConstants;
 				int32_t L_19 = V_1;
 				int32_t L_20 = L_19;
@@ -15599,7 +15585,7 @@ IL_004d_1:
 
 IL_0066_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:274>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:273>
 				RuntimeObject* L_22 = V_2;
 				NullCheck(L_22);
 				bool L_23;
@@ -15621,11 +15607,11 @@ IL_0066_1:
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:278>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:277>
 		return;
 	}
 }
-// Method Definition Index: 65735
+// Method Definition Index: 65755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_setBehaviourForPoint_m50327108DF20A5705DEA2791FA7A37249F981427 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_singlePoint, AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* ___1_behaviour, const RuntimeMethod* method) 
 {
 	{
@@ -15884,217 +15870,217 @@ IL_0103:
 
 IL_0125:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:285>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_28 = ___1_behaviour;
 		__this->___wrist = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___wrist), (void*)L_28);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:285>
 		return;
 	}
 
 IL_012d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:287>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:286>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_29 = ___1_behaviour;
 		__this->___palm = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___palm), (void*)L_29);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:287>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:286>
 		return;
 	}
 
 IL_0135:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:288>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_30 = ___1_behaviour;
 		__this->___thumbProximalJoint = L_30;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___thumbProximalJoint), (void*)L_30);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:288>
 		return;
 	}
 
 IL_013d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:290>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:289>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_31 = ___1_behaviour;
 		__this->___thumbDistalJoint = L_31;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___thumbDistalJoint), (void*)L_31);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:290>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:289>
 		return;
 	}
 
 IL_0145:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:290>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_32 = ___1_behaviour;
 		__this->___thumbTip = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___thumbTip), (void*)L_32);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:291>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:290>
 		return;
 	}
 
 IL_014d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:293>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:292>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_33 = ___1_behaviour;
 		__this->___indexKnuckle = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___indexKnuckle), (void*)L_33);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:293>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:292>
 		return;
 	}
 
 IL_0155:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:294>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:293>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_34 = ___1_behaviour;
 		__this->___indexMiddleJoint = L_34;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___indexMiddleJoint), (void*)L_34);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:294>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:293>
 		return;
 	}
 
 IL_015d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:295>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:294>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_35 = ___1_behaviour;
 		__this->___indexDistalJoint = L_35;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___indexDistalJoint), (void*)L_35);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:295>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:294>
 		return;
 	}
 
 IL_0165:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:295>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_36 = ___1_behaviour;
 		__this->___indexTip = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___indexTip), (void*)L_36);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:296>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:295>
 		return;
 	}
 
 IL_016d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:298>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:297>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_37 = ___1_behaviour;
 		__this->___middleKnuckle = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___middleKnuckle), (void*)L_37);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:298>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:297>
 		return;
 	}
 
 IL_0175:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:298>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_38 = ___1_behaviour;
 		__this->___middleMiddleJoint = L_38;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___middleMiddleJoint), (void*)L_38);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:298>
 		return;
 	}
 
 IL_017d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:300>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:299>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_39 = ___1_behaviour;
 		__this->___middleDistalJoint = L_39;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___middleDistalJoint), (void*)L_39);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:300>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:299>
 		return;
 	}
 
 IL_0185:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:300>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_40 = ___1_behaviour;
 		__this->___middleTip = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___middleTip), (void*)L_40);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:300>
 		return;
 	}
 
 IL_018d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:302>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_41 = ___1_behaviour;
 		__this->___ringKnuckle = L_41;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ringKnuckle), (void*)L_41);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:303>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:302>
 		return;
 	}
 
 IL_0195:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:304>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:303>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_42 = ___1_behaviour;
 		__this->___ringMiddleJoint = L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ringMiddleJoint), (void*)L_42);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:304>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:303>
 		return;
 	}
 
 IL_019d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:305>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:304>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_43 = ___1_behaviour;
 		__this->___ringDistalJoint = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ringDistalJoint), (void*)L_43);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:305>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:304>
 		return;
 	}
 
 IL_01a5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:306>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:305>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_44 = ___1_behaviour;
 		__this->___ringTip = L_44;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ringTip), (void*)L_44);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:306>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:305>
 		return;
 	}
 
 IL_01ad:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:307>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_45 = ___1_behaviour;
 		__this->___pinkyKnuckle = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pinkyKnuckle), (void*)L_45);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:308>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:307>
 		return;
 	}
 
 IL_01b5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:309>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:308>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_46 = ___1_behaviour;
 		__this->___pinkyMiddleJoint = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pinkyMiddleJoint), (void*)L_46);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:309>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:308>
 		return;
 	}
 
 IL_01bd:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:309>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_47 = ___1_behaviour;
 		__this->___pinkyDistalJoint = L_47;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pinkyDistalJoint), (void*)L_47);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:310>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:309>
 		return;
 	}
 
 IL_01c5:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:311>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:310>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_48 = ___1_behaviour;
 		__this->___pinkyTip = L_48;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pinkyTip), (void*)L_48);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:311>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:310>
 		return;
 	}
 
 IL_01cd:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:313>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:312>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_49 = ___1_behaviour;
 		__this->___pinchPoint = L_49;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pinchPoint), (void*)L_49);
@@ -16102,11 +16088,11 @@ IL_01cd:
 
 IL_01d4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:319>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:318>
 		return;
 	}
 }
-// Method Definition Index: 65736
+// Method Definition Index: 65756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformExists_m3B7B8A0F0FE3703A7D56FD55000846716A5EA531 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_singlePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16122,24 +16108,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformExists_m3B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentsInChildren_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m413303537CFACECD32452F4326DE71A11DC03613_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass44_0_U3CensureTransformExistsU3Eb__0_mFC909CF586E5B4F2AE1937D160C3D229EA514848_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass42_0_U3CensureTransformExistsU3Eb__0_m05BEE2FBB54881A5CDDE8746ED06A5F0557859F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral48E9A761ADCB28740EDB07CFDEC24882B1BD6368);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* V_0 = NULL;
+	U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* V_0 = NULL;
 	AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* V_1 = NULL;
 	AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* V_2 = NULL;
 	{
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_0 = (U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4_il2cpp_TypeInfo_var);
-		U3CU3Ec__DisplayClass44_0__ctor_m8D47C43D82BA44B802D54CEAB9255481EA8BE216(L_0, NULL);
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_0 = (U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass42_0__ctor_m7E85D5608AA9EF00B3919C0C5A8E45745FCFAA72(L_0, NULL);
 		V_0 = L_0;
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_1 = V_0;
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_1 = V_0;
 		int32_t L_2 = ___0_singlePoint;
 		NullCheck(L_1);
 		L_1->___singlePoint = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:323>
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_3 = V_0;
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:322>
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_3 = V_0;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___singlePoint;
 		bool L_5;
@@ -16150,23 +16136,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformExists_m3B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:325>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:324>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral48E9A761ADCB28740EDB07CFDEC24882B1BD6368, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:326>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:325>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:329>
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_6 = V_0;
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:328>
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_6 = V_0;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___singlePoint;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_8;
 		L_8 = AttachmentHand_GetBehaviourForPoint_m7DA3F4501A53685FF38669B23A28D54C8B686A3B(__this, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:331>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:330>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_9 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -16177,20 +16163,20 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:334>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:333>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:334>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_11);
 		AttachmentPointBehaviourU5BU5D_t03A704C73A2E8292ACE50A3FF324E3758061E2A9* L_12;
 		L_12 = GameObject_GetComponentsInChildren_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m413303537CFACECD32452F4326DE71A11DC03613(L_11, GameObject_GetComponentsInChildren_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m413303537CFACECD32452F4326DE71A11DC03613_RuntimeMethod_var);
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_13 = V_0;
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_13 = V_0;
 		Func_2_t392078C4DC8BE7FC20442C7EC1CE7ADCA685A3B6* L_14 = (Func_2_t392078C4DC8BE7FC20442C7EC1CE7ADCA685A3B6*)il2cpp_codegen_object_new(Func_2_t392078C4DC8BE7FC20442C7EC1CE7ADCA685A3B6_il2cpp_TypeInfo_var);
-		Func_2__ctor_mC7B987EA7018068A7A215A2457DF680E2A6826A3(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass44_0_U3CensureTransformExistsU3Eb__0_mFC909CF586E5B4F2AE1937D160C3D229EA514848_RuntimeMethod_var), NULL);
+		Func_2__ctor_mC7B987EA7018068A7A215A2457DF680E2A6826A3(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass42_0_U3CensureTransformExistsU3Eb__0_m05BEE2FBB54881A5CDDE8746ED06A5F0557859F8_RuntimeMethod_var), NULL);
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_15;
 		L_15 = Enumerable_FirstOrDefault_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m590289EA5825F8661EC9500AEA98A0A978A1B2F8((RuntimeObject*)L_12, L_14, Enumerable_FirstOrDefault_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_m590289EA5825F8661EC9500AEA98A0A978A1B2F8_RuntimeMethod_var);
 		V_2 = L_15;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:338>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:337>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_16 = V_2;
 		int32_t L_17;
 		L_17 = AttachmentPointBehaviour_op_Implicit_m4D5BAE52EAE41D58109A2A2E456560462F780F68(L_16, NULL);
@@ -16200,12 +16186,12 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:340>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:339>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_18 = { reinterpret_cast<intptr_t> (AttachmentPointFlags_tEC4453ACBDCFF68FAB7BE5CA3CD372EE92098C84_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_20 = V_0;
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_20 = V_0;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___singlePoint;
 		int32_t L_22 = L_21;
@@ -16215,7 +16201,7 @@ IL_0025:
 		L_24 = Enum_GetName_m05FE85181853F756BA6BB2C033DD3590E6114D29(L_19, L_23, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_25, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:345>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:344>
 		NullCheck(L_25);
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_26;
 		L_26 = GameObject_AddComponent_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_mCB1C76EA7CCA9CD5334F83D8C6CC0A18519403D1(L_25, GameObject_AddComponent_TisAttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E_mCB1C76EA7CCA9CD5334F83D8C6CC0A18519403D1_RuntimeMethod_var);
@@ -16225,32 +16211,32 @@ IL_0025:
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:350>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:349>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_27 = V_2;
 		V_1 = L_27;
 	}
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:356>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:355>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_28 = V_1;
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_29 = V_0;
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_29 = V_0;
 		NullCheck(L_29);
 		int32_t L_30 = L_29->___singlePoint;
 		NullCheck(L_28);
 		L_28->___attachmentPoint = L_30;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:357>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:356>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_31 = V_1;
 		NullCheck(L_31);
 		L_31->___attachmentHand = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_31->___attachmentHand), (void*)__this);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:358>
-		U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* L_32 = V_0;
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:357>
+		U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* L_32 = V_0;
 		NullCheck(L_32);
 		int32_t L_33 = L_32->___singlePoint;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_34 = V_1;
 		AttachmentHand_setBehaviourForPoint_m50327108DF20A5705DEA2791FA7A37249F981427(__this, L_33, L_34, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:360>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:359>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_35 = V_1;
 		NullCheck(L_35);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
@@ -16259,30 +16245,30 @@ IL_008c:
 		L_37 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		AttachmentHand_SetTransformParent_m600CA045A916E920DEB71B03A9E40FEC6B8BEFBF(L_36, L_37, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:362>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:361>
 		__this->____attachmentPointsDirty = (bool)1;
 	}
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:368>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 65737
+// Method Definition Index: 65757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_SetTransformParent_m600CA045A916E920DEB71B03A9E40FEC6B8BEFBF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:375>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:374>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_parent;
 		NullCheck(L_0);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:377>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:376>
 		return;
 	}
 }
-// Method Definition Index: 65738
+// Method Definition Index: 65758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformDoesNotExist_m291210EC805BACB96C1F261C0436996D462D902B (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_singlePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16295,7 +16281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformDoesNotExi
 	}
 	AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:381>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:380>
 		int32_t L_0 = ___0_singlePoint;
 		bool L_1;
 		L_1 = AttachmentPointFlagsExtensions_IsSinglePoint_mD12539D5E446020AF95B27823CFD98528FC4D5EF(L_0, NULL);
@@ -16305,21 +16291,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_ensureTransformDoesNotExi
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:383>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:382>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral540405D47C3DA63BC89979DBA5DC8A26F4A8A09D, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:384>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:383>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:387>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:386>
 		int32_t L_2 = ___0_singlePoint;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_3;
 		L_3 = AttachmentHand_GetBehaviourForPoint_m7DA3F4501A53685FF38669B23A28D54C8B686A3B(__this, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:388>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:387>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -16330,29 +16316,29 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:405>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:404>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_6 = V_0;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:408>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:407>
 		int32_t L_8 = ___0_singlePoint;
 		AttachmentHand_setBehaviourForPoint_m50327108DF20A5705DEA2791FA7A37249F981427(__this, L_8, (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:409>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:408>
 		V_0 = (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E*)NULL;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:410>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:409>
 		__this->____attachmentPointsDirty = (bool)1;
 	}
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:416>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:415>
 		return;
 	}
 }
-// Method Definition Index: 65739
+// Method Definition Index: 65759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_flattenAttachmentTransformHierarchy_m85B36158134D8799387EADF066A01EDC315FEEA5 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16366,7 +16352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_flattenAttachmentTransfor
 	AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:420>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:419>
 		AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 L_0;
 		L_0 = AttachmentHand_get_points_m0E6460F0CDDCF817BCA394E9D2963DBEBF5F116F(__this, NULL);
 		V_1 = L_0;
@@ -16378,10 +16364,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_flattenAttachmentTransfor
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:420>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:419>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_2;
 		L_2 = AttachmentPointsEnumerator_get_Current_mE2B98E82BBA9CE16CD2502A68CC26CECF14C415C((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:422>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:421>
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_2, NULL);
@@ -16393,7 +16379,7 @@ IL_0011:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:420>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:419>
 		bool L_5;
 		L_5 = AttachmentPointsEnumerator_MoveNext_m203166B38B1876B5A6A6113085CB6F847661C2A1((&V_0), NULL);
 		if (L_5)
@@ -16402,11 +16388,11 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:424>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:423>
 		return;
 	}
 }
-// Method Definition Index: 65740
+// Method Definition Index: 65760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_organizeAttachmentTransforms_mFDBBE57BB41EFD939AF947C2372E7C09F310A878 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16419,9 +16405,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_organizeAttachmentTransfo
 	int32_t V_0 = 0;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:428>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:427>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:431>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:430>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_0 = __this->___wrist;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16432,7 +16418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_organizeAttachmentTransfo
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:433>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:432>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_2 = __this->___wrist;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
@@ -16446,7 +16432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand_organizeAttachmentTransfo
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:437>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:436>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_6 = __this->___palm;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -16457,7 +16443,7 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:439>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:438>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_8 = __this->___palm;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -16471,9 +16457,9 @@ IL_0025:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:445>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:446>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:447>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:444>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:445>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:446>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_12 = (MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)SZArrayNew(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7_il2cpp_TypeInfo_var, (uint32_t)3);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_13 = L_12;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_14 = __this->___thumbProximalJoint;
@@ -16493,7 +16479,7 @@ IL_0048:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3(__this, L_17, NULL);
 		V_1 = L_19;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:448>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:447>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -16504,7 +16490,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:450>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:449>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_1;
 		int32_t L_23 = V_0;
 		int32_t L_24 = L_23;
@@ -16515,10 +16501,10 @@ IL_0048:
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:454>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:455>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:456>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:457>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:453>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:454>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:455>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:456>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_25 = (MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)SZArrayNew(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7_il2cpp_TypeInfo_var, (uint32_t)4);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_26 = L_25;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_27 = __this->___indexKnuckle;
@@ -16543,7 +16529,7 @@ IL_0084:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
 		L_34 = AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3(__this, L_32, NULL);
 		V_1 = L_34;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:458>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:457>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -16554,7 +16540,7 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:460>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:459>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = V_1;
 		int32_t L_38 = V_0;
 		int32_t L_39 = L_38;
@@ -16565,10 +16551,10 @@ IL_0084:
 
 IL_00c9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:464>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:465>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:466>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:467>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:463>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:464>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:465>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:466>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_40 = (MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)SZArrayNew(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7_il2cpp_TypeInfo_var, (uint32_t)4);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_41 = L_40;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_42 = __this->___middleKnuckle;
@@ -16593,7 +16579,7 @@ IL_00c9:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49;
 		L_49 = AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3(__this, L_47, NULL);
 		V_1 = L_49;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:468>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:467>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_51;
@@ -16604,7 +16590,7 @@ IL_00c9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:470>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:469>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52 = V_1;
 		int32_t L_53 = V_0;
 		int32_t L_54 = L_53;
@@ -16615,10 +16601,10 @@ IL_00c9:
 
 IL_010e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:474>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:475>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:476>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:477>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:473>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:474>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:475>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:476>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_55 = (MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)SZArrayNew(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7_il2cpp_TypeInfo_var, (uint32_t)4);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_56 = L_55;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_57 = __this->___ringKnuckle;
@@ -16643,7 +16629,7 @@ IL_010e:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_64;
 		L_64 = AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3(__this, L_62, NULL);
 		V_1 = L_64;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:478>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:477>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_66;
@@ -16654,7 +16640,7 @@ IL_010e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:480>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:479>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67 = V_1;
 		int32_t L_68 = V_0;
 		int32_t L_69 = L_68;
@@ -16665,10 +16651,10 @@ IL_010e:
 
 IL_0153:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:484>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:485>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:486>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:487>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:483>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:484>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:485>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:486>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_70 = (MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7*)SZArrayNew(MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7_il2cpp_TypeInfo_var, (uint32_t)4);
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_71 = L_70;
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_72 = __this->___pinkyKnuckle;
@@ -16693,7 +16679,7 @@ IL_0153:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79;
 		L_79 = AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3(__this, L_77, NULL);
 		V_1 = L_79;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:488>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:487>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_80 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_81;
@@ -16704,7 +16690,7 @@ IL_0153:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:490>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:489>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_82 = V_1;
 		int32_t L_83 = V_0;
 		int32_t L_84 = L_83;
@@ -16715,11 +16701,11 @@ IL_0153:
 
 IL_0198:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:492>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:491>
 		return;
 	}
 }
-// Method Definition Index: 65741
+// Method Definition Index: 65761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* AttachmentHand_tryStackTransformHierarchy_m209A890C6FAFD5D7FF0A3A57EF5FFBEA7ED4F109 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_transforms, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16736,28 +16722,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_4 = NULL;
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:502>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:501>
 		V_1 = 0;
 		goto IL_0010;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:504>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:503>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		ArrayElementTypeCheck (L_0, NULL);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(L_1), (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:502>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:501>
 		int32_t L_2 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:502>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:501>
 		int32_t L_3 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer;
@@ -16768,9 +16754,9 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:507>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:506>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:509>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:508>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_5 = ___0_transforms;
 		V_2 = L_5;
 		V_3 = 0;
@@ -16779,14 +16765,14 @@ IL_0010:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:509>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:508>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = V_2;
 		int32_t L_7 = V_3;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_4 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:511>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:510>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -16797,7 +16783,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:513>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:512>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_12 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer;
 		int32_t L_13 = V_0;
@@ -16817,7 +16803,7 @@ IL_003e:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:509>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:508>
 		int32_t L_17 = V_3;
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_18 = V_2;
 		NullCheck(L_18);
@@ -16827,7 +16813,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:517>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:516>
 		int32_t L_19 = V_0;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
 		goto IL_006c;
@@ -16835,7 +16821,7 @@ IL_0042:
 
 IL_004f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:519>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:518>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_20 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer;
 		int32_t L_21 = V_5;
@@ -16848,14 +16834,14 @@ IL_004f:
 		int32_t L_26 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
 		AttachmentHand_SetTransformParent_m600CA045A916E920DEB71B03A9E40FEC6B8BEFBF(L_23, L_27, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:517>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:516>
 		int32_t L_28 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_28, 1));
 	}
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:517>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:516>
 		int32_t L_29 = V_5;
 		if ((((int32_t)L_29) > ((int32_t)0)))
 		{
@@ -16863,7 +16849,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:522>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:521>
 		int32_t L_30 = V_0;
 		if ((((int32_t)L_30) <= ((int32_t)0)))
 		{
@@ -16871,7 +16857,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:524>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:523>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_31 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer;
 		NullCheck(L_31);
@@ -16882,11 +16868,11 @@ IL_006c:
 
 IL_007d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:527>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:526>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
-// Method Definition Index: 65742
+// Method Definition Index: 65762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* AttachmentHand_tryStackTransformHierarchy_m8D63C635F8CAC7831C9076DBAEB0299F2EC80BC3 (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* ___0_monoBehaviours, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16902,28 +16888,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	int32_t V_3 = 0;
 	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:533>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:532>
 		V_1 = 0;
 		goto IL_0010;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:535>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:534>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		ArrayElementTypeCheck (L_0, NULL);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(L_1), (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:533>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:532>
 		int32_t L_2 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:533>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:532>
 		int32_t L_3 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer;
@@ -16934,9 +16920,9 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:538>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:537>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:539>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:538>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_5 = ___0_monoBehaviours;
 		V_2 = L_5;
 		V_3 = 0;
@@ -16945,14 +16931,14 @@ IL_0010:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:539>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:538>
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_6 = V_2;
 		int32_t L_7 = V_3;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		V_4 = L_9;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:541>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:540>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_10 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -16963,7 +16949,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:543>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:542>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_12 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer;
 		int32_t L_13 = V_0;
@@ -16986,7 +16972,7 @@ IL_0043:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:539>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:538>
 		int32_t L_18 = V_3;
 		MonoBehaviourU5BU5D_tEB91860B3CEE2D63A7833A2842EB9CE4547DDBD7* L_19 = V_2;
 		NullCheck(L_19);
@@ -16996,7 +16982,7 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:547>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:546>
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_20 = ((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -17004,23 +16990,23 @@ IL_0047:
 		return L_21;
 	}
 }
-// Method Definition Index: 65743
+// Method Definition Index: 65763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentHand_GetFlagFromFlagIdx_mFFED0F798CFB02D3066D889C7F6ABBF3B4660534 (int32_t ___0_pointIdx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:602>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:601>
 		int32_t L_0 = ___0_pointIdx;
 		return (int32_t)(((int32_t)(1<<((int32_t)(((int32_t)il2cpp_codegen_add(L_0, 1))&((int32_t)31))))));
 	}
 }
-// Method Definition Index: 65744
+// Method Definition Index: 65764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand__ctor_mDC9CA89FC06FB919BA51A7AEE8099A0C1815CADB (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_ctorU3Eb__55_0_mF3F3BF541B87E1B70E9D1EF08E57D4BEAF0B93A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_ctorU3Eb__53_0_m27D4128BF7852A150E953BFDD00B1D44BD22C6F8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -17029,9 +17015,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand__ctor_mDC9CA89FC06FB919BA
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:39>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__55_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__53_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
 		{
@@ -17046,10 +17032,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand__ctor_mDC9CA89FC06FB919BA
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var);
 		U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA* L_2 = ((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3C_ctorU3Eb__55_0_mF3F3BF541B87E1B70E9D1EF08E57D4BEAF0B93A9_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3C_ctorU3Eb__53_0_m27D4128BF7852A150E953BFDD00B1D44BD22C6F8_RuntimeMethod_var), NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
-		((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__55_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__55_0), (void*)L_4);
+		((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__53_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA_il2cpp_TypeInfo_var))->___U3CU3E9__53_0), (void*)L_4);
 		G_B2_0 = L_4;
 		G_B2_1 = G_B1_1;
 	}
@@ -17063,7 +17049,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 65745
+// Method Definition Index: 65765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand__cctor_mE648FC6FA4E842DDC07C01FC88C69BAA5B18CD49 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17074,11 +17060,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHand__cctor_mE648FC6FA4E842DDC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:494>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:493>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)SZArrayNew(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var, (uint32_t)4);
 		((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_hierarchyTransformsBuffer), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:530>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:529>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)SZArrayNew(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var, (uint32_t)4);
 		((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_StaticFields*)il2cpp_codegen_static_fields_for(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var))->___s_transformsBuffer), (void*)L_1);
@@ -17147,11 +17133,11 @@ IL2CPP_EXTERN_C void AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51F
 IL2CPP_EXTERN_C void AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462_marshal_com_cleanup(AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 65746
+// Method Definition Index: 65766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 AttachmentPointsEnumerator_GetEnumerator_m5FE31D9F6D5E96EE8BBB711CF9B775DAD5AD9739 (AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:560>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:559>
 		AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 L_0 = (*(AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462*)__this);
 		return L_0;
 	}
@@ -17165,7 +17151,7 @@ IL2CPP_EXTERN_C  AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C9
 	_returnValue = AttachmentPointsEnumerator_GetEnumerator_m5FE31D9F6D5E96EE8BBB711CF9B775DAD5AD9739(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65747
+// Method Definition Index: 65767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointsEnumerator__ctor_m9BEC93592E8F395769A005C41C5A10A1300184E6 (AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462* __this, AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17175,7 +17161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointsEnumerator__ctor_m9BEC93
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:564>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:563>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_0 = ___0_hand;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17195,13 +17181,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointsEnumerator__ctor_m9BEC93
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:566>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:565>
 		__this->____curIdx = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:567>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:566>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_4 = ___0_hand;
 		__this->____hand = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____hand), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:568>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:567>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_5 = ___0_hand;
 		NullCheck(L_5);
 		AttachmentPointFlagsU5BU5D_tDA665A6AA9B283F317FD39D307C03374F226BB32* L_6 = L_5->____attachmentPointFlagConstants;
@@ -17212,14 +17198,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointsEnumerator__ctor_m9BEC93
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:573>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:572>
 		__this->____curIdx = (-1);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:574>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:573>
 		__this->____hand = (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____hand), (void*)(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4*)NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:575>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:574>
 		__this->____flagsCount = 0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:577>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:576>
 		return;
 	}
 }
@@ -17230,7 +17216,7 @@ IL2CPP_EXTERN_C  void AttachmentPointsEnumerator__ctor_m9BEC93592E8F395769A005C4
 	_thisAdjusted = reinterpret_cast<AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462*>(__this + _offset);
 	AttachmentPointsEnumerator__ctor_m9BEC93592E8F395769A005C41C5A10A1300184E6(_thisAdjusted, ___0_hand, method);
 }
-// Method Definition Index: 65748
+// Method Definition Index: 65768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* AttachmentPointsEnumerator_get_Current_mE2B98E82BBA9CE16CD2502A68CC26CECF14C415C (AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17241,7 +17227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointBehaviour_t6D62BA149DA48D1B9B9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:583>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:582>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_0 = __this->____hand;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17252,13 +17238,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentPointBehaviour_t6D62BA149DA48D1B9B9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:583>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:582>
 		return (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E*)NULL;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:585>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:584>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_2 = __this->____hand;
 		int32_t L_3 = __this->____curIdx;
 		il2cpp_codegen_runtime_class_init_inline(AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_il2cpp_TypeInfo_var);
@@ -17279,7 +17265,7 @@ IL2CPP_EXTERN_C  AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D5
 	_returnValue = AttachmentPointsEnumerator_get_Current_mE2B98E82BBA9CE16CD2502A68CC26CECF14C415C(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 65749
+// Method Definition Index: 65769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointsEnumerator_MoveNext_m203166B38B1876B5A6A6113085CB6F847661C2A1 (AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17292,10 +17278,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointsEnumerator_MoveNext_m203
 
 IL_0000:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:593>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:592>
 		int32_t L_0 = __this->____curIdx;
 		__this->____curIdx = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:594>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:593>
 		int32_t L_1 = __this->____curIdx;
 		int32_t L_2 = __this->____flagsCount;
 		if ((((int32_t)L_1) >= ((int32_t)L_2)))
@@ -17323,7 +17309,7 @@ IL_0000:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:596>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:595>
 		int32_t L_8 = __this->____curIdx;
 		int32_t L_9 = __this->____flagsCount;
 		return (bool)((((int32_t)L_8) < ((int32_t)L_9))? 1 : 0);
@@ -17346,7 +17332,7 @@ IL2CPP_EXTERN_C  bool AttachmentPointsEnumerator_MoveNext_m203166B38B1876B5A6A61
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65750
+// Method Definition Index: 65770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0834EA670E66A4090C7524FDDAC7B0472EAFDB9A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17363,7 +17349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m0834EA670E66A4090C7524FD
 		return;
 	}
 }
-// Method Definition Index: 65751
+// Method Definition Index: 65771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m1A42ED18EDEE7AE8740679492282C1FB3A222859 (U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17371,11 +17357,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m1A42ED18EDEE7AE8740679492
 		return;
 	}
 }
-// Method Definition Index: 65752
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__55_0_mF3F3BF541B87E1B70E9D1EF08E57D4BEAF0B93A9 (U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA* __this, const RuntimeMethod* method) 
+// Method Definition Index: 65772
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__53_0_m27D4128BF7852A150E953BFDD00B1D44BD22C6F8 (U3CU3Ec_t4DE3F2A65C216997D7E1E3BFE0C76E9A109456FA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:39>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:39>
 		return;
 	}
 }
@@ -17387,19 +17373,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__55_0_mF3F3BF541B87
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65753
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass44_0__ctor_m8D47C43D82BA44B802D54CEAB9255481EA8BE216 (U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 65773
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass42_0__ctor_m7E85D5608AA9EF00B3919C0C5A8E45745FCFAA72 (U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 65754
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass44_0_U3CensureTransformExistsU3Eb__0_mFC909CF586E5B4F2AE1937D160C3D229EA514848 (U3CU3Ec__DisplayClass44_0_t989FE52831977EAD9B3D83A91318F2310D938DA4* __this, AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* ___0_p, const RuntimeMethod* method) 
+// Method Definition Index: 65774
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass42_0_U3CensureTransformExistsU3Eb__0_m05BEE2FBB54881A5CDDE8746ED06A5F0557859F8 (U3CU3Ec__DisplayClass42_0_t105AB2B2124EEBF74665C06B72990A34ECBA9263* __this, AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:335>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:334>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_0 = ___0_p;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___attachmentPoint;
@@ -17415,11 +17401,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass44_0_U3CensureTrans
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65755
+// Method Definition Index: 65775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHandEnableDisable_Update_m78B9F8588B5C0F483814DBF3DAE53FA183942786 (AttachmentHandEnableDisable_t6B64874D7A55CD60DD16DB66F624194F5CD7658D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:21>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:21>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_0 = __this->___attachmentHand;
 		NullCheck(L_0);
 		bool L_1;
@@ -17443,7 +17429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHandEnableDisable_Update_m78B9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:23>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:23>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_5 = __this->___attachmentHand;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -17454,7 +17440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHandEnableDisable_Update_m78B9
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:27>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:27>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_7 = __this->___attachmentHand;
 		NullCheck(L_7);
 		bool L_8;
@@ -17478,7 +17464,7 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:29>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:29>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_12 = __this->___attachmentHand;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -17489,11 +17475,11 @@ IL_0030:
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:31>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHandEnableDisable.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 65756
+// Method Definition Index: 65776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHandEnableDisable__ctor_m02DE0FB5B98D0B53745B01158DD00A412A95B969 (AttachmentHandEnableDisable_t6B64874D7A55CD60DD16DB66F624194F5CD7658D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17509,20 +17495,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHandEnableDisable__ctor_m02DE0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65757
+// Method Definition Index: 65777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentHands_get_attachmentPoints_m21473BB713377BA3C91BFC0A55C9EC3CD0F36E0C (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:43>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:43>
 		int32_t L_0 = __this->____attachmentPoints;
 		return L_0;
 	}
 }
-// Method Definition Index: 65758
+// Method Definition Index: 65778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_set_attachmentPoints_m60CA90A0F6EF9B115255162F4DF8B880E3E2E888 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:47>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:47>
 		int32_t L_0 = __this->____attachmentPoints;
 		int32_t L_1 = ___0_value;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -17531,100 +17517,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_set_attachmentPoints_m60
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:56>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:56>
 		int32_t L_2 = ___0_value;
 		__this->____attachmentPoints = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:57>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:57>
 		AttachmentHands_refreshAttachmentHandTransforms_mAF4B4A1CE1CE69F35068EE5C9B99E1C88559F9F8(__this, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:59>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 65759
+// Method Definition Index: 65779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* AttachmentHands_get_handAccessors_m5DED9C7F86B182A233EF887046FB6CF24F8B48C9 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_0 = __this->____handAccessors;
 		return L_0;
 	}
 }
-// Method Definition Index: 65760
+// Method Definition Index: 65780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_set_handAccessors_m4AC73086C2244EC8993C6AF0E6807E5D5260E430 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_0 = ___0_value;
 		__this->____handAccessors = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____handAccessors), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 65761
+// Method Definition Index: 65781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* AttachmentHands_get_attachmentHands_m993F7E039D3416F91D237AF288321456D94272F5 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_0 = __this->____attachmentHands;
 		return L_0;
 	}
 }
-// Method Definition Index: 65762
+// Method Definition Index: 65782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_set_attachmentHands_m7C413A57EBB0A8692836AB2F34DE6DE41BB5C792 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_0 = ___0_value;
 		__this->____attachmentHands = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____attachmentHands), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 65763
+// Method Definition Index: 65783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_SetLeapProvider_m7CF44683A30CEE5EF310C476602EB845DC16F620 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* ___0_provider, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:90>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = ___0_provider;
 		__this->____leapProvider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leapProvider), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:91>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:91>
 		AttachmentHands_reinitialize_mF5D06D994EC338FEFF643E38D8E2EB49B59CBE34(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:92>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 65764
+// Method Definition Index: 65784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_Awake_mEB95468C98AEA2F766789C9CCBD53D91B7FBC7BE (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:122>
 		AttachmentHands_reinitialize_mF5D06D994EC338FEFF643E38D8E2EB49B59CBE34(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:123>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 65765
+// Method Definition Index: 65785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_reinitialize_mF5D06D994EC338FEFF643E38D8E2EB49B59CBE34 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:127>
 		AttachmentHands_refreshHandAccessors_m28ACE69B33153B68ABF02072465C7FB9BC41A56D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:128>
 		AttachmentHands_refreshAttachmentHands_mE33DEF24778BCAE75A440751D1D44C3BF1C4368C(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:133>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:133>
 		AttachmentHands_refreshAttachmentHandTransforms_mAF4B4A1CE1CE69F35068EE5C9B99E1C88559F9F8(__this, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 65766
+// Method Definition Index: 65786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_Update_m547DAD8AB9EB697C6A9C703019EA4A416176F540 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17642,7 +17628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_Update_m547DAD8AB9EB697C
 	AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:145>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = __this->____leapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17653,22 +17639,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_Update_m547DAD8AB9EB697C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:147>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:147>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:150>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:150>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
 		V_1 = 0;
 		goto IL_0078;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:154>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_2;
 		L_2 = AttachmentHands_get_attachmentHands_m993F7E039D3416F91D237AF288321456D94272F5_inline(__this, NULL);
 		int32_t L_3 = V_1;
@@ -17676,7 +17662,7 @@ IL_0015:
 		int32_t L_4 = L_3;
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:156>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:156>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_6 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -17697,15 +17683,15 @@ IL_0015:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:158>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:158>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:159>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:159>
 		goto IL_0083;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:162>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_9;
 		L_9 = AttachmentHands_get_handAccessors_m5DED9C7F86B182A233EF887046FB6CF24F8B48C9_inline(__this, NULL);
 		int32_t L_10 = V_1;
@@ -17716,12 +17702,12 @@ IL_0033:
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_13;
 		L_13 = Func_1_Invoke_m784BA9DE7DE99199DBD723AA9E9A70BBD95FC156_inline(L_12, NULL);
 		V_3 = L_13;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:163>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:163>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_14 = V_2;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_15 = V_3;
 		NullCheck(L_14);
 		AttachmentHand_set_isTracked_m2BF51BB53945401ACF00F2DD4D30E089754A14C9_inline(L_14, (bool)((!(((RuntimeObject*)(Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89*)L_15) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_16 = V_2;
 		NullCheck(L_16);
 		AttachmentPointsEnumerator_tA1EF62433FBAF80ED48EEBFDF5EF51FE6C94B462 L_17;
@@ -17735,10 +17721,10 @@ IL_0033:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_19;
 		L_19 = AttachmentPointsEnumerator_get_Current_mE2B98E82BBA9CE16CD2502A68CC26CECF14C415C((&V_4), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:167>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:167>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_20 = V_3;
 		NullCheck(L_19);
 		AttachmentPointBehaviour_SetTransformUsingHand_m66796C7FF29100B892374D9655AE47B4B08472A5(L_19, L_20, NULL);
@@ -17746,7 +17732,7 @@ IL_005e:
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:165>
 		bool L_21;
 		L_21 = AttachmentPointsEnumerator_MoveNext_m203166B38B1876B5A6A6113085CB6F847661C2A1((&V_4), NULL);
 		if (L_21)
@@ -17755,14 +17741,14 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
 		int32_t L_22 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:152>
 		int32_t L_23 = V_1;
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_24 = __this->____attachmentHands;
 		NullCheck(L_24);
@@ -17774,7 +17760,7 @@ IL_0078:
 
 IL_0083:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:171>
 		bool L_25 = V_0;
 		if (!L_25)
 		{
@@ -17782,17 +17768,17 @@ IL_0083:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:173>
 		AttachmentHands_reinitialize_mF5D06D994EC338FEFF643E38D8E2EB49B59CBE34(__this, NULL);
 	}
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 65767
+// Method Definition Index: 65787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshHandAccessors_m28ACE69B33153B68ABF02072465C7FB9BC41A56D (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17809,7 +17795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshHandAccessors_m28
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:180>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:180>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_0 = __this->____handAccessors;
 		if (!L_0)
 		{
@@ -17827,11 +17813,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshHandAccessors_m28
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:182>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_2 = (Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86*)(Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86*)SZArrayNew(Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->____handAccessors = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____handAccessors), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:184>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:184>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_3 = __this->____leapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -17842,7 +17828,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:186>
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_5;
 		L_5 = Hands_get_Provider_mBCF08F4291FF0D1185D616AF4415599EB4F6D51E(NULL);
@@ -17852,7 +17838,7 @@ IL_0011:
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:188>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:188>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_6 = __this->____leapProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -17863,13 +17849,13 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:190>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_8 = __this->____handAccessors;
 		Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC* L_9 = (Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC*)il2cpp_codegen_object_new(Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC_il2cpp_TypeInfo_var);
 		Func_1__ctor_m90D3720D56285AD18AE1D49666D8CD6D92D352A7(L_9, __this, (intptr_t)((void*)AttachmentHands_U3CrefreshHandAccessorsU3Eb__17_0_mA0858E302CB5A8501E441C5C8062EFD239279EB0_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC*)L_9);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:191>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_10 = __this->____handAccessors;
 		Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC* L_11 = (Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC*)il2cpp_codegen_object_new(Func_1_t831ACCD48008667CEEFFF8E496ED574BEDA5E6DC_il2cpp_TypeInfo_var);
 		Func_1__ctor_m90D3720D56285AD18AE1D49666D8CD6D92D352A7(L_11, __this, (intptr_t)((void*)AttachmentHands_U3CrefreshHandAccessorsU3Eb__17_1_m23DF5AB4566E706A655D860A904DDCB928B4FB43_RuntimeMethod_var), NULL);
@@ -17880,18 +17866,18 @@ IL_0036:
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:195>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:195>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralE50EA501B0C7CCC82607EF868F381BAA3226CD75, NULL);
 	}
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:199>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:199>
 		return;
 	}
 }
-// Method Definition Index: 65768
+// Method Definition Index: 65788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHands_mE33DEF24778BCAE75A440751D1D44C3BF1C4368C (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17920,9 +17906,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHands_m
 	int32_t G_B10_0 = 0;
 	AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* G_B10_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:204>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:204>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:210>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:210>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_0 = __this->____attachmentHands;
 		if (!L_0)
 		{
@@ -17966,11 +17952,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHands_m
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:212>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:212>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_10 = (AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1*)(AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1*)SZArrayNew(AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1_il2cpp_TypeInfo_var, (uint32_t)2);
 		__this->____attachmentHands = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____attachmentHands), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Utils_t428B11E8BF4003BA0CCE68EA2AAAE3A306B1CFB4_il2cpp_TypeInfo_var);
@@ -17999,15 +17985,15 @@ FINALLY_008d:
 
 IL_0058_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 				L_14 = ChildrenEnumerator_get_Current_m3D21D6D987EAF14FE5B71FB5FF0421E77C9C2C92((&V_1), NULL);
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:217>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:217>
 				NullCheck(L_14);
 				AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_15;
 				L_15 = Component_GetComponent_TisAttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_m8EB3203638E5C96BDF38ED50BBF5B7144E14BF66(L_14, Component_GetComponent_TisAttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4_m8EB3203638E5C96BDF38ED50BBF5B7144E14BF66_RuntimeMethod_var);
 				V_3 = L_15;
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:218>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:218>
 				AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_16 = V_3;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_17;
@@ -18018,7 +18004,7 @@ IL_0058_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:220>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:220>
 				AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_18 = __this->____attachmentHands;
 				AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_19 = V_3;
 				NullCheck(L_19);
@@ -18053,7 +18039,7 @@ IL_0080_1:
 
 IL_0082_1:
 			{
-				//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
+				//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:215>
 				bool L_22;
 				L_22 = ChildrenEnumerator_MoveNext_mD1AF7BA2D214E47BEEBC784E58D5895E964BA1E8((&V_1), NULL);
 				if (L_22)
@@ -18073,8 +18059,8 @@ IL_0082_1:
 
 IL_009b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:227>
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:228>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:227>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:228>
 		bool L_23 = V_0;
 		if (!L_23)
 		{
@@ -18152,13 +18138,13 @@ IL_009b:
 
 IL_00fc:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:230>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:230>
 		return;
 	}
 
 IL_00fd:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:234>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:234>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_46 = __this->____attachmentHands;
 		NullCheck(L_46);
 		int32_t L_47 = 0;
@@ -18172,11 +18158,11 @@ IL_00fd:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:236>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:236>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_50, NULL);
 		V_4 = L_50;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:240>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:240>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_51 = __this->____attachmentHands;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = V_4;
 		NullCheck(L_52);
@@ -18185,7 +18171,7 @@ IL_00fd:
 		NullCheck(L_51);
 		ArrayElementTypeCheck (L_51, L_53);
 		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(0), (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4*)L_53);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:241>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:241>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_54 = __this->____attachmentHands;
 		NullCheck(L_54);
 		int32_t L_55 = 0;
@@ -18196,7 +18182,7 @@ IL_00fd:
 
 IL_0131:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:243>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:243>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_57 = __this->____attachmentHands;
 		NullCheck(L_57);
 		int32_t L_58 = 0;
@@ -18206,7 +18192,7 @@ IL_0131:
 		L_60 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_59, NULL);
 		NullCheck(L_60);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_60, _stringLiteral68C7E407581538BA9A7784285366DCB26523527D, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:244>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_61 = __this->____attachmentHands;
 		NullCheck(L_61);
 		int32_t L_62 = 0;
@@ -18228,7 +18214,7 @@ IL_0131:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:244>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:244>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_68 = __this->____attachmentHands;
 		NullCheck(L_68);
 		int32_t L_69 = 0;
@@ -18244,7 +18230,7 @@ IL_0131:
 
 IL_017f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:246>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:246>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_73 = __this->____attachmentHands;
 		NullCheck(L_73);
 		int32_t L_74 = 1;
@@ -18258,11 +18244,11 @@ IL_017f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:248>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:248>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_77, NULL);
 		V_5 = L_77;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:252>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:252>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_78 = __this->____attachmentHands;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_79 = V_5;
 		NullCheck(L_79);
@@ -18271,7 +18257,7 @@ IL_017f:
 		NullCheck(L_78);
 		ArrayElementTypeCheck (L_78, L_80);
 		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(1), (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4*)L_80);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:253>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:253>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_81 = __this->____attachmentHands;
 		NullCheck(L_81);
 		int32_t L_82 = 1;
@@ -18282,7 +18268,7 @@ IL_017f:
 
 IL_01b3:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:255>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:255>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_84 = __this->____attachmentHands;
 		NullCheck(L_84);
 		int32_t L_85 = 1;
@@ -18292,7 +18278,7 @@ IL_01b3:
 		L_87 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_86, NULL);
 		NullCheck(L_87);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_87, _stringLiteral808809011615CA59F71430B1AC47FE6C1D8B6AF4, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:256>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:256>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_88 = __this->____attachmentHands;
 		NullCheck(L_88);
 		int32_t L_89 = 1;
@@ -18314,7 +18300,7 @@ IL_01b3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:256>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:256>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_95 = __this->____attachmentHands;
 		NullCheck(L_95);
 		int32_t L_96 = 1;
@@ -18330,7 +18316,7 @@ IL_01b3:
 
 IL_0201:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:259>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:259>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_100 = __this->____attachmentHands;
 		NullCheck(L_100);
 		int32_t L_101 = 0;
@@ -18340,7 +18326,7 @@ IL_0201:
 		L_103 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_102, NULL);
 		NullCheck(L_103);
 		Transform_SetSiblingIndex_m8A3B81F08B93991C05BFA89ADA2146836C4FC4B2(L_103, 0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:260>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:260>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_104 = __this->____attachmentHands;
 		NullCheck(L_104);
 		int32_t L_105 = 1;
@@ -18354,11 +18340,11 @@ IL_0201:
 
 IL_0227:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:262>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 65769
+// Method Definition Index: 65789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHandTransforms_mAF4B4A1CE1CE69F35068EE5C9B99E1C88559F9F8 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18372,7 +18358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHandTra
 	int32_t V_2 = 0;
 	AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:266>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:266>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(__this, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -18382,15 +18368,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands_refreshAttachmentHandTra
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:266>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:266>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:272>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:272>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:274>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:274>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_1 = __this->____attachmentHands;
 		if (L_1)
 		{
@@ -18398,14 +18384,14 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:276>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:276>
 		V_0 = (bool)1;
 		goto IL_004a;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_2 = __this->____attachmentHands;
 		V_1 = L_2;
 		V_2 = 0;
@@ -18414,14 +18400,14 @@ IL_0018:
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_3 = V_1;
 		int32_t L_4 = V_2;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:282>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:282>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_7 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -18432,15 +18418,15 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:285>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:285>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:286>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:286>
 		goto IL_004a;
 	}
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:289>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:289>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_9 = V_3;
 		int32_t L_10 = __this->____attachmentPoints;
 		NullCheck(L_9);
@@ -18451,7 +18437,7 @@ IL_0034:
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:280>
 		int32_t L_12 = V_2;
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_13 = V_1;
 		NullCheck(L_13);
@@ -18463,7 +18449,7 @@ IL_0044:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:297>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:297>
 		bool L_14 = V_0;
 		if (!L_14)
 		{
@@ -18471,33 +18457,33 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:299>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:299>
 		AttachmentHands_reinitialize_mF5D06D994EC338FEFF643E38D8E2EB49B59CBE34(__this, NULL);
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:301>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:301>
 		return;
 	}
 }
-// Method Definition Index: 65770
+// Method Definition Index: 65790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentHands__ctor_m852975FCBF7320F62F642D6301421A0A89A5EF60 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:38>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:38>
 		__this->____attachmentPoints = 6;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 65771
+// Method Definition Index: 65791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* AttachmentHands_U3CrefreshHandAccessorsU3Eb__17_0_mA0858E302CB5A8501E441C5C8062EFD239279EB0 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* G_B2_0 = NULL;
 	Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:190>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:190>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = __this->____leapProvider;
 		NullCheck(L_0);
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_1;
@@ -18521,13 +18507,13 @@ IL_0011:
 		return L_3;
 	}
 }
-// Method Definition Index: 65772
+// Method Definition Index: 65792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* AttachmentHands_U3CrefreshHandAccessorsU3Eb__17_1_m23DF5AB4566E706A655D860A904DDCB928B4FB43 (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* G_B2_0 = NULL;
 	Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:191>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:191>
 		LeapProvider_t616C3A87E2E3B45581185573136B9B2E6226FB2C* L_0 = __this->____leapProvider;
 		NullCheck(L_0);
 		Frame_t85321041BFB220C38BB4EDE2EFBCFC514D02EBB0* L_1;
@@ -18559,7 +18545,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65773
+// Method Definition Index: 65793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnValidate_m86C824A97AD8C2BAB8F83ECB62E38C47ECCAB036 (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18570,7 +18556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnValidate_m86C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:42>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:42>
 		int32_t L_0 = __this->___attachmentPoint;
 		bool L_1;
 		L_1 = AttachmentPointFlagsExtensions_IsSinglePoint_mD12539D5E446020AF95B27823CFD98528FC4D5EF(L_0, NULL);
@@ -18587,22 +18573,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnValidate_m86C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:44>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:44>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteralFBC3A9B353F112F8A89ADC4215255A5D92CC5870, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:45>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:45>
 		__this->___attachmentPoint = 0;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:47>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 65774
+// Method Definition Index: 65794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnDestroy_m32C4F6A32F467403159D63CF91202878DE2A5F49 (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18612,7 +18598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnDestroy_m32C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:51>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:51>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_0 = __this->___attachmentHand;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18623,7 +18609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnDestroy_m32C4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:53>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:53>
 		AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* L_2 = __this->___attachmentHand;
 		NullCheck(L_2);
 		AttachmentHand_notifyPointBehaviourDeleted_mD20AE1479166836B119E965A3BDFB1FA066352F7(L_2, __this, NULL);
@@ -18631,11 +18617,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_OnDestroy_m32C4
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:55>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 65775
+// Method Definition Index: 65795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentPointBehaviour_op_Implicit_m4D5BAE52EAE41D58109A2A2E456560462F780F68 (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18645,7 +18631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentPointBehaviour_op_Implicit_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:59>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:59>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_0 = ___0_p;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18656,20 +18642,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttachmentPointBehaviour_op_Implicit_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:59>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:59>
 		return (int32_t)(0);
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:60>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:60>
 		AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* L_2 = ___0_p;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___attachmentPoint;
 		return L_3;
 	}
 }
-// Method Definition Index: 65776
+// Method Definition Index: 65796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_SetTransformUsingHand_m66796C7FF29100B892374D9655AE47B4B08472A5 (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* __this, Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_hand, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -18677,7 +18663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_SetTransformUsi
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:65>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:65>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_0 = ___0_hand;
 		if (L_0)
 		{
@@ -18685,41 +18671,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_SetTransformUsi
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:67>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:67>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:70>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:70>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:71>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:71>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:73>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:73>
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_3 = ___0_hand;
 		int32_t L_4 = __this->___attachmentPoint;
 		AttachmentPointBehaviour_GetLeapHandPointData_m6221390DEF1041C1DBBD6AA212B48118ED9EAA2B(L_3, L_4, (&V_0), (&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:75>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:75>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 		NullCheck(L_5);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:76>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:76>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = V_1;
 		NullCheck(L_7);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:77>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 65777
+// Method Definition Index: 65797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_GetLeapHandPointData_m6221390DEF1041C1DBBD6AA212B48118ED9EAA2B (Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* ___0_hand, int32_t ___1_singlePoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___3_rotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18734,17 +18720,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_GetLeapHandPoin
 	LeapTransform_t83BAC45CCA0B1AC4D9616390D282202F15C953B7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:81>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:81>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___2_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:82>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:82>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_2 = ___3_rotation;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_2 = L_3;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:84>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:84>
 		int32_t L_4 = ___1_singlePoint;
 		if (!L_4)
 		{
@@ -18761,10 +18747,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour_GetLeapHandPoin
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:86>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:86>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralA573D0303289D5608781B399A3BC76934419BAC0, NULL);
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:87>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:87>
 		return;
 	}
 
@@ -19025,19 +19011,19 @@ IL_012f:
 
 IL_0151:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:93>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:93>
 		return;
 	}
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:96>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:96>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_35 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_36 = ___0_hand;
 		NullCheck(L_36);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = L_36->___WristPosition;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_35 = L_37;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:97>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:97>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_38 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_39 = ___0_hand;
 		NullCheck(L_39);
@@ -19050,19 +19036,19 @@ IL_0152:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42;
 		L_42 = LeapTransform_get_rotation_m6B31353ACDE5538F17FF4E4CF8DF7B183F8D2C1C((&V_0), NULL);
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_38 = L_42;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:98>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:98>
 		return;
 	}
 
 IL_0178:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:100>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:100>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_43 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_44 = ___0_hand;
 		NullCheck(L_44);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = L_44->___PalmPosition;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_43 = L_45;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:101>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:101>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_46 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_47 = ___0_hand;
 		NullCheck(L_47);
@@ -19073,13 +19059,13 @@ IL_0178:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_49;
 		L_49 = LeapTransform_get_rotation_m6B31353ACDE5538F17FF4E4CF8DF7B183F8D2C1C((&V_0), NULL);
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_46 = L_49;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:102>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:102>
 		return;
 	}
 
 IL_0199:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:105>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:105>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_50 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_51 = ___0_hand;
 		NullCheck(L_51);
@@ -19095,7 +19081,7 @@ IL_0199:
 		NullCheck(L_57);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = L_57->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_50 = L_58;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:106>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:106>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_59 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_60 = ___0_hand;
 		NullCheck(L_60);
@@ -19111,13 +19097,13 @@ IL_0199:
 		NullCheck(L_66);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_67 = L_66->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_59 = L_67;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:107>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:107>
 		return;
 	}
 
 IL_01ce:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:109>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:109>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_68 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_69 = ___0_hand;
 		NullCheck(L_69);
@@ -19133,7 +19119,7 @@ IL_01ce:
 		NullCheck(L_75);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = L_75->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_68 = L_76;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:110>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:110>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_77 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_78 = ___0_hand;
 		NullCheck(L_78);
@@ -19149,13 +19135,13 @@ IL_01ce:
 		NullCheck(L_84);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_85 = L_84->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_77 = L_85;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:111>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:111>
 		return;
 	}
 
 IL_0203:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:113>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:113>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_86 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_87 = ___0_hand;
 		NullCheck(L_87);
@@ -19171,7 +19157,7 @@ IL_0203:
 		NullCheck(L_93);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94 = L_93->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_86 = L_94;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:114>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_95 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_96 = ___0_hand;
 		NullCheck(L_96);
@@ -19187,13 +19173,13 @@ IL_0203:
 		NullCheck(L_102);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_103 = L_102->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_95 = L_103;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:115>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:115>
 		return;
 	}
 
 IL_0238:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:118>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:118>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_104 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_105 = ___0_hand;
 		NullCheck(L_105);
@@ -19209,7 +19195,7 @@ IL_0238:
 		NullCheck(L_111);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_112 = L_111->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_104 = L_112;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:119>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:119>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_113 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_114 = ___0_hand;
 		NullCheck(L_114);
@@ -19225,13 +19211,13 @@ IL_0238:
 		NullCheck(L_120);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_121 = L_120->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_113 = L_121;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:120>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:120>
 		return;
 	}
 
 IL_026d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:122>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:122>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_122 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_123 = ___0_hand;
 		NullCheck(L_123);
@@ -19247,7 +19233,7 @@ IL_026d:
 		NullCheck(L_129);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_130 = L_129->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_122 = L_130;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:123>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:123>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_131 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_132 = ___0_hand;
 		NullCheck(L_132);
@@ -19263,13 +19249,13 @@ IL_026d:
 		NullCheck(L_138);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_139 = L_138->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_131 = L_139;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:124>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:124>
 		return;
 	}
 
 IL_02a2:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:126>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:126>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_140 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_141 = ___0_hand;
 		NullCheck(L_141);
@@ -19285,7 +19271,7 @@ IL_02a2:
 		NullCheck(L_147);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_148 = L_147->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_140 = L_148;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:127>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_149 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_150 = ___0_hand;
 		NullCheck(L_150);
@@ -19301,13 +19287,13 @@ IL_02a2:
 		NullCheck(L_156);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_157 = L_156->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_149 = L_157;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:128>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:128>
 		return;
 	}
 
 IL_02d7:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:130>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:130>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_158 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_159 = ___0_hand;
 		NullCheck(L_159);
@@ -19323,7 +19309,7 @@ IL_02d7:
 		NullCheck(L_165);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_166 = L_165->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_158 = L_166;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:131>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:131>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_167 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_168 = ___0_hand;
 		NullCheck(L_168);
@@ -19339,13 +19325,13 @@ IL_02d7:
 		NullCheck(L_174);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_175 = L_174->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_167 = L_175;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:132>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:132>
 		return;
 	}
 
 IL_030c:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:135>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:135>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_176 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_177 = ___0_hand;
 		NullCheck(L_177);
@@ -19361,7 +19347,7 @@ IL_030c:
 		NullCheck(L_183);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_184 = L_183->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_176 = L_184;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:136>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:136>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_185 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_186 = ___0_hand;
 		NullCheck(L_186);
@@ -19377,13 +19363,13 @@ IL_030c:
 		NullCheck(L_192);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_193 = L_192->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_185 = L_193;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:137>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:137>
 		return;
 	}
 
 IL_0341:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:139>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:139>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_194 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_195 = ___0_hand;
 		NullCheck(L_195);
@@ -19399,7 +19385,7 @@ IL_0341:
 		NullCheck(L_201);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_202 = L_201->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_194 = L_202;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:140>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:140>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_203 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_204 = ___0_hand;
 		NullCheck(L_204);
@@ -19415,13 +19401,13 @@ IL_0341:
 		NullCheck(L_210);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_211 = L_210->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_203 = L_211;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:141>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:141>
 		return;
 	}
 
 IL_0376:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:143>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:143>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_212 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_213 = ___0_hand;
 		NullCheck(L_213);
@@ -19437,7 +19423,7 @@ IL_0376:
 		NullCheck(L_219);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_220 = L_219->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_212 = L_220;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:144>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:144>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_221 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_222 = ___0_hand;
 		NullCheck(L_222);
@@ -19453,13 +19439,13 @@ IL_0376:
 		NullCheck(L_228);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_229 = L_228->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_221 = L_229;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:145>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:145>
 		return;
 	}
 
 IL_03ab:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:147>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:147>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_230 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_231 = ___0_hand;
 		NullCheck(L_231);
@@ -19475,7 +19461,7 @@ IL_03ab:
 		NullCheck(L_237);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_238 = L_237->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_230 = L_238;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:148>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:148>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_239 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_240 = ___0_hand;
 		NullCheck(L_240);
@@ -19491,13 +19477,13 @@ IL_03ab:
 		NullCheck(L_246);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_247 = L_246->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_239 = L_247;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:149>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:149>
 		return;
 	}
 
 IL_03e0:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:152>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:152>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_248 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_249 = ___0_hand;
 		NullCheck(L_249);
@@ -19513,7 +19499,7 @@ IL_03e0:
 		NullCheck(L_255);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_256 = L_255->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_248 = L_256;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:153>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:153>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_257 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_258 = ___0_hand;
 		NullCheck(L_258);
@@ -19529,13 +19515,13 @@ IL_03e0:
 		NullCheck(L_264);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_265 = L_264->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_257 = L_265;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:154>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:154>
 		return;
 	}
 
 IL_0415:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:156>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:156>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_266 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_267 = ___0_hand;
 		NullCheck(L_267);
@@ -19551,7 +19537,7 @@ IL_0415:
 		NullCheck(L_273);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_274 = L_273->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_266 = L_274;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:157>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:157>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_275 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_276 = ___0_hand;
 		NullCheck(L_276);
@@ -19567,13 +19553,13 @@ IL_0415:
 		NullCheck(L_282);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_283 = L_282->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_275 = L_283;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:158>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:158>
 		return;
 	}
 
 IL_044a:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:160>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:160>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_284 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_285 = ___0_hand;
 		NullCheck(L_285);
@@ -19589,7 +19575,7 @@ IL_044a:
 		NullCheck(L_291);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_292 = L_291->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_284 = L_292;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:161>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:161>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_293 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_294 = ___0_hand;
 		NullCheck(L_294);
@@ -19605,13 +19591,13 @@ IL_044a:
 		NullCheck(L_300);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_301 = L_300->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_293 = L_301;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:162>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:162>
 		return;
 	}
 
 IL_047f:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:164>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:164>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_302 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_303 = ___0_hand;
 		NullCheck(L_303);
@@ -19627,7 +19613,7 @@ IL_047f:
 		NullCheck(L_309);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_310 = L_309->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_302 = L_310;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:165>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:165>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_311 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_312 = ___0_hand;
 		NullCheck(L_312);
@@ -19643,13 +19629,13 @@ IL_047f:
 		NullCheck(L_318);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_319 = L_318->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_311 = L_319;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:166>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:166>
 		return;
 	}
 
 IL_04b4:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:169>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:169>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_320 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_321 = ___0_hand;
 		NullCheck(L_321);
@@ -19665,7 +19651,7 @@ IL_04b4:
 		NullCheck(L_327);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_328 = L_327->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_320 = L_328;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:170>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:170>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_329 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_330 = ___0_hand;
 		NullCheck(L_330);
@@ -19681,13 +19667,13 @@ IL_04b4:
 		NullCheck(L_336);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_337 = L_336->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_329 = L_337;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:171>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:171>
 		return;
 	}
 
 IL_04e9:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:173>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:173>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_338 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_339 = ___0_hand;
 		NullCheck(L_339);
@@ -19703,7 +19689,7 @@ IL_04e9:
 		NullCheck(L_345);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_346 = L_345->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_338 = L_346;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:174>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:174>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_347 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_348 = ___0_hand;
 		NullCheck(L_348);
@@ -19719,13 +19705,13 @@ IL_04e9:
 		NullCheck(L_354);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_355 = L_354->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_347 = L_355;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:175>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:175>
 		return;
 	}
 
 IL_051e:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:177>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:177>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_356 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_357 = ___0_hand;
 		NullCheck(L_357);
@@ -19741,7 +19727,7 @@ IL_051e:
 		NullCheck(L_363);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_364 = L_363->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_356 = L_364;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:178>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:178>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_365 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_366 = ___0_hand;
 		NullCheck(L_366);
@@ -19757,13 +19743,13 @@ IL_051e:
 		NullCheck(L_372);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_373 = L_372->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_365 = L_373;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:179>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:179>
 		return;
 	}
 
 IL_0553:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:181>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:181>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_374 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_375 = ___0_hand;
 		NullCheck(L_375);
@@ -19779,7 +19765,7 @@ IL_0553:
 		NullCheck(L_381);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_382 = L_381->___NextJoint;
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_374 = L_382;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:182>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:182>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_383 = ___3_rotation;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_384 = ___0_hand;
 		NullCheck(L_384);
@@ -19795,20 +19781,20 @@ IL_0553:
 		NullCheck(L_390);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_391 = L_390->___Rotation;
 		*(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)L_383 = L_391;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:183>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:183>
 		return;
 	}
 
 IL_0588:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:185>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:185>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_392 = ___2_position;
 		Hand_t94B2B81D5E4BBDDD5527595B0315393E931DFD89* L_393 = ___0_hand;
 		il2cpp_codegen_runtime_class_init_inline(Hands_t2DB0626440455B26BAE8BD67E930AFA36E527AFC_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_394;
 		L_394 = Hands_GetPredictedPinchPosition_m56DD5ECCF590B9649F44A3B9E3210A2F8196B1B6(L_393, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_392 = L_394;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:186>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:186>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_395 = ___3_rotation;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_396 = ___2_position;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_397 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_396);
@@ -19831,11 +19817,11 @@ IL_0588:
 
 IL_05bd:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:189>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointBehaviour.cs:189>
 		return;
 	}
 }
-// Method Definition Index: 65778
+// Method Definition Index: 65798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour__ctor_mE682421B55409264CAA6A8DDEA7BA6CEC8EAC42A (AttachmentPointBehaviour_t6D62BA149DA48D1B9B90233D43FE67821C9D563E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19859,15 +19845,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttachmentPointBehaviour__ctor_mE682421B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65779
+// Method Definition Index: 65799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_IsSinglePoint_mD12539D5E446020AF95B27823CFD98528FC4D5EF (int32_t ___0_points, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:60>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:60>
 		int32_t L_0 = ___0_points;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:61>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:61>
 		int32_t L_1 = V_0;
 		if (!L_1)
 		{
@@ -19883,15 +19869,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_IsSingleP
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:62>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:62>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65780
+// Method Definition Index: 65800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_ContainsPoint_m9B72344EBE7B1E5CB377CD583410F1F19A2B69BF (int32_t ___0_points, int32_t ___1_singlePoint, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:78>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:78>
 		int32_t L_0 = ___0_points;
 		int32_t L_1 = ___1_singlePoint;
 		bool L_2;
@@ -19899,11 +19885,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_ContainsP
 		return L_2;
 	}
 }
-// Method Definition Index: 65781
+// Method Definition Index: 65801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_Contains_m31FC5C300E5D4FF1D6809FCDC12C242361234A77 (int32_t ___0_points, int32_t ___1_otherPoints, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:89>
 		int32_t L_0 = ___0_points;
 		if (!L_0)
 		{
@@ -19920,13 +19906,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttachmentPointFlagsExtensions_Contains_
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:89>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:89>
 		return (bool)0;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:90>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentPointFlags.cs:90>
 		int32_t L_2 = ___0_points;
 		int32_t L_3 = ___1_otherPoints;
 		int32_t L_4 = ___1_otherPoints;
@@ -20324,7 +20310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 82772
+// Method Definition Index: 82799
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20340,7 +20326,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B
 		return L_0;
 	}
 }
-// Method Definition Index: 82770
+// Method Definition Index: 82797
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42_inline (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20349,7 +20335,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE5
 		return L_0;
 	}
 }
-// Method Definition Index: 82813
+// Method Definition Index: 82840
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20777,11 +20763,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_1;
 	}
 }
-// Method Definition Index: 65628
+// Method Definition Index: 65649
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 RuntimeGizmoDrawer_get_matrix_mFE3995D29ECD479957A617C4418E2B76A9F3C9B5_inline (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:524>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:524>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = __this->____currMatrix;
 		return L_0;
 	}
@@ -20916,11 +20902,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 65626
+// Method Definition Index: 65647
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F RuntimeGizmoDrawer_get_color_m3CF6553C23609BF89A6603DADB92E57BAC5B43DC_inline (RuntimeGizmoDrawer_t3440EEDCB4DCC89D83DA0DC95DACBBC0A3788A7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:503>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Utils/RuntimeGizmoManager.cs:503>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->____currColor;
 		return L_0;
 	}
@@ -21850,61 +21836,61 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 65726
+// Method Definition Index: 65747
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AttachmentHand_get_isTracked_m4BC60684D15357A6B8E3E45E7582BAFDFC59DADD_inline (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		bool L_0 = __this->____isTracked;
 		return L_0;
 	}
 }
-// Method Definition Index: 65761
+// Method Definition Index: 65781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* AttachmentHands_get_attachmentHands_m993F7E039D3416F91D237AF288321456D94272F5_inline (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:83>
 		AttachmentHandU5BU5D_tBA4063E9E14B4194D617EBE9DACA457A869D47F1* L_0 = __this->____attachmentHands;
 		return L_0;
 	}
 }
-// Method Definition Index: 65759
+// Method Definition Index: 65779
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* AttachmentHands_get_handAccessors_m5DED9C7F86B182A233EF887046FB6CF24F8B48C9_inline (AttachmentHands_t8FC0F6D97CAC2951A19ECDAF4BDB8AFC94562F3E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHands.cs:72>
 		Func_1U5BU5D_t5347CF4B31F3BBA07DB8740A280B65C5A1A85D86* L_0 = __this->____handAccessors;
 		return L_0;
 	}
 }
-// Method Definition Index: 65727
+// Method Definition Index: 65748
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AttachmentHand_set_isTracked_m2BF51BB53945401ACF00F2DD4D30E089754A14C9_inline (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		bool L_0 = ___0_value;
 		__this->____isTracked = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 65724
+// Method Definition Index: 65745
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AttachmentHand_get_chirality_m84A6A5F58376EE85BD099349D5812277DF5F173B_inline (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		int32_t L_0 = __this->____chirality;
 		return L_0;
 	}
 }
-// Method Definition Index: 65725
+// Method Definition Index: 65746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AttachmentHand_set_chirality_mB2950269277D8ED26AFD95770F0F8B62CE071C08_inline (AttachmentHand_tA12779FE1D58203A35F2413023A2D28E92F971E4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		int32_t L_0 = ___0_value;
 		__this->____chirality = L_0;
-		//<source_info:./Library/PackageCache/com.ultraleap.tracking@5512b8d671b4/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
+		//<source_info:./Library/PackageCache/com.ultraleap.tracking@a7cb21401361/Core/Runtime/Scripts/Attachments/AttachmentHand.cs:114>
 		return;
 	}
 }

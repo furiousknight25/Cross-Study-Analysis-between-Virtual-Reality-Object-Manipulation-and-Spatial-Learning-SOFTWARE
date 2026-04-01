@@ -6,22 +6,22 @@ System name:             Linux
 Distro version:          #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 Kernel version:          6.14.0-37-generic
 Architecture:            x86_64
-Available memory:        15207 MB
-Date:                    2026-03-30T15:11:46Z
+Available memory:        15206 MB
+Date:                    2026-04-01T00:48:06Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-03-30T15:11:46.820604Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-04-01T00:48:06.311908Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              a01c13d111bd4eb1b25f709444cd9453
-  Correlation Id:          278baba82ec76de3ea99a8a26c8dd1b8
-  External correlation Id: 677844858613896355
+  Session Id:              4a78cc831d7845b684b11a24acffff88
+  Correlation Id:          1ccbda61a56cc094cdb580379aab31bc
+  External correlation Id: 7780072239454535463
   Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-03-30T15:11:46.825858Z"
-[Licensing::Module] Licensing Background thread has ended after 0.01s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.04s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-04-01T00:48:06.356712Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 Selected window backend: (null) 
-Desktop is 1920 x 2160 @ 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
@@ -36,9 +36,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33471
--licensingIpc
-LicenseClient-collector25061
+42873
 -job-worker-count
 7
 -background-job-worker-count
@@ -82,14 +80,14 @@ Successfully changed project path to: /home/collector25061/Documents/GitHub/Cros
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [123160762043200]  Target information:
+Player connection [128765282700096]  Target information:
 
-Player connection [123160762043200]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 1863408612 [EditorId] 1863408612 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128765282700096]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 3042612303 [EditorId] 3042612303 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [123160762043200]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 1863408612 [EditorId] 1863408612 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [128765282700096]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 3042612303 [EditorId] 3042612303 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [123160762043200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [123160762043200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [128765282700096] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [128765282700096] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -107,7 +105,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 84.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 160.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -126,56 +124,71 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 572587104
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1664102736
 Initialize mono
 Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56109
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.006406 seconds.
-- Loaded All Assemblies, in  0.895 seconds
+Registered in 0.010238 seconds.
+- Loaded All Assemblies, in  0.937 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 512 ms
+Unauthorized device detected, Id: 2G0YC1ZG3008Y5, please add debug authorization and reconnect.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:419)
+UnityEditor.Android.TargetScanWorker:ScanSync () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[]) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:114)
+UnityEditor.Android.TargetExtension:OnLoad () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:75)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /home/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:144)
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs Line: 419)
+
+Android Extension - Scanning For ADB Devices 536 ms
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.349 seconds
-Domain Reload Profiling: 2243ms
-	BeginReloadAssembly (329ms)
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 2232ms
+	BeginReloadAssembly (451ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (84ms)
+	RebuildCommonClasses (76ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (331ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (451ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (352ms)
-			TypeCache.Refresh (349ms)
-				TypeCache.ScanAssembly (321ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (256ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1349ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1253ms)
+		SetupLoadedEditorAssemblies (1215ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (658ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (697ms)
+			SetLoadedEditorAssemblies (9ms)
 			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,14 +198,14 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.668 seconds
-Refreshing native plugins compatible for Editor in 5.68 ms, found 0 plugins.
+- Loaded All Assemblies, in  1.701 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -201,107 +214,67 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.007 seconds
-Domain Reload Profiling: 3664ms
+- Finished resetting the current domain, in  2.207 seconds
+Domain Reload Profiling: 3897ms
 	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
+		CreateAndSetChildDomain (82ms)
 	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (1229ms)
-		LoadAssemblies (740ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1276ms)
+		LoadAssemblies (842ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (600ms)
-			TypeCache.Refresh (423ms)
-				TypeCache.ScanAssembly (394ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (2008ms)
+		AnalyzeDomain (551ms)
+			TypeCache.Refresh (391ms)
+				TypeCache.ScanAssembly (358ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2208ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1579ms)
+		SetupLoadedEditorAssemblies (1771ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (29ms)
-			BeforeProcessingInitializeOnLoad (288ms)
-			ProcessInitializeOnLoadAttributes (1045ms)
-			ProcessInitializeOnLoadMethodAttributes (188ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (34ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (1074ms)
+			ProcessInitializeOnLoadMethodAttributes (356ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 5.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 6.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7717 unused Assets / (5.6 MB). Loaded Objects now: 8572.
-Memory consumption went from 168.0 MB to 162.4 MB.
-Total: 22.922326 ms (FindLiveObjects: 1.539522 ms CreateObjectMapping: 1.860532 ms MarkObjects: 11.629959 ms  DeleteObjects: 7.889938 ms)
+Unloading 7725 unused Assets / (9.5 MB). Loaded Objects now: 8579.
+Memory consumption went from 164.9 MB to 155.3 MB.
+Total: 44.712283 ms (FindLiveObjects: 2.170413 ms CreateObjectMapping: 4.228635 ms MarkObjects: 21.837345 ms  DeleteObjects: 16.471501 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12748.720127 seconds.
+  Time since last request: 15656.946850 seconds.
   path: Assets/Main/MainExperiment.unity
   artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10fddf590959af8b084b7db572fe5b44') in 0.085049667 seconds
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f6ba5b699565a772747d9052ce8b8e9') in 0.095879067 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.417875 seconds.
-  path: Assets/Main/Scripts/Director.cs
-  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd7d228b2343fb6b08e576628135477e') in 0.001030429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 9.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7653 unused Assets / (4.7 MB). Loaded Objects now: 8563.
-Memory consumption went from 163.5 MB to 158.9 MB.
-Total: 22.087463 ms (FindLiveObjects: 1.123533 ms CreateObjectMapping: 1.437772 ms MarkObjects: 14.908185 ms  DeleteObjects: 4.614958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1531.153940 seconds.
-  path: Assets/Main/Scripts/TrialScene.cs
-  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5def810c0339e15cd998591df784ba2') in 0.055600804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.686683 seconds.
-  path: Assets/Main/Scripts/TrialScene.cs
-  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '161c50502e5ad3516d45c729176be380') in 0.000703076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  2.339 seconds
-Refreshing native plugins compatible for Editor in 10.59 ms, found 0 plugins.
+- Loaded All Assemblies, in  1.455 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -312,1481 +285,66 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.201 seconds
-Domain Reload Profiling: 5536ms
-	BeginReloadAssembly (772ms)
+- Finished resetting the current domain, in  1.493 seconds
+Domain Reload Profiling: 2942ms
+	BeginReloadAssembly (349ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (363ms)
-	RebuildCommonClasses (88ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (79ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1391ms)
-		LoadAssemblies (980ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (947ms)
+		LoadAssemblies (631ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (618ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (524ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (3202ms)
+		AnalyzeDomain (425ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (382ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1493ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2521ms)
+		SetupLoadedEditorAssemblies (1244ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (678ms)
-			ProcessInitializeOnLoadAttributes (1522ms)
-			ProcessInitializeOnLoadMethodAttributes (250ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (263ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 11.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 4.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7727 unused Assets / (4.6 MB). Loaded Objects now: 8591.
-Memory consumption went from 226.3 MB to 221.8 MB.
-Total: 30.602573 ms (FindLiveObjects: 2.295127 ms CreateObjectMapping: 2.640683 ms MarkObjects: 17.964516 ms  DeleteObjects: 7.698039 ms)
+Unloading 7734 unused Assets / (6.4 MB). Loaded Objects now: 8597.
+Memory consumption went from 201.7 MB to 195.3 MB.
+Total: 19.321255 ms (FindLiveObjects: 1.293541 ms CreateObjectMapping: 1.912520 ms MarkObjects: 10.490316 ms  DeleteObjects: 5.622564 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 5.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 6.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7653 unused Assets / (4.3 MB). Loaded Objects now: 8579.
-Memory consumption went from 197.5 MB to 193.2 MB.
-Total: 504.894766 ms (FindLiveObjects: 6.739725 ms CreateObjectMapping: 1.312367 ms MarkObjects: 491.269531 ms  DeleteObjects: 5.570316 ms)
+Unloading 17 unused Assets / (1.9 MB). Loaded Objects now: 8597.
+Memory consumption went from 168.5 MB to 166.6 MB.
+Total: 14.919106 ms (FindLiveObjects: 0.533238 ms CreateObjectMapping: 0.339065 ms MarkObjects: 12.911177 ms  DeleteObjects: 1.133571 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Ultraleap/GenericHandShader' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 12.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7653 unused Assets / (4.9 MB). Loaded Objects now: 8579.
-Memory consumption went from 197.3 MB to 192.5 MB.
-Total: 42.513196 ms (FindLiveObjects: 3.588768 ms CreateObjectMapping: 3.392140 ms MarkObjects: 23.526958 ms  DeleteObjects: 12.000733 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3265.807888 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.081929036 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000741949 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001517431 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.745522 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001388298 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000720579 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002918 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000843259 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000925843 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000609681 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007342 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000757899 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000707253 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00075853 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000880869 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000884977 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000804035 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000741548 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00070525 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Main/Scripts/TrialScene.cs
-  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8ca546e3f3b9f4c6f50aa4bb3603d7a') in 0.62364357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00000000000000000000000000000000') in 0.005851934 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00084918 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Main/Scripts/Director.cs
-  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d9facdfea6df802ebab563a6d2669c8') in 0.005970837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000755253 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076426 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000606345 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001005653 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000734835 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000692537 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.335682 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001211137 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000680624 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014826 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001002476 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001073099 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000672609 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001272021 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000920 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001343605 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000982519 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000874327 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001350167 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001102654 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00177921 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001771516 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014744 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026367 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001649116 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049567 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002475524 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028515 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00164554 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009473 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002528052 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018241 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001584486 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023525 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001189306 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018455 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002829386 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036444 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000796812 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056250 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001200357 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047844 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000803203 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057918 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000727983 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062667 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001069372 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049277 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000602036 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063239 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00081729 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062514 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000710019 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057367 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001235092 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046358 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000718856 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055166 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00091913 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047086 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000773598 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049873 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000828902 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050355 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001107112 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044410 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001113995 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061681 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000971087 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045198 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000964064 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062815 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001174398 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058057 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000813343 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052183 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001287781 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057020 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00107928 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057795 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000784419 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054029 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00071056 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051432 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000976898 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057403 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000818632 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063310 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000922928 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059815 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00102015 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048913 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000631202 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061639 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000910063 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062664 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000804275 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059243 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001162506 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061791 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001112602 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054155 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001000293 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061173 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00068374 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057403 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00119676 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057235 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010522 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061670 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000843699 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059147 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001008868 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053208 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000838399 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053199 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000826357 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057903 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000718656 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057785 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000862916 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058674 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000757247 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058476 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00092433 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060968 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000670415 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053760 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000895997 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054324 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001070463 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046798 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001372459 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049090 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001904846 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050438 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001831909 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044975 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001535685 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049716 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001311385 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042518 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000739545 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055449 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000872082 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060405 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00128772 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042743 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000989682 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037336 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001349967 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046856 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000677458 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055178 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001113714 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042051 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000718926 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051848 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00073737 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058989 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001726862 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044925 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00088682 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035387 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000899954 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040125 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002912913 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016656 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00143719 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031486 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00198196 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012641 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00100418 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042640 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00107421 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057263 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00077493 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060077 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00093497 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062473 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000701984 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055417 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000983491 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042635 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000741037 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052423 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000863537 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053782 seconds.
-  path: Assets/Main/Scripts/tablet.cs
-  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000921865 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-  ERROR: Build asset version error: assets/main/scripts/tablet.cs in SourceAssetDB has modification time of '2026-03-30T16:29:43Z' while content on disk has modification time of '2026-03-30T16:31:54Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.502552 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_02.png
-  artifactKey: Guid(9c07d5cd8a0efab3487b90457da0fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_02.png using Guid(9c07d5cd8a0efab3487b90457da0fda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: 'f25da89090561d30c59837405df63ef6') in 0.348699789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.305923 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_06.png
-  artifactKey: Guid(8564b00b7818bd2fc86a41e1a79c314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_06.png using Guid(8564b00b7818bd2fc86a41e1a79c314e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba3a6e7cce47d12ff66425f3c03f868') in 0.053565394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_10.png
-  artifactKey: Guid(81df63e578e89764ca2d32dc5c327d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_10.png using Guid(81df63e578e89764ca2d32dc5c327d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b935b5495ed5a2dc6082ad5742511f3c') in 0.03453343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_13.png
-  artifactKey: Guid(5d77c74972f9c1d9a930757804b32338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_13.png using Guid(5d77c74972f9c1d9a930757804b32338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '342416b4d5e51a1838c6f252dee9da21') in 0.041436231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_12.png
-  artifactKey: Guid(f26774fdee3e67eb08ed3a409f18e607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_12.png using Guid(f26774fdee3e67eb08ed3a409f18e607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c624ce1690eb28e84cff889f810430e') in 0.027847324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/texture_04.png
-  artifactKey: Guid(ce9aae00f572fb6a7a13768668794ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/KennyTextures/pngs/Light/texture_04.png using Guid(ce9aae00f572fb6a7a13768668794ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be6cca9adcd6cb347d2627d2167538ef') in 0.031479294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.717439 seconds.
-  path: Assets/Main/KennyTextures/pngs/Light/Materials/texture_06.mat
-  artifactKey: Guid(7a1a2709f3e623d48a74fa528c64e23d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/KennyTextures/pngs/Light/Materials/texture_06.mat using Guid(7a1a2709f3e623d48a74fa528c64e23d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0987dc0cb29e80d0ac71e6b0dfe8050e') in 0.069622841 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-
-SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
