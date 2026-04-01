@@ -420,3 +420,66 @@ Received Import Request.
 Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c911e38656509d81054f277e030c036') in 0.072084127 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 309
 
+========================================================================
+Received Import Request.
+  Time since last request: 5284.444013 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red
+  artifactKey: Guid(077b4a90e26cbc4669b7791706d8e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red using Guid(077b4a90e26cbc4669b7791706d8e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d24b84c4aeee7c764929e4510e1393b') in 0.051150685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003472 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_04.png
+  artifactKey: Guid(8d8b36610c2c9be209f63097522811a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_04.png using Guid(8d8b36610c2c9be209f63097522811a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'e8e726a656e266dac638b81b244c0f36') in 1.000515753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_05.png
+  artifactKey: Guid(7c45fb152f330f1b3b5bde3d1450b350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_05.png using Guid(7c45fb152f330f1b3b5bde3d1450b350) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a66238f7d265fa76c416e64bec4f7d') in 0.046223812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_13.png
+  artifactKey: Guid(5bb41d0d34f0dc2eda2a40522abd4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_13.png using Guid(5bb41d0d34f0dc2eda2a40522abd4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600b1e6dda9c46a834c376e2244a2907') in 0.074290107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_09.png
+  artifactKey: Guid(6fd5c849b54273f618077ff9c88890bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_09.png using Guid(6fd5c849b54273f618077ff9c88890bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944ab9e906324a726cdceacf887bc5cb') in 0.036737525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_02.png
+  artifactKey: Guid(b0968dd6dacb9d093913f8b8ac6bfec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_02.png using Guid(b0968dd6dacb9d093913f8b8ac6bfec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8646c7bbf6b0a2e9c00f36550e015b4b') in 0.055938045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Main/KennyTextures/pngs/Red/texture_12.png
+  artifactKey: Guid(ef92e323c909aa6688ff4f06ef1e3631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/KennyTextures/pngs/Red/texture_12.png using Guid(ef92e323c909aa6688ff4f06ef1e3631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30ced7a80c8ca815a73059f922879dce') in 0.02809596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

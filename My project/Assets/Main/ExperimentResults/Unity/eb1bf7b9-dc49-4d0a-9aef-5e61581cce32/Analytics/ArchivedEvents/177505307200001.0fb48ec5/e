@@ -1,0 +1,8 @@
+(s)|{"appid":"eb1bf7b9-dc49-4d0a-9aef-5e61581cce32","userid":"6d7959a3486b391af95732de3b23a57b","sessionid":314846902441084668,"platform":"AndroidPlayer","platformid":11,"sdk_ver":"u6000.3.6f1","runMode":"human-hub","sdk_rev":"bbb010bdb8a3","session_count":15,"localprojectid":"e84f44a89462bc96d9b227dfdb8474f7","build_guid":"1b302fd0cb8c4eb19580dd5612443fa3","deviceid":"b1cdbd1d792783ac1c503317edd1237e","identity_token":"6d7959a3486b391af95732de3b23a57b"}
+(g)|2
+{"type":"analytics.SubsystemInfo.v1","msg":{"subsystem":"","ts":1775053072734,"t_since_start":44244114418}}
+{"type":"analytics.SubsystemInfo.v1","msg":{"subsystem":"","ts":1775053072734,"t_since_start":44244114449}}
+{"type":"analytics.SubsystemInfo.v1","msg":{"subsystem":"","ts":1775053072734,"t_since_start":44244114459}}
+{"type":"analytics.SubsystemStart.v1","msg":{"subsystem":"OpenXR Display","ts":1775053072734,"t_since_start":44244114486}}
+{"type":"analytics.SubsystemStart.v1","msg":{"subsystem":"OpenXR Input","ts":1775053072734,"t_since_start":44244114492}}
+(1){"type":"analytics.appPause.v1","msg":{}}

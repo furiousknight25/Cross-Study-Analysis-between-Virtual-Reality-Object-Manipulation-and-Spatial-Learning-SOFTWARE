@@ -1005,7 +1005,9 @@
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Main/MainExperiment.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

@@ -9,7 +9,8 @@ public class Director : MonoBehaviour
     public event Action OnDoorToggle;
 
     public List<TrialScene> trialScenes = new List<TrialScene>();
-    public Dictionary<TrialScene, string> trialDataList = new Dictionary<TrialScene, string>();
+    public Dictionary<TrialScene, string> trialDataList = new Dictionary<TrialScene, string>(); //might not exist?
+    private List<ExperimentEvent> currentSessionLog = new List<ExperimentEvent>();
 
     public bool isControlGroup;
     public float explore_time = 300f;
@@ -41,21 +42,13 @@ public class Director : MonoBehaviour
         }
     }
 
-    public void UnregisterTrialScene(TrialScene trialScene)
-    {
-        if (trialScene == null)
-            return;
-
-        trialScenes.Remove(trialScene);
-    }
-
     public TrialScene[] GetPackedTrialScenes()
     {
         return trialScenes.ToArray();
     }
 
 
-    void MoveToNextTrial()
+    public void MoveToNextTrial()
     {
         TrialScene next_trial = null;
         if (trialScenes.Count > 0)
@@ -71,4 +64,18 @@ public class Director : MonoBehaviour
         //OnDoorToggle?.Invoke(); //close door
         Debug.Log("Moving to the next trial...");
     }
+
+    public void EndExperiment() //currentSessionLog.Add(new ExperimentEvent("trial1_touch", touchPos));
+    {
+        // Dumps the entire tidy list into the CSV
+        ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+    }
+
+    public void logHeadsetPosition(Vector3 position)
+    {
+        currentSessionLog.Add(new ExperimentEvent("headset_position", position));
+         ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+    }
+
+
 }
