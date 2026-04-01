@@ -340,3 +340,11 @@ Memory consumption went from 169.6 MB to 167.7 MB.
 Total: 14.537711 ms (FindLiveObjects: 0.638836 ms CreateObjectMapping: 0.385772 ms MarkObjects: 12.572544 ms  DeleteObjects: 0.937865 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17258.533308 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Prefabs/Gaze Interactables.prefab
+  artifactKey: Guid(e05cd47ab8981f64badd3bfe29af8f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Prefabs/Gaze Interactables.prefab using Guid(e05cd47ab8981f64badd3bfe29af8f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd97158295062d0cc2a46c2102e422a7') in 4.532400799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
