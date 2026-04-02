@@ -2,8 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PhysicsBubbleReceptacle : MonoBehaviour
 {
+    
+    [Header("Starting State")]
+    [Tooltip("Assign a Rigidbody here in the Inspector to have it start already snapped inside the bubble.")]
+    public Rigidbody startingObject; // NEW: Exposes an initial object slot in the Inspector
+
+    [Header("Magnetic Snap Settings (PID)")]
+    public float positionalSpring = 25f; // How strongly it pulls to center
+    public float rotationalSpring = 15f; // How strongly it aligns rotation
+    public float maxVelocity = 5f;       // Prevents the object from going terminal velocity if bumped hard
+
+
     [Header("Visual Settings")]
     public float hoverScaleMultiplier = 1.2f;
     public float scaleTweenDuration = 0.2f;
@@ -17,10 +29,27 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
     public Rigidbody currentlyHeldObject;
     public List<Rigidbody> hoveringObjects = new List<Rigidbody>();
 
+    public bool IsInventory = false;
+
     void Start()
     {
         originalScale = transform.localScale;
+
+        if (startingObject != null)
+        {
+            ForceSnapObject(startingObject);
+        }
+
+        if (IsInventory)
+        {
+            ShowVisuals();
+        }
+        else
+        {
+            HideVisuals();
+        }
     }
+    
 
     // --- TRIGGER LOGIC FOR HOVER VISUALS ---
 
@@ -68,6 +97,26 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         }
     }
 
+    public void ForceSnapObject(Rigidbody rb)
+    {
+        if (rb == null) return;
+
+        currentlyHeldObject = rb;
+
+        // Set the two-way reference for your GrabbableItem
+        GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
+        if (grabbable != null)
+        {
+            grabbable.currentBubble = this;
+        }
+
+        // Instantly teleport it so it doesn't "fly" to the center on frame 1
+        rb.position = transform.position;
+        rb.rotation = transform.rotation;
+
+        StartCoroutine(SnapToCenterRoutine(rb));
+    }
+
     // --- INTEGRATION METHODS (Call these from your existing events) ---
 
     /// <summary>
@@ -78,6 +127,7 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         // Only snap if the object was dropped INSIDE our trigger volume, and we are empty
         if (hoveringObjects.Contains(droppedObject) && currentlyHeldObject == null)
         {
+            Debug.Log("Snapping started!");
             currentlyHeldObject = droppedObject;
             StartCoroutine(SnapToCenterRoutine(droppedObject));
         }
@@ -86,17 +136,17 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
     /// <summary>
     /// Call this from your "Grab" event. Pass in the Rigidbody being grabbed.
     /// </summary>
-    public void RemoveObject(Rigidbody grabbedObject)
+public void RemoveObject(Rigidbody grabbedObject)
     {
         if (currentlyHeldObject == grabbedObject)
         {
-            StopAllCoroutines(); // Stop snapping if it was mid-snap
+            StopAllCoroutines(); 
             
-            // Re-enable physics so the physical hands can interact with it again
-            currentlyHeldObject.isKinematic = false;
+            // Break the weld!
+
+            currentlyHeldObject.useGravity = true; 
             currentlyHeldObject = null;
 
-            // Reset bubble visuals
             if (hoveringObjects.Count == 0)
             {
                 SetBubbleScale(originalScale);
@@ -106,36 +156,46 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
 
     // --- TWEENING COROUTINES ---
 
-    private IEnumerator SnapToCenterRoutine(Rigidbody rb)
+private IEnumerator SnapToCenterRoutine(Rigidbody rb)
     {
-        yield return new WaitForSeconds(0.1f);
-        // 1. Disable physics to lock it in place and prevent hand collisions from sending it flying
-        rb.isKinematic = true;
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
+        // 1. Keep it physical, but turn off gravity so it hovers
+        rb.isKinematic = false;
+        rb.useGravity = false;
 
-        float elapsedTime = 0f;
-        Vector3 startPos = rb.position;
-        Quaternion startRot = rb.rotation;
-
-        // 2. Tween the object to the exact center of the bubble
-        while (elapsedTime < snapTweenDuration)
+        // 2. The PID / Velocity Tracking Loop
+        while (currentlyHeldObject == rb)
         {
-            elapsedTime += Time.deltaTime;
-            float t = Mathf.SmoothStep(0, 1, elapsedTime / snapTweenDuration); // Smooth easing
-
-            // Use MovePosition instead of transform.position to play nicely with the physics engine
-            rb.MovePosition(Vector3.Lerp(startPos, transform.position, t));
-            rb.MoveRotation(Quaternion.Slerp(startRot, transform.rotation, t));
+            // --- POSITIONAL SPRING (The 'P' in PID) ---
+            Vector3 positionError = transform.position - rb.position;
+            Vector3 desiredVelocity = positionError * positionalSpring;
             
-            yield return null;
+            // Apply velocity directly (more stable for VR than AddForce) and clamp it for safety
+            rb.linearVelocity = Vector3.ClampMagnitude(desiredVelocity, maxVelocity);
+
+            // --- ROTATIONAL SPRING ---
+            // Calculate the difference between current rotation and bubble rotation
+            Quaternion rotationError = transform.rotation * Quaternion.Inverse(rb.rotation);
+            rotationError.ToAngleAxis(out float angleInDegrees, out Vector3 rotationAxis);
+
+            // Fix the angle to take the shortest path (Unity's ToAngleAxis sometimes returns values over 180)
+            if (angleInDegrees > 180f) angleInDegrees -= 360f;
+
+            // Only apply torque if it's actually misaligned, to prevent micro-jitters
+            if (Mathf.Abs(angleInDegrees) > 0.1f)
+            {
+                // Convert to radians for the physics engine
+                Vector3 desiredAngularVelocity = (angleInDegrees * Mathf.Deg2Rad) * rotationAxis * rotationalSpring;
+                rb.angularVelocity = desiredAngularVelocity;
+            }
+            else
+            {
+                rb.angularVelocity = Vector3.zero;
+            }
+
+            // Wait for the next physics step
+            yield return new WaitForFixedUpdate();
         }
-
-        // 3. Guarantee perfect final alignment
-        rb.MovePosition(transform.position);
-        rb.MoveRotation(transform.rotation);
     }
-
     private void SetBubbleScale(Vector3 targetScale)
     {
         if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
@@ -157,4 +217,25 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         
         transform.localScale = targetScale;
     }
+    // --- VISUAL TOGGLES ---
+
+    public void HideVisuals()
+    {
+        // GetComponentsInChildren finds the renderer on this object AND any children
+        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        foreach (Renderer r in renderers)
+        {
+            r.enabled = false;
+        }
+    }
+
+    public void ShowVisuals()
+    {
+        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        foreach (Renderer r in renderers)
+        {
+            r.enabled = true;
+        }
+    }
 }
+

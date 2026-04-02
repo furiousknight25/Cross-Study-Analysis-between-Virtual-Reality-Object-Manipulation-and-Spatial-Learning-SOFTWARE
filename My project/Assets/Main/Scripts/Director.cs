@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class Director : MonoBehaviour
 {
     public static Director Instance { get; private set; }
@@ -27,6 +27,16 @@ public class Director : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    void Update()
+    {
+        // For testing: Press 'N' to move to the next trial
+        if (Keyboard.current.nKey.wasPressedThisFrame)
+        {
+            Debug.Log("N");
+            MoveToNextTrial();
         }
     }
 
@@ -57,12 +67,12 @@ public class Director : MonoBehaviour
             next_trial = trialScenes[index];
         }
         trialScenes.Remove(next_trial);
-        next_trial.StartTrial();
+        StartCoroutine(next_trial.StartTrial());
 
         OnDoorToggle?.Invoke(); //open door
         //once player walks past the door close it behind them
         //OnDoorToggle?.Invoke(); //close door
-        Debug.Log("Moving to the next trial...");
+        // Debug.Log("Moving to the next trial...");
     }
 
     public void EndExperiment() //currentSessionLog.Add(new ExperimentEvent("trial1_touch", touchPos));

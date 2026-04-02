@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 346
     height: 934
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 386
     height: 407
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 1188
     height: 407
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 60
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 503
+    y: 431
     width: 1573
     height: 501
   m_SerializedDataModeController:
@@ -619,20 +619,18 @@ MonoBehaviour:
       m_Data: 62414
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53726
-    - m_Data: 53728
-    - m_Data: 53730
-    - m_Data: 53732
-    - m_Data: 53734
-    - m_Data: 54418
-    - m_Data: 62420
-    - m_Data: 62428
-    - m_Data: 62444
-    - m_Data: 62448
-    - m_Data: 62452
-    - m_Data: 62462
-    - m_Data: 62472
-    - m_Data: 1000000000
+    - m_Data: 55488
+    - m_Data: 55490
+    - m_Data: 55492
+    - m_Data: 55494
+    - m_Data: 55496
+    - m_Data: 55498
+    - m_Data: 55500
+    - m_Data: 55502
+    - m_Data: 55504
+    - m_Data: 55506
+    - m_Data: 55508
+    - m_Data: 55510
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -665,11 +663,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53726
-    - m_Data: 53728
-    - m_Data: 53730
-    - m_Data: 53732
-    - m_Data: 53734
+    - m_Data: 55488
+    - m_Data: 55490
+    - m_Data: 55492
+    - m_Data: 55494
+    - m_Data: 55496
+    - m_Data: 55498
+    - m_Data: 55500
+    - m_Data: 55502
+    - m_Data: 55504
+    - m_Data: 55506
+    - m_Data: 55508
+    - m_Data: 55510
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -750,8 +755,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1574
-    y: 96
+    x: 1575
+    y: 24
     width: 345
     height: 908
   m_SerializedDataModeController:
@@ -802,7 +807,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 96
+    y: 24
     width: 385
     height: 381
   m_SerializedDataModeController:
@@ -938,8 +943,8 @@ MonoBehaviour:
       - m_Data: 146332
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Bubble
-        m_OriginalName: Bubble
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -947,10 +952,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -171818
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -982,8 +987,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 386
-    y: 96
+    x: 387
+    y: 24
     width: 1186
     height: 381
   m_SerializedDataModeController:
@@ -1452,11 +1457,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.44600058, y: 0.0026495785, z: -0.0013413066, w: -0.8950863}
     speed: 2
-    m_Value: {x: -0.44597724, y: 0.0026494397, z: -0.0013412364, w: -0.89503944}
+    m_Value: {x: -0.44600058, y: 0.0026495785, z: -0.0013413065, w: -0.8950863}
   m_Size:
     m_Target: 3.5514219
     speed: 2
-    m_Value: 3.5428193
+    m_Value: 3.5514219
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -6,22 +6,22 @@ System name:             Linux
 Distro version:          #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 Kernel version:          6.14.0-37-generic
 Architecture:            x86_64
-Available memory:        15206 MB
-Date:                    2026-04-01T01:14:58Z
+Available memory:        15207 MB
+Date:                    2026-04-02T22:00:41Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-04-01T01:14:58.434392Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-04-02T22:00:41.43697Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              321614ce755f47afa597cbd54245c4f2
-  Correlation Id:          1ccbda61a56cc094cdb580379aab31bc
-  External correlation Id: 8948806215980102224
+  Session Id:              9ad6bef88cd84e06859af912c90ed135
+  Correlation Id:          e86f8f15213bbc7fe55b2c2530d4b920
+  External correlation Id: 8039607884131287964
   Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.02s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-04-01T01:14:58.457345Z"
-[Licensing::Module] Licensing Background thread has ended after 0.02s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.03s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-04-02T22:00:41.469464Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 Selected window backend: (null) 
-Desktop is 1920 x 1080 @ 60 Hz
+Desktop is 4480 x 1440 @ 60 Hz
 Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
@@ -36,7 +36,9 @@ AssetImportWorker3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-42873
+34035
+-licensingIpc
+LicenseClient-collector25061
 -job-worker-count
 7
 -background-job-worker-count
@@ -80,14 +82,14 @@ Successfully changed project path to: /home/collector25061/Documents/GitHub/Cros
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [130711952202560]  Target information:
+Player connection [137515219479360]  Target information:
 
-Player connection [130711952202560]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 865375837 [EditorId] 865375837 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [137515219479360]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 3846119733 [EditorId] 3846119733 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130711952202560]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 865375837 [EditorId] 865375837 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [137515219479360]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 3846119733 [EditorId] 3846119733 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [130711952202560] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [130711952202560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [137515219479360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [137515219479360] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -105,7 +107,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 37.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 79.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -124,56 +126,56 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1830155520
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1653486736
 Initialize mono
 Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56946
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004178 seconds.
-- Loaded All Assemblies, in  0.851 seconds
+Registered in 0.003998 seconds.
+- Loaded All Assemblies, in  0.542 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 628 ms
+Android Extension - Scanning For ADB Devices 477 ms
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.662 seconds
-Domain Reload Profiling: 2512ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  1.122 seconds
+Domain Reload Profiling: 1664ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (393ms)
-		LoadAssemblies (245ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (127ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (383ms)
-				TypeCache.ScanAssembly (355ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (231ms)
+				TypeCache.ScanAssembly (211ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1663ms)
+	FinalizeReload (1123ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1548ms)
+		SetupLoadedEditorAssemblies (1053ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (795ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (216ms)
-			ProcessInitializeOnLoadAttributes (351ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
+			InitializePlatformSupportModulesInManaged (594ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -183,14 +185,14 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.796 seconds
-Refreshing native plugins compatible for Editor in 14.43 ms, found 0 plugins.
+- Loaded All Assemblies, in  1.090 seconds
+Refreshing native plugins compatible for Editor in 4.59 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -199,37 +201,37 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.507 seconds
-Domain Reload Profiling: 3287ms
-	BeginReloadAssembly (361ms)
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 2598ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (1236ms)
-		LoadAssemblies (842ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (425ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (599ms)
-			TypeCache.Refresh (391ms)
-				TypeCache.ScanAssembly (360ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1507ms)
+		AnalyzeDomain (423ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1519ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1187ms)
+		SetupLoadedEditorAssemblies (1168ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (20ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (780ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (746ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
@@ -238,15 +240,284 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 4.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7725 unused Assets / (7.2 MB). Loaded Objects now: 8579.
-Memory consumption went from 168.7 MB to 161.5 MB.
-Total: 22.339976 ms (FindLiveObjects: 1.195598 ms CreateObjectMapping: 1.933238 ms MarkObjects: 10.280513 ms  DeleteObjects: 8.927711 ms)
+Unloading 7731 unused Assets / (9.0 MB). Loaded Objects now: 8585.
+Memory consumption went from 168.9 MB to 159.9 MB.
+Total: 20.033901 ms (FindLiveObjects: 1.106285 ms CreateObjectMapping: 1.284339 ms MarkObjects: 10.338518 ms  DeleteObjects: 7.303397 ms)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.393 seconds
+Refreshing native plugins compatible for Editor in 5.18 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.337 seconds
+Domain Reload Profiling: 8730ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (855ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (320ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (7342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (4656ms)
+			ProcessInitializeOnLoadMethodAttributes (1651ms)
+			AfterProcessingInitializeOnLoad (74ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (148ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 50.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (9.2 MB). Loaded Objects now: 8601.
+Memory consumption went from 203.1 MB to 194.0 MB.
+Total: 118.974117 ms (FindLiveObjects: 4.876054 ms CreateObjectMapping: 7.300010 ms MarkObjects: 75.625012 ms  DeleteObjects: 31.161077 ms)
 
-SDL leaked 2 allocations
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.248 seconds
+Refreshing native plugins compatible for Editor in 6.07 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.571 seconds
+Domain Reload Profiling: 2812ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (821ms)
+		LoadAssemblies (547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (334ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1572ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (842ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (9.0 MB). Loaded Objects now: 8604.
+Memory consumption went from 203.1 MB to 194.1 MB.
+Total: 21.921881 ms (FindLiveObjects: 1.309395 ms CreateObjectMapping: 1.864757 ms MarkObjects: 11.344485 ms  DeleteObjects: 7.401019 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7662 unused Assets / (5.8 MB). Loaded Objects now: 8592.
+Memory consumption went from 171.1 MB to 165.3 MB.
+Total: 19.926649 ms (FindLiveObjects: 1.200641 ms CreateObjectMapping: 1.766864 ms MarkObjects: 10.506693 ms  DeleteObjects: 6.450336 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14552.378635 seconds.
+  path: Assets/Main/Scripts/PhysicsBubbleReceptacle.cs
+  artifactKey: Guid(13adb66c3192d482386b85632267d65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/PhysicsBubbleReceptacle.cs using Guid(13adb66c3192d482386b85632267d65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd78963c1b7eaf75c71e5fbc8df67c4de') in 0.10103812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.234 seconds
+Refreshing native plugins compatible for Editor in 5.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.469 seconds
+Domain Reload Profiling: 2700ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (810ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (339ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (9.2 MB). Loaded Objects now: 8609.
+Memory consumption went from 203.9 MB to 194.7 MB.
+Total: 17.946907 ms (FindLiveObjects: 1.026084 ms CreateObjectMapping: 1.349882 ms MarkObjects: 9.766976 ms  DeleteObjects: 5.801349 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.132 seconds
+Refreshing native plugins compatible for Editor in 4.69 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.345 seconds
+Domain Reload Profiling: 2469ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (731ms)
+		LoadAssemblies (487ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (293ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1345ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (7.8 MB). Loaded Objects now: 8612.
+Memory consumption went from 203.9 MB to 196.2 MB.
+Total: 17.734488 ms (FindLiveObjects: 0.993433 ms CreateObjectMapping: 1.363057 ms MarkObjects: 10.462030 ms  DeleteObjects: 4.912873 ms)
+
+Prepare: number of updated asset objects reloaded= 0

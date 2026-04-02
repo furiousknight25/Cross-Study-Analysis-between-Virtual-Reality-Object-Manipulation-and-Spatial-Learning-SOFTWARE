@@ -104,11 +104,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13adb66c3192d482386b85632267d65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhysicsBubbleReceptacle
+  startingObject: {fileID: 0}
+  positionalSpring: 25
+  rotationalSpring: 15
+  maxVelocity: 5
   hoverScaleMultiplier: 1.2
   scaleTweenDuration: 0.2
   snapTweenDuration: 0.15
   currentlyHeldObject: {fileID: 0}
   hoveringObjects: []
+  IsInventory: 0
 --- !u!135 &8694814950364055559
 SphereCollider:
   m_ObjectHideFlags: 0

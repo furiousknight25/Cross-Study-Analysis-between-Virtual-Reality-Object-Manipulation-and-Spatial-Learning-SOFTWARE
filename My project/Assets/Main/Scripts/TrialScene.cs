@@ -12,13 +12,23 @@ public class TrialScene : MonoBehaviour
     public Vector3 trialEndPosition = new Vector3(-1.4f, 10.00f, 1.48f);
 
     // Removed Start() to prevent double-registration, OnEnable is sufficient
-    void OnEnable()
-    {
-        RegisterWithDirector();
-        print(transform.position);
 
+void OnEnable()
+{
+    StartCoroutine(WaitAndRegister());
+    print(transform.position);
+}
+
+IEnumerator WaitAndRegister()
+{
+    // Loop until the instance is no longer null
+    while (Director.Instance == null)
+    {
+        yield return null; // Wait for the next frame
     }
 
+    Director.Instance.RegisterTrialScene(this);
+}
 
     void RegisterWithDirector()
     {
@@ -34,6 +44,7 @@ public class TrialScene : MonoBehaviour
 
     public IEnumerator StartTrial()
     {
+        Debug.Log("Trial started");
         transform.localScale *= 1.1f;
         StartCoroutine(TweenPosition(trialStartPosition, 2f)); 
         yield return StartCoroutine(StartTimer(Director.Instance.explore_time));
