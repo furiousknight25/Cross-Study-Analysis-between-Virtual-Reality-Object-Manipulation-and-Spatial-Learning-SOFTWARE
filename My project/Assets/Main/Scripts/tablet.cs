@@ -20,6 +20,13 @@ public class Tablet : MonoBehaviour
         {
             OnSpawnItemsRequested?.Invoke();
         }
+        
+        // Debug button: Press T to emit the tablet event
+        if (Keyboard.current.mKey.wasPressedThisFrame)
+        {
+            Debug.Log("<color=yellow>[DEBUG] M key pressed - Emitting OnSpawnItemsRequested event</color>");
+            OnSpawnItemsRequested?.Invoke();
+        }
     }
     void ShowText()
     {

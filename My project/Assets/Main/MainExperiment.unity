@@ -8484,10 +8484,10 @@ MonoBehaviour:
   instructionText: {fileID: 1227610571}
   isControlGroup: 0
   distraction_task_completed: 1
-  explore_time: 5
-  reading_time: 5
-  encode_time: 5
-  distraction_task_duration: 15
+  explore_time: 2
+  reading_time: 2
+  encode_time: 2
+  distraction_task_duration: 5
 --- !u!4 &1995468572
 Transform:
   m_ObjectHideFlags: 0

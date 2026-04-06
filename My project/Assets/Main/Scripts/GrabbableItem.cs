@@ -152,5 +152,10 @@ public class GrabbableItem : MonoBehaviour
         {
             targetBubble.TrySnapObject(rb); 
         }
+        
+        // else
+        // {
+        //     rb.useGravity = true;
+        // }
     }
 }

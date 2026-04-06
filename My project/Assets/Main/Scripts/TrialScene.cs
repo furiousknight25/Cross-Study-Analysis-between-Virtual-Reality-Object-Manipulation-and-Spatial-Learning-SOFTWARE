@@ -82,7 +82,7 @@ public class TrialScene : MonoBehaviour
     public IEnumerator TweenPosition(Vector3 targetPosition, float duration)
     {
         Vector3 startPos = transform.position;
-        float elapsed = 0f;
+        float elapsed = 0f; 
 
         while (elapsed < duration)
         {
