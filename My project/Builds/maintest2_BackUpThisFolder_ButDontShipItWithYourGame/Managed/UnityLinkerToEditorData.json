@@ -949,13 +949,17 @@
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Main/MainExperiment.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CharacterController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Main/MainExperiment.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -991,7 +995,9 @@
           },
           {
             "name": "PhysicsMaterial",
-            "scenes": [],
+            "scenes": [
+              "Assets/Main/MainExperiment.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,28 +7,40 @@ using UnityEngine.InputSystem;
 
 public class Tablet : MonoBehaviour
 {
+    public event Action OnSpawnItemsRequested;
+
     public List<PhysicsBubbleReceptacle> receptacles = new List<PhysicsBubbleReceptacle>();
     public Transform startPoint;
+    public bool can_spawn_text = false;
     [SerializeField] private TextMeshPro textMeshPro;
 
     void Update()
     {
         if (Keyboard.current.bKey.wasPressedThisFrame)
         {
-            StartCoroutine(spawn_items());
+            OnSpawnItemsRequested?.Invoke();
         }
     }
     void ShowText()
     {
-        textMeshPro.gameObject.SetActive(true);     
+        if (can_spawn_text)
+        {
+            textMeshPro.gameObject.SetActive(true);  
+            OnSpawnItemsRequested?.Invoke();   
+        }
     }
 
     void hideText()
     {
         textMeshPro.gameObject.SetActive(false);     
     }
+    
+    void Start()
+    {
+        hideText();
+    }
 
-IEnumerator spawn_items()
+public IEnumerator spawn_items()
 {
     for (int i = 0; i < receptacles.Count; i++)
     {

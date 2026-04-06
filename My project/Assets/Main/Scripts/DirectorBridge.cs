@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class DirectorBridge : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class DirectorBridge : MonoBehaviour
     {
         if (Director.Instance != null)
         {
-            Director.Instance.MoveToNextTrial();
+            StartCoroutine(Director.Instance.MoveToNextTrialCoroutine() );
         }
         else
         {
@@ -49,6 +50,14 @@ public class DirectorBridge : MonoBehaviour
         if (Director.Instance != null && trialScene != null)
         {
             Director.Instance.RegisterTrialScene(trialScene);
+        }
+    }
+
+    public void buttonPressed()
+    {
+        if (Director.Instance != null)
+        {
+            Director.Instance.ButtonPressed();
         }
     }
 }

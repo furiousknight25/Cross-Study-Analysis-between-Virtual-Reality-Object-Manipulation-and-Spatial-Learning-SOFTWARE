@@ -8,12 +8,12 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
     
     [Header("Starting State")]
     [Tooltip("Assign a Rigidbody here in the Inspector to have it start already snapped inside the bubble.")]
-    public Rigidbody startingObject; // NEW: Exposes an initial object slot in the Inspector
+    public Rigidbody startingObject; 
 
     [Header("Magnetic Snap Settings (PID)")]
-    public float positionalSpring = 25f; // How strongly it pulls to center
-    public float rotationalSpring = 15f; // How strongly it aligns rotation
-    public float maxVelocity = 5f;       // Prevents the object from going terminal velocity if bumped hard
+    public float positionalSpring = 25f; 
+    public float rotationalSpring = 15f; 
+    public float maxVelocity = 5f;       
 
 
     [Header("Visual Settings")]
@@ -58,14 +58,13 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         Rigidbody rb = other.attachedRigidbody;
         if (rb != null && currentlyHeldObject == null && !hoveringObjects.Contains(rb))
         {
-            // NEW: Pass this bubble's reference down to the grabbable item
+            // FIX: Tell the grabbable we are an option, but don't force it to map to us yet
             GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
             if (grabbable != null)
             {
-                grabbable.currentBubble = this;
+                grabbable.AddHoveredBubble(this);
             }
 
-            // (Existing logic)
             hoveringObjects.Add(rb);
             if (hoveringObjects.Count == 1)
             {
@@ -79,16 +78,13 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         Rigidbody rb = other.attachedRigidbody;
         if (rb != null && hoveringObjects.Contains(rb))
         {
-            // NEW: Remove the reference when the item leaves the bubble
+            // FIX: Tell the grabbable we are no longer an option
             GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
-            
-            // Only clear it if this bubble is still the active one (prevents bugs if bubbles overlap)
-            if (grabbable != null && grabbable.currentBubble == this)
+            if (grabbable != null)
             {
-                grabbable.currentBubble = null;
+                grabbable.RemoveHoveredBubble(this);
             }
 
-            // (Existing logic)
             hoveringObjects.Remove(rb);
             if (hoveringObjects.Count == 0 && currentlyHeldObject == null)
             {
@@ -103,11 +99,12 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
 
         currentlyHeldObject = rb;
 
-        // Set the two-way reference for your GrabbableItem
+        // Set the two-way reference and SHRINK it
         GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
         if (grabbable != null)
         {
             grabbable.currentBubble = this;
+            grabbable.ShrinkItem(); // NEW
         }
 
         // Instantly teleport it so it doesn't "fly" to the center on frame 1
@@ -117,34 +114,45 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         StartCoroutine(SnapToCenterRoutine(rb));
     }
 
-    // --- INTEGRATION METHODS (Call these from your existing events) ---
+    // --- INTEGRATION METHODS ---
 
-    /// <summary>
-    /// Call this from your "Let Go" event. Pass in the Rigidbody that was just dropped.
-    /// </summary>
     public void TrySnapObject(Rigidbody droppedObject)
     {
-        // Only snap if the object was dropped INSIDE our trigger volume, and we are empty
-        if (hoveringObjects.Contains(droppedObject) && currentlyHeldObject == null)
+        // Only snap if we are empty
+        if (currentlyHeldObject == null)
         {
             Debug.Log("Snapping started!");
             currentlyHeldObject = droppedObject;
+            
+            // Set the two-way reference and SHRINK it
+            GrabbableItem grabbable = droppedObject.GetComponent<GrabbableItem>();
+            if (grabbable != null)
+            {
+                grabbable.currentBubble = this;
+                grabbable.ShrinkItem(); // NEW
+            }
+
             StartCoroutine(SnapToCenterRoutine(droppedObject));
         }
     }
 
-    /// <summary>
-    /// Call this from your "Grab" event. Pass in the Rigidbody being grabbed.
-    /// </summary>
-public void RemoveObject(Rigidbody grabbedObject)
+
+    public void RemoveObject(Rigidbody grabbedObject)
     {
         if (currentlyHeldObject == grabbedObject)
         {
             StopAllCoroutines(); 
             
-            // Break the weld!
-
             currentlyHeldObject.useGravity = true; 
+            
+            // Clear reference and RESTORE size
+            GrabbableItem grabbable = grabbedObject.GetComponent<GrabbableItem>();
+            if (grabbable != null)
+            {
+                grabbable.currentBubble = null;
+                grabbable.RestoreSize(); // NEW
+            }
+
             currentlyHeldObject = null;
 
             if (hoveringObjects.Count == 0)
@@ -156,7 +164,7 @@ public void RemoveObject(Rigidbody grabbedObject)
 
     // --- TWEENING COROUTINES ---
 
-private IEnumerator SnapToCenterRoutine(Rigidbody rb)
+    private IEnumerator SnapToCenterRoutine(Rigidbody rb)
     {
         // 1. Keep it physical, but turn off gravity so it hovers
         rb.isKinematic = false;
@@ -169,21 +177,16 @@ private IEnumerator SnapToCenterRoutine(Rigidbody rb)
             Vector3 positionError = transform.position - rb.position;
             Vector3 desiredVelocity = positionError * positionalSpring;
             
-            // Apply velocity directly (more stable for VR than AddForce) and clamp it for safety
             rb.linearVelocity = Vector3.ClampMagnitude(desiredVelocity, maxVelocity);
 
             // --- ROTATIONAL SPRING ---
-            // Calculate the difference between current rotation and bubble rotation
             Quaternion rotationError = transform.rotation * Quaternion.Inverse(rb.rotation);
             rotationError.ToAngleAxis(out float angleInDegrees, out Vector3 rotationAxis);
 
-            // Fix the angle to take the shortest path (Unity's ToAngleAxis sometimes returns values over 180)
             if (angleInDegrees > 180f) angleInDegrees -= 360f;
 
-            // Only apply torque if it's actually misaligned, to prevent micro-jitters
             if (Mathf.Abs(angleInDegrees) > 0.1f)
             {
-                // Convert to radians for the physics engine
                 Vector3 desiredAngularVelocity = (angleInDegrees * Mathf.Deg2Rad) * rotationAxis * rotationalSpring;
                 rb.angularVelocity = desiredAngularVelocity;
             }
@@ -192,10 +195,10 @@ private IEnumerator SnapToCenterRoutine(Rigidbody rb)
                 rb.angularVelocity = Vector3.zero;
             }
 
-            // Wait for the next physics step
             yield return new WaitForFixedUpdate();
         }
     }
+    
     private void SetBubbleScale(Vector3 targetScale)
     {
         if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
@@ -217,11 +220,11 @@ private IEnumerator SnapToCenterRoutine(Rigidbody rb)
         
         transform.localScale = targetScale;
     }
+
     // --- VISUAL TOGGLES ---
 
     public void HideVisuals()
     {
-        // GetComponentsInChildren finds the renderer on this object AND any children
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
         foreach (Renderer r in renderers)
         {
@@ -238,4 +241,3 @@ private IEnumerator SnapToCenterRoutine(Rigidbody rb)
         }
     }
 }
-

@@ -6,21 +6,21 @@ System name:             Linux
 Distro version:          #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 Kernel version:          6.14.0-37-generic
 Architecture:            x86_64
-Available memory:        15206 MB
-Date:                    2026-04-01T01:14:58Z
+Available memory:        15207 MB
+Date:                    2026-04-03T17:18:52Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-04-01T01:14:58.09788Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-04-03T17:18:52.398561Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
-Selected window backend: (null) 
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              4d61c0a094284532b079242579330c65
-  Correlation Id:          1ccbda61a56cc094cdb580379aab31bc
-  External correlation Id: 7790138531992328566
+  Session Id:              e34c194fdfe94edc99083986abf69c93
+  Correlation Id:          b488639cb4bb7f3b639087ba40d5333a
+  External correlation Id: 6259985791384131983
   Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.11s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-04-01T01:14:58.206857Z"
-[Licensing::Module] Licensing Background thread has ended after 0.11s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-04-03T17:18:52.40073Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -36,7 +36,9 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-42873
+44767
+-licensingIpc
+LicenseClient-collector25061
 -job-worker-count
 7
 -background-job-worker-count
@@ -80,14 +82,14 @@ Successfully changed project path to: /home/collector25061/Documents/GitHub/Cros
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [131590503590720]  Target information:
+Player connection [127944017492800]  Target information:
 
-Player connection [131590503590720]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 3008026588 [EditorId] 3008026588 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [127944017492800]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 1512312443 [EditorId] 1512312443 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [131590503590720]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 3008026588 [EditorId] 3008026588 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [127944017492800]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 1512312443 [EditorId] 1512312443 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [131590503590720] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [131590503590720] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [127944017492800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [127944017492800] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -105,7 +107,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 109.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -124,56 +126,56 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 175753680
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -336467440
 Initialize mono
 Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56935
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56822
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.011177 seconds.
-- Loaded All Assemblies, in  0.913 seconds
+Registered in 0.002657 seconds.
+- Loaded All Assemblies, in  0.414 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 607 ms
+Android Extension - Scanning For ADB Devices 305 ms
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.673 seconds
-Domain Reload Profiling: 2586ms
-	BeginReloadAssembly (317ms)
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1262ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (115ms)
-	LoadAllAssembliesAndSetupDomain (378ms)
-		LoadAssemblies (318ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (365ms)
-				TypeCache.ScanAssembly (338ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (183ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1674ms)
+	FinalizeReload (849ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1562ms)
+		SetupLoadedEditorAssemblies (790ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (779ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (200ms)
-			ProcessInitializeOnLoadAttributes (370ms)
-			ProcessInitializeOnLoadMethodAttributes (205ms)
+			InitializePlatformSupportModulesInManaged (404ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -183,14 +185,14 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.824 seconds
-Refreshing native plugins compatible for Editor in 4.78 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 3.93 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -199,54 +201,2200 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.305 seconds
+Domain Reload Profiling: 2251ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (115ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1067ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (690ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7731 unused Assets / (7.8 MB). Loaded Objects now: 8585.
+Memory consumption went from 168.9 MB to 161.1 MB.
+Total: 17.857688 ms (FindLiveObjects: 1.186366 ms CreateObjectMapping: 1.773757 ms MarkObjects: 8.916326 ms  DeleteObjects: 5.979557 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 496.005660 seconds.
+  path: Assets/Main/Scripts/TrialScene.cs
+  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56fc9b268c8ab4d069cae9c3a2e773bb') in 0.011627571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.723323 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '486a23c71deca43dcc9d8b5ee1e24a32') in 0.000685326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.168 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.619 seconds
+Domain Reload Profiling: 2786ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (734ms)
+		LoadAssemblies (493ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (312ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (860ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (8.4 MB). Loaded Objects now: 8603.
+Memory consumption went from 203.9 MB to 195.4 MB.
+Total: 25.449329 ms (FindLiveObjects: 2.188465 ms CreateObjectMapping: 2.464633 ms MarkObjects: 14.965373 ms  DeleteObjects: 5.828453 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.409703 seconds.
+  path: Assets/Main/Bubble.prefab
+  artifactKey: Guid(e4f92432dd9d4b6fe9fd351cda6772f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bubble.prefab using Guid(e4f92432dd9d4b6fe9fd351cda6772f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '589738405b025440754616618fcafa01') in 0.769993949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8724.
+Memory consumption went from 173.3 MB to 171.4 MB.
+Total: 15.592689 ms (FindLiveObjects: 0.582102 ms CreateObjectMapping: 0.575379 ms MarkObjects: 13.103380 ms  DeleteObjects: 1.328261 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.097 seconds
+Refreshing native plugins compatible for Editor in 5.13 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.446 seconds
+Domain Reload Profiling: 2540ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (313ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1446ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (775ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7740 unused Assets / (8.1 MB). Loaded Objects now: 8638.
+Memory consumption went from 205.7 MB to 197.5 MB.
+Total: 13.808984 ms (FindLiveObjects: 0.821361 ms CreateObjectMapping: 0.870843 ms MarkObjects: 8.134539 ms  DeleteObjects: 3.980958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7662 unused Assets / (4.9 MB). Loaded Objects now: 8626.
+Memory consumption went from 173.5 MB to 168.6 MB.
+Total: 15.112879 ms (FindLiveObjects: 1.122326 ms CreateObjectMapping: 1.316179 ms MarkObjects: 8.521866 ms  DeleteObjects: 4.149985 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2327.273477 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd20a6372033ae92de1bd66b7d2b9562') in 0.061932836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Main/Scripts/TrialScene.cs
+  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7551b39578e869b3518beac297a0eec') in 0.037670775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7662 unused Assets / (5.6 MB). Loaded Objects now: 8626.
+Memory consumption went from 172.8 MB to 167.1 MB.
+Total: 21.615017 ms (FindLiveObjects: 1.185023 ms CreateObjectMapping: 1.668630 ms MarkObjects: 14.045688 ms  DeleteObjects: 4.714353 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1662.734683 seconds.
+  path: Assets/Main/Scripts/TrialScene.cs
+  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '099b05163e74310563bc6be6926cfc46') in 0.010149269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7662 unused Assets / (6.4 MB). Loaded Objects now: 8626.
+Memory consumption went from 172.8 MB to 166.4 MB.
+Total: 24.610345 ms (FindLiveObjects: 1.274671 ms CreateObjectMapping: 1.708425 ms MarkObjects: 15.180125 ms  DeleteObjects: 6.445251 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 216.532242 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56afe3b3e2fb55b6ff47303a66083472') in 0.003250047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (5.9 MB). Loaded Objects now: 8627.
+Memory consumption went from 172.8 MB to 166.9 MB.
+Total: 28.752976 ms (FindLiveObjects: 1.124960 ms CreateObjectMapping: 1.561008 ms MarkObjects: 19.311646 ms  DeleteObjects: 6.753128 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (4.5 MB). Loaded Objects now: 8627.
+Memory consumption went from 172.8 MB to 168.3 MB.
+Total: 17.731932 ms (FindLiveObjects: 1.301161 ms CreateObjectMapping: 1.590343 ms MarkObjects: 11.266965 ms  DeleteObjects: 3.571910 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1212.642591 seconds.
+  path: Assets/Main/Scripts/DistractionTask.cs
+  artifactKey: Guid(6cf5c4956cc5018b2968dadd7036c7dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/DistractionTask.cs using Guid(6cf5c4956cc5018b2968dadd7036c7dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6189be243b263c696ee4124e6a2b65bd') in 0.007962236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7663 unused Assets / (4.8 MB). Loaded Objects now: 8627.
+Memory consumption went from 172.8 MB to 168.0 MB.
+Total: 14.006594 ms (FindLiveObjects: 0.892244 ms CreateObjectMapping: 1.261616 ms MarkObjects: 8.418963 ms  DeleteObjects: 3.432599 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (4.9 MB). Loaded Objects now: 8628.
+Memory consumption went from 172.8 MB to 167.9 MB.
+Total: 36.660279 ms (FindLiveObjects: 1.253772 ms CreateObjectMapping: 1.220008 ms MarkObjects: 28.760810 ms  DeleteObjects: 5.423654 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1359.139348 seconds.
+  path: Assets/Main/Scripts/SortableItem.cs
+  artifactKey: Guid(3531c31aa05ed26228210db45de68a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/SortableItem.cs using Guid(3531c31aa05ed26228210db45de68a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '588ab774689d9485b3dfbac46ce25e8c') in 0.01047541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.016708 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0108554c889c140983efbb4d6ac14a60') in 0.684552574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185758 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '270b01b926cb49ef4bef5321fcd474ef') in 0.076314344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.157909 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c66cce3a2f4fc4b1a027e064a3afdb75') in 0.032748812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887211 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dec12ee756f0198cab5ca399f1a6bf76') in 0.013131182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.510988 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '900de4d5a70fcb6dd1e8a9b6e3eb1a69') in 0.028091806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.921218 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0993c10771722c81ffd06edb43165a96') in 0.00585853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877386 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a33795818f6b297c643b2d998734749f') in 0.022537657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922418 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc3aa55ea834e3385c79be3028123a16') in 0.005837911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.673072 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caa2444b79ad0f114951f2ebd6593284') in 0.031438524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.897213 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a675ede4e0172c799568c8d1d8a5c1e') in 0.032841766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.894464 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7017755153af91ebb8fd5ad5f9827de0') in 0.010883767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.729097 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dda5fb624e20137ebca5e7591928b15a') in 0.029864331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898103 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fc828783d887ed806c6bcf02bd66db8') in 0.018586626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.836248 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc1cc828c0b49bf7bcb5a228a536b5fb') in 0.023677465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.901808 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '060a185d3cdba00aa73af6ff031496cf') in 0.016057631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.755098 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288e52953b667eedf8b098b5f3a8a245') in 0.030615299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904170 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eaa6f309e6b0f90389836ba76f91b399') in 0.01532635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7666 unused Assets / (5.9 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.6 MB to 171.7 MB.
+Total: 25.928467 ms (FindLiveObjects: 1.376602 ms CreateObjectMapping: 1.603778 ms MarkObjects: 16.632059 ms  DeleteObjects: 6.314014 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.5 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.6 MB to 172.1 MB.
+Total: 16.320515 ms (FindLiveObjects: 1.352437 ms CreateObjectMapping: 1.025393 ms MarkObjects: 10.335558 ms  DeleteObjects: 3.605724 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.612360 seconds.
+  path: Assets/Main/Scripts/SortingBin.cs
+  artifactKey: Guid(9028dd0ae386dc2689ef4587c0163fd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/SortingBin.cs using Guid(9028dd0ae386dc2689ef4587c0163fd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17e4c06a3f93bc77145ce45bbdaa4cb3') in 0.005429986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (4.6 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.6 MB to 173.1 MB.
+Total: 16.739170 ms (FindLiveObjects: 0.923011 ms CreateObjectMapping: 0.821010 ms MarkObjects: 11.282154 ms  DeleteObjects: 3.711653 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.215623 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72a4f571f880032cb4d1ec85a435e5c6') in 0.004289176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.130445 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00077807 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+  ERROR: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000565901 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+  ERROR: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000719319 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+  ERROR: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000759494 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+  ERROR: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005151 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00050602 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+  ERROR: Build asset version error: assets/main/scripts/director.cs in SourceAssetDB has modification time of '2026-04-03T19:20:57Z' while content on disk has modification time of '2026-04-03T19:21:40Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.1 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 172.5 MB.
+Total: 19.203072 ms (FindLiveObjects: 0.828424 ms CreateObjectMapping: 1.185343 ms MarkObjects: 12.096952 ms  DeleteObjects: 5.089958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.280457 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4c1dcecedfc6a4281d809d0acbe9548') in 0.002870474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (4.8 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 172.9 MB.
+Total: 20.808172 ms (FindLiveObjects: 1.297153 ms CreateObjectMapping: 1.075578 ms MarkObjects: 14.179458 ms  DeleteObjects: 4.254080 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.846561 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '851525c978a6fbc0c83d1cf7475b4245') in 0.004257967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.8 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 171.8 MB.
+Total: 26.028987 ms (FindLiveObjects: 1.341095 ms CreateObjectMapping: 1.794246 ms MarkObjects: 17.173706 ms  DeleteObjects: 5.717005 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 94.693710 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '264c7e68eaa99f464577ebff1abe827c') in 0.003954318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (10.1 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 167.6 MB.
+Total: 27.620322 ms (FindLiveObjects: 0.951545 ms CreateObjectMapping: 0.871305 ms MarkObjects: 13.142954 ms  DeleteObjects: 12.652764 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 172.225100 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d80beb272ba3ce413cd836c82a59119') in 0.005113913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (6.8 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 170.9 MB.
+Total: 25.572410 ms (FindLiveObjects: 1.067342 ms CreateObjectMapping: 1.220279 ms MarkObjects: 11.330545 ms  DeleteObjects: 11.951780 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 305.241763 seconds.
+  path: Assets/Main/Scripts/DirectorBridge.cs
+  artifactKey: Guid(e13441237cce5214b8f38851ac5bdd45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/DirectorBridge.cs using Guid(e13441237cce5214b8f38851ac5bdd45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a935f96d2d031c4b16af6165f4a5a5b') in 0.003023572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.6 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 172.1 MB.
+Total: 23.296441 ms (FindLiveObjects: 2.478630 ms CreateObjectMapping: 1.733361 ms MarkObjects: 14.025670 ms  DeleteObjects: 5.056205 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.796626 seconds.
+  path: Assets/Main/Scripts/DirectorBridge.cs
+  artifactKey: Guid(e13441237cce5214b8f38851ac5bdd45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/DirectorBridge.cs using Guid(e13441237cce5214b8f38851ac5bdd45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9458ab6d930abcde3b6e9af2d71bd8fa') in 0.010005809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.589647 seconds.
+  path: Assets/Main/Scripts/TrialScene.cs
+  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '320a6b37b7e1bfb9fdf3a4e707dfcd64') in 0.001365772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.0 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 172.7 MB.
+Total: 21.861449 ms (FindLiveObjects: 0.970861 ms CreateObjectMapping: 1.358218 ms MarkObjects: 13.825484 ms  DeleteObjects: 5.704581 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.251596 seconds.
+  path: Assets/Main/Scripts/tablet.cs
+  artifactKey: Guid(b381ca215e2bdf886851c8f802a3402c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/tablet.cs using Guid(b381ca215e2bdf886851c8f802a3402c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4147ae9fe731517578fbe4456f03c8f3') in 0.003840434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (3.5 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 174.1 MB.
+Total: 28.460036 ms (FindLiveObjects: 1.469998 ms CreateObjectMapping: 2.346271 ms MarkObjects: 19.311426 ms  DeleteObjects: 5.330489 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.418280 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7867e693dd2ae77718a89ae3b641e07d') in 0.004210789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (6.2 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 171.5 MB.
+Total: 31.192272 ms (FindLiveObjects: 2.015401 ms CreateObjectMapping: 2.081985 ms MarkObjects: 19.903826 ms  DeleteObjects: 7.188164 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.397668 seconds.
+  path: Assets/Main/Scripts/TrialScene.cs
+  artifactKey: Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/TrialScene.cs using Guid(c8a2c954dc58e3ff99b4ce10b282586e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26cb3ce4f40f2066b62e5876c1be7d49') in 0.012166612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.5 MB). Loaded Objects now: 8739.
+Memory consumption went from 177.7 MB to 172.2 MB.
+Total: 18.616301 ms (FindLiveObjects: 0.961884 ms CreateObjectMapping: 1.147062 ms MarkObjects: 11.988519 ms  DeleteObjects: 4.516543 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.087513 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f79e4c525e76b3631ed0fd9c54cb4e51') in 0.006669732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.327 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.594 seconds
+Domain Reload Profiling: 3921ms
+	BeginReloadAssembly (927ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (408ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1260ms)
+		LoadAssemblies (1188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (432ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (349ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (860ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.7 MB). Loaded Objects now: 8665.
+Memory consumption went from 205.8 MB to 197.0 MB.
+Total: 17.064240 ms (FindLiveObjects: 1.766163 ms CreateObjectMapping: 1.263240 ms MarkObjects: 8.231391 ms  DeleteObjects: 5.801593 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.399 seconds
+Domain Reload Profiling: 2481ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (296ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (9.0 MB). Loaded Objects now: 8668.
+Memory consumption went from 205.7 MB to 196.7 MB.
+Total: 18.122595 ms (FindLiveObjects: 1.297394 ms CreateObjectMapping: 1.399495 ms MarkObjects: 9.592624 ms  DeleteObjects: 5.831148 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.540 seconds
+Domain Reload Profiling: 2611ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (308ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1261ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (273ms)
+			ProcessInitializeOnLoadAttributes (786ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (9.3 MB). Loaded Objects now: 8673.
+Memory consumption went from 205.7 MB to 196.5 MB.
+Total: 22.087092 ms (FindLiveObjects: 1.140209 ms CreateObjectMapping: 1.974894 ms MarkObjects: 10.608540 ms  DeleteObjects: 8.361064 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.036 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2476ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (702ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (304ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (237ms)
+			ProcessInitializeOnLoadAttributes (746ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.8 MB). Loaded Objects now: 8676.
+Memory consumption went from 205.8 MB to 196.9 MB.
+Total: 20.612486 ms (FindLiveObjects: 1.502979 ms CreateObjectMapping: 1.678419 ms MarkObjects: 11.132783 ms  DeleteObjects: 6.296481 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.092 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.424 seconds
+Domain Reload Profiling: 2513ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (744ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (310ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1181ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.0 MB). Loaded Objects now: 8679.
+Memory consumption went from 205.8 MB to 197.8 MB.
+Total: 16.952450 ms (FindLiveObjects: 1.099853 ms CreateObjectMapping: 1.325937 ms MarkObjects: 9.923836 ms  DeleteObjects: 4.601541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.119 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 - Finished resetting the current domain, in  1.514 seconds
-Domain Reload Profiling: 3325ms
-	BeginReloadAssembly (386ms)
+Domain Reload Profiling: 2630ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (325ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (305ms)
+			ProcessInitializeOnLoadAttributes (731ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.4 MB). Loaded Objects now: 8682.
+Memory consumption went from 205.8 MB to 197.4 MB.
+Total: 13.909913 ms (FindLiveObjects: 0.789150 ms CreateObjectMapping: 0.896963 ms MarkObjects: 8.296753 ms  DeleteObjects: 3.925534 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.7 MB). Loaded Objects now: 8670.
+Memory consumption went from 173.8 MB to 168.2 MB.
+Total: 15.495448 ms (FindLiveObjects: 0.915948 ms CreateObjectMapping: 0.968237 ms MarkObjects: 8.961770 ms  DeleteObjects: 4.647598 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 298.094417 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fead22895d054a2c406dcd66473a1106') in 0.081553191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (4.8 MB). Loaded Objects now: 8670.
+Memory consumption went from 173.1 MB to 168.4 MB.
+Total: 20.279061 ms (FindLiveObjects: 1.449078 ms CreateObjectMapping: 2.390504 ms MarkObjects: 12.530485 ms  DeleteObjects: 3.906679 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.246620 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa6f70782cefb9fa10ed86b6541b17a3') in 0.003969416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.050 seconds
+Refreshing native plugins compatible for Editor in 5.59 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.342 seconds
+Domain Reload Profiling: 2388ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (701ms)
+		LoadAssemblies (443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (290ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1101ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (7.7 MB). Loaded Objects now: 8685.
+Memory consumption went from 205.9 MB to 198.2 MB.
+Total: 14.926009 ms (FindLiveObjects: 0.916379 ms CreateObjectMapping: 0.941506 ms MarkObjects: 9.250362 ms  DeleteObjects: 3.816790 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.029 seconds
+Refreshing native plugins compatible for Editor in 4.69 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.435 seconds
+Domain Reload Profiling: 2461ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1436ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.0 MB). Loaded Objects now: 8688.
+Memory consumption went from 205.9 MB to 198.0 MB.
+Total: 18.452254 ms (FindLiveObjects: 0.906590 ms CreateObjectMapping: 1.443147 ms MarkObjects: 11.485836 ms  DeleteObjects: 4.615187 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.091 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.512 seconds
+Domain Reload Profiling: 2602ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (718ms)
+		LoadAssemblies (458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (305ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (767ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.2 MB). Loaded Objects now: 8691.
+Memory consumption went from 206.0 MB to 197.8 MB.
+Total: 19.144603 ms (FindLiveObjects: 0.995047 ms CreateObjectMapping: 1.395127 ms MarkObjects: 11.257998 ms  DeleteObjects: 5.493435 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.109 seconds
+Refreshing native plugins compatible for Editor in 7.14 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling: 2580ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (749ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (324ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.3 MB). Loaded Objects now: 8694.
+Memory consumption went from 206.0 MB to 197.7 MB.
+Total: 15.524481 ms (FindLiveObjects: 1.015976 ms CreateObjectMapping: 1.489564 ms MarkObjects: 9.076596 ms  DeleteObjects: 3.940933 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (6.0 MB). Loaded Objects now: 8682.
+Memory consumption went from 174.0 MB to 168.0 MB.
+Total: 19.696518 ms (FindLiveObjects: 0.904486 ms CreateObjectMapping: 1.594922 ms MarkObjects: 11.322239 ms  DeleteObjects: 5.873508 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.090 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.399 seconds
+Domain Reload Profiling: 2486ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (747ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (302ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.1 MB). Loaded Objects now: 8697.
+Memory consumption went from 206.0 MB to 198.0 MB.
+Total: 16.879934 ms (FindLiveObjects: 0.939803 ms CreateObjectMapping: 1.288607 ms MarkObjects: 9.619264 ms  DeleteObjects: 5.030747 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.251 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.438 seconds
+Domain Reload Profiling: 2685ms
+	BeginReloadAssembly (323ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (1237ms)
-		LoadAssemblies (858ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (791ms)
+		LoadAssemblies (518ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (601ms)
-			TypeCache.Refresh (392ms)
-				TypeCache.ScanAssembly (361ms)
-			BuildScriptInfoCaches (177ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1514ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (338ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1439ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1191ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (20ms)
-			BeforeProcessingInitializeOnLoad (221ms)
-			ProcessInitializeOnLoadAttributes (764ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (747ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 5.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7725 unused Assets / (8.3 MB). Loaded Objects now: 8579.
-Memory consumption went from 166.8 MB to 158.5 MB.
-Total: 25.941849 ms (FindLiveObjects: 1.163638 ms CreateObjectMapping: 0.936664 ms MarkObjects: 13.003610 ms  DeleteObjects: 10.834841 ms)
+Unloading 7743 unused Assets / (7.7 MB). Loaded Objects now: 8700.
+Memory consumption went from 206.1 MB to 198.4 MB.
+Total: 16.943603 ms (FindLiveObjects: 1.379127 ms CreateObjectMapping: 1.398744 ms MarkObjects: 9.870355 ms  DeleteObjects: 4.293143 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7665 unused Assets / (5.5 MB). Loaded Objects now: 8688.
+Memory consumption went from 174.1 MB to 168.5 MB.
+Total: 21.486014 ms (FindLiveObjects: 1.082190 ms CreateObjectMapping: 1.278308 ms MarkObjects: 12.508774 ms  DeleteObjects: 6.614578 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 255.964644 seconds.
+  path: Assets/Main/Scripts/Director.cs
+  artifactKey: Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Scripts/Director.cs using Guid(0316f8295a4ef2072b114e942734abf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0309c349ef2cdf701ced64bfc4ef92a5') in 0.145256939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.045 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.289 seconds
+Domain Reload Profiling: 2333ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (706ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (292ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1065ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (682ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (7.6 MB). Loaded Objects now: 8703.
+Memory consumption went from 206.1 MB to 198.6 MB.
+Total: 15.798967 ms (FindLiveObjects: 0.833643 ms CreateObjectMapping: 1.309145 ms MarkObjects: 9.763926 ms  DeleteObjects: 3.890198 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.350 seconds
+Domain Reload Profiling: 2435ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (740ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (296ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1130ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7743 unused Assets / (8.2 MB). Loaded Objects now: 8706.
+Memory consumption went from 206.2 MB to 198.0 MB.
+Total: 20.250978 ms (FindLiveObjects: 1.162180 ms CreateObjectMapping: 2.100350 ms MarkObjects: 11.535910 ms  DeleteObjects: 5.450395 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 89.226384 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25a8cf6c4f60ac80831842cbc9e3cc36') in 0.790064459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178376 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b731af26df9db0272119e4d8c2ee79aa') in 0.001107698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8815.
+Memory consumption went from 173.8 MB to 171.9 MB.
+Total: 20.507258 ms (FindLiveObjects: 0.741711 ms CreateObjectMapping: 0.714531 ms MarkObjects: 17.034724 ms  DeleteObjects: 2.013307 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.465242 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56295f25d0c1c2723a8ad5872ac8868') in 0.037051553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.678960 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c52cc46f57d65f20d99aae37d75fcbb5') in 0.030127455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.616096 seconds.
+  path: Assets/Main/Scripts/SortableItem.cs
+  artifactKey: Guid(3531c31aa05ed26228210db45de68a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/SortableItem.cs using Guid(3531c31aa05ed26228210db45de68a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5227f8e0637d1ba2169b6d0f10c51c76') in 0.001104331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475604 seconds.
+  path: Assets/Main/Scripts/SortingBin.cs
+  artifactKey: Guid(9028dd0ae386dc2689ef4587c0163fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/SortingBin.cs using Guid(9028dd0ae386dc2689ef4587c0163fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84aca6d60620a0e468b027384bcf33d5') in 0.00102303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.076774 seconds.
+  path: Assets/Main/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf49637d64d7b482d3ab202167067ad') in 0.043247476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.967591 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b3d661cf27f4921e0de92ac55f16fc2') in 0.002050868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 582.357632 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf541db26b8915d8849d07bd874a80fc') in 0.231647886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.894465 seconds.
+  path: Assets/Main/metal.physicMaterial
+  artifactKey: Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/metal.physicMaterial using Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcd40a942d9a9eb0f6e2f03ad33e88cb') in 0.004107956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.643674 seconds.
+  path: Assets/Main/metal 1.physicMaterial
+  artifactKey: Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/metal 1.physicMaterial using Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '550e9b4c55b9f26732bbd0186f7042e0') in 0.003387795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847125 seconds.
+  path: Assets/Main/metal 2.physicMaterial
+  artifactKey: Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/metal 2.physicMaterial using Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce2840a3eeb2d65653efb984a0b939e4') in 0.002855948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833820 seconds.
+  path: Assets/Main/metal.physicMaterial
+  artifactKey: Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/metal.physicMaterial using Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cad564416bc67386bf46f70e16128d3') in 0.069224545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983179 seconds.
+  path: Assets/Main/wood.physicMaterial
+  artifactKey: Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/wood.physicMaterial using Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f906a9bf7d66dc681bd5ce019fe2e34') in 0.002915328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.875892 seconds.
+  path: Assets/Main/wood.physicMaterial
+  artifactKey: Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/wood.physicMaterial using Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee09945df94d2bca4f1c559116f3bc0c') in 0.014419488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.599753 seconds.
+  path: Assets/Main/rubber.physicMaterial
+  artifactKey: Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/rubber.physicMaterial using Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd78a0fd112787dd7ab0fbafb253a63ad') in 0.002940185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.883168 seconds.
+  path: Assets/Main/rubber.physicMaterial
+  artifactKey: Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/rubber.physicMaterial using Guid(d88d984970f9fa4c0b6398062749b1ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b9ba52966513dea42f6add98ae414d2') in 0.015748973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.152702 seconds.
+  path: Assets/Main/materialsforobjects
+  artifactKey: Guid(63a3bd9afed1e1487b98f9b615632590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects using Guid(63a3bd9afed1e1487b98f9b615632590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35cc92ef7cbb17e8cf82916db0328794') in 0.000888857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877644 seconds.
+  path: Assets/Main/materialsforobjects
+  artifactKey: Guid(63a3bd9afed1e1487b98f9b615632590) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects using Guid(63a3bd9afed1e1487b98f9b615632590) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73f3f4e377552dec8a79ee300e7f484c') in 0.011599649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.611201 seconds.
+  path: Assets/Main/materialsforobjects/metal.physicMaterial
+  artifactKey: Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects/metal.physicMaterial using Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8905c3f85e51e0253fb4f0509594a6') in 0.005382947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Main/materialsforobjects/wood.physicMaterial
+  artifactKey: Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects/wood.physicMaterial using Guid(b1baf2f981b97673fb3a998e899fb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d136481137159205318bb9578baa87') in 0.002518214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154416 seconds.
+  path: Assets/Main/materialsforobjects/metal.physicMaterial
+  artifactKey: Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects/metal.physicMaterial using Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b392b88eb3070a3c2ff6fb69550b78d0') in 0.013447526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Main/materialsforobjects/Bin.prefab
+  artifactKey: Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects/Bin.prefab using Guid(8c630c38786781bbeb378dba8f7d5fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4567f4bbddc7f622d4f033135afbef14') in 0.197087676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.897347 seconds.
+  path: Assets/Main/materialsforobjects/NewUnifiedRayTracingShader.urtshader
+  artifactKey: Guid(e050e71da522f1386871666affdbf07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects/NewUnifiedRayTracingShader.urtshader using Guid(e050e71da522f1386871666affdbf07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9ed1640896207b2af415ea432d20b9a') in 0.003408684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208610 seconds.
+  path: Assets/Main/materialsforobjects/NewUnifiedRayTracingShader.urtshader
+  artifactKey: Guid(e050e71da522f1386871666affdbf07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects/NewUnifiedRayTracingShader.urtshader using Guid(e050e71da522f1386871666affdbf07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fb07e139f788bffdacaa0ac90b8760a') in 0.019544603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.328898 seconds.
+  path: Assets/Main/materialsforobjects/metal.shader
+  artifactKey: Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects/metal.shader using Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0f4f3540ce925d36a47c9a0f34e1a39') in 0.01769859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Main/materialsforobjects/metal.shader
+  artifactKey: Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects/metal.shader using Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07dffd6889cc3fb28bf6057110c349c3') in 0.002643809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.059784 seconds.
+  path: Assets/Main/materialsforobjects/metal.shader
+  artifactKey: Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/materialsforobjects/metal.shader using Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e51436482b08f97c097b7589e53e4a') in 0.00341191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371303 seconds.
+  path: Assets/Main/materialsforobjects/metal.shader
+  artifactKey: Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/materialsforobjects/metal.shader using Guid(eeaff755963e283cdb39e0ac66ae072b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f85be39ab4e6fbd4c9f37ca41e5c264') in 0.005410789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.599340 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat
+  artifactKey: Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat using Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfa9201475bb0eb428afcbbea768031c') in 0.262808158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128385 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e43f26e0564734e27ef7df40cbe69713') in 0.059367204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320214 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc7fda2b7def75212f96f667c6dae84') in 0.057145556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6955a7a4dc8f63866088346c9648bf') in 0.108969951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec30675771a86b1fafb6f2823475dda6') in 0.720338202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd004a1eec68b98769a4650eabf9e700') in 0.160752737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/Materials/Telport Area.mat
+  artifactKey: Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/Materials/Telport Area.mat using Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd6c12617ffeaed8fadb241f4746fc2') in 0.016831383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Materials/Lit White.mat
+  artifactKey: Guid(fc226930e8fad4c499969204cecfbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Materials/Lit White.mat using Guid(fc226930e8fad4c499969204cecfbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96426d8783f0127e85f53ec69c80fc7a') in 0.019275107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb5e3df189999856493a792513f2573a') in 0.055059994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abcd4b7fcaa6ff0dc397a5a714fd0204') in 3.08081981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.917575 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+  artifactKey: Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx using Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2ea6ff58fa104d18584a1c4b50d810') in 0.273500294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx
+  artifactKey: Guid(46c1c422ff6897f49a404b012dc924d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.3.1/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx using Guid(46c1c422ff6897f49a404b012dc924d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '126bdfdba5e8520ac91499a8144bd5ce') in 0.119500755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 
 SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

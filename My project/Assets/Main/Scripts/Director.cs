@@ -1,21 +1,32 @@
 using System;
+using TMPro;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 public class Director : MonoBehaviour
 {
     public static Director Instance { get; private set; }
 
     public event Action OnDoorToggle;
 
+    public DistractionTask distractionTask;
     public List<TrialScene> trialScenes = new List<TrialScene>();
-    public Dictionary<TrialScene, string> trialDataList = new Dictionary<TrialScene, string>(); //might not exist?
     private List<ExperimentEvent> currentSessionLog = new List<ExperimentEvent>();
-
+    public List<GrabbableItem> tutorialItems = null;
+    public TMP_Text instructionText = null;
+    
     public bool isControlGroup;
-    public float explore_time = 300f;
-    public float reading_time = 20f;
-    public float encode_time = 70f; //pickup, walk, encode
+    public bool distraction_task_completed = true; 
+    private bool tutorial_completed = false;
+    public float explore_time = 2f; 
+    public float reading_time = 2f; 
+    public float encode_time = 2f; 
+    public float distraction_task_duration = 3f;
+
+    private TrialScene next_trial = null;
+    private bool isTransitioning = false; // Prevents double-clicking bugs
 
     void Awake()
     {
@@ -32,18 +43,18 @@ public class Director : MonoBehaviour
 
     void Update()
     {
-        // For testing: Press 'N' to move to the next trial
-        if (Keyboard.current.nKey.wasPressedThisFrame)
+        if (Keyboard.current.nKey.wasPressedThisFrame || Keyboard.current.vKey.wasPressedThisFrame)
         {
-            Debug.Log("N");
-            MoveToNextTrial();
+            if (!isTransitioning) 
+            {
+                ButtonPressed();
+            }
         }
     }
 
     public void RegisterTrialScene(TrialScene trialScene)
     {
-        if (trialScene == null)
-            return;
+        if (trialScene == null) return;
 
         if (!trialScenes.Contains(trialScene))
         {
@@ -52,40 +63,116 @@ public class Director : MonoBehaviour
         }
     }
 
-    public TrialScene[] GetPackedTrialScenes()
+    public void ButtonPressed()
     {
-        return trialScenes.ToArray();
+        if (next_trial == null && distraction_task_completed)
+        {
+            StartCoroutine(MoveToNextTrialCoroutine());
+        }
+        else if (next_trial != null && next_trial.trial_completed)
+        {
+            StartCoroutine(EndCurrentTrialCoroutine());
+        }
     }
 
-
-    public void MoveToNextTrial()
+    public IEnumerator MoveToNextTrialCoroutine()
     {
-        TrialScene next_trial = null;
-        if (trialScenes.Count > 0)
+        if (tutorial_completed == false)
         {
-            int index = UnityEngine.Random.Range(0, trialScenes.Count);
-            next_trial = trialScenes[index];
+            clear_tutorial();
+            tutorial_completed = true;
         }
+        Debug.Log(trialScenes);
+        isTransitioning = true;
+
+        if (trialScenes.Count == 0)
+        {
+            Debug.Log("<color=red>No more trials left!</color>");
+            EndExperiment();
+            isTransitioning = false;
+            yield break; // Stop execution if no trials left
+        }
+
+        // Pick random trial
+        int index = UnityEngine.Random.Range(0, trialScenes.Count);
+        next_trial = trialScenes[index];
         trialScenes.Remove(next_trial);
+
+        // Start the trial sequence
         StartCoroutine(next_trial.StartTrial());
 
-        OnDoorToggle?.Invoke(); //open door
-        //once player walks past the door close it behind them
-        //OnDoorToggle?.Invoke(); //close door
-        // Debug.Log("Moving to the next trial...");
+        yield return new WaitForSeconds(2.2f); // delay for door
+        OnDoorToggle?.Invoke(); // open door
+
+        isTransitioning = false;
     }
 
-    public void EndExperiment() //currentSessionLog.Add(new ExperimentEvent("trial1_touch", touchPos));
+    private IEnumerator EndCurrentTrialCoroutine()
     {
-        // Dumps the entire tidy list into the CSV
-        ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+        isTransitioning = true;
+        
+        OnDoorToggle?.Invoke(); // close door
+        yield return new WaitForSeconds(1f); // delay for door
+
+        // Pass the specific trial we are ending to the logger
+        LogSpecificTrialData(next_trial);
+        
+        // Let the scene animate out
+        yield return StartCoroutine(next_trial.EndTrialSequence());
+
+        next_trial = null; 
+        distraction_task_completed = false;
+        isTransitioning = false;
+
+        Debug.Log("<color=magenta>Start Distraction Task Here</color>");
+        
+        distractionTask.StartDistractionTask();
+    }
+
+    public void ToggleDoor()
+    {
+        OnDoorToggle?.Invoke();
+    }
+
+    // Now takes a specific TrialScene so we don't rely on the modified list
+    public void LogSpecificTrialData(TrialScene trial)
+    {
+        if (trial == null) return;
+
+        foreach (Vector3 touch_point in trial.touch_points)
+        {
+            currentSessionLog.Add(new ExperimentEvent("trial_touch_points", touch_point));
+        }
+        foreach (Vector3 locus_point in trial.locus_points)
+        {
+            currentSessionLog.Add(new ExperimentEvent("trial_locus_points", locus_point));
+        }
+        
+        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
     }
 
     public void logHeadsetPosition(Vector3 position)
     {
         currentSessionLog.Add(new ExperimentEvent("headset_position", position));
-         ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+    }
+
+    public void EndExperiment() 
+    {
+        Debug.Log("Experiment Complete. Saving CSV...");
+        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
     }
 
 
-}
+
+    public void clear_tutorial()
+    {
+        foreach (GrabbableItem item in tutorialItems)
+        {
+            item.gameObject.SetActive(false);
+        }
+        instructionText.gameObject.SetActive(false);
+
+
+    }
+} 
