@@ -60,6 +60,11 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         {
             // FIX: Tell the grabbable we are an option, but don't force it to map to us yet
             GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
+            if (grabbable != null && grabbable.isInBubble)
+            {
+                return; // If the item is already in a bubble, ignore it
+            }
+
             if (grabbable != null)
             {
                 grabbable.AddHoveredBubble(this);
@@ -99,11 +104,17 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
 
         currentlyHeldObject = rb;
 
+        if (!hoveringObjects.Contains(rb))
+        {
+            hoveringObjects.Add(rb);
+        }
+
         // Set the two-way reference and SHRINK it
         GrabbableItem grabbable = rb.GetComponent<GrabbableItem>();
         if (grabbable != null)
         {
             grabbable.currentBubble = this;
+            grabbable.AddHoveredBubble(this); // Ensure it's in the hovered list for visual consistency
             grabbable.ShrinkItem(); // NEW
         }
 
@@ -175,6 +186,15 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
         {
             // --- POSITIONAL SPRING (The 'P' in PID) ---
             Vector3 positionError = transform.position - rb.position;
+            
+            // Teleport if more than 1 meter away
+            if (positionError.magnitude > 1f)
+            {
+                rb.position = transform.position;
+                rb.linearVelocity = Vector3.zero;
+                positionError = Vector3.zero;
+            }
+            
             Vector3 desiredVelocity = positionError * positionalSpring;
             
             rb.linearVelocity = Vector3.ClampMagnitude(desiredVelocity, maxVelocity);

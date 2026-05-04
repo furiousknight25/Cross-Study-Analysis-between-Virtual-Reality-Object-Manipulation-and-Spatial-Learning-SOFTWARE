@@ -33254,7 +33254,7 @@ struct VelocitySample_t234A90B9CBD4A21DDC73C245D4262C4B89E07DA2
 	float ___removeTime;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity;
 };
-struct U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F  : public RuntimeObject
+struct U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -56152,7 +56152,7 @@ struct U3CU3Ec_tE60A89CF96C8A539AE19306AF7EE14069183955B_StaticFields
 struct U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields
 {
 	U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* ___U3CU3E9;
-	Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* ___U3CU3E9__13_0;
+	Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* ___U3CU3E9__16_0;
 };
 struct U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC_StaticFields
 {
@@ -67651,7 +67651,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize9765 = { sizeof(ExperimentLo
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9766;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9766 = { sizeof(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5), -1, sizeof(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9767;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize9767 = { sizeof(U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize9767 = { sizeof(U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9768;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9768 = { sizeof(GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9769;

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_01
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_01
+  MnemonicLoad: 0
+  PropositionCount: 5
+  PropositionalDensity: 0.278
+  FullPassage: The astronomer Silas opened the trapdoor with a compass inside the
+    lighthouse smelling of lavender during the eclipse.
+  Chunks:
+  - The astronomer Silas
+  - opened the trapdoor
+  - with a compass
+  - inside the lighthouse
+  - smelling of lavender
+  - during the eclipse.
+  Foils:
+  - chopped the root vegetables
+  - stitched the deep wound
+  - leather journal
+  - under the bright lights
+  - after the midnight chime
+  - smelling of ozone
+  - cracked the security vault
+  - as the earth shook
+  - Marcus the Scribe
+  - Gregory the Blacksmith
+  - smelling of old parchment
+  - golden compass
+  - wooden telescope
+  - feeling burning hot
+  - tasting of rich garlic
+  - echoing with low hums
+  - beneath the city streets
+  - smelling of strong antiseptic
+  - using a velvet paintbrush
+  - in the flooded basement
+  - in the grand library
+  - mined the quartz deposit
+  - before the dinner rush
+  - tasting like copper
+  - using a soldering iron
+  - stone tablet
+  - rusty pocketwatch
+  - during the monsoon
+  - using silver forceps
+  - in the abandoned warehouse

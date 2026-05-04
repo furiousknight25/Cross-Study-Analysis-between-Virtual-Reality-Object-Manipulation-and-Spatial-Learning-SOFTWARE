@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_05
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_05
+  MnemonicLoad: 0
+  PropositionCount: 9
+  PropositionalDensity: 0.5
+  FullPassage: The engineer Clara synced the pendulum with titanium tweezers inside
+    the tower ticking very loudly before dawn broke.
+  Chunks:
+  - The engineer Clara
+  - synced the pendulum
+  - with titanium tweezers
+  - inside the tower
+  - ticking very loudly
+  - before dawn broke.
+  Foils:
+  - titanium scalpel
+  - stitched the deep wound
+  - glass flask
+  - under the bright lights
+  - leather journal
+  - in the crystal caverns
+  - apple
+  - Nathan the Chef
+  - smelling of ozone
+  - in the bustling kitchen
+  - using a Damascus knife
+  - bronze gear
+  - digital tablet
+  - iron hammer
+  - wooden telescope
+  - feeling burning hot
+  - beneath the city streets
+  - laser wrench
+  - using a velvet paintbrush
+  - welded the hull
+  - painted a vibrant fresco
+  - in the flooded basement
+  - while the candles flickered
+  - in the grand library
+  - using a feather quill
+  - steel ruler
+  - using a soldering iron
+  - during the monsoon
+  - using silver forceps
+  - in the abandoned warehouse

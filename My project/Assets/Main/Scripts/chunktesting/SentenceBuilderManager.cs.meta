@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e5c90b90b4ff8c379b5631486f2ab63d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - slotSelectedChannel: {fileID: 11400000, guid: 4d546a9dc078dd13b8e8142ec37e8a90, type: 2}
+  - foilSelectedChannel: {fileID: 11400000, guid: 329047b2fa65811958d15a373d34cb2c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

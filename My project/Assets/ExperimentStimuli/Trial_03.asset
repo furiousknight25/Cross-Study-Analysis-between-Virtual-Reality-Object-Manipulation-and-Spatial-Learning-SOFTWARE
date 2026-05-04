@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_03
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_03
+  MnemonicLoad: 0
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The chemist Evelyn mixed the serum with a beaker inside the greenhouse
+    echoing with water before system failure.
+  Chunks:
+  - The chemist Evelyn
+  - mixed the serum
+  - with a beaker
+  - inside the greenhouse
+  - echoing with water
+  - before system failure.
+  Foils:
+  - Eleanor the Botanist
+  - stitched the deep wound
+  - glass flask
+  - after the midnight chime
+  - plastic bucket
+  - in the crystal caverns
+  - Nathan the Chef
+  - smelling of ozone
+  - in the bustling kitchen
+  - cracked the security vault
+  - as the earth shook
+  - Marcus the Scribe
+  - brass spyglass
+  - digital tablet
+  - in the sterile operating room
+  - smelling of old parchment
+  - wooden telescope
+  - feeling burning hot
+  - Victoria the Surgeon
+  - echoing with low hums
+  - using a diamond drill
+  - beneath the city streets
+  - smelling of strong antiseptic
+  - laser wrench
+  - welded the hull
+  - mined the quartz deposit
+  - using a soldering iron
+  - during the monsoon
+  - copper wire
+  - silver microscope

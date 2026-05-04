@@ -213,7 +213,7 @@ struct U3CDistractionTaskCoroutineU3Ed__12_tDFE58B0AA0CF3E94EC49FEF93A5ACE10F72A
 struct U3CTweenTransformU3Ed__13_t68378740367829C18F812CF3593BC852B5F2911A;
 struct U3CTweenTransformU3Ed__14_tF3F293C89313407C5F142B4E577E37B8E2124A4F;
 struct U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5;
-struct U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F;
+struct U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE;
 struct U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48;
@@ -257,7 +257,7 @@ IL2CPP_EXTERN_C RuntimeClass* U3CDistractionTaskCoroutineU3Ed__12_tDFE58B0AA0CF3
 IL2CPP_EXTERN_C RuntimeClass* U3CEndCurrentTrialCoroutineU3Ed__26_tAB6248836F0137306D089D2B00B1C4840DCBD636_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CMoveToNextTrialCoroutineU3Ed__25_t39C69AE4F37CB8C0BE0F6F9D7EF4B5C8CD425215_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48_il2cpp_TypeInfo_var;
@@ -303,6 +303,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9C8D5C5EBF74921E032B22FCC83DD5F3956032DC
 IL2CPP_EXTERN_C String_t* _stringLiteral9F08737494CD1D38218AD9D151DC19F91C9A88CB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA26579BB827B533974A1EA0CC7CA4318831159BB;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB8D1B7BD40D1CB1C668383629E1BD48B559863B;
+IL2CPP_EXTERN_C String_t* _stringLiteralB39989AC307179F4BACC9591DCC79E99F33198D3;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7ED2A56C2D5A4A54DD638EE5CCF707ED8CC80DC;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB879B59F69003D021C7A1774156300258ED94AB;
 IL2CPP_EXTERN_C String_t* _stringLiteralC31D2B7E8111E92328C2BF12BF6646A19822948A;
@@ -379,7 +380,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CDistractionTaskCoroutineU3Ed__12_System_
 IL2CPP_EXTERN_C const RuntimeMethod* U3CEndCurrentTrialCoroutineU3Ed__26_System_Collections_IEnumerator_Reset_m24C88537578D4ABEF24085EDC71547B5DB5790D6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CEndTrialSequenceU3Ed__11_System_Collections_IEnumerator_Reset_mB3E481FA6A54FAE1A4A6684DEFA92D8B0DC5F6A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CMoveToNextTrialCoroutineU3Ed__25_System_Collections_IEnumerator_Reset_m4CBAA5F7DE942654A8013F95BD062499636D2B4B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CScaleRoutineU3Ed__16_System_Collections_IEnumerator_Reset_m5D2D69BBE5BE6563472543E30FEB3CB1E308569F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CScaleRoutineU3Ed__19_System_Collections_IEnumerator_Reset_m4734AB0BE216BC76EDA70D2E56341101A9119465_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CScaleRoutineU3Ed__20_System_Collections_IEnumerator_Reset_m039A2723FDC78A4DA2F5D493478FF2FCFB5821BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSlideToPositionU3Ed__9_System_Collections_IEnumerator_Reset_m4C492F276F331951F88DB8796B3778F73340B0A0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CSnapToCenterRoutineU3Ed__18_System_Collections_IEnumerator_Reset_m6A6295AA52E8F38CC591F44AB5DBA06025947D3A_RuntimeMethod_var;
@@ -389,7 +390,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CTweenBubbleU3Ed__12_System_Collections_I
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTweenPositionU3Ed__15_System_Collections_IEnumerator_Reset_mDD9AF63EE324B62FD6679E07072DC67346EC88E9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTweenTransformU3Ed__13_System_Collections_IEnumerator_Reset_mBCF4E9A7B9AA1342A2E76BD0F5B5A7218009E0CF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTweenTransformU3Ed__14_System_Collections_IEnumerator_Reset_m65306ABC18F1F9D3BD5938500E75C33F83097ACC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13_0_m776B449722255364C6A1ECFB62B8F296E6779BEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetClosestValidBubbleU3Eb__16_0_m46C5870EE489FD3EB17D44F742F71C10908EC3E2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitAndRegisterU3Ed__9_System_Collections_IEnumerator_Reset_m1BEE3D26A8240E6A06AA0B3370C0C3C1B79D3325_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3Cspawn_itemsU3Ed__11_System_Collections_IEnumerator_Reset_m14DB075080AB7B16D8BBE9487B300723A0B8BE5D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mDC553D804520EE583C51B0C0B9145FA090FF2CD7_RuntimeMethod_var;
@@ -1510,7 +1511,7 @@ struct U3CTweenTransformU3Ed__14_tF3F293C89313407C5F142B4E577E37B8E2124A4F  : pu
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___endPos;
 	float ___U3CtimeElapsedU3E5__2;
 };
-struct U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F  : public RuntimeObject
+struct U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -3195,7 +3196,7 @@ struct String_t_StaticFields
 struct U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields
 {
 	U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* ___U3CU3E9;
-	Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* ___U3CU3E9__13_0;
+	Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* ___U3CU3E9__16_0;
 };
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -3891,6 +3892,8 @@ inline void UnityEvent_1_RemoveListener_mE3DB8D4BA1340929F4B7FDE9D0F5C00480D1F9D
 {
 	((  void (*) (UnityEvent_1_tCDC5ABC73F76F34C4CD7863CAD4F745859696FB9*, UnityAction_1_tC144CDF316F66AA27D0D776DC27E0148850EEF35*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GrabbableItem_get_isInBubble_mC3F1134D391E6408E6AF58CB73EFD5BAE0F1F4DC (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
 inline bool List_1_Contains_m2F95F2D5881413628881D313A5A4ED4E3A65C55E (List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* __this, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* ___0_item, const RuntimeMethod* method)
 {
 	return ((  bool (*) (List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7*, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___0_item, method);
@@ -3928,11 +3931,9 @@ inline bool Enumerator_MoveNext_m5817439502B7DDA0DF399707535EBB3B9FEB19CC (Enume
 {
 	return ((  bool (*) (Enumerator_tECF526CA5E9E0CD1C9515C008D72EB26BC6E55E4*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GrabbableItem_ScaleRoutine_m3F339BB99F4AE7E4B95D18EBE4EA36F0BFCCC988 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetScale, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__16__ctor_m8C106E2E829932989C706C1F8B96FE77CCCAD6F0 (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__19__ctor_m06F245722BFEA2D332557CC74E7A4A3A8E04ED39 (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandReleased_m191227D899302B27EB1FF54AD02102550ADD8B5A (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7731C13E9F5848F0A768F0148097DA0957C2343 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_grabbedObject, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* GrabbableItem_GetClosestValidBubble_m60F914A37AD4AC5389077A7B14BB4EB798109F8A (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0C4CBCB31BD13CE8257E6E0FD60C99DE9484D3E1 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_droppedObject, const RuntimeMethod* method) ;
 inline void List_1__ctor_m94AB19E98B50A493EF20F5343513D167B0959E0E (List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* __this, const RuntimeMethod* method)
@@ -4064,7 +4065,8 @@ inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_T
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputAction_WasPressedThisFrame_m9D3F0284EB46EEB7F720DCC96BBDF027C9B6A75F (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_bKey_m059A5829CB3ABB2B9C6FAF0CA7AC6D3A8CB4A06E (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_mKey_m89FA62804E08AEDCB78A45061F17AFA8DFBB84AC (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_ShowText_m23DC2A9E66F016CFC31C4631753214301F5A9514 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_hideText_m577831612A51668EEE85A9BCD4D45B8C1AF731F4 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11__ctor_mB19516F248B33CAAA6DC3F77BEE32F805D898E83 (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12__ctor_m57448AA6A9EB09B986ED829685A6E481A8D1A786 (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
@@ -7264,6 +7266,24 @@ IL_00cc:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 82420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GrabbableItem_get_isInBubble_mC3F1134D391E6408E6AF58CB73EFD5BAE0F1F4DC (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:15>
+		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_0 = __this->___currentBubble;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 82421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_Awake_m189EF80A60FC7E98907D195664FA4978FEA76A27 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7274,28 +7294,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_Awake_m189EF80A60FC7E98907
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:28>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:29>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->___rb = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rb), (void*)L_0);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:29>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:30>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_1;
 		L_1 = Component_GetComponent_TisPhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4_m809CC4C40589D7DAE4DE726B3A5827710E8F1963(__this, Component_GetComponent_TisPhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4_m809CC4C40589D7DAE4DE726B3A5827710E8F1963_RuntimeMethod_var);
 		__this->___handEvents = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___handEvents), (void*)L_1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:30>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_2, NULL);
 		__this->___originalScale = L_3;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:31>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 82421
+// Method Definition Index: 82422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnEnable_m1759816806DB713347380BFA315D87B37A3FF9A6 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7309,7 +7329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnEnable_m1759816806DB7133
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:35>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:36>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_0 = __this->___handEvents;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7320,7 +7340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnEnable_m1759816806DB7133
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:37>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:38>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_2 = __this->___handEvents;
 		NullCheck(L_2);
 		UnityEvent_1_tCDC5ABC73F76F34C4CD7863CAD4F745859696FB9* L_3 = L_2->___onGrabEnter;
@@ -7328,7 +7348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnEnable_m1759816806DB7133
 		UnityAction_1__ctor_m36E8C86593252857A87E1CDA0430020887C0A481(L_4, __this, (intptr_t)((void*)GrabbableItem_HandleGrabEnter_mEA10D654B4B655A2A600EA2377660A375E35EC36_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_1_AddListener_mDC553D804520EE583C51B0C0B9145FA090FF2CD7(L_3, L_4, UnityEvent_1_AddListener_mDC553D804520EE583C51B0C0B9145FA090FF2CD7_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:38>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:39>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_5 = __this->___handEvents;
 		NullCheck(L_5);
 		UnityEvent_1_tCDC5ABC73F76F34C4CD7863CAD4F745859696FB9* L_6 = L_5->___onGrabExit;
@@ -7340,11 +7360,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnEnable_m1759816806DB7133
 
 IL_0046:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:40>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 82422
+// Method Definition Index: 82423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnDisable_mDF1F0B8FF133BE751D7CEB9A46910B4C6FACA6DA (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7358,7 +7378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnDisable_mDF1F0B8FF133BE7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:44>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:45>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_0 = __this->___handEvents;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7369,7 +7389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnDisable_mDF1F0B8FF133BE7
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:46>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:47>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_2 = __this->___handEvents;
 		NullCheck(L_2);
 		UnityEvent_1_tCDC5ABC73F76F34C4CD7863CAD4F745859696FB9* L_3 = L_2->___onGrabEnter;
@@ -7377,7 +7397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnDisable_mDF1F0B8FF133BE7
 		UnityAction_1__ctor_m36E8C86593252857A87E1CDA0430020887C0A481(L_4, __this, (intptr_t)((void*)GrabbableItem_HandleGrabEnter_mEA10D654B4B655A2A600EA2377660A375E35EC36_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		UnityEvent_1_RemoveListener_mE3DB8D4BA1340929F4B7FDE9D0F5C00480D1F9DF(L_3, L_4, UnityEvent_1_RemoveListener_mE3DB8D4BA1340929F4B7FDE9D0F5C00480D1F9DF_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:47>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:48>
 		PhysicalHandEvents_tE03B59137AE40D375A2CD98DC1C383A8BD7000B4* L_5 = __this->___handEvents;
 		NullCheck(L_5);
 		UnityEvent_1_tCDC5ABC73F76F34C4CD7863CAD4F745859696FB9* L_6 = L_5->___onGrabExit;
@@ -7389,11 +7409,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnDisable_mDF1F0B8FF133BE7
 
 IL_0046:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:49>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 82423
+// Method Definition Index: 82424
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_Update_mBA78474A8C9A17DAEDA7D1F9D08400279F0E29EA (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:55>
+		bool L_0;
+		L_0 = GrabbableItem_get_isInBubble_mC3F1134D391E6408E6AF58CB73EFD5BAE0F1F4DC(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:57>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->___rb;
+		NullCheck(L_1);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_1, (bool)1, NULL);
+	}
+
+IL_0014:
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 82425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_AddHoveredBubble_mE382D59EFE51967A0DEC14DEBAD66033190618C4 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* ___0_bubble, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7404,7 +7449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_AddHoveredBubble_mE382D59E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:55>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:65>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_0 = __this->___overlappingBubbles;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_1 = ___0_bubble;
 		NullCheck(L_0);
@@ -7416,7 +7461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_AddHoveredBubble_mE382D59E
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:57>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:67>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_3 = __this->___overlappingBubbles;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_4 = ___0_bubble;
 		NullCheck(L_3);
@@ -7425,11 +7470,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_AddHoveredBubble_mE382D59E
 
 IL_001a:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:59>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 82424
+// Method Definition Index: 82426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_RemoveHoveredBubble_mDDBB756C4C29FBC6BC7E7A421568F3FFA6B4D63C (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* ___0_bubble, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7440,7 +7485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_RemoveHoveredBubble_mDDBB7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:63>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:73>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_0 = __this->___overlappingBubbles;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_1 = ___0_bubble;
 		NullCheck(L_0);
@@ -7452,7 +7497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_RemoveHoveredBubble_mDDBB7
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:65>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:75>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_3 = __this->___overlappingBubbles;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_4 = ___0_bubble;
 		NullCheck(L_3);
@@ -7462,11 +7507,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_RemoveHoveredBubble_mDDBB7
 
 IL_001b:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:67>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 82425
+// Method Definition Index: 82427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* GrabbableItem_GetClosestValidBubble_m60F914A37AD4AC5389077A7B14BB4EB798109F8A (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7479,7 +7524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsBubbleReceptacle_t6375354AF392BACD4A59
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAll_mF1D975445C054E2650A09EEE5AA68E5D83F1816C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13_0_m776B449722255364C6A1ECFB62B8F296E6779BEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGetClosestValidBubbleU3Eb__16_0_m46C5870EE489FD3EB17D44F742F71C10908EC3E2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -7494,10 +7539,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsBubbleReceptacle_t6375354AF392BACD4A59
 	Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* G_B1_0 = NULL;
 	List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* G_B1_1 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:72>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:82>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_0 = __this->___overlappingBubbles;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var);
-		Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* L_1 = ((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__13_0;
+		Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* L_1 = ((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__16_0;
 		Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* L_2 = L_1;
 		if (L_2)
 		{
@@ -7512,10 +7557,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PhysicsBubbleReceptacle_t6375354AF392BACD4A59
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var);
 		U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* L_3 = ((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9;
 		Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* L_4 = (Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E*)il2cpp_codegen_object_new(Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E_il2cpp_TypeInfo_var);
-		Predicate_1__ctor_m2D6132A9622E38258C13FA3F2ECC9DE180B3F3F0(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13_0_m776B449722255364C6A1ECFB62B8F296E6779BEB_RuntimeMethod_var), NULL);
+		Predicate_1__ctor_m2D6132A9622E38258C13FA3F2ECC9DE180B3F3F0(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CGetClosestValidBubbleU3Eb__16_0_m46C5870EE489FD3EB17D44F742F71C10908EC3E2_RuntimeMethod_var), NULL);
 		Predicate_1_tA409EE6C1C075F91EA648856A3AA4AE1EB79179E* L_5 = L_4;
-		((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__13_0 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__13_0), (void*)L_5);
+		((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__16_0 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5_il2cpp_TypeInfo_var))->___U3CU3E9__16_0), (void*)L_5);
 		G_B2_0 = L_5;
 		G_B2_1 = G_B1_1;
 	}
@@ -7525,11 +7570,11 @@ IL_0025:
 		NullCheck(G_B2_1);
 		int32_t L_6;
 		L_6 = List_1_RemoveAll_mF1D975445C054E2650A09EEE5AA68E5D83F1816C(G_B2_1, G_B2_0, List_1_RemoveAll_mF1D975445C054E2650A09EEE5AA68E5D83F1816C_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:74>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:84>
 		V_0 = (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D*)NULL;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:75>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:85>
 		V_1 = ((std::numeric_limits<float>::max)());
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:77>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:87>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_7 = __this->___overlappingBubbles;
 		NullCheck(L_7);
 		Enumerator_tECF526CA5E9E0CD1C9515C008D72EB26BC6E55E4 L_8;
@@ -7554,11 +7599,11 @@ FINALLY_0089:
 
 IL_0041_1:
 			{
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:77>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:87>
 				PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_9;
 				L_9 = Enumerator_get_Current_m10F2972FCA2341AFC9A8599340E9357EBF98C2B0_inline((&V_2), Enumerator_get_Current_m10F2972FCA2341AFC9A8599340E9357EBF98C2B0_RuntimeMethod_var);
 				V_3 = L_9;
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:80>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:90>
 				PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_10 = V_3;
 				NullCheck(L_10);
 				Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_11 = L_10->___currentlyHeldObject;
@@ -7571,7 +7616,7 @@ IL_0041_1:
 				}
 			}
 			{
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:82>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:92>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 				L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 				NullCheck(L_13);
@@ -7587,7 +7632,7 @@ IL_0041_1:
 				float L_18;
 				L_18 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_14, L_17, NULL);
 				V_4 = L_18;
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:83>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:93>
 				float L_19 = V_4;
 				float L_20 = V_1;
 				if ((!(((float)L_19) < ((float)L_20))))
@@ -7596,17 +7641,17 @@ IL_0041_1:
 				}
 			}
 			{
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:85>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:95>
 				float L_21 = V_4;
 				V_1 = L_21;
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:86>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:96>
 				PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_22 = V_3;
 				V_0 = L_22;
 			}
 
 IL_007e_1:
 			{
-				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:77>
+				//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:87>
 				bool L_23;
 				L_23 = Enumerator_MoveNext_m5817439502B7DDA0DF399707535EBB3B9FEB19CC((&V_2), Enumerator_MoveNext_m5817439502B7DDA0DF399707535EBB3B9FEB19CC_RuntimeMethod_var);
 				if (L_23)
@@ -7626,120 +7671,71 @@ IL_007e_1:
 
 IL_0097:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:90>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:100>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_24 = V_0;
 		return L_24;
 	}
 }
-// Method Definition Index: 82426
+// Method Definition Index: 82428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_ShrinkItem_m1929CD02099FC71F4E501EEC60F8B8E43C65548C (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:97>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___scaleCoroutine;
-		if (!L_0)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:97>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___scaleCoroutine;
-		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
-	}
-
-IL_0014:
-	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:98>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___originalScale;
-		float L_3 = __this->___inBubbleScaleMultiplier;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
-		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
-		RuntimeObject* L_5;
-		L_5 = GrabbableItem_ScaleRoutine_m3F339BB99F4AE7E4B95D18EBE4EA36F0BFCCC988(__this, L_4, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
-		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		__this->___scaleCoroutine = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___scaleCoroutine), (void*)L_6);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:99>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 82427
+// Method Definition Index: 82429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_RestoreSize_m562C54B8C382BBD8F4C0558AD859B24385F53349 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:103>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___scaleCoroutine;
-		if (!L_0)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:103>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___scaleCoroutine;
-		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
-	}
-
-IL_0014:
-	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:104>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___originalScale;
-		RuntimeObject* L_3;
-		L_3 = GrabbableItem_ScaleRoutine_m3F339BB99F4AE7E4B95D18EBE4EA36F0BFCCC988(__this, L_2, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
-		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		__this->___scaleCoroutine = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___scaleCoroutine), (void*)L_4);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:105>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 82428
+// Method Definition Index: 82430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GrabbableItem_ScaleRoutine_m3F339BB99F4AE7E4B95D18EBE4EA36F0BFCCC988 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* L_0 = (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F*)il2cpp_codegen_object_new(U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F_il2cpp_TypeInfo_var);
-		U3CScaleRoutineU3Ed__16__ctor_m8C106E2E829932989C706C1F8B96FE77CCCAD6F0(L_0, 0, NULL);
-		U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* L_1 = L_0;
+		U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* L_0 = (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6*)il2cpp_codegen_object_new(U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6_il2cpp_TypeInfo_var);
+		U3CScaleRoutineU3Ed__19__ctor_m06F245722BFEA2D332557CC74E7A4A3A8E04ED39(L_0, 0, NULL);
+		U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* L_2 = L_1;
+		U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* L_2 = L_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_targetScale;
 		NullCheck(L_2);
 		L_2->___targetScale = L_3;
 		return L_2;
 	}
 }
-// Method Definition Index: 82429
+// Method Definition Index: 82431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_HandleGrabEnter_mEA10D654B4B655A2A600EA2377660A375E35EC36 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, ContactHand_tF1CCFAED19F24458A07F88737463A0DE3597F270* ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:127>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:139>
 		GrabbableItem_OnPhysicalHandGrabbed_m527CC471BDC5EB8B839108167D443EF54CC919F6(__this, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:128>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 82430
+// Method Definition Index: 82432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_HandleGrabExit_m00E0B89C7800E04620396BDE63FCE4E98FB83C20 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, ContactHand_tF1CCFAED19F24458A07F88737463A0DE3597F270* ___0_hand, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:132>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:144>
 		GrabbableItem_OnPhysicalHandReleased_m191227D899302B27EB1FF54AD02102550ADD8B5A(__this, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:133>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:145>
 		return;
 	}
 }
-// Method Definition Index: 82431
+// Method Definition Index: 82433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandGrabbed_m527CC471BDC5EB8B839108167D443EF54CC919F6 (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7749,7 +7745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandGrabbed_m527
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:139>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:151>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_0 = __this->___currentBubble;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7760,12 +7756,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandGrabbed_m527
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:141>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:153>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_2 = __this->___currentBubble;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___rb;
 		NullCheck(L_2);
 		PhysicsBubbleReceptacle_RemoveObject_mE7731C13E9F5848F0A768F0148097DA0957C2343(L_2, L_3, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:142>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:154>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___rb;
 		NullCheck(L_4);
 		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_4, (bool)1, NULL);
@@ -7773,11 +7769,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandGrabbed_m527
 
 IL_002b:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:144>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 82432
+// Method Definition Index: 82434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandReleased_m191227D899302B27EB1FF54AD02102550ADD8B5A (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7788,11 +7784,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandReleased_m19
 	}
 	PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* V_0 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:149>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:161>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_0;
 		L_0 = GrabbableItem_GetClosestValidBubble_m60F914A37AD4AC5389077A7B14BB4EB798109F8A(__this, NULL);
 		V_0 = L_0;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:151>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:163>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -7803,7 +7799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandReleased_m19
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:153>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:165>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_3 = V_0;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___rb;
 		NullCheck(L_3);
@@ -7813,15 +7809,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem_OnPhysicalHandReleased_m19
 
 IL_001d:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:158>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:170>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->___rb;
 		NullCheck(L_5);
 		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_5, (bool)1, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:160>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:172>
 		return;
 	}
 }
-// Method Definition Index: 82433
+// Method Definition Index: 82435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem__ctor_m13C298D303850C0B8AD5FE5B30AF8F24EAA32CCF (GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7832,14 +7828,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem__ctor_m13C298D303850C0B8AD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:17>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:18>
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_0 = (List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7*)il2cpp_codegen_object_new(List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7_il2cpp_TypeInfo_var);
 		List_1__ctor_m94AB19E98B50A493EF20F5343513D167B0959E0E(L_0, List_1__ctor_m94AB19E98B50A493EF20F5343513D167B0959E0E_RuntimeMethod_var);
 		__this->___overlappingBubbles = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___overlappingBubbles), (void*)L_0);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:21>
-		__this->___inBubbleScaleMultiplier = (0.5f);
 		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:22>
+		__this->___inBubbleScaleMultiplier = (0.5f);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:23>
 		__this->___scaleSpeed = (0.200000003f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -7853,7 +7849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableItem__ctor_m13C298D303850C0B8AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82434
+// Method Definition Index: 82436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7DF30224412E079ADF22F1696DF61F14E08F427E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7870,7 +7866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7DF30224412E079ADF22F169
 		return;
 	}
 }
-// Method Definition Index: 82435
+// Method Definition Index: 82437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m05F09258EC05B8DFAE5CC02F8DBE09C882B3241D (U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7878,8 +7874,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m05F09258EC05B8DFAE5CC02F8
 		return;
 	}
 }
-// Method Definition Index: 82436
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13_0_m776B449722255364C6A1ECFB62B8F296E6779BEB (U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* __this, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* ___0_b, const RuntimeMethod* method) 
+// Method Definition Index: 82438
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetClosestValidBubbleU3Eb__16_0_m46C5870EE489FD3EB17D44F742F71C10908EC3E2 (U3CU3Ec_t6E99AFF1297850AC82F77BEBE4EE10AB9E1062A5* __this, PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* ___0_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7888,7 +7884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:72>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:82>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_0 = ___0_b;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7904,8 +7900,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CGetClosestValidBubbleU3Eb__13
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82437
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__16__ctor_m8C106E2E829932989C706C1F8B96FE77CCCAD6F0 (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 82439
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__19__ctor_m06F245722BFEA2D332557CC74E7A4A3A8E04ED39 (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -7914,15 +7910,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__16__ctor_m8C106E2E8
 		return;
 	}
 }
-// Method Definition Index: 82438
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__16_System_IDisposable_Dispose_mF27FC5E20AFC3421AEC014FB6F0A72EA36A5AB9B (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82440
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__19_System_IDisposable_Dispose_m46FD75B7D3D2ED84769584E821CE76CB55B58F3A (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82439
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScaleRoutineU3Ed__16_MoveNext_m9ED3A4C75984D8EC043EC0FC77E405BEF44882DF (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82441
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScaleRoutineU3Ed__19_MoveNext_mB4B6FAA5C1D472F63E4FC821F5B8B12F8216A68E (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* V_1 = NULL;
@@ -7952,9 +7948,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScaleRoutineU3Ed__16_MoveNext_m9ED3A4
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:109>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:121>
 		__this->___U3CelapsedTimeU3E5__2 = (0.0f);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:110>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:122>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_4 = V_1;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -7968,12 +7964,12 @@ IL_001a:
 
 IL_003f:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:114>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:126>
 		float L_7 = __this->___U3CelapsedTimeU3E5__2;
 		float L_8;
 		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedTimeU3E5__2 = ((float)il2cpp_codegen_add(L_7, L_8));
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:115>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:127>
 		float L_9 = __this->___U3CelapsedTimeU3E5__2;
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_10 = V_1;
 		NullCheck(L_10);
@@ -7981,7 +7977,7 @@ IL_003f:
 		float L_12;
 		L_12 = Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline((0.0f), (1.0f), ((float)(L_9/L_11)), NULL);
 		V_2 = L_12;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:116>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:128>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_13 = V_1;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -7993,7 +7989,7 @@ IL_003f:
 		L_18 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_15, L_16, L_17, NULL);
 		NullCheck(L_14);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_14, L_18, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:117>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:129>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -8007,7 +8003,7 @@ IL_009b:
 
 IL_00a2:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:112>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:124>
 		float L_19 = __this->___U3CelapsedTimeU3E5__2;
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_20 = V_1;
 		NullCheck(L_20);
@@ -8018,7 +8014,7 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:119>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:131>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_22 = V_1;
 		NullCheck(L_22);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
@@ -8026,29 +8022,29 @@ IL_00a2:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->___targetScale;
 		NullCheck(L_23);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_23, L_24, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:120>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/GrabbableItem.cs:132>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82440
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAADB14E5A1D662D6A8CC0134E0149D0C7685A903 (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82442
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m777D2BA6570B567128438A4EA6CC6B96CFF9A3FD (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 82441
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__16_System_Collections_IEnumerator_Reset_m5D2D69BBE5BE6563472543E30FEB3CB1E308569F (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82443
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__19_System_Collections_IEnumerator_Reset_m4734AB0BE216BC76EDA70D2E56341101A9119465 (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CScaleRoutineU3Ed__16_System_Collections_IEnumerator_Reset_m5D2D69BBE5BE6563472543E30FEB3CB1E308569F_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CScaleRoutineU3Ed__19_System_Collections_IEnumerator_Reset_m4734AB0BE216BC76EDA70D2E56341101A9119465_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82442
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__16_System_Collections_IEnumerator_get_Current_m73065E88CDABB595C5470337534237420F222A37 (U3CScaleRoutineU3Ed__16_tF4438DC6D6A4FDC3677D74BC99B64CDDDA0B270F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 82444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__19_System_Collections_IEnumerator_get_Current_m21E3D8BE3CE2866171E5DC4164EC33128A085EB0 (U3CScaleRoutineU3Ed__19_t10EAF9101FCB26C0B6B26D99CA05B6C33DD9E8F6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -8063,7 +8059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__16_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82443
+// Method Definition Index: 82445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_Start_mD87F74C288737674A7597DAE5C7DECBB0574F6E7 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8119,7 +8115,7 @@ IL_003a:
 		return;
 	}
 }
-// Method Definition Index: 82444
+// Method Definition Index: 82446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerEnter_m7855D01156C71631237C9C307C1AFED1AEA928B6 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8148,7 +8144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerEnter_m
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_3)
 		{
-			goto IL_0074;
+			goto IL_0086;
 		}
 	}
 	{
@@ -8158,7 +8154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerEnter_m
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_5)
 		{
-			goto IL_0074;
+			goto IL_0086;
 		}
 	}
 	{
@@ -8169,7 +8165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerEnter_m
 		L_8 = List_1_Contains_mB763294B7D9C4C7F1D89446AE276E991E94587BC(L_6, L_7, List_1_Contains_mB763294B7D9C4C7F1D89446AE276E991E94587BC_RuntimeMethod_var);
 		if (L_8)
 		{
-			goto IL_0074;
+			goto IL_0086;
 		}
 	}
 	{
@@ -8186,49 +8182,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerEnter_m
 		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_12)
 		{
-			goto IL_0043;
+			goto IL_0045;
+		}
+	}
+	{
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_13 = V_1;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = GrabbableItem_get_isInBubble_mC3F1134D391E6408E6AF58CB73EFD5BAE0F1F4DC(L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0045;
 		}
 	}
 	{
 		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:65>
-		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_13 = V_1;
-		NullCheck(L_13);
-		GrabbableItem_AddHoveredBubble_mE382D59EFE51967A0DEC14DEBAD66033190618C4(L_13, __this, NULL);
+		return;
 	}
 
-IL_0043:
+IL_0045:
 	{
 		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:68>
-		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_14 = __this->___hoveringObjects;
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = V_0;
-		NullCheck(L_14);
-		List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_inline(L_14, L_15, List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:69>
-		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_16 = __this->___hoveringObjects;
-		NullCheck(L_16);
-		int32_t L_17;
-		L_17 = List_1_get_Count_m40D1B68A9856688F8AE26F27704E7DD3D0E3C20F_inline(L_16, List_1_get_Count_m40D1B68A9856688F8AE26F27704E7DD3D0E3C20F_RuntimeMethod_var);
-		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_15 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
 		{
-			goto IL_0074;
+			goto IL_0055;
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:71>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = __this->___originalScale;
-		float L_19 = __this->___hoverScaleMultiplier;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
-		L_20 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_18, L_19, NULL);
-		PhysicsBubbleReceptacle_SetBubbleScale_m9B7AEA80E9B1EDFB24B77260724F1086A2D1B36C(__this, L_20, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:70>
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_17 = V_1;
+		NullCheck(L_17);
+		GrabbableItem_AddHoveredBubble_mE382D59EFE51967A0DEC14DEBAD66033190618C4(L_17, __this, NULL);
 	}
 
-IL_0074:
+IL_0055:
 	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:73>
+		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_18 = __this->___hoveringObjects;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_19 = V_0;
+		NullCheck(L_18);
+		List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_inline(L_18, L_19, List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_RuntimeMethod_var);
 		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:74>
+		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_20 = __this->___hoveringObjects;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = List_1_get_Count_m40D1B68A9856688F8AE26F27704E7DD3D0E3C20F_inline(L_20, List_1_get_Count_m40D1B68A9856688F8AE26F27704E7DD3D0E3C20F_RuntimeMethod_var);
+		if ((!(((uint32_t)L_21) == ((uint32_t)1))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:76>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = __this->___originalScale;
+		float L_23 = __this->___hoverScaleMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, L_23, NULL);
+		PhysicsBubbleReceptacle_SetBubbleScale_m9B7AEA80E9B1EDFB24B77260724F1086A2D1B36C(__this, L_24, NULL);
+	}
+
+IL_0086:
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 82445
+// Method Definition Index: 82447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerExit_mFE4DB4FE4C7D1CB26304F5AB1B64A32AC48924A2 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8244,13 +8267,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerExit_mF
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_0 = NULL;
 	GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* V_1 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:78>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:83>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		NullCheck(L_0);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1;
 		L_1 = Collider_get_attachedRigidbody_m060304DB909A1FACD260EBB619D64D39129739AD(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:79>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:84>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -8272,13 +8295,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerExit_mF
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:82>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:87>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = V_0;
 		NullCheck(L_7);
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_8;
 		L_8 = Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E(L_7, Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
 		V_1 = L_8;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:83>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:88>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_9 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -8289,7 +8312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerExit_mF
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:85>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:90>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_11 = V_1;
 		NullCheck(L_11);
 		GrabbableItem_RemoveHoveredBubble_mDDBB756C4C29FBC6BC7E7A421568F3FFA6B4D63C(L_11, __this, NULL);
@@ -8297,13 +8320,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_OnTriggerExit_mF
 
 IL_0035:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:88>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:93>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_12 = __this->___hoveringObjects;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = V_0;
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = List_1_Remove_mE5EB1011929CA6332FA47E6969BE302D3E2B9160(L_12, L_13, List_1_Remove_mE5EB1011929CA6332FA47E6969BE302D3E2B9160_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:89>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:94>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_15 = __this->___hoveringObjects;
 		NullCheck(L_15);
 		int32_t L_16;
@@ -8324,30 +8347,32 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:91>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:96>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = __this->___originalScale;
 		PhysicsBubbleReceptacle_SetBubbleScale_m9B7AEA80E9B1EDFB24B77260724F1086A2D1B36C(__this, L_19, NULL);
 	}
 
 IL_0069:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:94>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 82446
+// Method Definition Index: 82448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_ForceSnapObject_mA5FD928D4629448F1C7E5916058E7A10686F7816 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_mB763294B7D9C4C7F1D89446AE276E991E94587BC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* V_0 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:98>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:103>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8358,75 +8383,100 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_ForceSnapObject_
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:98>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:103>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:100>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:105>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = ___0_rb;
 		__this->___currentlyHeldObject = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentlyHeldObject), (void*)L_2);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:103>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ___0_rb;
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:107>
+		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_3 = __this->___hoveringObjects;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = ___0_rb;
 		NullCheck(L_3);
-		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_4;
-		L_4 = Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E(L_3, Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
-		V_0 = L_4;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:104>
-		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_5 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		bool L_5;
+		L_5 = List_1_Contains_mB763294B7D9C4C7F1D89446AE276E991E94587BC(L_3, L_4, List_1_Contains_mB763294B7D9C4C7F1D89446AE276E991E94587BC_RuntimeMethod_var);
+		if (L_5)
 		{
-			goto IL_002e;
+			goto IL_002b;
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:106>
-		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_7 = V_0;
-		NullCheck(L_7);
-		L_7->___currentBubble = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_7->___currentBubble), (void*)__this);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:107>
-		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_8 = V_0;
-		NullCheck(L_8);
-		GrabbableItem_ShrinkItem_m1929CD02099FC71F4E501EEC60F8B8E43C65548C(L_8, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:109>
+		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_6 = __this->___hoveringObjects;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = ___0_rb;
+		NullCheck(L_6);
+		List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_inline(L_6, L_7, List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_RuntimeMethod_var);
 	}
 
-IL_002e:
+IL_002b:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:111>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = ___0_rb;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
-		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_10);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
-		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
-		NullCheck(L_9);
-		Rigidbody_set_position_mA15BE12B8D82220E8CA90A0F0CBFB206FE81B41C(L_9, L_11, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:112>
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_12 = ___0_rb;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
-		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_13);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
-		L_14 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_13, NULL);
-		NullCheck(L_12);
-		Rigidbody_set_rotation_mF2FC85A4A26AD9FED7DE0061889DF5A408461A5D(L_12, L_14, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:113>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = ___0_rb;
+		NullCheck(L_8);
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_9;
+		L_9 = Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E(L_8, Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
+		V_0 = L_9;
 		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:114>
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:116>
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_12 = V_0;
+		NullCheck(L_12);
+		L_12->___currentBubble = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_12->___currentBubble), (void*)__this);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:117>
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_13 = V_0;
+		NullCheck(L_13);
+		GrabbableItem_AddHoveredBubble_mE382D59EFE51967A0DEC14DEBAD66033190618C4(L_13, __this, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:118>
+		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_14 = V_0;
+		NullCheck(L_14);
+		GrabbableItem_ShrinkItem_m1929CD02099FC71F4E501EEC60F8B8E43C65548C(L_14, NULL);
+	}
+
+IL_004f:
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:122>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = ___0_rb;
-		RuntimeObject* L_16;
-		L_16 = PhysicsBubbleReceptacle_SnapToCenterRoutine_m3D1AA153CF298FCD7F0EA773EBEC1A630E26BAC9(__this, L_15, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_17;
-		L_17 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_16, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:115>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_16);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
+		NullCheck(L_15);
+		Rigidbody_set_position_mA15BE12B8D82220E8CA90A0F0CBFB206FE81B41C(L_15, L_17, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:123>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_18 = ___0_rb;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_19);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
+		L_20 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_19, NULL);
+		NullCheck(L_18);
+		Rigidbody_set_rotation_mF2FC85A4A26AD9FED7DE0061889DF5A408461A5D(L_18, L_20, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:125>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_21 = ___0_rb;
+		RuntimeObject* L_22;
+		L_22 = PhysicsBubbleReceptacle_SnapToCenterRoutine_m3D1AA153CF298FCD7F0EA773EBEC1A630E26BAC9(__this, L_21, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_23;
+		L_23 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_22, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 82447
+// Method Definition Index: 82449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0C4CBCB31BD13CE8257E6E0FD60C99DE9484D3E1 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_droppedObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8440,7 +8490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0
 	}
 	GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* V_0 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:122>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:133>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___currentlyHeldObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8451,20 +8501,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:124>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral209F6E217D1D2FFBE686D7AD6A53B4AE0A7255B7, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:125>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:136>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = ___0_droppedObject;
 		__this->___currentlyHeldObject = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentlyHeldObject), (void*)L_2);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:128>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:139>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ___0_droppedObject;
 		NullCheck(L_3);
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_4;
 		L_4 = Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E(L_3, Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:129>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:140>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -8475,12 +8525,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:131>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:142>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_7 = V_0;
 		NullCheck(L_7);
 		L_7->___currentBubble = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___currentBubble), (void*)__this);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:132>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:143>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_8 = V_0;
 		NullCheck(L_8);
 		GrabbableItem_ShrinkItem_m1929CD02099FC71F4E501EEC60F8B8E43C65548C(L_8, NULL);
@@ -8488,7 +8538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_TrySnapObject_m0
 
 IL_003c:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:135>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:146>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = ___0_droppedObject;
 		RuntimeObject* L_10;
 		L_10 = PhysicsBubbleReceptacle_SnapToCenterRoutine_m3D1AA153CF298FCD7F0EA773EBEC1A630E26BAC9(__this, L_9, NULL);
@@ -8498,11 +8548,11 @@ IL_003c:
 
 IL_004a:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:137>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:148>
 		return;
 	}
 }
-// Method Definition Index: 82448
+// Method Definition Index: 82450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7731C13E9F5848F0A768F0148097DA0957C2343 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_grabbedObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8515,7 +8565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7
 	}
 	GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* V_0 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:142>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:153>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___currentlyHeldObject;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = ___0_grabbedObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -8527,19 +8577,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:144>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:155>
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:146>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:157>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___currentlyHeldObject;
 		NullCheck(L_3);
 		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_3, (bool)1, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:149>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:160>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = ___0_grabbedObject;
 		NullCheck(L_4);
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_5;
 		L_5 = Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E(L_4, Component_GetComponent_TisGrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775_m00F6A7E9336C4A61750BA46993727ADC049B6E8E_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:150>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:161>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -8550,12 +8600,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:152>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:163>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_8 = V_0;
 		NullCheck(L_8);
 		L_8->___currentBubble = (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___currentBubble), (void*)(PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D*)NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:153>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:164>
 		GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775* L_9 = V_0;
 		NullCheck(L_9);
 		GrabbableItem_RestoreSize_m562C54B8C382BBD8F4C0558AD859B24385F53349(L_9, NULL);
@@ -8563,10 +8613,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_RemoveObject_mE7
 
 IL_003d:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:156>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:167>
 		__this->___currentlyHeldObject = (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentlyHeldObject), (void*)(Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*)NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:158>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:169>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_10 = __this->___hoveringObjects;
 		NullCheck(L_10);
 		int32_t L_11;
@@ -8577,18 +8627,18 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:160>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:171>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___originalScale;
 		PhysicsBubbleReceptacle_SetBubbleScale_m9B7AEA80E9B1EDFB24B77260724F1086A2D1B36C(__this, L_12, NULL);
 	}
 
 IL_005d:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:163>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:174>
 		return;
 	}
 }
-// Method Definition Index: 82449
+// Method Definition Index: 82451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicsBubbleReceptacle_SnapToCenterRoutine_m3D1AA153CF298FCD7F0EA773EBEC1A630E26BAC9 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8612,11 +8662,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicsBubbleReceptacle_SnapTo
 		return L_2;
 	}
 }
-// Method Definition Index: 82450
+// Method Definition Index: 82452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_SetBubbleScale_m9B7AEA80E9B1EDFB24B77260724F1086A2D1B36C (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:204>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:215>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___scaleCoroutine;
 		if (!L_0)
 		{
@@ -8624,14 +8674,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_SetBubbleScale_m
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:204>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:215>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___scaleCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
 	}
 
 IL_0014:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:205>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:216>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_targetScale;
 		RuntimeObject* L_3;
 		L_3 = PhysicsBubbleReceptacle_ScaleRoutine_mFC502123286AC6F743A32A0E2C43CA7450E2193C(__this, L_2, NULL);
@@ -8639,11 +8689,11 @@ IL_0014:
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
 		__this->___scaleCoroutine = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___scaleCoroutine), (void*)L_4);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:206>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:217>
 		return;
 	}
 }
-// Method Definition Index: 82451
+// Method Definition Index: 82453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicsBubbleReceptacle_ScaleRoutine_mFC502123286AC6F743A32A0E2C43CA7450E2193C (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8666,7 +8716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicsBubbleReceptacle_ScaleR
 		return L_2;
 	}
 }
-// Method Definition Index: 82452
+// Method Definition Index: 82454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_HideVisuals_mAD765C22BE472ABC265C9B7E852F6240C1008D66 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8678,10 +8728,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_HideVisuals_mAD7
 	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:228>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:239>
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_0;
 		L_0 = Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7(__this, Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:229>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:240>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0018;
@@ -8689,13 +8739,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_HideVisuals_mAD7
 
 IL_000b:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:229>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:240>
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:231>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:242>
 		NullCheck(L_4);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_4, (bool)0, NULL);
 		int32_t L_5 = V_1;
@@ -8704,7 +8754,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:229>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:240>
 		int32_t L_6 = V_1;
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_7 = V_0;
 		NullCheck(L_7);
@@ -8714,11 +8764,11 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:233>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:244>
 		return;
 	}
 }
-// Method Definition Index: 82453
+// Method Definition Index: 82455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_ShowVisuals_m45982A7B44863AB359BF00C00DFBB5B2B37327B0 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8730,10 +8780,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_ShowVisuals_m459
 	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:237>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:248>
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_0;
 		L_0 = Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7(__this, Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m35AC34F858BD2F34770712CD020AA0518D9409C7_RuntimeMethod_var);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:238>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:249>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0018;
@@ -8741,13 +8791,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle_ShowVisuals_m459
 
 IL_000b:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:238>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:249>
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:240>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:251>
 		NullCheck(L_4);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_4, (bool)1, NULL);
 		int32_t L_5 = V_1;
@@ -8756,7 +8806,7 @@ IL_000b:
 
 IL_0018:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:238>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:249>
 		int32_t L_6 = V_1;
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_7 = V_0;
 		NullCheck(L_7);
@@ -8766,11 +8816,11 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:242>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:253>
 		return;
 	}
 }
-// Method Definition Index: 82454
+// Method Definition Index: 82456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle__ctor_m8D3A4982BA0A9C37807E49C69BE9629850267DA4 (PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8810,7 +8860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsBubbleReceptacle__ctor_m8D3A4982B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82455
+// Method Definition Index: 82457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__20__ctor_m57FDE8BE753E418962BBF1EECFC4570816260860 (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8820,14 +8870,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__20__ctor_m57FDE8BE7
 		return;
 	}
 }
-// Method Definition Index: 82456
+// Method Definition Index: 82458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__20_System_IDisposable_Dispose_mD11BCED5A527D78CB617D1E534D95BD22A451E0F (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82457
+// Method Definition Index: 82459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScaleRoutineU3Ed__20_MoveNext_mCA6060D70F57BC038E867D0B2858446CDFB8C0BE (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -8858,9 +8908,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CScaleRoutineU3Ed__20_MoveNext_mCA6060
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:210>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:221>
 		__this->___U3CelapsedTimeU3E5__2 = (0.0f);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:211>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:222>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_4 = V_1;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -8874,12 +8924,12 @@ IL_001a:
 
 IL_003f:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:215>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:226>
 		float L_7 = __this->___U3CelapsedTimeU3E5__2;
 		float L_8;
 		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedTimeU3E5__2 = ((float)il2cpp_codegen_add(L_7, L_8));
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:216>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:227>
 		float L_9 = __this->___U3CelapsedTimeU3E5__2;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_10 = V_1;
 		NullCheck(L_10);
@@ -8887,7 +8937,7 @@ IL_003f:
 		float L_12;
 		L_12 = Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline((0.0f), (1.0f), ((float)(L_9/L_11)), NULL);
 		V_2 = L_12;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:217>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:228>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_13 = V_1;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -8899,7 +8949,7 @@ IL_003f:
 		L_18 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_15, L_16, L_17, NULL);
 		NullCheck(L_14);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_14, L_18, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:218>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:229>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -8913,7 +8963,7 @@ IL_009b:
 
 IL_00a2:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:213>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:224>
 		float L_19 = __this->___U3CelapsedTimeU3E5__2;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_20 = V_1;
 		NullCheck(L_20);
@@ -8924,7 +8974,7 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:221>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:232>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_22 = V_1;
 		NullCheck(L_22);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
@@ -8932,11 +8982,11 @@ IL_00a2:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->___targetScale;
 		NullCheck(L_23);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_23, L_24, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:222>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:233>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82458
+// Method Definition Index: 82460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5F21A936D6D7A9C2B83E60C3AEDF7E0242550BE2 (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8944,7 +8994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__20_System
 		return L_0;
 	}
 }
-// Method Definition Index: 82459
+// Method Definition Index: 82461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__20_System_Collections_IEnumerator_Reset_m039A2723FDC78A4DA2F5D493478FF2FCFB5821BF (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8953,7 +9003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CScaleRoutineU3Ed__20_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CScaleRoutineU3Ed__20_System_Collections_IEnumerator_Reset_m039A2723FDC78A4DA2F5D493478FF2FCFB5821BF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82460
+// Method Definition Index: 82462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__20_System_Collections_IEnumerator_get_Current_m0ECF658FA567DD307DBA800F4CD9375A81B9C155 (U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8969,7 +9019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CScaleRoutineU3Ed__20_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82461
+// Method Definition Index: 82463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSnapToCenterRoutineU3Ed__18__ctor_m22C56741BF0ED3833406C9078A8D7FFA4B2D007F (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8979,14 +9029,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSnapToCenterRoutineU3Ed__18__ctor_m22
 		return;
 	}
 }
-// Method Definition Index: 82462
+// Method Definition Index: 82464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSnapToCenterRoutineU3Ed__18_System_IDisposable_Dispose_m8660B470327E9FE1802AB914766BC6A477F1B918 (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82463
+// Method Definition Index: 82465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSnapToCenterRoutineU3Ed__18_MoveNext_mEDBC1FA0B3F23781AAFD485E7274AD544A05352C (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9032,11 +9082,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSnapToCenterRoutineU3Ed__18_MoveNext_
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:170>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:181>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___rb;
 		NullCheck(L_4);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_4, (bool)0, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:171>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:182>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->___rb;
 		NullCheck(L_5);
 		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_5, (bool)0, NULL);
@@ -9045,7 +9095,7 @@ IL_001a:
 
 IL_003e:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:177>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:188>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_6 = V_1;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -9059,14 +9109,14 @@ IL_003e:
 		L_10 = Rigidbody_get_position_m4ECB79BDBBF8FD1EA572EDB792D3330DDED24691(L_9, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_8, L_10, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:178>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:189>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_12 = V_1;
 		NullCheck(L_12);
 		float L_13 = L_12->___positionalSpring;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_11, L_13, NULL);
 		V_2 = L_14;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:180>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:191>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = __this->___rb;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_17 = V_1;
@@ -9076,7 +9126,7 @@ IL_003e:
 		L_19 = Vector3_ClampMagnitude_mF83675F19744F58E97CF24D8359A810634DC031F_inline(L_16, L_18, NULL);
 		NullCheck(L_15);
 		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_15, L_19, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:183>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:194>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_20 = V_1;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -9093,9 +9143,9 @@ IL_003e:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
 		L_26 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_22, L_25, NULL);
 		V_3 = L_26;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:184>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:195>
 		Quaternion_ToAngleAxis_mA2A5A81DAE94A9C1AFC34112BE8E5C5C3E9297AF_inline((&V_3), (&V_4), (&V_5), NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:186>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:197>
 		float L_27 = V_4;
 		if ((!(((float)L_27) > ((float)(180.0f)))))
 		{
@@ -9103,14 +9153,14 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:186>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:197>
 		float L_28 = V_4;
 		V_4 = ((float)il2cpp_codegen_subtract(L_28, (360.0f)));
 	}
 
 IL_00bb:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:188>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:199>
 		float L_29 = V_4;
 		float L_30;
 		L_30 = fabsf(L_29);
@@ -9120,7 +9170,7 @@ IL_00bb:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:190>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:201>
 		float L_31 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
@@ -9131,7 +9181,7 @@ IL_00bb:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_33, L_35, NULL);
 		V_6 = L_36;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:191>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:202>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_37 = __this->___rb;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_6;
 		NullCheck(L_37);
@@ -9141,7 +9191,7 @@ IL_00bb:
 
 IL_00f4:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:195>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:206>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_39 = __this->___rb;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
 		L_40 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
@@ -9151,7 +9201,7 @@ IL_00f4:
 
 IL_0104:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:198>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:209>
 		WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7* L_41 = (WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7*)il2cpp_codegen_object_new(WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7_il2cpp_TypeInfo_var);
 		WaitForFixedUpdate__ctor_m28D22FD61960FCD538753493FAC080DA5EC7A9E7(L_41, NULL);
 		__this->___U3CU3E2__current = L_41;
@@ -9167,7 +9217,7 @@ IL_0118:
 
 IL_011f:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:174>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:185>
 		PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D* L_42 = V_1;
 		NullCheck(L_42);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_43 = L_42->___currentlyHeldObject;
@@ -9181,11 +9231,11 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:200>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/PhysicsBubbleReceptacle.cs:211>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82464
+// Method Definition Index: 82466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSnapToCenterRoutineU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFEF0C1C5340489CDB297BD378A5A0BBBEA819150 (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9193,7 +9243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSnapToCenterRoutineU3Ed__18
 		return L_0;
 	}
 }
-// Method Definition Index: 82465
+// Method Definition Index: 82467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSnapToCenterRoutineU3Ed__18_System_Collections_IEnumerator_Reset_m6A6295AA52E8F38CC591F44AB5DBA06025947D3A (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9202,7 +9252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSnapToCenterRoutineU3Ed__18_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSnapToCenterRoutineU3Ed__18_System_Collections_IEnumerator_Reset_m6A6295AA52E8F38CC591F44AB5DBA06025947D3A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82466
+// Method Definition Index: 82468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSnapToCenterRoutineU3Ed__18_System_Collections_IEnumerator_get_Current_mAAB39351DC323066D4FC18401EDDF91095FEE2B1 (U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9218,7 +9268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSnapToCenterRoutineU3Ed__18
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82467
+// Method Definition Index: 82469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortableItem_Start_m342A7CA2470C9069B354BDDDD4BBB74B733F5745 (SortableItem_t5F0FBC9B8462E858CAFF42C5B337B1A3BDDB44D9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9251,7 +9301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortableItem_Start_m342A7CA2470C9069B354
 		return;
 	}
 }
-// Method Definition Index: 82468
+// Method Definition Index: 82470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortableItem_ResetToStart_m6BEACEB3D67B37DDDE5F30E008E12384D6C964B4 (SortableItem_t5F0FBC9B8462E858CAFF42C5B337B1A3BDDB44D9* __this, bool ___0_keepFrozen, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9339,7 +9389,7 @@ IL_0095:
 		return;
 	}
 }
-// Method Definition Index: 82469
+// Method Definition Index: 82471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortableItem__ctor_m54318AA53CA8C35C236F51F325FBB10A5940B133 (SortableItem_t5F0FBC9B8462E858CAFF42C5B337B1A3BDDB44D9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9363,7 +9413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortableItem__ctor_m54318AA53CA8C35C236F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82470
+// Method Definition Index: 82472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingBin_OnTriggerEnter_mB3852283BAB0418C5EE32D5046CC9EAF46CF2B05 (SortingBin_tC8EB60B30E9B7DBCE5A8293D4DF377E063333239* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9484,7 +9534,7 @@ IL_00aa:
 		return;
 	}
 }
-// Method Definition Index: 82471
+// Method Definition Index: 82473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingBin__ctor_mD480094496A179998AA3F2BDF68C946C56A5C3D9 (SortingBin_tC8EB60B30E9B7DBCE5A8293D4DF377E063333239* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9500,7 +9550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingBin__ctor_mD480094496A179998AA3F2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82472
+// Method Definition Index: 82474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_Start_mB67EB5CC4869168EACB73A455D1F2D33567F2BD5 (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9519,7 +9569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_Start_mB67EB5CC48691
 		return;
 	}
 }
-// Method Definition Index: 82473
+// Method Definition Index: 82475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_CheckForCompletion_m015450D4C172FADF4BA3030BE39C874764B813E1 (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9606,7 +9656,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 82474
+// Method Definition Index: 82476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_ResetEntireShelf_mB2D828E4AFC0F675E88C1C6098342ED9C788001B (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	SortableItemU5BU5D_tDBB17D7D64AF1DC106A049518BCA74457662A802* V_0 = NULL;
@@ -9650,7 +9700,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 82475
+// Method Definition Index: 82477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_ResetAndFreezeAllItems_m51F0E300772A8ED91A3FF25326FCBF77526EBED3 (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9732,7 +9782,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 82476
+// Method Definition Index: 82478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager_UnfreezeAllItems_m419836EFDC999111B659D9118C6BAC73886325D9 (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9822,7 +9872,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 82477
+// Method Definition Index: 82479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager__ctor_mC10C24DB681C8CFAA9A91CC4A313D9B6DF5223DE (SortingShelfManager_t04DB6CB3247EA48C290E84E0304C45871D1C9778* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9838,7 +9888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingShelfManager__ctor_mC10C24DB681C8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82478
+// Method Definition Index: 82480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_OnEnable_m7B71D2A0A8D6DA196A000072478DFB4933558DC0 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9851,7 +9901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_OnEnable_m7B71D2A0A8D6DA196A0
 		return;
 	}
 }
-// Method Definition Index: 82479
+// Method Definition Index: 82481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_WaitAndRegister_m2924D7870071D97B403ECF214127764DC395B1FA (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9870,7 +9920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_WaitAndRegister_m29
 		return L_1;
 	}
 }
-// Method Definition Index: 82480
+// Method Definition Index: 82482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_StartTrial_m4F18BDE9D01358A8A53F333BE8EAC1F4BBF7AE13 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9889,7 +9939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_StartTrial_m4F18BDE
 		return L_1;
 	}
 }
-// Method Definition Index: 82481
+// Method Definition Index: 82483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_EndTrialSequence_m5BE0952065E68FD1726DF59948830166F3EF6327 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9908,7 +9958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_EndTrialSequence_m5
 		return L_1;
 	}
 }
-// Method Definition Index: 82482
+// Method Definition Index: 82484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_StartTimer_m036D730E02DC3D904730696C23F36749FE471081 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, float ___0_seconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9927,7 +9977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_StartTimer_m036D730
 		return L_1;
 	}
 }
-// Method Definition Index: 82483
+// Method Definition Index: 82485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_OnTabletSpawnItemsRequested_m0386265A1F9EECE12114DE9960FEFBA9D91E8E41 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9937,7 +9987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_OnTabletSpawnItemsRequested_m
 		return;
 	}
 }
-// Method Definition Index: 82484
+// Method Definition Index: 82486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_pointTouched_mD2F45CC4268930BCEC9053F28F12201BF0226AD9 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9965,7 +10015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_pointTouched_mD2F45CC4268930B
 		return;
 	}
 }
-// Method Definition Index: 82485
+// Method Definition Index: 82487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_TweenPosition_mDF6E44585BEAFBE62A4FBCF4E682991D84C5A84C (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetPosition, float ___1_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9992,7 +10042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TrialScene_TweenPosition_mDF6E
 		return L_4;
 	}
 }
-// Method Definition Index: 82486
+// Method Definition Index: 82488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene_HideAllChildrenRenderers_mB4A83551CE768744B4934F906B2158A6D9B67FBE (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10126,7 +10176,7 @@ IL_0065:
 		return;
 	}
 }
-// Method Definition Index: 82487
+// Method Definition Index: 82489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene__ctor_mC9BC486EDA44F8BE63737EC30D4349ADC63A13B9 (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10161,7 +10211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrialScene__ctor_mC9BC486EDA44F8BE63737E
 		return;
 	}
 }
-// Method Definition Index: 82488
+// Method Definition Index: 82490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrialScene_U3CStartTrialU3Eb__10_0_m7FA95A8B7248EAB2EF6D39B2341CAB661BDBA04F (TrialScene_t4F357C1A5FAD8B9462088187EAF3BE790AEA88BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10178,7 +10228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrialScene_U3CStartTrialU3Eb__10_0_m7FA9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82489
+// Method Definition Index: 82491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEndTrialSequenceU3Ed__11__ctor_m5ED10221F42A38A5A1EFBB61F9CA3101283D1294 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10188,14 +10238,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEndTrialSequenceU3Ed__11__ctor_m5ED10
 		return;
 	}
 }
-// Method Definition Index: 82490
+// Method Definition Index: 82492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEndTrialSequenceU3Ed__11_System_IDisposable_Dispose_mA0B27CE73CD99ED3D75357A911138ADE43FB73C4 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82491
+// Method Definition Index: 82493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CEndTrialSequenceU3Ed__11_MoveNext_m142DC10E6E56174CA3553C1044265C40F7D8ECC3 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -10250,7 +10300,7 @@ IL_0044:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82492
+// Method Definition Index: 82494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEndTrialSequenceU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5982C6709E07F8FC5DCE81B7B981C2C39730F438 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10258,7 +10308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEndTrialSequenceU3Ed__11_Sy
 		return L_0;
 	}
 }
-// Method Definition Index: 82493
+// Method Definition Index: 82495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEndTrialSequenceU3Ed__11_System_Collections_IEnumerator_Reset_mB3E481FA6A54FAE1A4A6684DEFA92D8B0DC5F6A8 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10267,7 +10317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CEndTrialSequenceU3Ed__11_System_Colle
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CEndTrialSequenceU3Ed__11_System_Collections_IEnumerator_Reset_mB3E481FA6A54FAE1A4A6684DEFA92D8B0DC5F6A8_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82494
+// Method Definition Index: 82496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEndTrialSequenceU3Ed__11_System_Collections_IEnumerator_get_Current_m1504D31012E64A87E4205CC0D14ABB008EBCDB48 (U3CEndTrialSequenceU3Ed__11_t6487B64B2871C910FA3B11A194F5E889710FE815* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10283,7 +10333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CEndTrialSequenceU3Ed__11_Sy
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82495
+// Method Definition Index: 82497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimerU3Ed__12__ctor_mEBF1AE75A926B72848D511A7B14B4E6C4C54A0CF (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10293,14 +10343,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimerU3Ed__12__ctor_mEBF1AE75A92
 		return;
 	}
 }
-// Method Definition Index: 82496
+// Method Definition Index: 82498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimerU3Ed__12_System_IDisposable_Dispose_m23C6F03F5B2705DE174DFC2B23FF46991FDC3DA0 (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82497
+// Method Definition Index: 82499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartTimerU3Ed__12_MoveNext_m5E18CC8DED5F2B7475BE84F45E2889418D74D1E6 (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10360,7 +10410,7 @@ IL_004b:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82498
+// Method Definition Index: 82500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimerU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m153155D1625BCA1A94A4FE2CD99E39483925F705 (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10368,7 +10418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimerU3Ed__12_System_C
 		return L_0;
 	}
 }
-// Method Definition Index: 82499
+// Method Definition Index: 82501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimerU3Ed__12_System_Collections_IEnumerator_Reset_m1474636B2F5784EE4152C0C9AE964286CFA8418F (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10377,7 +10427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTimerU3Ed__12_System_Collections
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartTimerU3Ed__12_System_Collections_IEnumerator_Reset_m1474636B2F5784EE4152C0C9AE964286CFA8418F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82500
+// Method Definition Index: 82502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimerU3Ed__12_System_Collections_IEnumerator_get_Current_m7D7EA0D4E851DE1971F8A6CFB58FB042D53A7721 (U3CStartTimerU3Ed__12_tF52641DCC193547E5530B63949544A0A69363FCC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10393,7 +10443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTimerU3Ed__12_System_C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82501
+// Method Definition Index: 82503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTrialU3Ed__10__ctor_mF4CEC61629A5055437DD989158E752BC0711D646 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10403,14 +10453,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTrialU3Ed__10__ctor_mF4CEC61629A
 		return;
 	}
 }
-// Method Definition Index: 82502
+// Method Definition Index: 82504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTrialU3Ed__10_System_IDisposable_Dispose_mE8E2581629CBD41A25CD419DB914B65199437760 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82503
+// Method Definition Index: 82505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartTrialU3Ed__10_MoveNext_m22CF359D559F7828A147F638680E04B38D1FE835 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10636,7 +10686,7 @@ IL_0179:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82504
+// Method Definition Index: 82506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTrialU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m68C0BDD67C297E6F50B9A31E5E3C3785BBA572A2 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10644,7 +10694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTrialU3Ed__10_System_C
 		return L_0;
 	}
 }
-// Method Definition Index: 82505
+// Method Definition Index: 82507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTrialU3Ed__10_System_Collections_IEnumerator_Reset_mCEBCD4D750443B96E26E441B3103B181535F2243 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10653,7 +10703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartTrialU3Ed__10_System_Collections
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartTrialU3Ed__10_System_Collections_IEnumerator_Reset_mCEBCD4D750443B96E26E441B3103B181535F2243_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82506
+// Method Definition Index: 82508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTrialU3Ed__10_System_Collections_IEnumerator_get_Current_m5ABB72BE562B5F7EE378B5FBD5D6050292E95B40 (U3CStartTrialU3Ed__10_t9F5E996ED9111EFB1EAC10B7FD28E5C0D720A741* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10669,7 +10719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartTrialU3Ed__10_System_C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82507
+// Method Definition Index: 82509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenPositionU3Ed__15__ctor_m9DE2872C7AAF09F074FF16BD650B223578D39F77 (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10679,14 +10729,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenPositionU3Ed__15__ctor_m9DE2872C
 		return;
 	}
 }
-// Method Definition Index: 82508
+// Method Definition Index: 82510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenPositionU3Ed__15_System_IDisposable_Dispose_m5A61F430AF25DAA15E4B4539630FB8B3DEA17AC2 (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82509
+// Method Definition Index: 82511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTweenPositionU3Ed__15_MoveNext_mD500BD8874FA66A7574B197A3CDACFF2AAF29C66 (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -10791,7 +10841,7 @@ IL_0095:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82510
+// Method Definition Index: 82512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenPositionU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m06B750E62541086E40B1A9402F32BDBAB595A082 (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10799,7 +10849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenPositionU3Ed__15_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 82511
+// Method Definition Index: 82513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenPositionU3Ed__15_System_Collections_IEnumerator_Reset_mDD9AF63EE324B62FD6679E07072DC67346EC88E9 (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10808,7 +10858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenPositionU3Ed__15_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTweenPositionU3Ed__15_System_Collections_IEnumerator_Reset_mDD9AF63EE324B62FD6679E07072DC67346EC88E9_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82512
+// Method Definition Index: 82514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenPositionU3Ed__15_System_Collections_IEnumerator_get_Current_mA895F229C4B01BAE98ED2DEFB464B3AE317C470E (U3CTweenPositionU3Ed__15_tB704ABD54B881D4E5BCB4D459C9E7126F9E582C9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10824,7 +10874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenPositionU3Ed__15_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82513
+// Method Definition Index: 82515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitAndRegisterU3Ed__9__ctor_mDDB98DAAF85F7798CCBAF23230737558446615E6 (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10834,14 +10884,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitAndRegisterU3Ed__9__ctor_mDDB98DA
 		return;
 	}
 }
-// Method Definition Index: 82514
+// Method Definition Index: 82516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitAndRegisterU3Ed__9_System_IDisposable_Dispose_m2BAB3CE9920FDD8272584210E76854D3A642E55C (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82515
+// Method Definition Index: 82517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitAndRegisterU3Ed__9_MoveNext_m172FF1587E1329C9FA19945580764D32F70F8F3C (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10918,7 +10968,7 @@ IL_0037:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82516
+// Method Definition Index: 82518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitAndRegisterU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5562235FF03BC74D70C29367B58F2EE2C46B3C5E (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10926,7 +10976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitAndRegisterU3Ed__9_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 82517
+// Method Definition Index: 82519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitAndRegisterU3Ed__9_System_Collections_IEnumerator_Reset_m1BEE3D26A8240E6A06AA0B3370C0C3C1B79D3325 (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10935,7 +10985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitAndRegisterU3Ed__9_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitAndRegisterU3Ed__9_System_Collections_IEnumerator_Reset_m1BEE3D26A8240E6A06AA0B3370C0C3C1B79D3325_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82518
+// Method Definition Index: 82520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitAndRegisterU3Ed__9_System_Collections_IEnumerator_get_Current_m9C8121CA08156A67CF53D333CCD93B97D7B346B3 (U3CWaitAndRegisterU3Ed__9_t923138F043CE8C6CEBEB679034C78792EDA02079* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10951,7 +11001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitAndRegisterU3Ed__9_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82519
+// Method Definition Index: 82521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_Awake_m008D2C6FFBC4771877494C0330602E24102F32B4 (VRDebugConsole_t13FFB5C8477E8BBBEE87016D4E37A10519A59ABF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10970,7 +11020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_Awake_m008D2C6FFBC4771877
 		return;
 	}
 }
-// Method Definition Index: 82520
+// Method Definition Index: 82522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_OnEnable_mE240A27E431C7945125B5CCE8451FE6B3E625EB4 (VRDebugConsole_t13FFB5C8477E8BBBEE87016D4E37A10519A59ABF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10991,7 +11041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_OnEnable_mE240A27E431C794
 		return;
 	}
 }
-// Method Definition Index: 82521
+// Method Definition Index: 82523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_OnDisable_mDE335046E8229E14658E8BFA988444B9721A369A (VRDebugConsole_t13FFB5C8477E8BBBEE87016D4E37A10519A59ABF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11012,7 +11062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_OnDisable_mDE335046E8229E
 		return;
 	}
 }
-// Method Definition Index: 82522
+// Method Definition Index: 82524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole_HandleLog_m3ABB179AFBA142615AF6519C226C4EA1584750AE (VRDebugConsole_t13FFB5C8477E8BBBEE87016D4E37A10519A59ABF* __this, String_t* ___0_logString, String_t* ___1_stackTrace, int32_t ___2_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11149,7 +11199,7 @@ IL_00ae:
 		return;
 	}
 }
-// Method Definition Index: 82523
+// Method Definition Index: 82525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole__ctor_m24F3397F1AF04B6AAAA0BD03BC208D0F78530387 (VRDebugConsole_t13FFB5C8477E8BBBEE87016D4E37A10519A59ABF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11176,7 +11226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRDebugConsole__ctor_m24F3397F1AF04B6AAA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82524
+// Method Definition Index: 82526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidingDoor_Start_mE7853BF5E2DEDA99EBD48EB495E9E28BE0759FA7 (SlidingDoor_t5C480DAF4C75BF33FF1DA451592141286E5542D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11234,7 +11284,7 @@ IL_004c:
 		return;
 	}
 }
-// Method Definition Index: 82525
+// Method Definition Index: 82527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidingDoor_OnDestroy_m49AAC7C3C03A51F4ADB90137B2178784D7DBA449 (SlidingDoor_t5C480DAF4C75BF33FF1DA451592141286E5542D4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11273,7 +11323,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 82526
+// Method Definition Index: 82528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidingDoor_ToggleDoor_m073C526E5853DCEA19C4964FD53F05CE2914B700 (SlidingDoor_t5C480DAF4C75BF33FF1DA451592141286E5542D4* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -11333,7 +11383,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 82527
+// Method Definition Index: 82529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SlidingDoor_SlideToPosition_m0319E3292921069C199D7C231A4D4829CFA278EE (SlidingDoor_t5C480DAF4C75BF33FF1DA451592141286E5542D4* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_targetPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11356,7 +11406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SlidingDoor_SlideToPosition_m0
 		return L_2;
 	}
 }
-// Method Definition Index: 82528
+// Method Definition Index: 82530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidingDoor__ctor_m27405E519F556EB4FB1B8298153AD6FD5E35AF36 (SlidingDoor_t5C480DAF4C75BF33FF1DA451592141286E5542D4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11379,7 +11429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlidingDoor__ctor_m27405E519F556EB4FB1B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82529
+// Method Definition Index: 82531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSlideToPositionU3Ed__9__ctor_m8093C999959B42D5E22C1BBEC2868755B130DFD2 (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11389,14 +11439,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSlideToPositionU3Ed__9__ctor_m8093C99
 		return;
 	}
 }
-// Method Definition Index: 82530
+// Method Definition Index: 82532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSlideToPositionU3Ed__9_System_IDisposable_Dispose_m8600FF0FDF6CF39D3454AA1B20B39F8AD7176D62 (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82531
+// Method Definition Index: 82533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSlideToPositionU3Ed__9_MoveNext_m6302A1ACE7900F21E0E8F394B91D89AD80D13879 (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -11508,7 +11558,7 @@ IL_00a5:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82532
+// Method Definition Index: 82534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSlideToPositionU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0729AC7E6E5E04A25E0ED7FB6C07C48373FC88BC (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11516,7 +11566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSlideToPositionU3Ed__9_Syst
 		return L_0;
 	}
 }
-// Method Definition Index: 82533
+// Method Definition Index: 82535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSlideToPositionU3Ed__9_System_Collections_IEnumerator_Reset_m4C492F276F331951F88DB8796B3778F73340B0A0 (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11525,7 +11575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSlideToPositionU3Ed__9_System_Collect
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSlideToPositionU3Ed__9_System_Collections_IEnumerator_Reset_m4C492F276F331951F88DB8796B3778F73340B0A0_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82534
+// Method Definition Index: 82536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSlideToPositionU3Ed__9_System_Collections_IEnumerator_get_Current_m34CB31CAFBA9184BB8903569B82DD13FCCFA8BBE (U3CSlideToPositionU3Ed__9_t6BF70BE175526FB6603F7760834C28979D9D2FB5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11541,7 +11591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSlideToPositionU3Ed__9_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82535
+// Method Definition Index: 82537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_OnEnable_m500CF201D280AE35992B07271031056B02D5BEC6 (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11570,7 +11620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_OnEnable_m500CF201D280AE
 		return;
 	}
 }
-// Method Definition Index: 82536
+// Method Definition Index: 82538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_OnDisable_m79C4517AD06AAFC1B745203D97AB20A2FBAEA452 (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11599,7 +11649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_OnDisable_m79C4517AD06AA
 		return;
 	}
 }
-// Method Definition Index: 82537
+// Method Definition Index: 82539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_Start_mC6C9473FD3CBA0B615D5F4580C50701F3B941CC0 (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11622,7 +11672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_Start_mC6C9473FD3CBA0B61
 		return;
 	}
 }
-// Method Definition Index: 82538
+// Method Definition Index: 82540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_Update_m38A42FF77505B302B65EF7DEA55293833AB3736F (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11634,7 +11684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_Update_m38A42FF77505B302
 		return;
 	}
 }
-// Method Definition Index: 82539
+// Method Definition Index: 82541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_HandleMovement_m2C62244EF541D8237632E8BF299F4BE5FA3A90A7 (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11785,7 +11835,7 @@ IL_00b3:
 		return;
 	}
 }
-// Method Definition Index: 82540
+// Method Definition Index: 82542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_HandleRotation_mF06E5D1F30D8AD2B2BA8CD0BBC71D72FBE1CCEDE (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11849,7 +11899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller_HandleRotation_mF06E5D1F
 		return;
 	}
 }
-// Method Definition Index: 82541
+// Method Definition Index: 82543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller__ctor_mD77B97F445BE6A56682A55037A06BC7513929DF1 (nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11875,7 +11925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void nonvrcontroller__ctor_mD77B97F445BE6A566
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82542
+// Method Definition Index: 82544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_add_OnSpawnItemsRequested_mDEBC24AE11ECB1836B33249909051440805802F0 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11918,7 +11968,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 82543
+// Method Definition Index: 82545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_remove_OnSpawnItemsRequested_mA4893E63639FEDE24B4B070EA0EC23C692B67E10 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11961,18 +12011,23 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 82544
+// Method Definition Index: 82546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_Update_m5AE0B14DC62D3528E5472DF9D866E29C25172BBD (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B3_0 = NULL;
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:19>
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB39989AC307179F4BACC9591DCC79E99F33198D3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:20>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_0;
 		L_0 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
 		NullCheck(L_0);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1;
-		L_1 = Keyboard_get_bKey_m059A5829CB3ABB2B9C6FAF0CA7AC6D3A8CB4A06E(L_0, NULL);
+		L_1 = Keyboard_get_mKey_m89FA62804E08AEDCB78A45061F17AFA8DFBB84AC(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_1, NULL);
@@ -11982,39 +12037,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_Update_m5AE0B14DC62D3528E5472DF9D
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:21>
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = __this->___OnSpawnItemsRequested;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
-		if (L_4)
-		{
-			G_B3_0 = L_4;
-			goto IL_001c;
-		}
-		G_B2_0 = L_4;
-	}
-	{
-		return;
-	}
-
-IL_001c:
-	{
-		NullCheck(G_B3_0);
-		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B3_0, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:22>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB39989AC307179F4BACC9591DCC79E99F33198D3, NULL);
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:23>
+		Tablet_ShowText_m23DC2A9E66F016CFC31C4631753214301F5A9514(__this, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:23>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 82545
+// Method Definition Index: 82547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_ShowText_m23DC2A9E66F016CFC31C4631753214301F5A9514 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B3_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:26>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:28>
 		bool L_0 = __this->___can_spawn_text;
 		if (!L_0)
 		{
@@ -12022,14 +12064,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_ShowText_m23DC2A9E66F016CFC31C463
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:28>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:30>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_1 = __this->___textMeshPro;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:29>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:31>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = __this->___OnSpawnItemsRequested;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
 		if (L_4)
@@ -12051,36 +12093,36 @@ IL_0024:
 
 IL_0029:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:31>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 82546
+// Method Definition Index: 82548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_hideText_m577831612A51668EEE85A9BCD4D45B8C1AF731F4 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:35>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:37>
 		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_0 = __this->___textMeshPro;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:36>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 82547
+// Method Definition Index: 82549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet_Start_m82AF17B18775FEC8E7CAC5350200F357695510C6 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:40>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:42>
 		Tablet_hideText_m577831612A51668EEE85A9BCD4D45B8C1AF731F4(__this, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:41>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 82548
+// Method Definition Index: 82550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tablet_spawn_items_m75E6B5B28A62CFC6890118326564B89E8091C10E (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12099,7 +12141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tablet_spawn_items_m75E6B5B28A
 		return L_1;
 	}
 }
-// Method Definition Index: 82549
+// Method Definition Index: 82551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tablet_TweenBubble_m11D409ADCEF2AC26023C585D83F4C3BAE506C904 (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_bubble, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPosition, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12127,7 +12169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tablet_TweenBubble_m11D409ADCE
 		return L_5;
 	}
 }
-// Method Definition Index: 82550
+// Method Definition Index: 82552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet__ctor_m2D150D7F2DAC8A6BABE8F33E508CA946988AD09C (Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12155,7 +12197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tablet__ctor_m2D150D7F2DAC8A6BABE8F33E50
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82551
+// Method Definition Index: 82553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12__ctor_m57448AA6A9EB09B986ED829685A6E481A8D1A786 (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12165,14 +12207,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12__ctor_m57448AA6A9
 		return;
 	}
 }
-// Method Definition Index: 82552
+// Method Definition Index: 82554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12_System_IDisposable_Dispose_mA8005B6B28ECBA612AC3DF7DC46924980AD940E5 (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82553
+// Method Definition Index: 82555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTweenBubbleU3Ed__12_MoveNext_mC8704F78D234A94B6153E0847E120AAB5D41DB7D (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -12200,31 +12242,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTweenBubbleU3Ed__12_MoveNext_mC8704F7
 IL_0010:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:65>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___bubble;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		__this->___U3CinitialPositionU3E5__2 = L_4;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:66>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:68>
 		__this->___U3CelapsedU3E5__3 = (0.0f);
 		goto IL_008e;
 	}
 
 IL_0035:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:70>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:72>
 		float L_5 = __this->___U3CelapsedU3E5__3;
 		float L_6;
 		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__3 = ((float)il2cpp_codegen_add(L_5, L_6));
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:71>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:73>
 		float L_7 = __this->___U3CelapsedU3E5__3;
 		float L_8 = __this->___duration;
 		float L_9;
 		L_9 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_7/L_8)), NULL);
 		V_1 = L_9;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:72>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:74>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___bubble;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = __this->___U3CinitialPositionU3E5__2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___targetPosition;
@@ -12233,7 +12275,7 @@ IL_0035:
 		L_14 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_11, L_12, L_13, NULL);
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_14, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:73>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:75>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -12247,7 +12289,7 @@ IL_0087:
 
 IL_008e:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:68>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:70>
 		float L_15 = __this->___U3CelapsedU3E5__3;
 		float L_16 = __this->___duration;
 		if ((((float)L_15) < ((float)L_16)))
@@ -12256,16 +12298,16 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:76>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:78>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___bubble;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = __this->___targetPosition;
 		NullCheck(L_17);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_17, L_18, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:77>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:79>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82554
+// Method Definition Index: 82556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenBubbleU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m92AB0DBD232742514DAC88BF661BDD009DB3C46D (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12273,7 +12315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenBubbleU3Ed__12_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 82555
+// Method Definition Index: 82557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12_System_Collections_IEnumerator_Reset_m13E0E06A8B593A8594B36EFD919CF5E96A142C34 (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12282,7 +12324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTweenBubbleU3Ed__12_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTweenBubbleU3Ed__12_System_Collections_IEnumerator_Reset_m13E0E06A8B593A8594B36EFD919CF5E96A142C34_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82556
+// Method Definition Index: 82558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenBubbleU3Ed__12_System_Collections_IEnumerator_get_Current_mF431F94DAA066E8B989A7BCDDBCA740F9D1F8E60 (U3CTweenBubbleU3Ed__12_t586CF4FC32C056484E933761F7F3B02D6A7EC129* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12298,7 +12340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTweenBubbleU3Ed__12_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82557
+// Method Definition Index: 82559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11__ctor_mB19516F248B33CAAA6DC3F77BEE32F805D898E83 (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12308,14 +12350,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11__ctor_mB19516F248
 		return;
 	}
 }
-// Method Definition Index: 82558
+// Method Definition Index: 82560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11_System_IDisposable_Dispose_m3848EB400980E4FAE5BFEDD0579EBC65F632284C (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 82559
+// Method Definition Index: 82561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cspawn_itemsU3Ed__11_MoveNext_mF401188384B580B8CCF5F7D8C20E7EE214AB463B (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12356,14 +12398,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3Cspawn_itemsU3Ed__11_MoveNext_mF401188
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:45>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:47>
 		__this->___U3CiU3E5__2 = 0;
 		goto IL_00de;
 	}
 
 IL_002d:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:48>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:50>
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_4 = V_1;
 		NullCheck(L_4);
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_5 = L_4->___receptacles;
@@ -12378,7 +12420,7 @@ IL_002d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
 		V_2 = L_9;
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:51>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:53>
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_10 = V_1;
 		NullCheck(L_10);
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_11 = L_10->___receptacles;
@@ -12397,7 +12439,7 @@ IL_002d:
 		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
 		NullCheck(L_14);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_14, L_17, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:54>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:56>
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_18 = V_1;
 		NullCheck(L_18);
 		List_1_t0893972D9F28E15EE003AC40046A8E32A5D851E7* L_19 = L_18->___receptacles;
@@ -12407,7 +12449,7 @@ IL_002d:
 		L_21 = List_1_get_Item_m47CD00B9EDC50EC2D07F3D66C4BBF7E15773FD35(L_19, L_20, List_1_get_Item_m47CD00B9EDC50EC2D07F3D66C4BBF7E15773FD35_RuntimeMethod_var);
 		NullCheck(L_21);
 		PhysicsBubbleReceptacle_ShowVisuals_m45982A7B44863AB359BF00C00DFBB5B2B37327B0(L_21, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:57>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:59>
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_22 = V_1;
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_23 = V_1;
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_24 = V_1;
@@ -12427,7 +12469,7 @@ IL_002d:
 		NullCheck(L_22);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_31;
 		L_31 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_22, L_30, NULL);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:59>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:61>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_32 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_32, (0.200000003f), NULL);
 		__this->___U3CU3E2__current = L_32;
@@ -12439,7 +12481,7 @@ IL_002d:
 IL_00c7:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:45>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:47>
 		int32_t L_33 = __this->___U3CiU3E5__2;
 		V_3 = L_33;
 		int32_t L_34 = V_3;
@@ -12448,7 +12490,7 @@ IL_00c7:
 
 IL_00de:
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:45>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:47>
 		int32_t L_35 = __this->___U3CiU3E5__2;
 		Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1* L_36 = V_1;
 		NullCheck(L_36);
@@ -12462,11 +12504,11 @@ IL_00de:
 		}
 	}
 	{
-		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:61>
+		//<source_info:/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets/Main/Scripts/tablet.cs:63>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 82560
+// Method Definition Index: 82562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cspawn_itemsU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8CD2E48AEB2CED326618B15BA3FDDAE46C083D1A (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12474,7 +12516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cspawn_itemsU3Ed__11_System_
 		return L_0;
 	}
 }
-// Method Definition Index: 82561
+// Method Definition Index: 82563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11_System_Collections_IEnumerator_Reset_m14DB075080AB7B16D8BBE9487B300723A0B8BE5D (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12483,7 +12525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cspawn_itemsU3Ed__11_System_Collection
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3Cspawn_itemsU3Ed__11_System_Collections_IEnumerator_Reset_m14DB075080AB7B16D8BBE9487B300723A0B8BE5D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 82562
+// Method Definition Index: 82564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cspawn_itemsU3Ed__11_System_Collections_IEnumerator_get_Current_m66ACED298C5ED5E8E95FBEA437994E8BC0A6FB90 (U3Cspawn_itemsU3Ed__11_t69B565F96672A6225815C4A933D8117E411EE28C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12499,7 +12541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cspawn_itemsU3Ed__11_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82563
+// Method Definition Index: 82565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12515,7 +12557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82564
+// Method Definition Index: 82566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12531,7 +12573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 82565
+// Method Definition Index: 82567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12565,7 +12607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 82566
+// Method Definition Index: 82568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{

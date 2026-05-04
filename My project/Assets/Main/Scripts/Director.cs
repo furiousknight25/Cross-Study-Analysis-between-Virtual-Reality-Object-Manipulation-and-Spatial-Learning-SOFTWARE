@@ -13,7 +13,7 @@ public class Director : MonoBehaviour
 
     public DistractionTask distractionTask;
     public List<TrialScene> trialScenes = new List<TrialScene>();
-    private List<ExperimentEvent> currentSessionLog = new List<ExperimentEvent>();
+    
     public List<GrabbableItem> tutorialItems = null;
     public TMP_Text instructionText = null;
     
@@ -24,9 +24,15 @@ public class Director : MonoBehaviour
     public float reading_time = 2f; 
     public float encode_time = 2f; 
     public float distraction_task_duration = 3f;
+    public SentenceBuilderManager sentenceBuilder;
+    public TestingEnvironmentManager testingEnvironment;
+    
+    // REMOVED public ExperimentTrialData currentTrialData;
+    // NEW: We store the data of the trial we just finished so we can test on it after distraction
+    private ExperimentTrialData lastCompletedTrialData; 
 
     private TrialScene next_trial = null;
-    private bool isTransitioning = false; // Prevents double-clicking bugs
+    private bool isTransitioning = false; 
 
     void Awake()
     {
@@ -63,11 +69,21 @@ public class Director : MonoBehaviour
         }
     }
 
-    public void ButtonPressed()
+public void ButtonPressed()
     {
         if (next_trial == null && distraction_task_completed)
         {
-            StartCoroutine(MoveToNextTrialCoroutine());
+            if (lastCompletedTrialData == null)
+            {
+                // If there's no saved data, we are at the very beginning of the experiment.
+                // Start the first learning trial!
+                StartCoroutine(MoveToNextTrialCoroutine());
+            }
+            else
+            {
+                // We have saved data, which means we just finished a distraction task. Time to test!
+                StartTestingPhase();
+            }
         }
         else if (next_trial != null && next_trial.trial_completed)
         {
@@ -82,7 +98,7 @@ public class Director : MonoBehaviour
             clear_tutorial();
             tutorial_completed = true;
         }
-        Debug.Log(trialScenes);
+        
         isTransitioning = true;
 
         if (trialScenes.Count == 0)
@@ -90,19 +106,17 @@ public class Director : MonoBehaviour
             Debug.Log("<color=red>No more trials left!</color>");
             EndExperiment();
             isTransitioning = false;
-            yield break; // Stop execution if no trials left
+            yield break; 
         }
 
-        // Pick random trial
         int index = UnityEngine.Random.Range(0, trialScenes.Count);
         next_trial = trialScenes[index];
         trialScenes.Remove(next_trial);
 
-        // Start the trial sequence
         StartCoroutine(next_trial.StartTrial());
 
-        yield return new WaitForSeconds(2.2f); // delay for door
-        OnDoorToggle?.Invoke(); // open door
+        yield return new WaitForSeconds(2.2f); 
+        OnDoorToggle?.Invoke(); 
 
         isTransitioning = false;
     }
@@ -111,13 +125,14 @@ public class Director : MonoBehaviour
     {
         isTransitioning = true;
         
-        OnDoorToggle?.Invoke(); // close door
-        yield return new WaitForSeconds(1f); // delay for door
+        OnDoorToggle?.Invoke(); 
+        yield return new WaitForSeconds(1f); 
 
-        // Pass the specific trial we are ending to the logger
         LogSpecificTrialData(next_trial);
         
-        // Let the scene animate out
+        // NEW: Save the data from the trial we just finished BEFORE we nullify it!
+        lastCompletedTrialData = next_trial.trialData;
+
         yield return StartCoroutine(next_trial.EndTrialSequence());
 
         next_trial = null; 
@@ -125,7 +140,6 @@ public class Director : MonoBehaviour
         isTransitioning = false;
 
         Debug.Log("<color=magenta>Start Distraction Task Here</color>");
-        
         distractionTask.StartDistractionTask();
     }
 
@@ -134,36 +148,30 @@ public class Director : MonoBehaviour
         OnDoorToggle?.Invoke();
     }
 
-    // Now takes a specific TrialScene so we don't rely on the modified list
     public void LogSpecificTrialData(TrialScene trial)
     {
         if (trial == null) return;
 
         foreach (Vector3 touch_point in trial.touch_points)
         {
-            currentSessionLog.Add(new ExperimentEvent("trial_touch_points", touch_point));
+            LoggingManager.Instance.LogTelemetry("trial_touch_points", touch_point);
         }
         foreach (Vector3 locus_point in trial.locus_points)
         {
-            currentSessionLog.Add(new ExperimentEvent("trial_locus_points", locus_point));
+            LoggingManager.Instance.LogTelemetry("trial_locus_points", locus_point);
         }
-        
-        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
     }
 
     public void logHeadsetPosition(Vector3 position)
     {
-        currentSessionLog.Add(new ExperimentEvent("headset_position", position));
-        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+        LoggingManager.Instance.LogTelemetry("headset_position", position);
     }
 
     public void EndExperiment() 
     {
-        Debug.Log("Experiment Complete. Saving CSV...");
-        // ExperimentLogger.SaveToCSV(currentSessionLog, "participant_001");
+        Debug.Log("Experiment Complete. All data has been successfully streamed to disk.");
+        LoggingManager.Instance.LogEvent("Global", "Experiment_Complete");
     }
-
-
 
     public void clear_tutorial()
     {
@@ -171,8 +179,25 @@ public class Director : MonoBehaviour
         {
             item.gameObject.SetActive(false);
         }
-        instructionText.gameObject.SetActive(false);
-
-
+        if (instructionText != null) instructionText.gameObject.SetActive(false);
     }
-} 
+
+public void StartTestingPhase()
+    {
+        distraction_task_completed = false; 
+        
+        // NEW: Reset the sentence blanks to "_____"
+        if (sentenceBuilder != null) 
+        {
+            sentenceBuilder.ResetSentence();
+        }
+
+        testingEnvironment.StartTestingPhase(lastCompletedTrialData);
+    }
+
+    public void EndTestingPhase()
+    {
+        testingEnvironment.EndTestingPhase();
+        StartCoroutine(MoveToNextTrialCoroutine());
+    }
+}

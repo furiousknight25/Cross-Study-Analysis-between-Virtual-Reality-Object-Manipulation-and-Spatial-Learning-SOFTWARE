@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 47a4376a34870c973b02f2e85705ca53
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - foilSelectedChannel: {fileID: 11400000, guid: 329047b2fa65811958d15a373d34cb2c, type: 2}
+  - buttonText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

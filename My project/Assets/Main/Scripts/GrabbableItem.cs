@@ -12,6 +12,7 @@ public class GrabbableItem : MonoBehaviour
     
     [HideInInspector] 
     public PhysicsBubbleReceptacle currentBubble; 
+    public bool isInBubble => currentBubble != null;
 
     // --- FIX: Tracks multiple overlaps to prevent double-mapping ---
     private List<PhysicsBubbleReceptacle> overlappingBubbles = new List<PhysicsBubbleReceptacle>();
@@ -45,6 +46,15 @@ public class GrabbableItem : MonoBehaviour
         {
             handEvents.onGrabEnter.RemoveListener(HandleGrabEnter);
             handEvents.onGrabExit.RemoveListener(HandleGrabExit);
+        }
+    }
+
+    void Update()
+    {
+        // Enable gravity every frame the item is not in a bubble
+        if (!isInBubble)
+        {
+            rb.useGravity = true;
         }
     }
 
@@ -94,12 +104,14 @@ public class GrabbableItem : MonoBehaviour
 
     public void ShrinkItem()
     {
+        return;
         if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
         scaleCoroutine = StartCoroutine(ScaleRoutine(originalScale * inBubbleScaleMultiplier));
     }
 
     public void RestoreSize()
     {
+        return;
         if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
         scaleCoroutine = StartCoroutine(ScaleRoutine(originalScale));
     }
@@ -153,9 +165,9 @@ public class GrabbableItem : MonoBehaviour
             targetBubble.TrySnapObject(rb); 
         }
         
-        // else
-        // {
-        //     rb.useGravity = true;
-        // }
+        else
+        {
+            rb.useGravity = true;
+        }
     }
 }

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class TrialScene : MonoBehaviour
 {
+    // NEW: Assign the specific Trial Data asset in the Inspector for this scene
+    public ExperimentTrialData trialData; 
+
     private bool tabletEventReceived = false;
     public List<Vector3> touch_points = new List<Vector3>();
     public List<Vector3> locus_points = new List<Vector3>();
 
-    public Transform enviornment_parant; // (Note: typo in variable name kept to match your inspector)
+    public Transform enviornment_parant; 
     public Tablet tablet;
     public bool trial_completed = false;
     
@@ -32,11 +35,18 @@ public class TrialScene : MonoBehaviour
     public IEnumerator StartTrial()
     {
         Debug.Log("Trial started");
+        
+        // NEW: Pass the text to the tablet right as the trial begins
+        if (tablet != null)
+        {
+            tablet.SetupTabletText(trialData);
+        }
+
         transform.localScale *= 1.1f;
         StartCoroutine(TweenPosition(trialStartPosition, 2f)); 
         
         yield return StartCoroutine(StartTimer(Director.Instance.explore_time));
-        tablet.can_spawn_text = true; // Allow the tablet to show text and trigger events
+        tablet.can_spawn_text = true; 
 
         tabletEventReceived = false;
         tablet.OnSpawnItemsRequested += OnTabletSpawnItemsRequested;
@@ -54,9 +64,9 @@ public class TrialScene : MonoBehaviour
         
         trial_completed = true;
         HideAllChildrenRenderers();
+        tablet.hideText();
     }
 
-    // Converted to Coroutine to avoid cross-thread Unity API errors
     public IEnumerator EndTrialSequence()
     {
         yield return StartCoroutine(TweenPosition(trialEndPosition, 2f)); 
@@ -99,14 +109,12 @@ public class TrialScene : MonoBehaviour
     {
         if (enviornment_parant == null) return;
 
-        // De-equip any grabbable objects before hiding their renderers.
         GrabbableItem[] grabbableItems = enviornment_parant.GetComponentsInChildren<GrabbableItem>(includeInactive: true);
         foreach (GrabbableItem grabbable in grabbableItems)
         {
             grabbable.OnPhysicalHandGrabbed();
         }
 
-        // Hide every renderer on all descendants of the parent, including nested children.
         Renderer[] descendantRenderers = enviornment_parant.GetComponentsInChildren<Renderer>(includeInactive: true);
         foreach (Renderer renderer in descendantRenderers)
         {
