@@ -22,7 +22,7 @@ public class Director : MonoBehaviour
     private bool tutorial_completed = false;
     public float explore_time = 2f; 
     public float reading_time = 2f; 
-    public float encode_time = 2f; 
+    public float encode_time = 50f; 
     public float distraction_task_duration = 3f;
     public SentenceBuilderManager sentenceBuilder;
     public TestingEnvironmentManager testingEnvironment;
@@ -49,7 +49,7 @@ public class Director : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.nKey.wasPressedThisFrame || Keyboard.current.vKey.wasPressedThisFrame)
+        if (Keyboard.current.nKey.wasPressedThisFrame)
         {
             if (!isTransitioning) 
             {

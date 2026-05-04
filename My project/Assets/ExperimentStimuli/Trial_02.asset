@@ -14,45 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
   TrialID: Trial_02
   MnemonicLoad: 0
-  PropositionCount: 5
-  PropositionalDensity: 0.278
-  FullPassage: The mechanic Arthur fixed the engine with a crowbar inside the garage
-    tasting of oil while sirens blared.
+  PropositionCount: 7
+  PropositionalDensity: 0.389
+  FullPassage: The blind beggar painted the canvas with a sword inside the cellar
+    smelling of pine before the earthquake.
   Chunks:
-  - The mechanic Arthur
-  - fixed the engine
-  - with a crowbar
-  - inside the garage
-  - tasting of oil
-  - while sirens blared.
+  - The blind beggar
+  - painted the canvas
+  - with a sword
+  - inside the cellar
+  - smelling of pine
+  - before the earthquake.
   Foils:
-  - stitched the deep wound
-  - leather journal
-  - under the bright lights
-  - plastic bucket
-  - in the crystal caverns
-  - Nathan the Chef
-  - in the bustling kitchen
-  - using a Damascus knife
-  - cracked the security vault
-  - bronze gear
-  - as the earth shook
-  - brass spyglass
-  - Gregory the Blacksmith
-  - smelling of old parchment
-  - golden compass
-  - iron hammer
-  - wooden telescope
-  - tasting of rich garlic
-  - echoing with low hums
-  - beneath the city streets
-  - smelling of strong antiseptic
-  - laser wrench
-  - in the flooded basement
-  - while the candles flickered
-  - tasting like copper
-  - using a feather quill
-  - steel ruler
-  - stone tablet
-  - using silver forceps
-  - in the abandoned warehouse
+  - The fleeing thief
+  - The squinting tailor
+  - The blind beggar
+  - The weeping orphan
+  - The blinded seer
+  - Sanded the wood
+  - Poured the wine
+  - painted the canvas
+  - Tethered the mule
+  - Painted the mask
+  - with a hammer
+  - with a spade
+  - with a scythe
+  - with a saw
+  - with a sword
+  - inside the pantry
+  - inside the chamber
+  - inside the cellar
+  - inside the brewery
+  - inside the dungeon
+  - burned by embers
+  - blackened by charcoal
+  - sprinkled with soot
+  - smelling of cedar
+  - smelling of pine
+  - before the hunt
+  - before the eruption
+  - before the execution
+  - after the flood
+  - before the earthquake.

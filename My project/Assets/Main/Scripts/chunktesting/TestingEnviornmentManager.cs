@@ -63,10 +63,6 @@ public class TestingEnvironmentManager : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.bKey.wasPressedThisFrame)
-        {
-            EndTestingPhase();
-        }
         if (Keyboard.current != null && Keyboard.current.pKey.wasPressedThisFrame)
         {
             ShowAllFoils();
@@ -98,27 +94,17 @@ public class TestingEnvironmentManager : MonoBehaviour
         movementCoroutine = StartCoroutine(TweenTransform(hiddenPosition, tweenDuration));
     }
 
-    private void PopulateFoilButtons(ExperimentTrialData trialData)
+private void PopulateFoilButtons(ExperimentTrialData trialData)
     {
         if (allFoilButtons == null || allFoilButtons.Length < 30) return;
 
-        for (int slot = 0; slot < 6; slot++)
+        // Python already combined the target + 4 foils and shuffled them into a 30-item array.
+        // We just map the 30 JSON items directly to the 30 UI buttons.
+        for (int i = 0; i < 30; i++)
         {
-            List<string> slotOptions = new List<string>();
-            
-            slotOptions.Add(trialData.Chunks[slot]);
-
-            for (int f = 0; f < 4; f++)
+            if (i < trialData.Foils.Length)
             {
-                slotOptions.Add(trialData.Foils[(slot * 5) + f]);
-            }
-
-            ShuffleList(slotOptions);
-
-            for (int i = 0; i < 5; i++)
-            {
-                int buttonIndex = (slot * 5) + i;
-                allFoilButtons[buttonIndex].SetupWord(slotOptions[i]);
+                allFoilButtons[i].SetupWord(trialData.Foils[i]);
             }
         }
     }

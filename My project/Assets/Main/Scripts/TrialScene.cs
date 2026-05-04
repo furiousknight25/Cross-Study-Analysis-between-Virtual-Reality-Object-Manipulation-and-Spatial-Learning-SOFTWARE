@@ -47,6 +47,7 @@ public class TrialScene : MonoBehaviour
         
         yield return StartCoroutine(StartTimer(Director.Instance.explore_time));
         tablet.can_spawn_text = true; 
+        tablet.showButton();
 
         tabletEventReceived = false;
         tablet.OnSpawnItemsRequested += OnTabletSpawnItemsRequested;
@@ -109,18 +110,40 @@ public class TrialScene : MonoBehaviour
     {
         if (enviornment_parant == null) return;
 
-        GrabbableItem[] grabbableItems = enviornment_parant.GetComponentsInChildren<GrabbableItem>(includeInactive: true);
-        foreach (GrabbableItem grabbable in grabbableItems)
-        {
-            grabbable.OnPhysicalHandGrabbed();
-        }
-
+        // 1. Instantly hide all renderers so the environment visually vanishes right away
         Renderer[] descendantRenderers = enviornment_parant.GetComponentsInChildren<Renderer>(includeInactive: true);
         foreach (Renderer renderer in descendantRenderers)
         {
             if (renderer.transform != enviornment_parant)
             {
                 renderer.enabled = false;
+            }
+        }
+
+        // 2. Start the 1-second delay routine for physics items
+        StartCoroutine(DeactivateGrabbablesRoutine());
+    }
+
+    // NEW: Coroutine to handle the delayed physics deactivation
+    private IEnumerator DeactivateGrabbablesRoutine()
+    {
+        GrabbableItem[] grabbableItems = enviornment_parant.GetComponentsInChildren<GrabbableItem>(includeInactive: true);
+        
+        // Force the Ultraleap hand script to drop the items
+        foreach (GrabbableItem grabbable in grabbableItems)
+        {
+            grabbable.OnPhysicalHandGrabbed();
+        }
+
+        // Wait 1 second for the physics engine and hand tracking to settle
+        yield return new WaitForSeconds(1.0f);
+
+        // Turn off the GameObjects completely
+        foreach (GrabbableItem grabbable in grabbableItems)
+        {
+            if (grabbable != null)
+            {
+                grabbable.gameObject.SetActive(false);
             }
         }
     }

@@ -14,45 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
   TrialID: Trial_07
   MnemonicLoad: 0
-  PropositionCount: 7
-  PropositionalDensity: 0.389
-  FullPassage: The architect Helena built the bridge with a stylus inside the studio
-    bathed in sunlight as winter arrived.
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The fierce warrior chopped the roots with a cleaver inside the library
+    smelling of ozone after the sunset.
   Chunks:
-  - The architect Helena
-  - built the bridge
-  - with a stylus
-  - inside the studio
-  - bathed in sunlight
-  - as winter arrived.
-  Foils:
-  - stitched the deep wound
-  - glass flask
-  - under the bright lights
-  - plastic bucket
-  - in the crystal caverns
-  - Nathan the Chef
+  - The fierce warrior
+  - chopped the roots
+  - with a cleaver
+  - inside the library
   - smelling of ozone
-  - in the bustling kitchen
-  - bronze gear
-  - as the earth shook
-  - Gregory the Blacksmith
-  - golden compass
-  - iron hammer
-  - wooden telescope
-  - tasting of rich garlic
-  - Victoria the Surgeon
-  - echoing with low hums
-  - beneath the city streets
-  - laser wrench
-  - using a velvet paintbrush
-  - in the flooded basement
-  - while the candles flickered
-  - mined the quartz deposit
-  - in the grand library
-  - stone tablet
-  - rusty pocketwatch
-  - during the monsoon
-  - using silver forceps
-  - copper wire
-  - silver microscope
+  - after the sunset.
+  Foils:
+  - The muscular mason
+  - The bruised brawler
+  - The sweaty blacksmith
+  - The cloaked assassin
+  - The fierce warrior
+  - chopped the roots
+  - Wove the basket
+  - Plucked the lute
+  - Dug the trench
+  - Sharpened the blade
+  - with a clamp
+  - with a bobbin
+  - with a cleaver
+  - with a ladle
+  - with a bellows
+  - inside the archive
+  - inside the pantry
+  - inside the library
+  - inside the palace
+  - inside the gallery
+  - fuming with sulfur
+  - lined with fur
+  - smelling of cedar
+  - smelling of ozone
+  - rubbed with oil
+  - during the eclipse
+  - until the sunset
+  - after the sunset.
+  - after the flood
+  - after the harvest

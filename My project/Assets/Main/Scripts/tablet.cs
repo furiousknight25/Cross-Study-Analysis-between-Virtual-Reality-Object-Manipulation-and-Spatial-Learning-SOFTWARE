@@ -12,6 +12,8 @@ public class Tablet : MonoBehaviour
     public List<PhysicsBubbleReceptacle> receptacles = new List<PhysicsBubbleReceptacle>();
     public Transform startPoint;
     public bool can_spawn_text = false;
+    public Transform button;
+
     [SerializeField] private TextMeshPro textMeshPro;
 
     void Update()
@@ -32,7 +34,10 @@ public class Tablet : MonoBehaviour
             textMeshPro.text = trialData.FullPassage; 
         }
     }
-
+    public void showButton()
+    {
+       button.gameObject.SetActive(true);
+    }
     public void ShowText()
     {
         if (can_spawn_text)
@@ -42,7 +47,7 @@ public class Tablet : MonoBehaviour
         }
     }
 
-    void hideText()
+    public void hideText()
     {
         if (textMeshPro != null) textMeshPro.gameObject.SetActive(false);     
     }

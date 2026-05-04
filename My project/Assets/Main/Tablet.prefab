@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 837956777377625993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.921, y: 0.433, z: -0.263}
+  m_LocalPosition: {x: 0.921, y: 1.4089999, z: -0.263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83,6 +83,7 @@ MonoBehaviour:
   receptacles: []
   startPoint: {fileID: 481749979382520002}
   can_spawn_text: 0
+  button: {fileID: 2705138932634922916}
   textMeshPro: {fileID: 2663084971128032878}
 --- !u!1 &3878411162797566758
 GameObject:
@@ -112,8 +113,8 @@ Transform:
   m_GameObject: {fileID: 3878411162797566758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.05339, z: -0.31389}
-  m_LocalScale: {x: 0.26218987, y: 1, z: 0.39803}
+  m_LocalPosition: {x: 0.5, y: 0.43, z: -0.31389}
+  m_LocalScale: {x: 0.26218987, y: 2.2602, z: 0.39803}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2194896052389842340}
@@ -230,7 +231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 19.787, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.36274529, y: 0.6365301}
+  m_AnchoredPosition: {x: 0.36274529, y: 1.61253}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1032984089750468325
@@ -371,7 +372,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.9366302, y: -3.1334426, z: -2.843399, w: -4.246975}
+  m_margin: {x: -1.9366302, y: -2.065243, z: -2.843399, w: -4.246975}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -408,7 +409,7 @@ Transform:
   m_GameObject: {fileID: 6032286280741127712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.16618192, w: 0.9860952}
-  m_LocalPosition: {x: 0.474, y: 0.541, z: -0.275}
+  m_LocalPosition: {x: 0.474, y: 1.517, z: -0.275}
   m_LocalScale: {x: 0.26218987, y: 0.8341, z: 1.5979711}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -504,6 +505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Physical Hands Button
       objectReference: {fileID: 0}
+    - target: {fileID: 6504037249797295756, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6504037249797295763, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -518,15 +523,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6504037249797295763, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.241
+      value: 0.453
       objectReference: {fileID: 0}
     - target: {fileID: 6504037249797295763, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.269
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 6504037249797295763, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.956
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6504037249797295763, guid: 43eaa06112baf304ba03b0e3634d568d, type: 3}
       propertyPath: m_LocalRotation.w

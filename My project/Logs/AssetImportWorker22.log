@@ -1,0 +1,2615 @@
+Unity Editor version:    6000.3.6f1 (bbb010bdb8a3)
+Branch:                  6000.3/respin/6000.3.6f1-732c1ec89f18
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #22~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 26 15:25:54 UTC 2
+Kernel version:          6.17.0-22-generic
+Architecture:            x86_64
+Available memory:        15205 MB
+Date:                    2026-05-04T14:19:55Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-05-04T14:19:55.748709Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2d2146e5f4ca4dc58bf40654c8d07b4a
+  Correlation Id:          46d76688856074d3b052eb279a3744d8
+  External correlation Id: 7270145296928775708
+  Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-05-04T14:19:55.753495Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Desktop is 4480 x 1440 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+37327
+-licensingIpc
+LicenseClient-collector25061
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [124907601480512]  Target information:
+
+Player connection [124907601480512]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 1634426025 [EditorId] 1634426025 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [124907601480512]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 1634426025 [EditorId] 1634426025 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [124907601480512] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [124907601480512] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474148848911-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 80.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
+[Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.17.0-22-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1980460160
+Initialize mono
+Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
+Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56369
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003809 seconds.
+- Loaded All Assemblies, in  0.611 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 678 ms
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.616 seconds
+Domain Reload Profiling: 2228ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (270ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (839ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.518 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.094 seconds
+Domain Reload Profiling: 2603ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1100ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (369ms)
+				TypeCache.ScanAssembly (330ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1094ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (800ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7742 unused Assets / (7.6 MB). Loaded Objects now: 8605.
+Memory consumption went from 165.8 MB to 158.2 MB.
+Total: 20.727511 ms (FindLiveObjects: 0.810851 ms CreateObjectMapping: 1.136151 ms MarkObjects: 10.522459 ms  DeleteObjects: 8.256097 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102094.138564 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1af7cd78588b967220415bd143fed5d') in 0.174741598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.252079 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2e6f5c2ace1c1d1d197136d57a37dbf') in 0.02306152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.045188 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3056c99bf9df61b37e2890509a5b21c4') in 0.031347072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010873 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7535e44882637d09033db3f67a6da806') in 0.033155785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.226131 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc9c509583259c3e2363669bc9c7f424') in 0.031524816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.102184 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef552e6d3376f0a7d4b72b65f95b715') in 0.033658048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.223479 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2bf8d8880fc33358882b7b6030683c4') in 0.023539036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.475284 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b963cfe361075cdf38f5d683ef5a30a') in 0.039756236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.161271 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04e481bf5a141d5b3c2cd4cd09a2fd4a') in 0.032048348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.007021 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4fbc872638de38256b9fa5dde92b43d') in 0.023837335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.667727 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4250831c097b0eb080a8b613fd63eae7') in 0.034595245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.218923 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1c7b9567bae4f2ed2c93375eb901903') in 0.025424392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.080 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 2210ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (895ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (5.1 MB). Loaded Objects now: 8625.
+Memory consumption went from 200.8 MB to 195.7 MB.
+Total: 16.963751 ms (FindLiveObjects: 0.844274 ms CreateObjectMapping: 0.823294 ms MarkObjects: 10.676027 ms  DeleteObjects: 4.618313 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.077253 seconds.
+  path: Assets/Main/Trials/models/AlarmClock_MPI01_fbx.fbx
+  artifactKey: Guid(8c437c2a50b1347eda0fac1885380663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/AlarmClock_MPI01_fbx.fbx using Guid(8c437c2a50b1347eda0fac1885380663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd99baa6227b124af4a9b09d6807b8c2') in 0.895924695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Main/Trials/models/Hammer_MPI01_fbx.fbx
+  artifactKey: Guid(6a25c4b18cd0c8a0ba53a1a342951c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Hammer_MPI01_fbx.fbx using Guid(6a25c4b18cd0c8a0ba53a1a342951c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a283b061392b05f7cb5740b931a91a19') in 2.042016025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.345710 seconds.
+  path: Assets/Main/Trials/models/Banana_MPI01_fbx.fbx
+  artifactKey: Guid(8209a9dadad2ef25786f164809fd926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Banana_MPI01_fbx.fbx using Guid(8209a9dadad2ef25786f164809fd926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3062cde3bf53f14e82d0f16679fcb70a') in 0.040646687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Main/Trials/models/Scissors_MPI01_fbx.fbx
+  artifactKey: Guid(2f8e908eb5e1e56cca3e06e8567bd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Scissors_MPI01_fbx.fbx using Guid(2f8e908eb5e1e56cca3e06e8567bd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '106dec4fe464c61f0bd28207ce1b724a') in 0.055261402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Main/Trials/models/Pear_MPI01_fbx.fbx
+  artifactKey: Guid(8556e0077202fe265a35617ca80a6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Pear_MPI01_fbx.fbx using Guid(8556e0077202fe265a35617ca80a6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd88c90cc989c285dbc334f01ad56dcd9') in 0.061435383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Main/Trials/models/Compass_MPI01_fbx.fbx
+  artifactKey: Guid(49d311ebadebc95c2b220e0244c5c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Compass_MPI01_fbx.fbx using Guid(49d311ebadebc95c2b220e0244c5c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d9938a040f97dc50f176e58e70a7b6') in 0.02477784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Main/Trials/models/Grapes_MPI01_fbx.fbx
+  artifactKey: Guid(4c24c56df0bee368d869d0cefdb9eb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Grapes_MPI01_fbx.fbx using Guid(4c24c56df0bee368d869d0cefdb9eb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afeada4709d2fef83d281cab4a26b444') in 0.044685713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Main/Trials/models/PaintPalette_MPI01_fbx.fbx
+  artifactKey: Guid(1946ba3c6c885bebcb3c54b862b1918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/PaintPalette_MPI01_fbx.fbx using Guid(1946ba3c6c885bebcb3c54b862b1918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0d3f5053c92fe818cb36e4d18cc4b5c') in 0.167895606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Main/Trials/models/CarpetCutter_MPI01_fbx.fbx
+  artifactKey: Guid(7010c69a8671ab8afa6abc7fe815b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/CarpetCutter_MPI01_fbx.fbx using Guid(7010c69a8671ab8afa6abc7fe815b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d0d8b06a11870169a484c84c9e8703') in 0.093685319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Main/Trials/models/Doughnut_MPI01_fbx.fbx
+  artifactKey: Guid(e28fa8c11898e74a1bcbcbf89c29c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Doughnut_MPI01_fbx.fbx using Guid(e28fa8c11898e74a1bcbcbf89c29c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c7b780f576cbbc21153e33a3c759903') in 0.050678665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Main/Trials/models/Carabiner_Key_MPI01_fbx.fbx
+  artifactKey: Guid(d11fdb7e69463fa9a9a58fd99293151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Carabiner_Key_MPI01_fbx.fbx using Guid(d11fdb7e69463fa9a9a58fd99293151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daa8f4c31102a1db543e5dd0b6c624bb') in 0.05996778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Main/Trials/models/CoatHanger_MPI01_fbx.fbx
+  artifactKey: Guid(f5716d61ab34fae6e9a6ff4cea4ad01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/CoatHanger_MPI01_fbx.fbx using Guid(f5716d61ab34fae6e9a6ff4cea4ad01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '701f3ccb5a7f3dafd3239de93d10c0ac') in 0.040799844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Main/Trials/models/HairDryeer_MPI01_fbx.fbx
+  artifactKey: Guid(04b03859a8ddd3ffda7fb1fee2298169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/HairDryeer_MPI01_fbx.fbx using Guid(04b03859a8ddd3ffda7fb1fee2298169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad5c503d8dd177b021b42e4f891a0772') in 0.081342086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Main/Trials/models/Cactus_MPI01_fbx.fbx
+  artifactKey: Guid(15af8fd04391a0938b46d2e537caf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Cactus_MPI01_fbx.fbx using Guid(15af8fd04391a0938b46d2e537caf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29ec63b88d879074d1b6e7e829cd617') in 0.060434556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Main/Trials/models/Pillow_MPI01_fbx.fbx
+  artifactKey: Guid(98d31d4ec27d42ff69e3cda87fd2c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Pillow_MPI01_fbx.fbx using Guid(98d31d4ec27d42ff69e3cda87fd2c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092d15d133cf81241c80682e982b9de6') in 0.032686194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Main/Trials/models/Comb_MPI01_fbx.fbx
+  artifactKey: Guid(f3f37c76ee21163768d25fc4268d170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/Comb_MPI01_fbx.fbx using Guid(f3f37c76ee21163768d25fc4268d170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c014447f7addb81b5f64ef5dcfadbea9') in 0.032260085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Main/Trials/models/RubberDucky_MPI01_fbx.fbx
+  artifactKey: Guid(40e7c25ba32486c6fabe927086d630e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/RubberDucky_MPI01_fbx.fbx using Guid(40e7c25ba32486c6fabe927086d630e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0dd54f5a61cfc3118d54df0d897b836') in 0.027986068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Main/Trials/models/BreadBasket_MPI01_fbx.fbx
+  artifactKey: Guid(7ee75c88ef4d16a37928653dd3b996ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/BreadBasket_MPI01_fbx.fbx using Guid(7ee75c88ef4d16a37928653dd3b996ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f60a93ccb0a5a7fdde3658f51a44a546') in 0.050101112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Main/Trials/models/CandleBurnt_MPI01_fbx.fbx
+  artifactKey: Guid(3908f52e6ca856153b9b5ca29ada8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/models/CandleBurnt_MPI01_fbx.fbx using Guid(3908f52e6ca856153b9b5ca29ada8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eed62115cddb8f77f37ee9aa5602510') in 0.04417709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8780.
+Memory consumption went from 174.2 MB to 172.3 MB.
+Total: 29.423775 ms (FindLiveObjects: 0.744967 ms CreateObjectMapping: 0.935014 ms MarkObjects: 26.512043 ms  DeleteObjects: 1.230177 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.185967 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '580d699fa5ff752a5f590f662934853c') in 0.114711511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.406529 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe61eb6c5c5a9ece641fdda0b717a139') in 0.057352694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.181 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.216 seconds
+Domain Reload Profiling: 2393ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (809ms)
+		LoadAssemblies (563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (282ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (981ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7742 unused Assets / (4.7 MB). Loaded Objects now: 8695.
+Memory consumption went from 203.1 MB to 198.4 MB.
+Total: 19.504618 ms (FindLiveObjects: 1.748369 ms CreateObjectMapping: 1.678288 ms MarkObjects: 11.228854 ms  DeleteObjects: 4.846000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 91.872529 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '640281c6b58c84ac4824516adeec9523') in 0.602865392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8804.
+Memory consumption went from 174.7 MB to 172.8 MB.
+Total: 21.124707 ms (FindLiveObjects: 1.375671 ms CreateObjectMapping: 1.084755 ms MarkObjects: 17.707426 ms  DeleteObjects: 0.955172 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.686264 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '241d7f68f8e9992cb7dec9ff640d5d0c') in 0.068058738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.426899 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06ca7903b24c6b8ef47a29106c3a04a1') in 0.05523352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.011818 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32378c9f2484748f7c12b965e97856b') in 0.075025667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.278912 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1c61d2ddcbf0734466c930fd5018f3') in 0.056224188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.917416 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31b219b4a8dc9776b39e8b0f4ee80154') in 0.050272574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.970023 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '325a74f45c135c57cada51624b8d98d4') in 0.051723125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.749834 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc765c4e1f024b01d79fe8b814606387') in 0.047842425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.677672 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffa99bf9bdaf7177c06ce128c9286e62') in 0.072939172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.796693 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189968db8d6fbed3316cddea904bdb30') in 0.080136173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 184
+
+========================================================================
+Received Import Request.
+  Time since last request: 560.349825 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51a44f8175abea1da9c8b55f1c12498') in 0.109533017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.122487 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f238a491a837f46333157b4bd2564a') in 0.071327359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.499873 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f2fd73eebc6e0b3a4eeefc72702e98') in 0.07959079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917172 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7479d245ba0b486739cbac0547b9968') in 0.057812628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.292203 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64398d6c30bfaefca205979742f158c3') in 0.070141946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.925971 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807bb6ecfadc0b515155ce4f99bb9abe') in 0.08068367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 325
+
+========================================================================
+Received Import Request.
+  Time since last request: 456.052795 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ab0769c7a9816e29a2e8aec6e89d89') in 0.088420683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 309
+
+========================================================================
+Received Import Request.
+  Time since last request: 1039.866040 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '429a96ed1ac1514307b8739de0a3a720') in 0.309208507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.198421 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bf074a17f4e435f42e1711201f38864') in 0.073117347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581520 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdfcae95dc6642a82062fcc727c78bbf') in 0.117358056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530591 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a24fe7955a7c0260279ff93dc1126b') in 0.10088822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.192352 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcf8f5aac71644aa80a94db9d2165c6') in 0.06815081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.398412 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '635e5d0f04afc121452530b752163ab8') in 0.076711319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.158955 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4b91cbf5d5d25178627abea962fb2f') in 0.071492218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612201 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'badd40c39b76d1208190fe6aa0963d17') in 0.071400457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.088398 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66382334f34c6c005f7a7a6368f9a955') in 0.071296031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.825441 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b4f3cc4d279e948cbcfacac33e6abf') in 0.095032035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902950 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be5fe2a8e3e1bcde394779486ed3e792') in 0.085436064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008042 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e6139d3115fde870d547e6ec3ffcdd8') in 0.068533268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.355571 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7ca91dbd4629553bcea74cb03f48b5') in 0.056648123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161722 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1ba1fe445a97f11b1d0f3153c20615') in 0.081333129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.867718 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784e9281f0a9632ba39ce34ffe839683') in 0.095866981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.338843 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b28fec362e6e5dd2f77d13683aa70b20') in 0.097415436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.359718 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d1365894bada45c0ba7f789cb27aaad') in 0.078357767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.430950 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5507b33b80d024d5bb7645f53d9dfb81') in 0.064000075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972567 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b1cee83dd72ff8bdcc3bc0b15e6699') in 0.058410058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
+
+========================================================================
+Received Import Request.
+  Time since last request: 418.368900 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '083c90f3163e6e41e7f70a9e21a2e530') in 0.069783032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.940472 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df0bf6916cfd74960f920e509e3193a4') in 0.056020575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.861622 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5696590a20259f3def582af4e8556c') in 0.054522045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186077 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b85c5b3c4a8115bb9ed269f8c02d52d') in 0.053709611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.381715 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e66358be8586fc8bd17283328bbcedc') in 0.052862401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.158699 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bf611093969b3bc836dc9db82207046') in 0.050176113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.620364 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14500ed5d709ef1205b7d08b96765225') in 0.063829625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.558699 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4334840ea0a905d2473cdc25d10c655') in 0.064089662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929641 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79e70685bf0623dfdaeb748f92ae7fce') in 0.063814105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.429648 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf3fc7cbd3e44c206971c8982ea0ea24') in 0.044374029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 164
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.782042 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec6eaff9ea9b0659f35506fd34e61f5') in 0.056547996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 235
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.400810 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91ba0d10cda03b067070562f0232aa44') in 0.080768148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.382012 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd54f796e46dfc915d2edd3817e5123') in 0.088771922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.118914 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '015e68642a8f40fe9a02a383f93e2928') in 0.090070899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.809999 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53c84d41790271ba4ff602333be69947') in 0.075465391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.862558 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b80813ea14e09b2d35d1855bf83a54ba') in 0.066024392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.641620 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a889f45ad7996a23bb92b0e9dcf6e52') in 0.065359033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 288
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.384270 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93642c8f45fde4629ebe9bdfcb227ee8') in 0.109909984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.417182 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300f9899979a166b46cea81f47da423e') in 0.122943844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621758 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ecdac076e9a799f8c953929276e3633') in 0.106252303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.843253 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b784d7003d3e254bf8a55d446c48d6ce') in 0.101933922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.553270 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67a567030de81211bdf21c0190d45c64') in 0.072462157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.866013 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78459d81b220d51ae5b1d1131ed8b720') in 0.104494045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793086 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c38ffb579ba0ed3d281c8595149602ba') in 0.112334492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.090176 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816e62b9b25faf8f7cffc1df764a8cfe') in 0.120390734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.895435 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f90fefa44830488dcaa31612735cc7e') in 0.108755208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.432439 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6273864e20638e81ccf09cdd2d3c1e6') in 0.140071211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.986833 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b97e77c7f12b74d7dbf4ff6f6a16ddbc') in 0.095238452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972812 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e24966611fa5e713f9ffe85a3ca2fb41') in 0.089125004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.604116 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1dd569f722c8ed1c87c0b96ea3b16b0') in 0.086731064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 602
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.693631 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a0c8cde1bf4979988494a33b0b19957') in 0.089706315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.696372 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd885794742404dcd7134d4995b5993b8') in 0.080049972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.427044 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aa8fa3064977e3045a11a5d24602e4c') in 0.086905391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.102741 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5cb906214118aa9bcb6b574884252db') in 0.107551691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.353778 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c801572467a9f9574daea1d78ed436c') in 0.066516194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.324930 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48bceb3603708473cb908eeb9da427ff') in 0.064143814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.453632 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd201e7b3b04bf85f8ea15886908e1db1') in 0.065766688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.452018 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0b858a6d814524bc5596e4d10f1fa08') in 0.079655651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.433131 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c36bbcc65565d55d96ad855d6ab07a') in 0.053903855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.528075 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c71b8b5235b1888e0631aa25ce0553b5') in 0.058053239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.216021 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b48bacd7b313a2a59e62664d9295678') in 0.077483097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.696452 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6b3bff4f8912939772acd39efbb1382') in 0.060018886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.853796 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2d6aebb5c8f0b5152005c71de27b2e4') in 0.060405752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.766731 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '776c7230c7a1c7984b7661d432bd6b39') in 0.061862044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.532087 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55b920032294067ff4fb6e7dfa6996e') in 0.063906239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.888975 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95986791597d58a2d7a0852fa78cf28e') in 0.055404691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.667887 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf741a70fa43698b1e966a4e40c487f') in 0.0571265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.478449 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '610098f9ee58c45148ee83430c6b8d7d') in 0.076988819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738099 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f05e6691934e55db909ed2200e2172dc') in 0.073270834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.949253 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5839d3002d4dfd0b62d0b82e1346a1ae') in 0.072225844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993226 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40bd1f53eb95803de6d6b6a81250cd26') in 0.080005438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.479483 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e13a1538ccc016007724e1e43f2bd15') in 0.066973452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.435686 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba56c7e07be5e639c7908473fbc26db1') in 0.074833255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.541966 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '230302d3463805c8d55cce2f75693019') in 0.084029927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.200609 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4afbd55109429e5d88898dd19d026b9') in 0.057274047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  4.869 seconds
+Refreshing native plugins compatible for Editor in 4.55 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.511 seconds
+Domain Reload Profiling: 6397ms
+	BeginReloadAssembly (2901ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (428ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1245ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1846ms)
+		LoadAssemblies (1552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (853ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (703ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (762ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7742 unused Assets / (6.5 MB). Loaded Objects now: 8718.
+Memory consumption went from 204.4 MB to 197.9 MB.
+Total: 29.334577 ms (FindLiveObjects: 1.318754 ms CreateObjectMapping: 1.639155 ms MarkObjects: 20.204671 ms  DeleteObjects: 6.168592 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.368 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 2643ms
+	BeginReloadAssembly (375ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (855ms)
+		LoadAssemblies (604ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (361ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (325ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (981ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (6.0 MB). Loaded Objects now: 8721.
+Memory consumption went from 204.3 MB to 198.2 MB.
+Total: 16.554093 ms (FindLiveObjects: 1.085065 ms CreateObjectMapping: 1.424342 ms MarkObjects: 8.408073 ms  DeleteObjects: 5.633367 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (1.9 MB). Loaded Objects now: 8721.
+Memory consumption went from 170.9 MB to 169.0 MB.
+Total: 27.320469 ms (FindLiveObjects: 1.910484 ms CreateObjectMapping: 1.299257 ms MarkObjects: 21.967769 ms  DeleteObjects: 2.139293 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.246 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 4.80 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.232 seconds
+Domain Reload Profiling: 2479ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (762ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (329ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (977ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (5.8 MB). Loaded Objects now: 8724.
+Memory consumption went from 204.3 MB to 198.6 MB.
+Total: 18.081398 ms (FindLiveObjects: 1.681194 ms CreateObjectMapping: 1.753630 ms MarkObjects: 9.838725 ms  DeleteObjects: 4.805264 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.300 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.298 seconds
+Domain Reload Profiling: 5599ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (874ms)
+		LoadAssemblies (587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (415ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (343ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (4302ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3629ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (1545ms)
+			ProcessInitializeOnLoadMethodAttributes (1726ms)
+			AfterProcessingInitializeOnLoad (86ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (189ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 42.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (6.1 MB). Loaded Objects now: 8727.
+Memory consumption went from 204.4 MB to 198.3 MB.
+Total: 117.141660 ms (FindLiveObjects: 4.877841 ms CreateObjectMapping: 7.393890 ms MarkObjects: 74.555134 ms  DeleteObjects: 30.305448 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1067.211758 seconds.
+  path: Assets/Main/experimentdata/ExperimentTrialDataImporter.cs
+  artifactKey: Guid(cd89756309a3a43ad89f6a48ec4fceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/experimentdata/ExperimentTrialDataImporter.cs using Guid(cd89756309a3a43ad89f6a48ec4fceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189af0f1f0554412d5b25d08ac50f1ae') in 0.002445007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.952868 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4e40dcd5154ac374c5662fb9912980c') in 0.221972877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228219 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '441580a47c139c358528cc297e11f509') in 0.066959345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412773 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f295648dd4fdc263cd7378c29ff1289') in 0.044185926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Resources/PerformanceTestRunSettings.json
+  artifactKey: Guid(9b7b2ce0a01b6ae749929eac2b8b7d7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/PerformanceTestRunSettings.json using Guid(9b7b2ce0a01b6ae749929eac2b8b7d7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27ce2b63d7bfe5e8cad3682e3e80ceb4') in 0.003526445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.272674 seconds.
+  path: Assets/Main/experimentdata/Editor
+  artifactKey: Guid(4fd31e5e57d08fe93ac386d783fa26a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/experimentdata/Editor using Guid(4fd31e5e57d08fe93ac386d783fa26a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6f315a85756b2cefdfd0b77b1f60b3') in 0.001101606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.881305 seconds.
+  path: Assets/Main/experimentdata/Editor
+  artifactKey: Guid(4fd31e5e57d08fe93ac386d783fa26a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/experimentdata/Editor using Guid(4fd31e5e57d08fe93ac386d783fa26a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c47f30771f7a967605d901f3413b0f3') in 0.004556187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7678 unused Assets / (7.5 MB). Loaded Objects now: 8715.
+Memory consumption went from 175.6 MB to 168.1 MB.
+Total: 27.323906 ms (FindLiveObjects: 1.649184 ms CreateObjectMapping: 1.906626 ms MarkObjects: 15.083615 ms  DeleteObjects: 8.681545 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.605647 seconds.
+  path: Assets/Main/experimentdata/Editor/ExperimentTrialDataImporter.cs
+  artifactKey: Guid(cd89756309a3a43ad89f6a48ec4fceb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/experimentdata/Editor/ExperimentTrialDataImporter.cs using Guid(cd89756309a3a43ad89f6a48ec4fceb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6832d73ee388467b4542da2e753dabd1') in 0.009146408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.161 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.240 seconds
+Domain Reload Profiling: 2398ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (760ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (320ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (991ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (5.5 MB). Loaded Objects now: 8730.
+Memory consumption went from 204.4 MB to 198.9 MB.
+Total: 16.144445 ms (FindLiveObjects: 1.171487 ms CreateObjectMapping: 1.243804 ms MarkObjects: 9.578527 ms  DeleteObjects: 4.149074 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1073.917933 seconds.
+  path: Assets/Main/Scripts/chunktesting/ChunkSlotBroadcaster.cs
+  artifactKey: Guid(e7e8dc5d3b2d9f1178772a4ea99847f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/chunktesting/ChunkSlotBroadcaster.cs using Guid(e7e8dc5d3b2d9f1178772a4ea99847f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7177a2e3c40827c0b62aa72b31d3c252') in 0.217355425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  4.668 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.797 seconds
+Domain Reload Profiling: 6480ms
+	BeginReloadAssembly (2828ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (157ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1164ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1698ms)
+		LoadAssemblies (1700ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (675ms)
+			TypeCache.Refresh (50ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (542ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (943ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (6.4 MB). Loaded Objects now: 8733.
+Memory consumption went from 204.5 MB to 198.0 MB.
+Total: 24.314660 ms (FindLiveObjects: 3.013362 ms CreateObjectMapping: 1.471310 ms MarkObjects: 13.713044 ms  DeleteObjects: 6.113177 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 327.749377 seconds.
+  path: Assets/Main/Scripts/chunktesting/Word.prefab
+  artifactKey: Guid(a9cc835dc3f39413790792717808509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scripts/chunktesting/Word.prefab using Guid(a9cc835dc3f39413790792717808509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b132cc06539ef50093afd33adef08bd8') in 0.740344041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8842.
+Memory consumption went from 175.8 MB to 173.9 MB.
+Total: 20.208598 ms (FindLiveObjects: 1.527475 ms CreateObjectMapping: 1.960378 ms MarkObjects: 15.460301 ms  DeleteObjects: 1.255846 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 778.376730 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f09f84257351cb59f462612a84e3c34b') in 0.968335718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.182839 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e996e2dec2a3372e761865d0f611f91') in 0.069832715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.669777 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9961af3b6c09a729ab6927dd4afbf251') in 0.07547016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.996773 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b031ff73cfa65ee2ecd1903e2bf3273d') in 0.054056372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.830174 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ee84a01483ec7a4cd77b40195f39d2') in 0.044098262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.195160 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35f53c34f75b87b0829dd70667b9a469') in 0.043159581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.671353 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.039573965 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/main/tablet.prefab in SourceAssetDB has modification time of '2026-05-04T16:40:28Z' while content on disk has modification time of '2026-05-04T16:40:29Z'
+  ERROR: Build asset version error: assets/main/tablet.prefab in SourceAssetDB has modification time of '2026-05-04T16:40:28Z' while content on disk has modification time of '2026-05-04T16:40:29Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.080746 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db0825bd134b7b4186878c555d55b8d7') in 0.041262822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.782650 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5fea6abb44938a81dd7ebe35e687cc') in 0.039500587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.692200 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3dd34fa1908d84148be61ad7e408eee') in 0.032408554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.021841 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd00fdabee86a6dc6f090b27439ab05') in 0.002184819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.305617 seconds.
+  path: Assets/Main/Tablet.prefab
+  artifactKey: Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Tablet.prefab using Guid(bbea684262453c72380e9b0df52b7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f25e50465feb94b28b06dacfdb665eb5') in 0.03905971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.554381 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e44e95c9c2a2005b0cbe7e1de5fa0f') in 0.22356324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243501 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58af0a76facf9c0c3f4c0023b51c5ad') in 0.142709621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54543848f65631890f04d66cbbb97ea3') in 0.102122637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '438caf7e181e66d356233e8c28e4cc02') in 0.153371592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8685bab9d89096651fdbb7fc0dac28bc') in 0.068557123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '363924a5ad8df9b95f41e6b41c41108e') in 0.092256709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.411556 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b45cdcf7be597af7f532498ef181c91') in 0.080067624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.893319 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfca5e63f3a00063578986c15392d2e6') in 0.069838296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773085 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3719cd7f4e585c3196918fd65c11fd6') in 0.075055783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.817345 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a9a395556c76ed297957deb13fa3e86') in 0.06722867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.765122 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5c6ad16a5e7b6d14a373056486866d') in 0.081483631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.588396 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9616b62774f65262e98896b12ecc7d59') in 0.082125515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.170439 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4a3a402f9f5e587076cfc562c27db6') in 0.080941544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.010923 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76510f7d19e3cd9148aff6806d38de56') in 0.09047099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.207958 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d0675b12b5321090e0ac221a8af5e7') in 0.084984718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039301 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59a7ce85847ba34cc7ae6e3c7a8363b3') in 0.081997945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.675121 seconds.
+  path: Assets/Main/Trials/TrialScene 1.prefab
+  artifactKey: Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 1.prefab using Guid(8891c2db6524d003690e88842a08ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33666eebd2d5687284d3605aacdc53da') in 0.073170206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 481
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.541256 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e18aaf9f3b4a676844739a734b340d3') in 0.096691428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.452826 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a3a9ebad4498b7ce7c1baad227857f5') in 0.080704338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.205114 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ada7442de2b293d97348a91caefab40') in 0.06364597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.171950 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152d0aa5cfa0faf1d0bc33ef0b65d44a') in 0.071811838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.056642 seconds.
+  path: Assets/Main/Trials/TrialScene 2.prefab
+  artifactKey: Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 2.prefab using Guid(3a4991512f423181d9bb6fef754e3220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29574910381e69e7de78a935b7fa96cc') in 0.082207558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 327
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.645245 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f864c3bf1e4001413f0955826027f8e6') in 0.071412138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.527675 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb68952fd8f522d6c4e584a7109f62fa') in 0.058680125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.571923 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be0c3a9004e16e82253c65829e20c548') in 0.060838373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.435521 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ded6ac71407804041c4bcde1ec61356') in 0.070422832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.817137 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edf9b046e61e8df741f7d40da80cf830') in 0.066790198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.587001 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a609e679a9d0c82fec7ab27b1d150a2') in 0.081269348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.338526 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '227387145f02320274c7b0c758d98ad2') in 0.092050553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.894845 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c595d4e88ce7431ba3c44c8c7d07db6') in 0.091087997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.790287 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478f20482eb501497de6d65fc5f4b73d') in 0.085340375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.166640 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '608a9841f7114f28ba7c9e7c5213adf4') in 0.07476071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.690074 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2645eb293eec9afc03b8c0a0141e775e') in 0.070885079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.816582 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bd1250d8429c362e2ca52c4cac8a054') in 0.109724025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.717482 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca42aabe8eefcc943a665ed38d9a1897') in 0.08870655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852628 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1de66bd3a48373e2f362e9951910d0c1') in 0.088939036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.748604 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e93da42ee5ea655a22059b4907f0ad7d') in 0.108212881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.163084 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd15703d89e2b0f18d65aeac379e4327') in 0.07247432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.033563 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05f32b96bf850e084aed57f2b1f6cb80') in 0.130539472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703111 seconds.
+  path: Assets/Main/Trials/TrialScene 6.prefab
+  artifactKey: Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 6.prefab using Guid(eea87f0553c1ab36ca47d8ef14ae72db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1114c164befd370f2fa6d074c13cd38') in 0.098824389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7679 unused Assets / (6.7 MB). Loaded Objects now: 8830.
+Memory consumption went from 181.9 MB to 175.2 MB.
+Total: 392.323518 ms (FindLiveObjects: 6.061581 ms CreateObjectMapping: 1.523558 ms MarkObjects: 377.642719 ms  DeleteObjects: 7.091522 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7678 unused Assets / (5.9 MB). Loaded Objects now: 8830.
+Memory consumption went from 181.9 MB to 176.0 MB.
+Total: 382.467369 ms (FindLiveObjects: 8.331248 ms CreateObjectMapping: 1.392331 ms MarkObjects: 366.255739 ms  DeleteObjects: 6.485255 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2537.320874 seconds.
+  path: Assets/Main/MainExperiment.unity
+  artifactKey: Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/MainExperiment.unity using Guid(3f854d4c273fb81b8a6b56f3497af1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '269d3b332d3179c3b549b24c4248d417') in 0.047001267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  5.392 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.185 seconds
+Domain Reload Profiling: 7591ms
+	BeginReloadAssembly (3503ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (512ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (1428ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1726ms)
+		LoadAssemblies (1749ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (716ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (585ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (1031ms)
+			ProcessInitializeOnLoadMethodAttributes (364ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (6.3 MB). Loaded Objects now: 8756.
+Memory consumption went from 206.0 MB to 199.7 MB.
+Total: 36.362170 ms (FindLiveObjects: 2.593746 ms CreateObjectMapping: 3.749073 ms MarkObjects: 20.465009 ms  DeleteObjects: 9.552398 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.131 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+[Licensing::Client] Successfully resolved entitlement details
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.235 seconds
+Domain Reload Profiling: 2363ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (771ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (299ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (987ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (5.4 MB). Loaded Objects now: 8761.
+Memory consumption went from 205.9 MB to 200.6 MB.
+Total: 23.266985 ms (FindLiveObjects: 2.347534 ms CreateObjectMapping: 1.729464 ms MarkObjects: 13.983862 ms  DeleteObjects: 5.201577 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.350 seconds
+Domain Reload Profiling: 2542ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (773ms)
+		LoadAssemblies (519ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (309ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1071ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7741 unused Assets / (5.7 MB). Loaded Objects now: 8764.
+Memory consumption went from 205.9 MB to 200.2 MB.
+Total: 16.356963 ms (FindLiveObjects: 0.911560 ms CreateObjectMapping: 0.946175 ms MarkObjects: 9.734851 ms  DeleteObjects: 4.762344 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 527.318028 seconds.
+  path: Assets/Main/Trials/TrialScene.prefab
+  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b84d4c076b50f50b1a444bff5edbbdd') in 0.62533937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254386 seconds.
+  path: Assets/Main/Trials/TrialScene 5.prefab
+  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b7640b6898446fddb928a7250ee507b') in 0.113163577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Main/Trials/TrialScene 3.prefab
+  artifactKey: Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 3.prefab using Guid(2ca7cceedcdb1ceafa6f3127f2a291f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc6d1475cde80e695ce2c6d7ac9d86e') in 0.12142817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Main/Trials/TrialScene 4.prefab
+  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9013e14844d339951c61ef5e862cc96b') in 0.093091214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.9 MB). Loaded Objects now: 8862.
+Memory consumption went from 173.5 MB to 171.5 MB.
+Total: 33.577777 ms (FindLiveObjects: 1.765021 ms CreateObjectMapping: 1.332499 ms MarkObjects: 28.972217 ms  DeleteObjects: 1.504892 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

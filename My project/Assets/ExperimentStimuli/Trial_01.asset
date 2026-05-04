@@ -14,45 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
   TrialID: Trial_01
   MnemonicLoad: 0
-  PropositionCount: 5
-  PropositionalDensity: 0.278
-  FullPassage: The astronomer Silas opened the trapdoor with a compass inside the
-    lighthouse smelling of lavender during the eclipse.
+  PropositionCount: 7
+  PropositionalDensity: 0.389
+  FullPassage: The old merchant smashed the barrel with a telescope inside the chapel
+    tasting of ash during the avalanche.
   Chunks:
-  - The astronomer Silas
-  - opened the trapdoor
-  - with a compass
-  - inside the lighthouse
-  - smelling of lavender
-  - during the eclipse.
+  - The old merchant
+  - smashed the barrel
+  - with a telescope
+  - inside the chapel
+  - tasting of ash
+  - during the avalanche.
   Foils:
-  - chopped the root vegetables
-  - stitched the deep wound
-  - leather journal
-  - under the bright lights
-  - after the midnight chime
-  - smelling of ozone
-  - cracked the security vault
-  - as the earth shook
-  - Marcus the Scribe
-  - Gregory the Blacksmith
-  - smelling of old parchment
-  - golden compass
-  - wooden telescope
-  - feeling burning hot
-  - tasting of rich garlic
-  - echoing with low hums
-  - beneath the city streets
-  - smelling of strong antiseptic
-  - using a velvet paintbrush
-  - in the flooded basement
-  - in the grand library
-  - mined the quartz deposit
-  - before the dinner rush
-  - tasting like copper
-  - using a soldering iron
-  - stone tablet
-  - rusty pocketwatch
-  - during the monsoon
-  - using silver forceps
-  - in the abandoned warehouse
+  - The bloody butcher
+  - The scarred pirate
+  - The fleeing thief
+  - The old merchant
+  - The stained dyer
+  - Hammered the nail
+  - Cracked the whip
+  - Smoked the pipe
+  - smashed the barrel
+  - Poured the wine
+  - with a compass
+  - with an astrolabe
+  - with a telescope
+  - with a saw
+  - with a tripod
+  - inside the chapel
+  - inside the palace
+  - inside the kitchen
+  - inside the temple
+  - inside the hall
+  - tasting of salt
+  - tasting of ash
+  - blackened by charcoal
+  - powdered with lime
+  - smelling of cedar
+  - during the stampede
+  - during the inferno
+  - during the riot
+  - during the avalanche.
+  - during the parade

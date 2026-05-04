@@ -1,0 +1,895 @@
+Unity Editor version:    6000.3.6f1 (bbb010bdb8a3)
+Branch:                  6000.3/respin/6000.3.6f1-732c1ec89f18
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #22~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 26 15:25:54 UTC 2
+Kernel version:          6.17.0-22-generic
+Architecture:            x86_64
+Available memory:        15205 MB
+Date:                    2026-05-04T09:48:08Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-05-04T09:48:08.568822Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+Selected window backend: (null) 
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              c0b1f9e2bd054cd5b644aed20fd62f11
+  Correlation Id:          46d76688856074d3b052eb279a3744d8
+  External correlation Id: 4924616404795711488
+  Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.20s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-05-04T09:48:08.765323Z"
+[Licensing::Module] Licensing Background thread has ended after 0.20s
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+37327
+-licensingIpc
+LicenseClient-collector25061
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+/home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [123955494529856]  Target information:
+
+Player connection [123955494529856]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 2306731155 [EditorId] 2306731155 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [123955494529856]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 2306731155 [EditorId] 2306731155 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [123955494529856] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [123955494529856] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2474148848911-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 96.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
+[Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/collector25061/Documents/GitHub/Cross-Study-Analysis-between-Virtual-Reality-Object-Manipulation-and-Spatial-Learning-SOFTWARE/My project/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.17.0-22-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex
+_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
+exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
+_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1052462880
+Initialize mono
+Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
+Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56665
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.007114 seconds.
+- Loaded All Assemblies, in  0.825 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1050 ms
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.867 seconds
+Domain Reload Profiling: 2693ms
+	BeginReloadAssembly (292ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (350ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (320ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1211ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.461 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.388 seconds
+Domain Reload Profiling: 2838ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1038ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (516ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (312ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1030ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7742 unused Assets / (5.2 MB). Loaded Objects now: 8605.
+Memory consumption went from 165.6 MB to 160.4 MB.
+Total: 21.508987 ms (FindLiveObjects: 1.252178 ms CreateObjectMapping: 1.091678 ms MarkObjects: 11.545829 ms  DeleteObjects: 7.617058 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88579.567667 seconds.
+  path: Assets/Main/Trials/FBX/Couch_Medium2.fbx
+  artifactKey: Guid(1a3990cf9f7e5ede0a9b3a26a0560d70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Couch_Medium2.fbx using Guid(1a3990cf9f7e5ede0a9b3a26a0560d70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3955a72d418c35797112682bcdd43d68') in 0.39170629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086299 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_3.fbx
+  artifactKey: Guid(ad80689a49006e12090d5559eaf04363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Houseplant_3.fbx using Guid(ad80689a49006e12090d5559eaf04363) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f72f23f6a987abd1c7781348c05c1470') in 0.027637523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Main/Trials/FBX/Plate_1.fbx
+  artifactKey: Guid(d7956b9c98fc0d48aab1954467a765c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Plate_1.fbx using Guid(d7956b9c98fc0d48aab1954467a765c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e073922b464b2d72cb4648e452dab356') in 0.041544742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475057 seconds.
+  path: Assets/Main/Trials/FBX-20260504T094253Z-3-001.zip
+  artifactKey: Guid(0709827842d4a7d1fb84729ccb1469e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX-20260504T094253Z-3-001.zip using Guid(0709827842d4a7d1fb84729ccb1469e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eb35f614c869cfd162e49ac6540f151') in 0.011054246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Main/Trials/FBX/Door_2.fbx
+  artifactKey: Guid(a0fa03a6eed788f208f3276063b69e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Door_2.fbx using Guid(a0fa03a6eed788f208f3276063b69e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0db7ba09b64955ba9aa4aa1c2ef5e35b') in 0.030623424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Main/Trials/FBX/Column_Round1.fbx
+  artifactKey: Guid(d2dd403934ed0ec46a1cf811390d77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Column_Round1.fbx using Guid(d2dd403934ed0ec46a1cf811390d77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9004d31be3c51cb8d27ef51b145633e') in 1.510529809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_2.fbx
+  artifactKey: Guid(fc99cf82b8da48dabab8e504b57d8756) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Houseplant_2.fbx using Guid(fc99cf82b8da48dabab8e504b57d8756) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1275d3b15b8574f790f59bf21b2e3ed5') in 0.038903257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_7.fbx
+  artifactKey: Guid(2a89687f6ace76f41ab2d2fe3cd407c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Houseplant_7.fbx using Guid(2a89687f6ace76f41ab2d2fe3cd407c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'beb62ed95c5820c99724914a08d12476') in 0.040988277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Main/Trials/FBX/Chair_4.fbx
+  artifactKey: Guid(594d153c42a0a6f8d9cc65be31f4cbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Chair_4.fbx using Guid(594d153c42a0a6f8d9cc65be31f4cbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43c25a34a8943461f122a65b82bfc1b0') in 0.036313218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Main/Trials/FBX/Door_Double.fbx
+  artifactKey: Guid(63b5249ab712f792ca14ce5a3bb077ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Door_Double.fbx using Guid(63b5249ab712f792ca14ce5a3bb077ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b0ae0de09447bf651a57f73cf00f73a') in 0.021025521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Main/Trials/FBX/Light_Stand2.fbx
+  artifactKey: Guid(cda9bb840e5eaab1086500e546fa8932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Stand2.fbx using Guid(cda9bb840e5eaab1086500e546fa8932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9dce7ce51fdcf3763de0d689452e079') in 0.021604186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Main/Trials/FBX/Couch_Large2.fbx
+  artifactKey: Guid(b882850160ce9edc98ec57d7e20c6a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Couch_Large2.fbx using Guid(b882850160ce9edc98ec57d7e20c6a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ca1b25500dcbbaa227f199b71dbdb8b') in 0.025391541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Bathtub.fbx
+  artifactKey: Guid(e07fefda8fc922263b041b198d866fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bathroom_Bathtub.fbx using Guid(e07fefda8fc922263b041b198d866fd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a3c8eb7fd975248a53f73477578e38d') in 0.035643873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Main/Trials/FBX/Door_9.fbx
+  artifactKey: Guid(99dd2cf47ba68e3c28a6f47fcbe7530f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Door_9.fbx using Guid(99dd2cf47ba68e3c28a6f47fcbe7530f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dda2c313a6ce470a4ecbb8d81439663b') in 0.023950778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Main/Trials/FBX/Light_Chandelier.fbx
+  artifactKey: Guid(f5b87e5b147796056ad9688ec12f63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Chandelier.fbx using Guid(f5b87e5b147796056ad9688ec12f63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd594eb998a7f16003765517ba5215eee') in 0.059667988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Main/Trials/FBX/Carpet_Round.fbx
+  artifactKey: Guid(0fd095aea501b7b949ffa159eb1cfe63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Carpet_Round.fbx using Guid(0fd095aea501b7b949ffa159eb1cfe63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fe61dd4e82343117ec85a841e39099a') in 0.023561698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Main/Trials/FBX/Carpet_Round.fbx
+  artifactKey: Guid(0fd095aea501b7b949ffa159eb1cfe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Carpet_Round.fbx using Guid(0fd095aea501b7b949ffa159eb1cfe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5e77b09def5c9c55e834380c6bb155a') in 0.054799957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Main/Trials/FBX/Light_Chandelier.fbx
+  artifactKey: Guid(f5b87e5b147796056ad9688ec12f63c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Chandelier.fbx using Guid(f5b87e5b147796056ad9688ec12f63c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5d6cd0dc003da43e3f8ec6462edad66') in 0.028314363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Main/Trials/FBX/Door_3.fbx
+  artifactKey: Guid(ebade4cd4dba540b3ac0c572563649f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Door_3.fbx using Guid(ebade4cd4dba540b3ac0c572563649f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5dc0438c37d69422ca6b74438621129') in 0.05600148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Main/Trials/FBX/Couch_Large2.fbx
+  artifactKey: Guid(b882850160ce9edc98ec57d7e20c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Couch_Large2.fbx using Guid(b882850160ce9edc98ec57d7e20c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7442833d8c25c20f44760319a774833') in 0.047335093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Main/Trials/FBX/Light_Small.fbx
+  artifactKey: Guid(d35ee1b01b4a85de5acfeff5b28bcb19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Small.fbx using Guid(d35ee1b01b4a85de5acfeff5b28bcb19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38cd8c7f7e966b1be0970c1bc4d04756') in 0.022712896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_6.fbx
+  artifactKey: Guid(78f687147cb07008f8c5c02c2d5c0057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Houseplant_6.fbx using Guid(78f687147cb07008f8c5c02c2d5c0057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4dbd2b46aba9ff0f1d11a9024127330') in 0.018756464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Main/Trials/FBX/Knife.fbx
+  artifactKey: Guid(55cf5840209c90c819769c73005bc708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Knife.fbx using Guid(55cf5840209c90c819769c73005bc708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '926047c661f08d21132d0c06c05fc59e') in 0.031253606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Main/Trials/FBX/Drawer_3.fbx
+  artifactKey: Guid(265f7c5ac958e53668b7de2e50b5c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Drawer_3.fbx using Guid(265f7c5ac958e53668b7de2e50b5c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c730a685a46a397d6c9aff5396cc50a') in 0.050164711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_4.fbx
+  artifactKey: Guid(a611d6fa3b64e9eb0a6d2758f10fda31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Houseplant_4.fbx using Guid(a611d6fa3b64e9eb0a6d2758f10fda31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e225bd3497eeb0c4b581d5b038f15f26') in 0.060576282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Main/Trials/FBX/Light_Floor4.fbx
+  artifactKey: Guid(9b5ffddee6ca82ebf9ef265a046c8369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Floor4.fbx using Guid(9b5ffddee6ca82ebf9ef265a046c8369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36b3540cd48acd743bd6032c17b690ec') in 0.024259087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Main/Trials/FBX/Door_4.fbx
+  artifactKey: Guid(309d5a5f867d3286b91fbdfaec028a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Door_4.fbx using Guid(309d5a5f867d3286b91fbdfaec028a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c34d7945aa4b01bb9dc2c377765c719c') in 0.046588222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Main/Trials/FBX/Window_Small3.fbx
+  artifactKey: Guid(63530f55ce569718e9d86df36170dcd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Window_Small3.fbx using Guid(63530f55ce569718e9d86df36170dcd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e9b10e1bb66c711509f99a1e9f3b68a') in 0.027659144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Main/Trials/FBX/Kitchen_Cabinet2.fbx
+  artifactKey: Guid(bdb6f7eb1e9b32cc9afa675cad6d5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Kitchen_Cabinet2.fbx using Guid(bdb6f7eb1e9b32cc9afa675cad6d5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45c26e3c90d703434ce807bb30e10cfb') in 0.04138931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Main/Trials/FBX/Light_Ceiling2.fbx
+  artifactKey: Guid(0d1022f5407edbeaabd452b5653aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Ceiling2.fbx using Guid(0d1022f5407edbeaabd452b5653aaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f568e26896682c3a26ed34abd5b8d308') in 0.067433354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Main/Trials/FBX/Fireplace.fbx
+  artifactKey: Guid(266cabcb21498571f8e250206061ac87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Fireplace.fbx using Guid(266cabcb21498571f8e250206061ac87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a603ff4089b2ab392d2da14b30c957f') in 0.039061423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Main/Trials/FBX/Bed_Bunk.fbx
+  artifactKey: Guid(347cb5e22427004b5be0135183aaaf52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bed_Bunk.fbx using Guid(347cb5e22427004b5be0135183aaaf52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01e5d0d8feca3e98b445aed2a1fa1ee8') in 0.021756733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Toilet.fbx
+  artifactKey: Guid(91d3e31e3c56c56fba946ddeea9a871e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bathroom_Toilet.fbx using Guid(91d3e31e3c56c56fba946ddeea9a871e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47510b6e64afe73434430141d93dbbb0') in 0.035515691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Main/Trials/FBX/Kitchen_1Drawers.fbx
+  artifactKey: Guid(d08a4fc68287c415e8c2588573215ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Kitchen_1Drawers.fbx using Guid(d08a4fc68287c415e8c2588573215ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac88a982c8f8b4759bb4f5ebf7badfb0') in 0.070127088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Main/Trials/FBX/Window_Large1.fbx
+  artifactKey: Guid(e993b5eccb57d233492077449258d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Window_Large1.fbx using Guid(e993b5eccb57d233492077449258d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95d9ee0fc1f293fe0376a25ad4058ffb') in 0.022851606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Main/Trials/FBX/Kitchen_Oven.fbx
+  artifactKey: Guid(308f4cd14293cf350855fc46efa297cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Kitchen_Oven.fbx using Guid(308f4cd14293cf350855fc46efa297cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8b4c71fef161aa40835e5005772eb77') in 0.02378094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Main/Trials/FBX/Couch_Medium1.fbx
+  artifactKey: Guid(cd1c7bf2f4eef8e6fa2fc5868f6012d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Couch_Medium1.fbx using Guid(cd1c7bf2f4eef8e6fa2fc5868f6012d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152ec848376a0f06905d63cf1830293e') in 0.042418301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Main/Trials/FBX/Door_5.fbx
+  artifactKey: Guid(9768e18858890fef9adf3de8d221f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Door_5.fbx using Guid(9768e18858890fef9adf3de8d221f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b237f49177265c82c6ccb0eaf03e14') in 0.043109286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_7.fbx
+  artifactKey: Guid(2a89687f6ace76f41ab2d2fe3cd407c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Houseplant_7.fbx using Guid(2a89687f6ace76f41ab2d2fe3cd407c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f069e6d31abf3b854a450e193831ff2') in 0.059651777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Main/Trials/FBX/Curtains_Single.fbx
+  artifactKey: Guid(ab2ecfc297e816b689ec1953354beb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Curtains_Single.fbx using Guid(ab2ecfc297e816b689ec1953354beb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e2875111686c1c24dd2f0170a003431') in 0.057545136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Main/Trials/FBX/NightStand_1.fbx
+  artifactKey: Guid(1bcb167b85ac8abfbb73047a8ff45414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/NightStand_1.fbx using Guid(1bcb167b85ac8abfbb73047a8ff45414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dc7c9755627f851dc916a32ff332a32') in 0.024092544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Shower1.fbx
+  artifactKey: Guid(90c016d86268b1823a80abb51a891acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Bathroom_Shower1.fbx using Guid(90c016d86268b1823a80abb51a891acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2e06e47d4503be34b13a04b325d7c3b') in 0.075327172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.430550 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Mirror2.fbx
+  artifactKey: Guid(83b6516c7cc793e6f91a8d6b297f040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Bathroom_Mirror2.fbx using Guid(83b6516c7cc793e6f91a8d6b297f040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9a579d2bdc06924248c620f9aab8b10') in 0.055320613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Main/Trials/FBX/Bed_King.fbx
+  artifactKey: Guid(b101b65d69afe426c80139ffceec8cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Bed_King.fbx using Guid(b101b65d69afe426c80139ffceec8cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faecb17d5c5896f96aa6dfcad9d5dd11') in 0.091696148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Main/Trials/FBX/Light_Ceiling6.fbx
+  artifactKey: Guid(c59e60ae22a144ca88288075ce85a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Ceiling6.fbx using Guid(c59e60ae22a144ca88288075ce85a20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3312e69ee6239542c355562850c61573') in 0.062131259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Main/Trials/FBX/Bed_Bunk.fbx
+  artifactKey: Guid(347cb5e22427004b5be0135183aaaf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Bed_Bunk.fbx using Guid(347cb5e22427004b5be0135183aaaf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e417da99660cfa10d84e3083f69462') in 0.107566047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Main/Trials/FBX/Door_8.fbx
+  artifactKey: Guid(2e3d2fdfec860ef83839908702774c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Door_8.fbx using Guid(2e3d2fdfec860ef83839908702774c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534bb97a3088dc67533df57ae55814ff') in 0.067201831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_1.fbx
+  artifactKey: Guid(e5ad84a9794795e4494a7105c273ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Houseplant_1.fbx using Guid(e5ad84a9794795e4494a7105c273ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6069241446c297172ae69b14cfbbd29') in 0.080047487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Main/Trials/FBX/Kitchen_3Drawers.fbx
+  artifactKey: Guid(d3a4745e2b58efd6baceb713fd275748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Kitchen_3Drawers.fbx using Guid(d3a4745e2b58efd6baceb713fd275748) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd94613d0dc56b70bbada2d9088d5511b') in 0.062651464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Main/Trials/FBX/Curtains_Double.fbx
+  artifactKey: Guid(e92634bffebc5896ea39132df3e3b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Curtains_Double.fbx using Guid(e92634bffebc5896ea39132df3e3b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38eec414ecb55ff366e111310b71a1ab') in 0.063030185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Main/Trials/FBX/Houseplant_2.fbx
+  artifactKey: Guid(fc99cf82b8da48dabab8e504b57d8756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Houseplant_2.fbx using Guid(fc99cf82b8da48dabab8e504b57d8756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47f7d7c7bd1617fb100c4f26382f8865') in 0.068927797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.432862 seconds.
+  path: Assets/Main/Trials/FBX/Shelf_1.fbx
+  artifactKey: Guid(2a97e9252994ca395b6268217e7b8212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Shelf_1.fbx using Guid(2a97e9252994ca395b6268217e7b8212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88b24467e4952dfc77691512782b32ff') in 0.023560346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Main/Trials/FBX/Light_Ceiling2.fbx
+  artifactKey: Guid(0d1022f5407edbeaabd452b5653aaf04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Ceiling2.fbx using Guid(0d1022f5407edbeaabd452b5653aaf04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9be0a7edc85f3a070c2bda59cce26c37') in 0.016903789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Main/Trials/FBX/Window_Round1.fbx
+  artifactKey: Guid(ab02e179a067e7746be64f587eb4cd1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Window_Round1.fbx using Guid(ab02e179a067e7746be64f587eb4cd1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef93198c3e71e1d0f290f2a2178b555') in 0.026787199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Main/Trials/FBX/Couch_L.fbx
+  artifactKey: Guid(a7abfac95eb0193ff99c88c69cd2519a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Couch_L.fbx using Guid(a7abfac95eb0193ff99c88c69cd2519a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5c67bece24035cfaec71d2664d3fcb1') in 0.020293297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Main/Trials/FBX/Light_Stand1.fbx
+  artifactKey: Guid(c20977d6f1cc2254a8f059de33f8c999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Stand1.fbx using Guid(c20977d6f1cc2254a8f059de33f8c999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a3165f947018cb979936320f8cb2a7d') in 0.017471785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Main/Trials/FBX/Couch_Small2.fbx
+  artifactKey: Guid(6c3113a9bfa338b8ba20c1b5443fef9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Couch_Small2.fbx using Guid(6c3113a9bfa338b8ba20c1b5443fef9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38d3a2b4286e6638dd0c6e91052e3701') in 0.021149624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Main/Trials/FBX/Light_Icosahedron2.fbx
+  artifactKey: Guid(356465ddf089062eea12f1b423355146) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Light_Icosahedron2.fbx using Guid(356465ddf089062eea12f1b423355146) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81fae0dbd6b76e81ad49519524ca67cc') in 0.026663687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Main/Trials/FBX/Window_Round3.fbx
+  artifactKey: Guid(322930ca9da432573911040b26f6681c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Window_Round3.fbx using Guid(322930ca9da432573911040b26f6681c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8254a43f5c3a3ffa9327d16352cda696') in 0.035402269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Main/Trials/FBX/Light_Floor4.fbx
+  artifactKey: Guid(9b5ffddee6ca82ebf9ef265a046c8369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Floor4.fbx using Guid(9b5ffddee6ca82ebf9ef265a046c8369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e015bc7ad40422a8a4a72cf344ecba8f') in 0.04776022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Main/Trials/FBX/Light_Floor3.fbx
+  artifactKey: Guid(7d8700adc8080a750a410fb9635f0c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Floor3.fbx using Guid(7d8700adc8080a750a410fb9635f0c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e02dab4d55dcd2d68ebdc8b2da035518') in 0.04627289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Main/Trials/FBX/Light_Desk.fbx
+  artifactKey: Guid(53f383272f8ec437da9d12b282b67a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Desk.fbx using Guid(53f383272f8ec437da9d12b282b67a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf7bf16637f7664191972a583d34f576') in 0.055204635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Main/Trials/FBX/NightStand_1.fbx
+  artifactKey: Guid(1bcb167b85ac8abfbb73047a8ff45414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/NightStand_1.fbx using Guid(1bcb167b85ac8abfbb73047a8ff45414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb789968501589518fe7a6e3c9d3cfe2') in 0.039358932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Toilet2.fbx
+  artifactKey: Guid(d669eb1f4e789d4e5831f1bb198ee0f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bathroom_Toilet2.fbx using Guid(d669eb1f4e789d4e5831f1bb198ee0f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b691084b2fafc18940995e8ee6c41f5') in 0.016791358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Main/Trials/FBX/Column_SquareSmall.fbx
+  artifactKey: Guid(bd5652ad9fb3e8e129ac2d906b1055d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Column_SquareSmall.fbx using Guid(bd5652ad9fb3e8e129ac2d906b1055d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ed8228d90bafa3c028202b9b461507b') in 0.018108529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Main/Trials/FBX/Spoon.fbx
+  artifactKey: Guid(44fbe6dfbb05a85fbb4102a5a167778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Spoon.fbx using Guid(44fbe6dfbb05a85fbb4102a5a167778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54ee351a242961f3195e9801131b991c') in 0.044707935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Main/Trials/FBX/Trashcan_Green.fbx
+  artifactKey: Guid(a6b7112e33730f8bca0502c34521a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Trashcan_Green.fbx using Guid(a6b7112e33730f8bca0502c34521a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '345e40fdfcf05f8bf12fba9156af27fa') in 0.063190155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Main/Trials/FBX/Shelf_2.fbx
+  artifactKey: Guid(9098ad08950abc17b939b52587188a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Shelf_2.fbx using Guid(9098ad08950abc17b939b52587188a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd503634a2f2310b2ff6af4c6f6d1e2e2') in 0.044257009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Main/Trials/FBX/Table_RoundSmall2.fbx
+  artifactKey: Guid(d789636f1cabba523b245af48d926534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Table_RoundSmall2.fbx using Guid(d789636f1cabba523b245af48d926534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fade39304e58ed083cc6b429a757b532') in 0.04725384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Main/Trials/FBX/Trashcan_Cylindric.fbx
+  artifactKey: Guid(fb4a1e100fb64e975ac033c125ef9dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Trashcan_Cylindric.fbx using Guid(fb4a1e100fb64e975ac033c125ef9dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1aec5a1f469efe4c2f8e179e858ee2e') in 0.041174537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Main/Trials/FBX/Bathroom_Towel.fbx
+  artifactKey: Guid(52bbd350892c8a035ba5300469d7a416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bathroom_Towel.fbx using Guid(52bbd350892c8a035ba5300469d7a416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b75bacb7455b6bb7647db2c6c86c16c') in 0.023170394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Main/Trials/FBX/Drawer_2.fbx
+  artifactKey: Guid(210913aed73d4c0e1b8477b321c5013c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Drawer_2.fbx using Guid(210913aed73d4c0e1b8477b321c5013c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23f8f9ad42c20753da90ca1dca31b0f1') in 0.027387575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Main/Trials/FBX/Curtains_Single.fbx
+  artifactKey: Guid(ab2ecfc297e816b689ec1953354beb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Curtains_Single.fbx using Guid(ab2ecfc297e816b689ec1953354beb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c61d87f7edfe82119567d669b61bc7b1') in 0.024266089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Main/Trials/FBX/Stool.fbx
+  artifactKey: Guid(fca6b6031fbe3c79eb2be1dc12acadec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Stool.fbx using Guid(fca6b6031fbe3c79eb2be1dc12acadec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d6adad03e7757cbbd536bc7926b42d2') in 0.029429485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Main/Trials/FBX/Trashcan_Green.fbx
+  artifactKey: Guid(a6b7112e33730f8bca0502c34521a2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Trashcan_Green.fbx using Guid(a6b7112e33730f8bca0502c34521a2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d2e79a36e1538cdd2ccfac3fa0a8d7e') in 0.029667461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Main/Trials/FBX/Light_Small.fbx
+  artifactKey: Guid(d35ee1b01b4a85de5acfeff5b28bcb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Light_Small.fbx using Guid(d35ee1b01b4a85de5acfeff5b28bcb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '140f862655fcc9362f6fb6d73849b1ed') in 0.076487599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Main/Trials/FBX/Bookshelf.fbx
+  artifactKey: Guid(1f35c9c497d4142d18b10a89227843b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Bookshelf.fbx using Guid(1f35c9c497d4142d18b10a89227843b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dcaf3b6fa22d7d7ff71ec232a597bf4') in 0.032292816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023036 seconds.
+  path: Assets/Main/Trials/FBX/Kitchen_1Drawers.fbx
+  artifactKey: Guid(d08a4fc68287c415e8c2588573215ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Main/Trials/FBX/Kitchen_1Drawers.fbx using Guid(d08a4fc68287c415e8c2588573215ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06fa175d70c819a2535b8022c7cddcc7') in 0.038559001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.941595 seconds.
+  path: Assets/Main/Trials/FBX/Window_Large1.fbx
+  artifactKey: Guid(e993b5eccb57d233492077449258d813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Window_Large1.fbx using Guid(e993b5eccb57d233492077449258d813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '589e2ee5cd5dc2617562852ae799476a') in 0.061883073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Main/Trials/FBX/Window_Small2.fbx
+  artifactKey: Guid(902264e036f16a4e4b94e5c4604099a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Trials/FBX/Window_Small2.fbx using Guid(902264e036f16a4e4b94e5c4604099a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '160f70b95359530386ca9cd3353227dd') in 0.056470019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

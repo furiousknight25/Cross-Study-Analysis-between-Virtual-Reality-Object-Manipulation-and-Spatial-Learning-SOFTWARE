@@ -16,43 +16,43 @@ MonoBehaviour:
   MnemonicLoad: 0
   PropositionCount: 6
   PropositionalDensity: 0.333
-  FullPassage: The cartographer Victor mapped the reef with a sextant inside the
-    cabin swaying with turbulence during the storm.
+  FullPassage: The pale scholar burned the letter with a lantern inside the tent
+    echoing with growls during the feast.
   Chunks:
-  - The cartographer Victor
-  - mapped the reef
-  - with a sextant
-  - inside the cabin
-  - swaying with turbulence
-  - during the storm.
+  - The pale scholar
+  - burned the letter
+  - with a lantern
+  - inside the tent
+  - echoing with growls
+  - during the feast.
   Foils:
-  - titanium scalpel
-  - Eleanor the Botanist
-  - stitched the deep wound
-  - glass flask
-  - under the bright lights
-  - leather journal
-  - Nathan the Chef
-  - in the bustling kitchen
-  - cracked the security vault
-  - bronze gear
-  - as the earth shook
-  - digital tablet
-  - smelling of old parchment
-  - golden compass
-  - iron hammer
-  - feeling burning hot
-  - tasting of rich garlic
-  - Victoria the Surgeon
-  - using a diamond drill
-  - beneath the city streets
-  - laser wrench
-  - painted a vibrant fresco
-  - in the flooded basement
-  - in the grand library
-  - mined the quartz deposit
-  - using a feather quill
-  - steel ruler
-  - during the monsoon
-  - copper wire
-  - in the abandoned warehouse
+  - The stained dyer
+  - The sooty tanner
+  - The hunched scribe
+  - The hooded woodsman
+  - The pale scholar
+  - Milled the grain
+  - Ignited the torch
+  - burned the letter
+  - Filled the jug
+  - Polished the shield
+  - with a shovel
+  - with a lantern
+  - with a torch
+  - with a sundial
+  - with a scythe
+  - inside the tent
+  - inside the cave
+  - inside the hall
+  - inside the dungeon
+  - inside the attic
+  - smeared with grease
+  - fringed with gold
+  - echoing with growls
+  - crusted with barnacles
+  - cured with smoke
+  - during the banquet
+  - at the coronation
+  - during the feast.
+  - during the parade
+  - during the eclipse

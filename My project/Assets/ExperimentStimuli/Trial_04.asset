@@ -14,45 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
   TrialID: Trial_04
   MnemonicLoad: 0
-  PropositionCount: 8
-  PropositionalDensity: 0.444
-  FullPassage: The archivist Marcus read the ledger with a magnifier inside the vault
-    feeling freezing cold after midnight struck.
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The swift courier buried the treasure with a shield inside the tavern
+    covered in frost during the hurricane.
   Chunks:
-  - The archivist Marcus
-  - read the ledger
-  - with a magnifier
-  - inside the vault
-  - feeling freezing cold
-  - after midnight struck.
+  - The swift courier
+  - buried the treasure
+  - with a shield
+  - inside the tavern
+  - covered in frost
+  - during the hurricane.
   Foils:
-  - chopped the root vegetables
-  - under the bright lights
-  - after the midnight chime
-  - plastic bucket
-  - in the crystal caverns
-  - Nathan the Chef
-  - cracked the security vault
-  - Marcus the Scribe
-  - Gregory the Blacksmith
-  - digital tablet
-  - in the sterile operating room
-  - smelling of old parchment
-  - in the abandoned warehouse
-  - iron hammer
-  - feeling burning hot
-  - tasting of rich garlic
-  - Victoria the Surgeon
-  - echoing with low hums
-  - using a diamond drill
-  - using a velvet paintbrush
-  - painted a vibrant fresco
-  - in the flooded basement
-  - while the candles flickered
-  - mined the quartz deposit
-  - steel ruler
-  - using a feather quill
-  - stone tablet
-  - rusty pocketwatch
-  - during the monsoon
-  - using a Damascus knife
+  - The fat landlord
+  - The swift courier
+  - The squinting tailor
+  - The tattooed harpooner
+  - The blinded seer
+  - Carved the statue
+  - Dug the trench
+  - Emptied the basin
+  - Ground the spice
+  - buried the treasure
+  - with a scythe
+  - with a spade
+  - with a saw
+  - with a pestle
+  - with a shield
+  - inside the brewery
+  - inside the hall
+  - inside the cottage
+  - inside the tavern
+  - inside the inn
+  - covered in rust
+  - frosted with sugar
+  - chilled with ice
+  - covered in frost
+  - touched by frost
+  - during the riot
+  - during the hurricane.
+  - during the stampede
+  - after the flood
+  - during the parade

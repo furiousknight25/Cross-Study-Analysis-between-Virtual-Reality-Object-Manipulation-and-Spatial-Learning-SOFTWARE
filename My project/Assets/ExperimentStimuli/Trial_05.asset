@@ -14,45 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
   TrialID: Trial_05
   MnemonicLoad: 0
-  PropositionCount: 9
-  PropositionalDensity: 0.5
-  FullPassage: The engineer Clara synced the pendulum with titanium tweezers inside
-    the tower ticking very loudly before dawn broke.
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The skilled hunter swept the floor with a branch inside the armory
+    reeking of fish before the sunrise.
   Chunks:
-  - The engineer Clara
-  - synced the pendulum
-  - with titanium tweezers
-  - inside the tower
-  - ticking very loudly
-  - before dawn broke.
+  - The skilled hunter
+  - swept the floor
+  - with a branch
+  - inside the armory
+  - reeking of fish
+  - before the sunrise.
   Foils:
-  - titanium scalpel
-  - stitched the deep wound
-  - glass flask
-  - under the bright lights
-  - leather journal
-  - in the crystal caverns
-  - apple
-  - Nathan the Chef
-  - smelling of ozone
-  - in the bustling kitchen
-  - using a Damascus knife
-  - bronze gear
-  - digital tablet
-  - iron hammer
-  - wooden telescope
-  - feeling burning hot
-  - beneath the city streets
-  - laser wrench
-  - using a velvet paintbrush
-  - welded the hull
-  - painted a vibrant fresco
-  - in the flooded basement
-  - while the candles flickered
-  - in the grand library
-  - using a feather quill
-  - steel ruler
-  - using a soldering iron
-  - during the monsoon
-  - using silver forceps
-  - in the abandoned warehouse
+  - The aiming archer
+  - The skilled hunter
+  - The hooded woodsman
+  - The muscular mason
+  - The dusty miner
+  - Spun the wheel
+  - Hammered the nail
+  - swept the floor
+  - Sharpened the blade
+  - Sanded the wood
+  - with a saw
+  - with a level
+  - with a branch
+  - with a pulley
+  - with an abacus
+  - inside the inn
+  - inside the armory
+  - inside the barracks
+  - inside the forge
+  - inside the vault
+  - reeking of sweat
+  - reeking of fish
+  - drenched in blood
+  - bound with hemp
+  - stiffened with resin
+  - before the hunt
+  - before the sunrise.
+  - before the eruption
+  - until the sunset
+  - before the execution
