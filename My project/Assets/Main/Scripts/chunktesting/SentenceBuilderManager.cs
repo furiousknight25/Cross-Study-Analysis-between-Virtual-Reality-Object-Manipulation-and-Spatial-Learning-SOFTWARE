@@ -16,7 +16,7 @@ public class SentenceBuilderManager : MonoBehaviour
     private string[] sentenceChunks = new string[6];
     private bool[] slotIsFilled = new bool[6];
     private int filledSlotsCount = 0;
-
+    private ExperimentTrialData currentTrialData;
     private void Awake()
     {
         ResetSentence();
@@ -78,23 +78,42 @@ public class SentenceBuilderManager : MonoBehaviour
         }
     }
     
-    public void submit_text()
+public void submit_text()
     {
-        // Check if all 6 slots are filled
-        Debug.Log(filledSlotsCount);
-        if (filledSlotsCount >= 6)
+        if (filledSlotsCount >= 6 && currentTrialData != null)
         {
-            Debug.Log("<color=green>Sentence Complete!</color>");
-            
-            // Clean the rich text tags off for the raw data log
+            Debug.Log("<color=green>Sentence Complete! Grading...</color>");
+            int correctCount = 0;
+
+            // 1. Grade each chunk and log the result
+            for (int i = 0; i < 6; i++)
+            {
+                // Strip the green rich text tags to get the raw word
+                string cleanChunk = sentenceChunks[i].Replace("<color=#00FF00>", "").Replace("</color>", "").Trim();
+                string targetChunk = currentTrialData.Chunks[i].Trim();
+
+                // Compare what they selected vs what the true target was
+                bool isCorrect = string.Equals(cleanChunk, targetChunk, System.StringComparison.OrdinalIgnoreCase);
+                if (isCorrect) correctCount++;
+
+                string eventName = isCorrect ? "Chunk_Correct" : "Chunk_Incorrect";
+
+                // Log this specific chunk's result to the JSON Lines file
+                if (LoggingManager.Instance != null)
+                {
+                    LoggingManager.Instance.LogEvent(currentTrialData.TrialID, eventName, i, cleanChunk);
+                }
+            }
+
+            // 2. Log the final complete sentence and the total score (e.g., 4 out of 6)
             string cleanSentence = string.Join(" ", sentenceChunks).Replace("<color=#00FF00>", "").Replace("</color>", "");
             
-            // Note: Ensure LoggingManager is in your scene to catch this!
             if (LoggingManager.Instance != null)
             {
-                LoggingManager.Instance.LogEvent("Test_Completed", cleanSentence);
+                // We embed the final score directly into the event name for easy data sorting later
+                LoggingManager.Instance.LogEvent(currentTrialData.TrialID, $"Test_Complete_Score_{correctCount}_out_of_6", -1, cleanSentence);
             }
-            
+
             Director.Instance.EndTestingPhase();
         }
     }
@@ -131,5 +150,11 @@ public class SentenceBuilderManager : MonoBehaviour
             slotIsFilled[i] = false;
         }
         UpdateSentenceDisplay();
+    }
+    
+    public void InitializeSentenceBuilder(ExperimentTrialData trialData)
+    {
+        currentTrialData = trialData;
+        ResetSentence();
     }
 }

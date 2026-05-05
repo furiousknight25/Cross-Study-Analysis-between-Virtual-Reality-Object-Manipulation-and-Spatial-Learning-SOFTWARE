@@ -34,4 +34,13 @@ public class CsvTelemetryLogger : IExperimentLogger<LocomotionTelemetry>
             writer = null;
         }
     }
+
+    // Inside JsonEventLogger.cs AND CsvTelemetryLogger.cs
+public void FlushLog()
+{
+    if (writer != null)
+    {
+        writer.Flush(); // This pushes the buffer to the actual file on disk
+    }
+}
 }

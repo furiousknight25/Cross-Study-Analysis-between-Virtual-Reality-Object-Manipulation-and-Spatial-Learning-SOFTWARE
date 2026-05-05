@@ -1,0 +1,9 @@
+(s)|{"appid":"eb1bf7b9-dc49-4d0a-9aef-5e61581cce32","userid":"6d7959a3486b391af95732de3b23a57b","sessionid":6642227642703711702,"platform":"AndroidPlayer","platformid":11,"sdk_ver":"u6000.3.6f1","runMode":"human-hub","sdk_rev":"bbb010bdb8a3","session_count":58,"localprojectid":"e84f44a89462bc96d9b227dfdb8474f7","build_guid":"22702e546d1d4341b7a2fb5197519b1f","deviceid":"b1cdbd1d792783ac1c503317edd1237e","identity_token":"6d7959a3486b391af95732de3b23a57b"}
+(g)|2
+{"type":"analytics.SubsystemStop.v1","msg":{"subsystem":"OpenXR Input","ts":1777921812342,"t_since_start":3975431844}}
+{"type":"analytics.SubsystemStop.v1","msg":{"subsystem":"OpenXR Display","ts":1777921812342,"t_since_start":3975431856}}
+{"type":"analytics.SubsystemStart.v1","msg":{"subsystem":"OpenXR Input","ts":1777921812342,"t_since_start":3975431863}}
+{"type":"analytics.SubsystemStart.v1","msg":{"subsystem":"OpenXR Display","ts":1777921812342,"t_since_start":3975431868}}
+{"type":"analytics.appRunning.v1","msg":{"duration":1075,"local_time_offset":21600000,"ts":1777921812447,"t_since_start":3975536226}}
+{"type":"analytics.SubsystemStart.v1","msg":{"subsystem":"OpenXR Display","ts":1777921812748,"t_since_start":3975837155}}
+(1){"type":"analytics.appPause.v1","msg":{}}

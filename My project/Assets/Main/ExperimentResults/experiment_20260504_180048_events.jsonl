@@ -1,0 +1,7 @@
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The quiet monk"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Incorrect","selectedSlot":1,"selectedFoil":"Picked the lock"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a hairpin"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the palace"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"dripping with sap"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"after the siege"}
+{"timestamp":403.11810302734377,"trialId":"Trial_03","eventName":"Test_Complete_Score_3_out_of_6","selectedSlot":-1,"selectedFoil":"The quiet monk Picked the lock with a hairpin inside the palace dripping with sap after the siege"}

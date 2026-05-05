@@ -89,6 +89,7 @@ public class DistractionTask : MonoBehaviour
         // Unfreeze all items and start the sorting task
         if (shelfManager != null)
         {
+            shelfManager.ResetScore();
             shelfManager.UnfreezeAllItems();
         }
         Debug.Log("<color=magenta>Items unfrozen - distraction task active</color>");

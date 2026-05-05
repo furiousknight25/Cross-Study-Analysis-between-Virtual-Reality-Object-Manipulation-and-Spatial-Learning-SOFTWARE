@@ -89,4 +89,12 @@ public class LoggingManager : MonoBehaviour
         };
         telemetryLogger.LogData(data);
     }
+
+    // LoggingManager.cs
+public void SaveToDisk()
+{
+    telemetryLogger?.FlushLog();
+    eventLogger?.FlushLog();
+    Debug.Log("<color=cyan>Experiment data flushed to disk.</color>");
+}
 }

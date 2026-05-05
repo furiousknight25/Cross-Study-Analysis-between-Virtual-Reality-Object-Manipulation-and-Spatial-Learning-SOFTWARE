@@ -186,18 +186,32 @@ public void StartTestingPhase()
     {
         distraction_task_completed = false; 
         
-        // NEW: Reset the sentence blanks to "_____"
+        // NEW: Pass the trial data to the sentence builder so it can grade the answers!
         if (sentenceBuilder != null) 
         {
-            sentenceBuilder.ResetSentence();
+            sentenceBuilder.InitializeSentenceBuilder(lastCompletedTrialData);
         }
 
         testingEnvironment.StartTestingPhase(lastCompletedTrialData);
     }
 
-    public void EndTestingPhase()
+public void EndTestingPhase()
     {
         testingEnvironment.EndTestingPhase();
-        StartCoroutine(MoveToNextTrialCoroutine());
+        
+        // 1. Clear the old trial data so the Director knows we are done testing it.
+        // This ensures the next button press routes to a NEW trial, not back into the test.
+        lastCompletedTrialData = null; 
+
+        // 2. Set this to true so the 'N' key (ButtonPressed) is allowed to trigger the next phase.
+        distraction_task_completed = true; 
+
+        if (LoggingManager.Instance != null)
+        {
+            LoggingManager.Instance.SaveToDisk();
+        }
+
+        // REMOVED: StartCoroutine(MoveToNextTrialCoroutine());
+        Debug.Log("Testing phase ended. Awaiting button press to start the next trial...");
     }
 }

@@ -127,10 +127,13 @@ extern void U3CSnapToCenterRoutineU3Ed__18_System_Collections_IEnumerator_get_Cu
 extern void SortableItem_Start_m342A7CA2470C9069B354BDDDD4BBB74B733F5745 (void);
 extern void SortableItem_ResetToStart_m6BEACEB3D67B37DDDE5F30E008E12384D6C964B4 (void);
 extern void SortableItem__ctor_m54318AA53CA8C35C236F51F325FBB10A5940B133 (void);
+extern void SortingBin_Awake_mFDB3F819225C132EF26123EDE9D77D4CA180EB8A (void);
 extern void SortingBin_OnTriggerEnter_mB3852283BAB0418C5EE32D5046CC9EAF46CF2B05 (void);
 extern void SortingBin__ctor_mD480094496A179998AA3F2BDF68C946C56A5C3D9 (void);
 extern void SortingShelfManager_Start_mB67EB5CC4869168EACB73A455D1F2D33567F2BD5 (void);
-extern void SortingShelfManager_CheckForCompletion_m015450D4C172FADF4BA3030BE39C874764B813E1 (void);
+extern void SortingShelfManager_RegisterCorrectSort_m6EF54A90E67B8DDD2F6D38F8C034B58C49F447B4 (void);
+extern void SortingShelfManager_ResetScore_m5F6C65503846C3AF918F096D1333AD3873E0A286 (void);
+extern void SortingShelfManager_UpdateScoreDisplay_m73E14F71BEC2C3EA4B508604A8BCF934523A7C92 (void);
 extern void SortingShelfManager_ResetEntireShelf_mB2D828E4AFC0F675E88C1C6098342ED9C788001B (void);
 extern void SortingShelfManager_ResetAndFreezeAllItems_m51F0E300772A8ED91A3FF25326FCBF77526EBED3 (void);
 extern void SortingShelfManager_UnfreezeAllItems_m419836EFDC999111B659D9118C6BAC73886325D9 (void);
@@ -203,6 +206,7 @@ extern void SentenceBuilderManager_HandleFoilSelected_mD8409DA075875F67066FC0E4C
 extern void SentenceBuilderManager_submit_text_mED7F3ADD73C9A210E9009CE1138F81D809C6EBA9 (void);
 extern void SentenceBuilderManager_UpdateSentenceDisplay_m9E4D580FB637086F00F7C3D3EF6E511BB6F64E7D (void);
 extern void SentenceBuilderManager_ResetSentence_m5393FF7E3572810EEB9EB114F07E2219D7F3BA61 (void);
+extern void SentenceBuilderManager_InitializeSentenceBuilder_m620B8BF9DD181DC9A113C8DF93C5BEF9140D2BB1 (void);
 extern void SentenceBuilderManager__ctor_m8D5CC8FE2EC31D9DDBDF5F493573EDB759EB5191 (void);
 extern void TestingEnvironmentManager_Awake_m0C12C0DDEC20CF13CCD1F5783086CDD1DADF40B2 (void);
 extern void TestingEnvironmentManager_OnEnable_mEE5A314EACC3DF45EFD29BA8551473DFC39BB6B0 (void);
@@ -239,10 +243,12 @@ extern void U3CSlideToPositionU3Ed__9_System_Collections_IEnumerator_get_Current
 extern void CsvTelemetryLogger_InitializeLog_m30E5502663A17FB387905F2FA4900365F36DCBB6 (void);
 extern void CsvTelemetryLogger_LogData_m8590E587654D864059D32F95B71EF876BC309176 (void);
 extern void CsvTelemetryLogger_CloseLog_mAFBF83A205BBDC4F6F9BFA24970A28118F76811E (void);
+extern void CsvTelemetryLogger_FlushLog_mF741C8A97FEF209D8D46BEFF767436467D55C9FA (void);
 extern void CsvTelemetryLogger__ctor_m41F3399E62F53748233756B6B341B5B3F3081B60 (void);
 extern void JsonEventLogger_InitializeLog_m2653A4ECC1AED2FDBE32F23828F70295A0B237D0 (void);
 extern void JsonEventLogger_LogData_m905BB34139EF2C2BDD0CAA38783C2073936596C4 (void);
 extern void JsonEventLogger_CloseLog_m2B404D515A8439FA0E5E882A0744103D367BCB7B (void);
+extern void JsonEventLogger_FlushLog_m6F67C2249F8AADFD2EB0EDFA859A5BE9226C0DF0 (void);
 extern void JsonEventLogger__ctor_m4E4DF79F99D3A16DD8F258E8E48DB7CDFD86ED77 (void);
 extern void LoggingManager_get_Instance_mF138F67B61E4B4714013204A325F2A416A936541 (void);
 extern void LoggingManager_set_Instance_m5D177A09B0A8F9B7CCAD2D9B30EDE3FF9FD5DFD9 (void);
@@ -251,6 +257,7 @@ extern void LoggingManager_Update_m6DA0F250B3077A9991F755EA6ECF614D839AC648 (voi
 extern void LoggingManager_LogEvent_m5FCC64D8ADE70589FBBA9ED4B6C9D134CA7FEAE2 (void);
 extern void LoggingManager_OnApplicationQuit_m52C4E07BAF546CFBDFE7FC3B65CB9A201C0313C1 (void);
 extern void LoggingManager_LogTelemetry_mB914C99F4B2D9E3AFB10EEFC95FF6DBE4A082256 (void);
+extern void LoggingManager_SaveToDisk_m3E3A1FC79EBF8171AED62ADE7F134D725A3E66F2 (void);
 extern void LoggingManager__ctor_m3F9640E2A3DC5821D97BE2A872E0E6AE900002AA (void);
 extern void nonvrcontroller_OnEnable_m500CF201D280AE35992B07271031056B02D5BEC6 (void);
 extern void nonvrcontroller_OnDisable_m79C4517AD06AAFC1B745203D97AB20A2FBAEA452 (void);
@@ -270,18 +277,18 @@ extern void Tablet_Start_m82AF17B18775FEC8E7CAC5350200F357695510C6 (void);
 extern void Tablet_spawn_items_m75E6B5B28A62CFC6890118326564B89E8091C10E (void);
 extern void Tablet_TweenBubble_m11D409ADCEF2AC26023C585D83F4C3BAE506C904 (void);
 extern void Tablet__ctor_m2D150D7F2DAC8A6BABE8F33E508CA946988AD09C (void);
-extern void U3CTweenBubbleU3Ed__15__ctor_mAC16C4D131E83E711F55283307EE10FE4AF0C215 (void);
-extern void U3CTweenBubbleU3Ed__15_System_IDisposable_Dispose_m969C6B61827FE2A490C1F026FCF510A19140259E (void);
-extern void U3CTweenBubbleU3Ed__15_MoveNext_mABB9482038146A35A07611B2617DBCA1DEC7046F (void);
-extern void U3CTweenBubbleU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2FF6FD70DBEDD5E889842237A0E6ACF1063C41C5 (void);
-extern void U3CTweenBubbleU3Ed__15_System_Collections_IEnumerator_Reset_m9397332A613C81454C4AD1A1490FD6FFBCEFD1DF (void);
-extern void U3CTweenBubbleU3Ed__15_System_Collections_IEnumerator_get_Current_m57619CA8EAC169BEF9E6F61E307F96EA96D91B5C (void);
-extern void U3Cspawn_itemsU3Ed__14__ctor_m400473F78AAB3FE52884A2F940A96C6550263C6D (void);
-extern void U3Cspawn_itemsU3Ed__14_System_IDisposable_Dispose_m9A6472DB56B225365D6A82C9CF39949195A2DD59 (void);
-extern void U3Cspawn_itemsU3Ed__14_MoveNext_m3312D3FE3481C2446F3869BA32AF9BC9C516B9CC (void);
-extern void U3Cspawn_itemsU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m79656BB9F9269E26B1373BCE4CBC0A99C1E09861 (void);
-extern void U3Cspawn_itemsU3Ed__14_System_Collections_IEnumerator_Reset_m315E8AF725402C79097FE04B43BF7FAED269651D (void);
-extern void U3Cspawn_itemsU3Ed__14_System_Collections_IEnumerator_get_Current_mDAF16DA620F2387337C30C2789411129DC5C6087 (void);
+extern void U3CTweenBubbleU3Ed__16__ctor_mBD86EA64DE1E42FADD12E28DD9CDACD390EA9CB3 (void);
+extern void U3CTweenBubbleU3Ed__16_System_IDisposable_Dispose_m5FFFDB079105913713E517252D9D468D7F7961A8 (void);
+extern void U3CTweenBubbleU3Ed__16_MoveNext_m751C1DA580C72A2ADCF2DD351B09B4E5963C277C (void);
+extern void U3CTweenBubbleU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6649151217BF661C0F4165989C37303CC3179D79 (void);
+extern void U3CTweenBubbleU3Ed__16_System_Collections_IEnumerator_Reset_m26F5B57BFF2ED73279CC03D1600708D9ED3BABEA (void);
+extern void U3CTweenBubbleU3Ed__16_System_Collections_IEnumerator_get_Current_mBCB2894D7C8314ACED104A194086CECE4715DD31 (void);
+extern void U3Cspawn_itemsU3Ed__15__ctor_m17737185C9850F907162146E183091FE57133A38 (void);
+extern void U3Cspawn_itemsU3Ed__15_System_IDisposable_Dispose_mF3F9C31004D399643C536345FB0C601B27576337 (void);
+extern void U3Cspawn_itemsU3Ed__15_MoveNext_mF23AC1246FF60EB0763F638DDC2F348142D382E1 (void);
+extern void U3Cspawn_itemsU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE4767C965DE0410B69CDBA7FE0051BAC6179BB8B (void);
+extern void U3Cspawn_itemsU3Ed__15_System_Collections_IEnumerator_Reset_m2B8678DFF4A1F7FF26CEFCDD5B5048C9682039D8 (void);
+extern void U3Cspawn_itemsU3Ed__15_System_Collections_IEnumerator_get_Current_m840BD5CA745298AF02B75C60B8DD3461CB815E98 (void);
 extern void ExperimentTrialData__ctor_m64641661135E211E29C9BF6F5CC6943415B94A5F (void);
 extern void IntEventChannelSO_RaiseEvent_mD9E674E3A706951254DB666DE5CE2F4A2DCF9854 (void);
 extern void IntEventChannelSO__ctor_m77DC6E7CF202E1E117447DAA611AB226560D1E97 (void);
@@ -291,7 +298,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[287] = 
+static Il2CppMethodPointer s_methodPointers[295] = 
 {
 	DebugFPSController_Awake_mC3534415E2943C3A4613D5681CDE517BC382961B,
 	DebugFPSController_Start_m1E453748DC4C3874B5B8A1EF2F06550912CAC150,
@@ -413,10 +420,13 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	SortableItem_Start_m342A7CA2470C9069B354BDDDD4BBB74B733F5745,
 	SortableItem_ResetToStart_m6BEACEB3D67B37DDDE5F30E008E12384D6C964B4,
 	SortableItem__ctor_m54318AA53CA8C35C236F51F325FBB10A5940B133,
+	SortingBin_Awake_mFDB3F819225C132EF26123EDE9D77D4CA180EB8A,
 	SortingBin_OnTriggerEnter_mB3852283BAB0418C5EE32D5046CC9EAF46CF2B05,
 	SortingBin__ctor_mD480094496A179998AA3F2BDF68C946C56A5C3D9,
 	SortingShelfManager_Start_mB67EB5CC4869168EACB73A455D1F2D33567F2BD5,
-	SortingShelfManager_CheckForCompletion_m015450D4C172FADF4BA3030BE39C874764B813E1,
+	SortingShelfManager_RegisterCorrectSort_m6EF54A90E67B8DDD2F6D38F8C034B58C49F447B4,
+	SortingShelfManager_ResetScore_m5F6C65503846C3AF918F096D1333AD3873E0A286,
+	SortingShelfManager_UpdateScoreDisplay_m73E14F71BEC2C3EA4B508604A8BCF934523A7C92,
 	SortingShelfManager_ResetEntireShelf_mB2D828E4AFC0F675E88C1C6098342ED9C788001B,
 	SortingShelfManager_ResetAndFreezeAllItems_m51F0E300772A8ED91A3FF25326FCBF77526EBED3,
 	SortingShelfManager_UnfreezeAllItems_m419836EFDC999111B659D9118C6BAC73886325D9,
@@ -489,6 +499,7 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	SentenceBuilderManager_submit_text_mED7F3ADD73C9A210E9009CE1138F81D809C6EBA9,
 	SentenceBuilderManager_UpdateSentenceDisplay_m9E4D580FB637086F00F7C3D3EF6E511BB6F64E7D,
 	SentenceBuilderManager_ResetSentence_m5393FF7E3572810EEB9EB114F07E2219D7F3BA61,
+	SentenceBuilderManager_InitializeSentenceBuilder_m620B8BF9DD181DC9A113C8DF93C5BEF9140D2BB1,
 	SentenceBuilderManager__ctor_m8D5CC8FE2EC31D9DDBDF5F493573EDB759EB5191,
 	TestingEnvironmentManager_Awake_m0C12C0DDEC20CF13CCD1F5783086CDD1DADF40B2,
 	TestingEnvironmentManager_OnEnable_mEE5A314EACC3DF45EFD29BA8551473DFC39BB6B0,
@@ -525,13 +536,16 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	CsvTelemetryLogger_InitializeLog_m30E5502663A17FB387905F2FA4900365F36DCBB6,
 	CsvTelemetryLogger_LogData_m8590E587654D864059D32F95B71EF876BC309176,
 	CsvTelemetryLogger_CloseLog_mAFBF83A205BBDC4F6F9BFA24970A28118F76811E,
+	CsvTelemetryLogger_FlushLog_mF741C8A97FEF209D8D46BEFF767436467D55C9FA,
 	CsvTelemetryLogger__ctor_m41F3399E62F53748233756B6B341B5B3F3081B60,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
 	JsonEventLogger_InitializeLog_m2653A4ECC1AED2FDBE32F23828F70295A0B237D0,
 	JsonEventLogger_LogData_m905BB34139EF2C2BDD0CAA38783C2073936596C4,
 	JsonEventLogger_CloseLog_m2B404D515A8439FA0E5E882A0744103D367BCB7B,
+	JsonEventLogger_FlushLog_m6F67C2249F8AADFD2EB0EDFA859A5BE9226C0DF0,
 	JsonEventLogger__ctor_m4E4DF79F99D3A16DD8F258E8E48DB7CDFD86ED77,
 	LoggingManager_get_Instance_mF138F67B61E4B4714013204A325F2A416A936541,
 	LoggingManager_set_Instance_m5D177A09B0A8F9B7CCAD2D9B30EDE3FF9FD5DFD9,
@@ -540,6 +554,7 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	LoggingManager_LogEvent_m5FCC64D8ADE70589FBBA9ED4B6C9D134CA7FEAE2,
 	LoggingManager_OnApplicationQuit_m52C4E07BAF546CFBDFE7FC3B65CB9A201C0313C1,
 	LoggingManager_LogTelemetry_mB914C99F4B2D9E3AFB10EEFC95FF6DBE4A082256,
+	LoggingManager_SaveToDisk_m3E3A1FC79EBF8171AED62ADE7F134D725A3E66F2,
 	LoggingManager__ctor_m3F9640E2A3DC5821D97BE2A872E0E6AE900002AA,
 	nonvrcontroller_OnEnable_m500CF201D280AE35992B07271031056B02D5BEC6,
 	nonvrcontroller_OnDisable_m79C4517AD06AAFC1B745203D97AB20A2FBAEA452,
@@ -559,18 +574,18 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	Tablet_spawn_items_m75E6B5B28A62CFC6890118326564B89E8091C10E,
 	Tablet_TweenBubble_m11D409ADCEF2AC26023C585D83F4C3BAE506C904,
 	Tablet__ctor_m2D150D7F2DAC8A6BABE8F33E508CA946988AD09C,
-	U3CTweenBubbleU3Ed__15__ctor_mAC16C4D131E83E711F55283307EE10FE4AF0C215,
-	U3CTweenBubbleU3Ed__15_System_IDisposable_Dispose_m969C6B61827FE2A490C1F026FCF510A19140259E,
-	U3CTweenBubbleU3Ed__15_MoveNext_mABB9482038146A35A07611B2617DBCA1DEC7046F,
-	U3CTweenBubbleU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2FF6FD70DBEDD5E889842237A0E6ACF1063C41C5,
-	U3CTweenBubbleU3Ed__15_System_Collections_IEnumerator_Reset_m9397332A613C81454C4AD1A1490FD6FFBCEFD1DF,
-	U3CTweenBubbleU3Ed__15_System_Collections_IEnumerator_get_Current_m57619CA8EAC169BEF9E6F61E307F96EA96D91B5C,
-	U3Cspawn_itemsU3Ed__14__ctor_m400473F78AAB3FE52884A2F940A96C6550263C6D,
-	U3Cspawn_itemsU3Ed__14_System_IDisposable_Dispose_m9A6472DB56B225365D6A82C9CF39949195A2DD59,
-	U3Cspawn_itemsU3Ed__14_MoveNext_m3312D3FE3481C2446F3869BA32AF9BC9C516B9CC,
-	U3Cspawn_itemsU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m79656BB9F9269E26B1373BCE4CBC0A99C1E09861,
-	U3Cspawn_itemsU3Ed__14_System_Collections_IEnumerator_Reset_m315E8AF725402C79097FE04B43BF7FAED269651D,
-	U3Cspawn_itemsU3Ed__14_System_Collections_IEnumerator_get_Current_mDAF16DA620F2387337C30C2789411129DC5C6087,
+	U3CTweenBubbleU3Ed__16__ctor_mBD86EA64DE1E42FADD12E28DD9CDACD390EA9CB3,
+	U3CTweenBubbleU3Ed__16_System_IDisposable_Dispose_m5FFFDB079105913713E517252D9D468D7F7961A8,
+	U3CTweenBubbleU3Ed__16_MoveNext_m751C1DA580C72A2ADCF2DD351B09B4E5963C277C,
+	U3CTweenBubbleU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6649151217BF661C0F4165989C37303CC3179D79,
+	U3CTweenBubbleU3Ed__16_System_Collections_IEnumerator_Reset_m26F5B57BFF2ED73279CC03D1600708D9ED3BABEA,
+	U3CTweenBubbleU3Ed__16_System_Collections_IEnumerator_get_Current_mBCB2894D7C8314ACED104A194086CECE4715DD31,
+	U3Cspawn_itemsU3Ed__15__ctor_m17737185C9850F907162146E183091FE57133A38,
+	U3Cspawn_itemsU3Ed__15_System_IDisposable_Dispose_mF3F9C31004D399643C536345FB0C601B27576337,
+	U3Cspawn_itemsU3Ed__15_MoveNext_mF23AC1246FF60EB0763F638DDC2F348142D382E1,
+	U3Cspawn_itemsU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE4767C965DE0410B69CDBA7FE0051BAC6179BB8B,
+	U3Cspawn_itemsU3Ed__15_System_Collections_IEnumerator_Reset_m2B8678DFF4A1F7FF26CEFCDD5B5048C9682039D8,
+	U3Cspawn_itemsU3Ed__15_System_Collections_IEnumerator_get_Current_m840BD5CA745298AF02B75C60B8DD3461CB815E98,
 	ExperimentTrialData__ctor_m64641661135E211E29C9BF6F5CC6943415B94A5F,
 	IntEventChannelSO_RaiseEvent_mD9E674E3A706951254DB666DE5CE2F4A2DCF9854,
 	IntEventChannelSO__ctor_m77DC6E7CF202E1E117447DAA611AB226560D1E97,
@@ -581,14 +596,14 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[287] = 
+static const int32_t s_InvokerIndices[295] = 
 {
 	15629,
 	15629,
 	15629,
 	15629,
-	26935,
-	25757,
+	26936,
+	25758,
 	11865,
 	11865,
 	15629,
@@ -667,7 +682,7 @@ static const int32_t s_InvokerIndices[287] =
 	15629,
 	15629,
 	15629,
-	27039,
+	27040,
 	15629,
 	8390,
 	11788,
@@ -703,7 +718,10 @@ static const int32_t s_InvokerIndices[287] =
 	15629,
 	11652,
 	15629,
+	15629,
 	11865,
+	15629,
+	15629,
 	15629,
 	15629,
 	15629,
@@ -779,6 +797,7 @@ static const int32_t s_InvokerIndices[287] =
 	15629,
 	15629,
 	15629,
+	11865,
 	15629,
 	15629,
 	15629,
@@ -816,6 +835,8 @@ static const int32_t s_InvokerIndices[287] =
 	11827,
 	15629,
 	15629,
+	15629,
+	-1,
 	-1,
 	-1,
 	-1,
@@ -823,13 +844,15 @@ static const int32_t s_InvokerIndices[287] =
 	12039,
 	15629,
 	15629,
-	26935,
-	25757,
+	15629,
+	26936,
+	25758,
 	15629,
 	15629,
 	1933,
 	15629,
 	6114,
+	15629,
 	15629,
 	15629,
 	15629,
@@ -868,14 +891,14 @@ static const int32_t s_InvokerIndices[287] =
 	15629,
 	15629,
 	15629,
-	27075,
+	27076,
 	15629,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	287,
+	295,
 	s_methodPointers,
 	0,
 	NULL,
