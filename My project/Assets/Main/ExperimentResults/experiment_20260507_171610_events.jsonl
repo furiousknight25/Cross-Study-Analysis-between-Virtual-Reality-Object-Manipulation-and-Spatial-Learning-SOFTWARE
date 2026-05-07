@@ -1,0 +1,28 @@
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The swift courier"}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"buried the treasure"}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a shield"}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the tavern"}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"covered in frost"}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the hurricane."}
+{"timestamp":699.8594970703125,"trialId":"Trial_04","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The swift courier buried the treasure with a shield inside the tavern covered in frost during the hurricane."}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The blind beggar"}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"painted the canvas"}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a sword"}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the cellar"}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"smelling of pine"}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"before the earthquake."}
+{"timestamp":1163.83251953125,"trialId":"Trial_02","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The blind beggar painted the canvas with a sword inside the cellar smelling of pine before the earthquake."}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The pale scholar"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"burned the letter"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a lantern"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the tent"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"echoing with growls"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"during the eclipse"}
+{"timestamp":1610.339111328125,"trialId":"Trial_06","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The pale scholar burned the letter with a lantern inside the tent echoing with growls during the eclipse"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The quiet monk"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"unlocked the chest"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a hairpin"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the carriage"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"dripping with sap"}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"after the battle."}
+{"timestamp":2034.612548828125,"trialId":"Trial_03","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The quiet monk unlocked the chest with a hairpin inside the carriage dripping with sap after the battle."}

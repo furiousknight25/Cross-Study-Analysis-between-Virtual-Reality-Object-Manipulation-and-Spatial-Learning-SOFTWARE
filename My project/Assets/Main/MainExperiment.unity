@@ -1013,7 +1013,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.28915688, z: -0, w: 0.95728177}
   m_LocalPosition: {x: -2.012, y: 0.915, z: 1.117}
-  m_LocalScale: {x: 0.2516465, y: 0.07286286, z: 0.21606754}
+  m_LocalScale: {x: 0.13571043, y: 0.07286286, z: 0.13262872}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8421,7 +8421,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.864, y: 0.915, z: 0.621}
-  m_LocalScale: {x: 0.2516465, y: 0.07286286, z: 0.07286286}
+  m_LocalScale: {x: 0.15666755, y: 0.07286286, z: 0.07286286}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12149,7 +12149,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.28915688, z: -0, w: 0.95728177}
   m_LocalPosition: {x: -2.11, y: 0.915, z: 0.803}
-  m_LocalScale: {x: 0.2516465, y: 0.07286286, z: 0.07286286}
+  m_LocalScale: {x: 0.11919487, y: 0.07286286, z: 0.07286286}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -13866,10 +13866,10 @@ MonoBehaviour:
   instructionText: {fileID: 1227610571}
   isControlGroup: 0
   distraction_task_completed: 1
-  explore_time: 1
-  reading_time: 2
+  explore_time: 120
+  reading_time: 20
   encode_time: 70
-  distraction_task_duration: 60
+  distraction_task_duration: 120
   sentenceBuilder: {fileID: 1168581202}
   testingEnvironment: {fileID: 733641717}
 --- !u!4 &1995468572
@@ -14272,7 +14272,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.28915688, z: -0, w: 0.95728177}
   m_LocalPosition: {x: -2.087, y: 0.953, z: 0.379}
-  m_LocalScale: {x: 0.2516465, y: 0.12850824, z: 0.061749943}
+  m_LocalScale: {x: 0.15839384, y: 0.12850824, z: 0.061749943}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
