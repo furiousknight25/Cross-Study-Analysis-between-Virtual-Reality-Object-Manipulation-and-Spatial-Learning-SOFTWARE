@@ -110,6 +110,7 @@ MonoBehaviour:
   maxVelocity: 5
   hoverScaleMultiplier: 1.2
   scaleTweenDuration: 0.2
+  controlCubeMaterial: {fileID: 1788269377728665300, guid: 816099f08254d5e448d906f3de9651aa, type: 3}
   snapTweenDuration: 0.15
   currentlyHeldObject: {fileID: 0}
   hoveringObjects: []

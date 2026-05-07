@@ -85,6 +85,8 @@ MonoBehaviour:
   startPoint: {fileID: 481749979382520002}
   can_spawn_text: 0
   button: {fileID: 2705138932634922916}
+  bodyone: {fileID: 6017607803512849939}
+  bodytwo: {fileID: 5312966736682083822}
   textMeshPro: {fileID: 2663084971128032878}
   dingAudioSource: {fileID: 329672718951754212}
 --- !u!1 &3280187390146182652

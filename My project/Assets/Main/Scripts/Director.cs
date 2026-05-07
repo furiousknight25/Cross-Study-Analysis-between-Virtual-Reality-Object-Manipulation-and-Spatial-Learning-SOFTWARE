@@ -27,6 +27,7 @@ public class Director : MonoBehaviour
     public SentenceBuilderManager sentenceBuilder;
     public TestingEnvironmentManager testingEnvironment;
     
+    
     // REMOVED public ExperimentTrialData currentTrialData;
     // NEW: We store the data of the trial we just finished so we can test on it after distraction
     private ExperimentTrialData lastCompletedTrialData; 
@@ -55,6 +56,11 @@ public class Director : MonoBehaviour
             {
                 ButtonPressed();
             }
+        }
+
+        if (Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            SetControlGroupMode();
         }
     }
 
@@ -213,5 +219,23 @@ public void EndTestingPhase()
 
         // REMOVED: StartCoroutine(MoveToNextTrialCoroutine());
         Debug.Log("Testing phase ended. Awaiting button press to start the next trial...");
+    }
+
+public void SetControlGroupMode()
+    {
+        isControlGroup = true;
+        
+        // Find all active bubbles in the scene
+        PhysicsBubbleReceptacle[] allBubbles = FindObjectsOfType<PhysicsBubbleReceptacle>();
+        
+        foreach (var bubble in allBubbles)
+        {
+            if (bubble.currentlyHeldObject != null)
+            {
+                bubble.TransformIntoControlCube(bubble.currentlyHeldObject);
+            }
+        }
+        
+        Debug.Log($"<color=yellow>Global Control Group Mode set to: {true}</color>");
     }
 }

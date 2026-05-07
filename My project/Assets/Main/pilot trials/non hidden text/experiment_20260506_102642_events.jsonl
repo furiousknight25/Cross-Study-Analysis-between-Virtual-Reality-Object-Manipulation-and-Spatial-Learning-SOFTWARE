@@ -1,0 +1,49 @@
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The pale scholar"}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"burned the letter"}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a lantern"}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the tent"}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"echoing with growls"}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the feast."}
+{"timestamp":841.4802856445313,"trialId":"Trial_06","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The pale scholar burned the letter with a lantern inside the tent echoing with growls during the feast."}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The blind beggar"}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"painted the canvas"}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a sword"}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the dungeon"}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"smelling of pine"}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"before the earthquake."}
+{"timestamp":1218.1319580078125,"trialId":"Trial_02","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The blind beggar painted the canvas with a sword inside the dungeon smelling of pine before the earthquake."}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The quiet monk"}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"unlocked the chest"}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a hairpin"}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the carriage"}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"dripping with sap"}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"after the battle."}
+{"timestamp":1582.594970703125,"trialId":"Trial_03","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The quiet monk unlocked the chest with a hairpin inside the carriage dripping with sap after the battle."}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The skilled hunter"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Incorrect","selectedSlot":1,"selectedFoil":"Sharpened the blade"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a branch"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the armory"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"reeking of fish"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"before the hunt"}
+{"timestamp":1974.1131591796875,"trialId":"Trial_05","eventName":"Test_Complete_Score_4_out_of_6","selectedSlot":-1,"selectedFoil":"The skilled hunter Sharpened the blade with a branch inside the armory reeking of fish before the hunt"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The fierce warrior"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"chopped the roots"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a cleaver"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the palace"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"smelling of ozone"}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"after the sunset."}
+{"timestamp":2356.74267578125,"trialId":"Trial_07","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The fierce warrior chopped the roots with a cleaver inside the palace smelling of ozone after the sunset."}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The swift courier"}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"buried the treasure"}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a shield"}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the tavern"}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"covered in frost"}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the hurricane."}
+{"timestamp":2738.216552734375,"trialId":"Trial_04","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The swift courier buried the treasure with a shield inside the tavern covered in frost during the hurricane."}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The old merchant"}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"smashed the barrel"}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a telescope"}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the temple"}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"tasting of ash"}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the avalanche."}
+{"timestamp":3091.201904296875,"trialId":"Trial_01","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The old merchant smashed the barrel with a telescope inside the temple tasting of ash during the avalanche."}

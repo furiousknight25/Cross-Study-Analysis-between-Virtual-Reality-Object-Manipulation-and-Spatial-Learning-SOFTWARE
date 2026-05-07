@@ -21,6 +21,7 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
     public float scaleTweenDuration = 0.2f;
     private Vector3 originalScale;
     private Coroutine scaleCoroutine;
+    public Material controlCubeMaterial; // NEW: Slot for a URP material
 
     [Header("Snapping Settings")]
     public float snapTweenDuration = 0.15f;
@@ -243,21 +244,117 @@ public class PhysicsBubbleReceptacle : MonoBehaviour
 
     // --- VISUAL TOGGLES ---
 
+  // --- VISUAL TOGGLES ---
+
     public void HideVisuals()
     {
+        // 1. Hide the holographic bubble
         Renderer[] renderers = GetComponentsInChildren<Renderer>();
         foreach (Renderer r in renderers)
         {
             r.enabled = false;
         }
+
+        // 2. Hide the held object and disable its collisions so it can't be grabbed early
+        if (currentlyHeldObject != null)
+        {
+            Renderer[] heldRenderers = currentlyHeldObject.GetComponentsInChildren<Renderer>(true);
+            foreach (Renderer r in heldRenderers) r.enabled = false;
+
+            Collider[] heldColliders = currentlyHeldObject.GetComponentsInChildren<Collider>(true);
+            foreach (Collider c in heldColliders) c.enabled = false;
+        }
     }
 
     public void ShowVisuals()
     {
-        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        // 1. Always show the holographic bubble itself
+        Renderer[] renderers = GetComponentsInChildren<Renderer>(true);
         foreach (Renderer r in renderers)
         {
             r.enabled = true;
+        }
+
+        // 2. State-Driven Object Reveal
+        if (currentlyHeldObject != null)
+        {
+            bool isControlMode = Director.Instance != null && Director.Instance.isControlGroup;
+
+            if (isControlMode)
+            {
+                // Ensure the proxy cube has been generated
+                TransformIntoControlCube(currentlyHeldObject);
+
+                // Turn OFF all original meshes and colliders on the Ducky/Item
+                Renderer[] heldRenderers = currentlyHeldObject.GetComponentsInChildren<Renderer>(true);
+                foreach (Renderer r in heldRenderers) r.enabled = false;
+
+                Collider[] heldColliders = currentlyHeldObject.GetComponentsInChildren<Collider>(true);
+                foreach (Collider c in heldColliders) c.enabled = false;
+
+                // Explicitly turn ON ONLY the Control Cube and its Collider
+                Transform cube = currentlyHeldObject.transform.Find("ControlGroupCube");
+                if (cube != null)
+                {
+                    cube.gameObject.SetActive(true);
+                    
+                    Renderer cubeR = cube.GetComponent<Renderer>();
+                    if (cubeR != null) cubeR.enabled = true;
+
+                    Collider cubeC = cube.GetComponent<Collider>();
+                    if (cubeC != null) cubeC.enabled = true;
+                }
+            }
+            else
+            {
+                // NORMAL MODE: Turn ON all original meshes and colliders
+                Renderer[] heldRenderers = currentlyHeldObject.GetComponentsInChildren<Renderer>(true);
+                foreach (Renderer r in heldRenderers) r.enabled = true;
+
+                Collider[] heldColliders = currentlyHeldObject.GetComponentsInChildren<Collider>(true);
+                foreach (Collider c in heldColliders) c.enabled = true;
+
+                // Turn OFF the proxy cube so it doesn't overlap the Ducky
+                Transform cube = currentlyHeldObject.transform.Find("ControlGroupCube");
+                if (cube != null)
+                {
+                    cube.gameObject.SetActive(false);
+                }
+            }
+        }
+    }
+
+public void TransformIntoControlCube(Rigidbody rb)
+    {
+        // 1. Prevent doing this twice if the cube already exists
+        if (rb.transform.Find("ControlGroupCube") != null) return;
+
+        // 2. Create the generic proxy cube
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        cube.name = "ControlGroupCube";
+        
+        // 3. Parent it to the original root so the Rigidbody and GrabbableItem scripts still work
+        cube.transform.SetParent(rb.transform);
+        cube.transform.localPosition = Vector3.zero;
+        cube.transform.localRotation = Quaternion.identity;
+
+        // 4. Force the cube to be exactly 10cm in world space using lossyScale math
+        Vector3 parentScale = rb.transform.lossyScale;
+        cube.transform.localScale = new Vector3(
+            0.1f / parentScale.x, 
+            0.1f / parentScale.y, 
+            0.1f / parentScale.z
+        );
+
+        Renderer cubeR = cube.GetComponent<Renderer>();
+        if (cubeR != null) 
+        {
+            // FIX: Apply the URP material to get rid of the purple
+            if (controlCubeMaterial != null)
+            {
+                cubeR.material = controlCubeMaterial;
+            }
+            cubeR.enabled = false;
         }
     }
 }

@@ -13,7 +13,8 @@ public class Tablet : MonoBehaviour
     public Transform startPoint;
     public bool can_spawn_text = false;
     public Transform button;
-
+    public Transform bodyone;
+    public Transform bodytwo;
     [SerializeField] private TextMeshPro textMeshPro;
     
     [Header("Audio")]
@@ -69,6 +70,8 @@ public class Tablet : MonoBehaviour
 
     public IEnumerator spawn_items()
     {
+        
+        
         for (int i = 0; i < receptacles.Count; i++)
         {
             Vector3 homePosition = receptacles[i].transform.position;
@@ -77,6 +80,13 @@ public class Tablet : MonoBehaviour
             StartCoroutine(TweenBubble(receptacles[i].transform, homePosition, 0.8f));
             yield return new WaitForSeconds(0.2f);
         }
+        hideText();
+        
+       button.gameObject.SetActive(false);
+       
+       bodyone.gameObject.SetActive(false);
+
+       bodytwo.gameObject.SetActive(false);
     }
 
     IEnumerator TweenBubble(Transform bubble, Vector3 targetPosition, float duration)

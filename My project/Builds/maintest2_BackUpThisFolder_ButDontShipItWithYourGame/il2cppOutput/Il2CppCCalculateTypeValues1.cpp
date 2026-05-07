@@ -5644,7 +5644,7 @@ struct U3CPostFixedUpdateU3Ed__50_t8DBC8F53AEEDFE8EB28568B7FC1AA56E161537EF  : p
 	RuntimeObject* ___U3CU3E2__current;
 	PhysicalHandsManager_tCEF3A11CE2DDD3A57338D312D8832C4A9B10D6DD* ___U3CU3E4__this;
 };
-struct U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48  : public RuntimeObject
+struct U3CSnapToCenterRoutineU3Ed__19_t143C800556CC7841859F62971C96FF9600A6EEF6  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -5923,7 +5923,7 @@ struct U3CU3Ec_t010C6DD1D6A4662B467F3C1BDE9A8352A3495F34  : public RuntimeObject
 struct U3CU3Ec_tB391A89144AD9017CFBAC1E6A3F88D4E8B347A4D  : public RuntimeObject
 {
 };
-struct U3Cspawn_itemsU3Ed__15_tFA2E2AB54C0F2FA7EB0E3E7CBF37B27667B439F8  : public RuntimeObject
+struct U3Cspawn_itemsU3Ed__17_t7CE37F2484CBD90E78CBFC61F1E73071BA804C86  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -33781,7 +33781,7 @@ struct TransformWriteMode_t9006A15DA105F005CFBC6CC59DAD4540C67046B1
 {
 	int32_t ___value__;
 };
-struct U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE  : public RuntimeObject
+struct U3CScaleRoutineU3Ed__21_t9528D8C46CE239B3ECAF3CBE0EC9393AE61E82CC  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -34287,7 +34287,7 @@ struct LineSegment_t31E432A164E8EA041C4E2279C6C0F243636EC294
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Point1;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Point2;
 };
-struct U3CTweenBubbleU3Ed__16_t075BAF425F7D5959C8DFC88EF5CB41688C39EF9C  : public RuntimeObject
+struct U3CTweenBubbleU3Ed__18_tE69FE8BE2E5871B7F05C978AE89B887805A3A494  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -51613,6 +51613,7 @@ struct PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D  : publ
 	float ___scaleTweenDuration;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___originalScale;
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___scaleCoroutine;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___controlCubeMaterial;
 	float ___snapTweenDuration;
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___currentlyHeldObject;
 	List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* ___hoveringObjects;
@@ -51801,6 +51802,8 @@ struct Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1  : public MonoBehaviour_
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___startPoint;
 	bool ___can_spawn_text;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___button;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___bodyone;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___bodytwo;
 	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___textMeshPro;
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___dingAudioSource;
 };
@@ -67404,9 +67407,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize9579 = { sizeof(U3CScaleRout
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9580;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9580 = { sizeof(GrabbableItem_tC65ACC6E9C54F9A61828D47F0CEAE64F3BAB0775), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9581;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize9581 = { sizeof(U3CScaleRoutineU3Ed__20_t91AEC276D934677558FF427ECAC272387C558DDE), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize9581 = { sizeof(U3CScaleRoutineU3Ed__21_t9528D8C46CE239B3ECAF3CBE0EC9393AE61E82CC), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9582;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize9582 = { sizeof(U3CSnapToCenterRoutineU3Ed__18_t7C9501EFB067E9C1CD9427AA2CAA52D97FCB2B48), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize9582 = { sizeof(U3CSnapToCenterRoutineU3Ed__19_t143C800556CC7841859F62971C96FF9600A6EEF6), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9583;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9583 = { sizeof(PhysicsBubbleReceptacle_t6375354AF392BACD4A595E391237F6ECE6F84B9D), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9584;
@@ -67462,9 +67465,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize9608 = { sizeof(LoggingManag
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9609;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9609 = { sizeof(nonvrcontroller_tD04494BC48BF97A48E81AC7FACE239182933E889), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9610;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize9610 = { sizeof(U3CTweenBubbleU3Ed__16_t075BAF425F7D5959C8DFC88EF5CB41688C39EF9C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize9610 = { sizeof(U3CTweenBubbleU3Ed__18_tE69FE8BE2E5871B7F05C978AE89B887805A3A494), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9611;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize9611 = { sizeof(U3Cspawn_itemsU3Ed__15_tFA2E2AB54C0F2FA7EB0E3E7CBF37B27667B439F8), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize9611 = { sizeof(U3Cspawn_itemsU3Ed__17_t7CE37F2484CBD90E78CBFC61F1E73071BA804C86), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9612;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize9612 = { sizeof(Tablet_tEA6EC4FEE2CF2D9D5BA1249AF659C464B0EBEBB1), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize9613;

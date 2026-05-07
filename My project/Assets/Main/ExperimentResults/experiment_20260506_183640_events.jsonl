@@ -1,0 +1,14 @@
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The fierce warrior"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"chopped the roots"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a cleaver"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the library"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"smelling of ozone"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"until the sunset"}
+{"timestamp":816.625,"trialId":"Trial_07","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The fierce warrior chopped the roots with a cleaver inside the library smelling of ozone until the sunset"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The old merchant"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"smashed the barrel"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a telescope"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the chapel"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Incorrect","selectedSlot":4,"selectedFoil":"blackened by charcoal"}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the avalanche."}
+{"timestamp":1208.276611328125,"trialId":"Trial_01","eventName":"Test_Complete_Score_5_out_of_6","selectedSlot":-1,"selectedFoil":"The old merchant smashed the barrel with a telescope inside the chapel blackened by charcoal during the avalanche."}

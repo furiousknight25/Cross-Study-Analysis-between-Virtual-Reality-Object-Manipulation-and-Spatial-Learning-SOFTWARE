@@ -1,0 +1,21 @@
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The old merchant"}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"smashed the barrel"}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a telescope"}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the chapel"}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"tasting of ash"}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the avalanche."}
+{"timestamp":962.3901977539063,"trialId":"Trial_01","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The old merchant smashed the barrel with a telescope inside the chapel tasting of ash during the avalanche."}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The swift courier"}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"buried the treasure"}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a shield"}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the tavern"}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"covered in frost"}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"during the hurricane."}
+{"timestamp":1323.4864501953125,"trialId":"Trial_04","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The swift courier buried the treasure with a shield inside the tavern covered in frost during the hurricane."}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":0,"selectedFoil":"The quiet monk"}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":1,"selectedFoil":"unlocked the chest"}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":2,"selectedFoil":"with a hairpin"}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":3,"selectedFoil":"inside the carriage"}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":4,"selectedFoil":"dripping with sap"}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Chunk_Correct","selectedSlot":5,"selectedFoil":"after the battle."}
+{"timestamp":1672.005126953125,"trialId":"Trial_03","eventName":"Test_Complete_Score_6_out_of_6","selectedSlot":-1,"selectedFoil":"The quiet monk unlocked the chest with a hairpin inside the carriage dripping with sap after the battle."}
