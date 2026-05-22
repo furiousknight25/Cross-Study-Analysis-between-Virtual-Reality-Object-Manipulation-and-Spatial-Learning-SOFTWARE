@@ -21,6 +21,12 @@ public class Tablet : MonoBehaviour
     [Tooltip("Drag the AudioSource containing your ding sound here.")]
     public AudioSource dingAudioSource; // NEW: Reference to the audio source
 
+    void Start()
+    {
+       button.gameObject.SetActive(false);
+       bodyone.gameObject.SetActive(false);
+       bodytwo.gameObject.SetActive(false);
+    }
     void Update()
     {
         if (Keyboard.current.mKey.wasPressedThisFrame)
@@ -41,7 +47,8 @@ public class Tablet : MonoBehaviour
     public void showButton()
     {
        button.gameObject.SetActive(true);
-       
+       bodyone.gameObject.SetActive(true);
+       bodytwo.gameObject.SetActive(true);
        // NEW: Play the ding sound when the button is shown
        if (dingAudioSource != null)
        {

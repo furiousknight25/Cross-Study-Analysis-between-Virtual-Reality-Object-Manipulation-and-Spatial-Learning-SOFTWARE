@@ -13,6 +13,7 @@ public class Director : MonoBehaviour
 
     public DistractionTask distractionTask;
     public List<TrialScene> trialScenes = new List<TrialScene>();
+    public TrialScene tutorialScene;
     
     public List<GrabbableItem> tutorialItems = null;
     public TMP_Text instructionText = null;
@@ -99,14 +100,6 @@ public void ButtonPressed()
 
     public IEnumerator MoveToNextTrialCoroutine()
     {
-        if (tutorial_completed == false)
-        {
-            clear_tutorial();
-            tutorial_completed = true;
-        }
-        
-        isTransitioning = true;
-
         if (trialScenes.Count == 0)
         {
             Debug.Log("<color=red>No more trials left!</color>");
@@ -115,9 +108,22 @@ public void ButtonPressed()
             yield break; 
         }
 
-        int index = UnityEngine.Random.Range(0, trialScenes.Count);
-        next_trial = trialScenes[index];
-        trialScenes.Remove(next_trial);
+
+        if (tutorial_completed == false)
+        {
+            StartCoroutine(clear_tutorial());
+            tutorial_completed = true;
+            next_trial = tutorialScene;
+        }
+        else
+        {
+            int index = UnityEngine.Random.Range(0, trialScenes.Count);
+            next_trial = trialScenes[index];
+            trialScenes.Remove(next_trial);
+
+        }
+        
+        isTransitioning = true;
 
         StartCoroutine(next_trial.StartTrial());
 
@@ -179,15 +185,27 @@ public void ButtonPressed()
         LoggingManager.Instance.LogEvent("Global", "Experiment_Complete");
     }
 
-    public void clear_tutorial()
-    {
-        foreach (GrabbableItem item in tutorialItems)
+    private IEnumerator clear_tutorial()
+    {        
+        // Force the Ultraleap hand script to drop the items
+        foreach (GrabbableItem grabbable in tutorialItems)
         {
-            item.gameObject.SetActive(false);
+            grabbable.OnPhysicalHandGrabbed();
+        }
+
+        // Wait 1 second for the physics engine and hand tracking to settle
+        yield return new WaitForSeconds(1.0f);
+
+        // Turn off the GameObjects completely
+        foreach (GrabbableItem grabbable in tutorialItems)
+        {
+            if (grabbable != null)
+            {
+                grabbable.gameObject.SetActive(false);
+            }
         }
         if (instructionText != null) instructionText.gameObject.SetActive(false);
     }
-
 public void StartTestingPhase()
     {
         distraction_task_completed = false; 
