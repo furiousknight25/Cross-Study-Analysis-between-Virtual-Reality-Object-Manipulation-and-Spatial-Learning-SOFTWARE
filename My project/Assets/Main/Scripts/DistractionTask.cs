@@ -28,62 +28,55 @@ public class DistractionTask : MonoBehaviour
 
     private void Start()
     {
-        // Cache the starting position
         startPosition = transform.localPosition;
 
-        // Remember auxiliary start position if assigned
         if (auxiliaryTransform != null)
         {
             auxiliaryStartPosition = auxiliaryTransform.localPosition;
         }
 
-        // Find the SortingShelfManager if not assigned
         if (shelfManager == null)
         {
             shelfManager = FindObjectOfType<SortingShelfManager>();
         }
 
-        // Hide all children renderers at start
         HideAllChildrenRenderers();
     }
 
     private void Update()
     {
+        // Local Debugging only. Production runs via Director.cs FSM
         if (Keyboard.current != null && Keyboard.current.tKey.wasPressedThisFrame)
         {
-            StartDistractionTask();
+            float debugTime = Director.Instance != null ? Director.Instance.distraction_task_duration : 120f;
+            StartDistractionTask(debugTime);
         }
     }
 
     /// <summary>
-    /// Starts the distraction task: tweens down, unfreezes items, waits 2 minutes,
+    /// Starts the distraction task: tweens down, unfreezes items, waits for the specified duration,
     /// then freezes items and tweens back up.
     /// </summary>
-    public void StartDistractionTask()
+    public void StartDistractionTask(float duration)
     {
-        // Stop any existing distraction task
         if (distractionCoroutine != null)
         {
             StopCoroutine(distractionCoroutine);
         }
-
-        distractionCoroutine = StartCoroutine(DistractionTaskCoroutine());
+        distractionCoroutine = StartCoroutine(DistractionTaskCoroutine(duration));
     }
 
-    private IEnumerator DistractionTaskCoroutine()
+    private IEnumerator DistractionTaskCoroutine(float duration)
     {
-        Debug.Log("<color=magenta>Distraction Task started</color>");
+        Debug.Log($"<color=magenta>[Distraction] Task started. Tweening in for {duration} seconds...</color>");
 
-        // Show all children renderers before tweening down
         ShowAllChildrenRenderers();
 
-        // Tween the auxiliary transform down through the floor if assigned
         if (auxiliaryTransform != null)
         {
             yield return StartCoroutine(TweenTransform(auxiliaryTransform.localPosition, auxiliaryTransform.localPosition - Vector3.up * auxiliaryDropDistance, tweenDuration, auxiliaryTransform));
         }
 
-        // Tween down to the configured end position
         yield return StartCoroutine(TweenTransform(mainDownPosition, tweenDuration));
 
         // Unfreeze all items and start the sorting task
@@ -92,38 +85,33 @@ public class DistractionTask : MonoBehaviour
             shelfManager.ResetScore();
             shelfManager.UnfreezeAllItems();
         }
-        Debug.Log("<color=magenta>Items unfrozen - distraction task active</color>");
+        Debug.Log("<color=magenta>[Distraction] Items unfrozen - Participant is sorting.</color>");
 
-        // Wait for 2 minutes
-        yield return new WaitForSeconds(Director.Instance.distraction_task_duration);
+        // Wait for the dynamically passed duration
+        yield return new WaitForSeconds(duration);
 
         // Freeze all items and reset their positions
         if (shelfManager != null)
         {
             shelfManager.ResetAndFreezeAllItems();
         }
-        Debug.Log("<color=magenta>Items frozen and reset</color>");
+        Debug.Log("<color=magenta>[Distraction] Time is up. Items frozen and reset.</color>");
 
-        // Tween back up 3 meters to starting position
+        // Tween back up to starting position
         if (auxiliaryTransform != null)
         {
             StartCoroutine(TweenTransform(auxiliaryTransform.localPosition, auxiliaryTopPosition, tweenDuration, auxiliaryTransform));
         }
 
         yield return StartCoroutine(TweenTransform(startPosition, tweenDuration));
-
-        // Hide all children renderers after tweening up
         HideAllChildrenRenderers();
 
-        Debug.Log("<color=magenta>Distraction Task completed</color>");
+        Debug.Log("<color=magenta>[Distraction] Task completed. Awaiting Remote Trigger to start Testing Phase.</color>");
         distractionCoroutine = null;
-        Director.Instance.distraction_task_completed = true;
-
     }
 
     private IEnumerator TweenTransform(Vector3 endPos, float duration)
     {
-        // Capture the exact current local position to prevent ANY snapping
         Vector3 currentStartPos = transform.localPosition;
         float timeElapsed = 0f;
 
@@ -131,21 +119,14 @@ public class DistractionTask : MonoBehaviour
         {
             timeElapsed += Time.deltaTime;
             float t = Mathf.Clamp01(timeElapsed / duration);
-
-            // Smooth easing (ease-in-out)
-            t = t * t * (3f - 2f * t);
+            t = t * t * (3f - 2f * t); // Smooth easing (ease-in-out)
 
             transform.localPosition = Vector3.Lerp(currentStartPos, endPos, t);
             yield return null;
         }
-
-        // Snap to final perfectly exact position
         transform.localPosition = endPos;
     }   
     
-     /// <summary>
-    /// Tweens a specific transform from startPos to endPos over a duration.
-    /// </summary>
     private IEnumerator TweenTransform(Vector3 startPos, Vector3 endPos, float duration, Transform targetTransform)
     {
         float timeElapsed = 0f;
@@ -154,26 +135,20 @@ public class DistractionTask : MonoBehaviour
         {
             timeElapsed += Time.deltaTime;
             float t = Mathf.Clamp01(timeElapsed / duration);
-
-            // Smooth easing (ease-in-out)
-            t = t * t * (3f - 2f * t);
+            t = t * t * (3f - 2f * t); 
 
             targetTransform.localPosition = Vector3.Lerp(startPos, endPos, t);
             yield return null;
         }
-
         targetTransform.localPosition = endPos;
     }
 
-    /// <summary>
-    /// Hides all Renderer components on children of this transform.
-    /// </summary>
     private void HideAllChildrenRenderers()
     {
         GrabbableItem[] grabbableItems = GetComponentsInChildren<GrabbableItem>(includeInactive: true);
         foreach (GrabbableItem grabbable in grabbableItems)
         {
-            grabbable.OnPhysicalHandGrabbed();
+            grabbable.OnPhysicalHandGrabbed(); 
         }
 
         Renderer[] renderers = GetComponentsInChildren<Renderer>(includeInactive: true);
@@ -183,9 +158,6 @@ public class DistractionTask : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Shows all Renderer components on children of this transform.
-    /// </summary>
     private void ShowAllChildrenRenderers()
     {
         Renderer[] renderers = GetComponentsInChildren<Renderer>(includeInactive: true);

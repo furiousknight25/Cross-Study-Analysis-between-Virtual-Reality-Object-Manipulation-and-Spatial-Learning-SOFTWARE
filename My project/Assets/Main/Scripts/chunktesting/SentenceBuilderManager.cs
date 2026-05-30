@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SentenceBuilderManager : MonoBehaviour
 {
@@ -11,14 +13,37 @@ public class SentenceBuilderManager : MonoBehaviour
     [Header("UI References")]
     [Tooltip("Drag your single 'FinalSentence' TextMeshPro object here.")]
     public TMP_Text finalSentenceText;
+    
+    [Tooltip("Reference to the Environment Manager so we can tell it to slide the words away.")]
+    public TestingEnvironmentManager testingEnvironment;
 
+    [Header("Phase 2: 3D Sorting UI")]
+    [Tooltip("The empty GameObject holding your Receptacle Bubbles.")]
+    public Transform bubbleUIParent;
+    public Vector3 bubbleUIUpOffset = new Vector3(0, 1.5f, 0);
+    public float transitionTweenDuration = 1.0f;
+
+    [Header("Phase 2: 3D Item Spawning")]
+    [Tooltip("Empty GameObjects on the right table where items should spawn.")]
+    public List<Transform> itemSpawnPoints = new List<Transform>();
+    public List<PhysicsBubbleReceptacle> Bubbles = new List<PhysicsBubbleReceptacle>();
+
+    // Internal State
     private int activeSlotIndex = -1;
     private string[] sentenceChunks = new string[6];
     private bool[] slotIsFilled = new bool[6];
     private int filledSlotsCount = 0;
+    
     private ExperimentTrialData currentTrialData;
+    private TrialScene currentTrialScene; // NEW: The physical room holding the objects
+
+    private bool is3DPhaseActive = false;
+    private Vector3 initialBubbleUIPos;
+    private List<GameObject> activeSpawnedItems = new List<GameObject>();
+
     private void Awake()
     {
+        if (bubbleUIParent != null) initialBubbleUIPos = bubbleUIParent.localPosition;
         ResetSentence();
     }
 
@@ -34,36 +59,55 @@ public class SentenceBuilderManager : MonoBehaviour
         if (foilSelectedChannel != null) foilSelectedChannel.OnEventRaised -= HandleFoilSelected;
     }
 
-    private void Update()
+private void Update()
     {
-        if (Keyboard.current != null && Keyboard.current.bKey.wasPressedThisFrame)
+        if (Keyboard.current == null) return;
+
+        // --- DEBUG CONTROL: Auto-Fill the sentence ---
+        if (Keyboard.current.bKey.wasPressedThisFrame && !is3DPhaseActive)
         {
+            Debug.Log("<color=yellow>[DEBUG] 'B' Key Pressed: Auto-filling sentence slots...</color>");
             for (int i = 0; i < 6; i++)
             {
                 if (!slotIsFilled[i])
                 {
-                    activeSlotIndex = i;
-                    HandleFoilSelected("RandomFoil_" + Random.Range(10, 99));
+                    // Grab a random foil from the JSON data, or use a fallback if it's missing
+                    string randomFoil = (currentTrialData != null && currentTrialData.Foils != null && currentTrialData.Foils.Length > 0) 
+                        ? currentTrialData.Foils[UnityEngine.Random.Range(0, currentTrialData.Foils.Length)] 
+                        : "Auto_Word_" + i;
+
+                    sentenceChunks[i] = $"<color=#00FF00>{randomFoil}</color>";
+                    slotIsFilled[i] = true;
+                    filledSlotsCount++;
                 }
             }
+            
+            activeSlotIndex = -1; // Deselect any active slot
+            UpdateSentenceDisplay(); // Refresh the text on the UI
         }
-        if (Keyboard.current != null && Keyboard.current.enterKey.wasPressedThisFrame)
+
+        // --- Master Submit Button (Laptop Control) ---
+        if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
-            submit_text();
+            if (!is3DPhaseActive) submit_text(); 
+            else Submit3DOrder(); 
         }
     }
 
+    // --- PHASE 1: TEXT BUILDING ---
     private void HandleSlotSelected(int slotIndex)
     {
+        if (is3DPhaseActive) return; 
         activeSlotIndex = slotIndex;
         UpdateSentenceDisplay();
     }
 
     private void HandleFoilSelected(string foilText)
     {
+        if (is3DPhaseActive) return; 
+
         if (activeSlotIndex >= 0 && activeSlotIndex < 6)
         {
-            // Insert the chosen word and color it green
             sentenceChunks[activeSlotIndex] = $"<color=#00FF00>{foilText}</color>";
 
             if (!slotIsFilled[activeSlotIndex])
@@ -72,49 +116,41 @@ public class SentenceBuilderManager : MonoBehaviour
                 filledSlotsCount++;
             }
 
-            // Deselect the slot once filled
             activeSlotIndex = -1; 
             UpdateSentenceDisplay();
         }
     }
     
-public void submit_text()
+    public void submit_text()
     {
-        if (filledSlotsCount >= 6 && currentTrialData != null)
+        if (filledSlotsCount >= 6 && currentTrialData != null && !is3DPhaseActive)
         {
-            Debug.Log("<color=green>Sentence Complete! Grading...</color>");
+            Debug.Log("<color=green>[Phase 1] Text Sentence Complete! Grading...</color>");
             int correctCount = 0;
 
-            // 1. Grade each chunk and log the result
             for (int i = 0; i < 6; i++)
             {
-                // Strip the green rich text tags to get the raw word
                 string cleanChunk = sentenceChunks[i].Replace("<color=#00FF00>", "").Replace("</color>", "").Trim();
                 string targetChunk = currentTrialData.Chunks[i].Trim();
 
-                // Compare what they selected vs what the true target was
                 bool isCorrect = string.Equals(cleanChunk, targetChunk, System.StringComparison.OrdinalIgnoreCase);
                 if (isCorrect) correctCount++;
 
                 string eventName = isCorrect ? "Chunk_Correct" : "Chunk_Incorrect";
 
-                // Log this specific chunk's result to the JSON Lines file
                 if (LoggingManager.Instance != null)
                 {
                     LoggingManager.Instance.LogEvent(currentTrialData.TrialID, eventName, i, cleanChunk);
                 }
             }
 
-            // 2. Log the final complete sentence and the total score (e.g., 4 out of 6)
             string cleanSentence = string.Join(" ", sentenceChunks).Replace("<color=#00FF00>", "").Replace("</color>", "");
-            
             if (LoggingManager.Instance != null)
             {
-                // We embed the final score directly into the event name for easy data sorting later
-                LoggingManager.Instance.LogEvent(currentTrialData.TrialID, $"Test_Complete_Score_{correctCount}_out_of_6", -1, cleanSentence);
+                LoggingManager.Instance.LogEvent(currentTrialData.TrialID, $"Text_Complete_Score_{correctCount}_out_of_6", -1, cleanSentence);
             }
 
-            Director.Instance.EndTestingPhase();
+            StartCoroutine(TransitionTo3DPhaseRoutine());
         }
     }
 
@@ -125,36 +161,150 @@ public void submit_text()
         string displayString = "";
         for (int i = 0; i < 6; i++)
         {
-            if (i == activeSlotIndex)
-            {
-                // Highlight the currently selected blank in yellow so the user knows where the word will go
-                displayString += $"<color=yellow>[ {sentenceChunks[i]} ]</color> ";
-            }
-            else
-            {
-                displayString += $"{sentenceChunks[i]} ";
-            }
+            if (i == activeSlotIndex) displayString += $"<color=yellow>[ {sentenceChunks[i]} ]</color> ";
+            else displayString += $"{sentenceChunks[i]} ";
         }
-        
         finalSentenceText.text = displayString.Trim();
     }
 
-    // Called by the Director to clear the text for the next trial
+    // --- PHASE 2: 3D SPATIAL SORTING ---
+
+    private IEnumerator TransitionTo3DPhaseRoutine()
+    {
+        is3DPhaseActive = true;
+        Debug.Log("<color=cyan>[Phase 2] Transitioning UI and Moving 3D Items...</color>");
+
+        if (testingEnvironment != null) testingEnvironment.EndTestingPhase(); 
+
+        float elapsed = 0f;
+        Vector3 bubbleTargetPos = initialBubbleUIPos + bubbleUIUpOffset;
+
+        while (elapsed < transitionTweenDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.SmoothStep(0, 1, elapsed / transitionTweenDuration);
+            if (bubbleUIParent != null) bubbleUIParent.localPosition = Vector3.Lerp(initialBubbleUIPos, bubbleTargetPos, t);
+            yield return null;
+        }
+
+        SpawnPhase2Items();
+    }
+
+   private void SpawnPhase2Items()
+    {
+        if (currentTrialScene == null || currentTrialScene.enviornment_parant == null) return;
+
+        // 1. Grab every GrabbableItem that was left inside the Trial Room (even if deactivated)
+        GrabbableItem[] trialItems = currentTrialScene.enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
+        List<GrabbableItem> itemsToMove = new List<GrabbableItem>(trialItems);
+
+        // 2. Shuffle them
+        for (int i = 0; i < itemsToMove.Count; i++)
+        {
+            GrabbableItem temp = itemsToMove[i];
+            int randomIndex = Random.Range(i, itemsToMove.Count);
+            itemsToMove[i] = itemsToMove[randomIndex];
+            itemsToMove[randomIndex] = temp;
+        }
+
+        // 3. Move them to the table and reactivate them
+        for (int i = 0; i < itemsToMove.Count; i++)
+        {
+            if (i >= itemSpawnPoints.Count) break; 
+
+            GrabbableItem item = itemsToMove[i];
+            
+            // Turn the GameObject back on
+            item.gameObject.SetActive(true);
+
+            // Force Renderers back on (since TrialScene.cs turned them off)
+            Renderer[] renderers = item.GetComponentsInChildren<Renderer>(true);
+            foreach (Renderer r in renderers) r.enabled = true;
+
+            // Teleport to the table
+            item.transform.position = itemSpawnPoints[i].position;
+            item.transform.rotation = itemSpawnPoints[i].rotation;
+
+            // Kill any residual velocity so it doesn't fly off the table
+            Rigidbody rb = item.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+                rb.useGravity = true;
+                rb.isKinematic = false;
+            }
+
+            activeSpawnedItems.Add(item.gameObject);
+        }
+    }
+
+    public void Submit3DOrder()
+    {
+        Debug.Log("<color=green>[Phase 2] 3D Sorting Complete! Logging Spatial Order...</color>");
+
+        for (int i = 0; i < Bubbles.Count; i++)
+        {
+            string loggedItemName = "Empty";
+
+            if (Bubbles[i].currentlyHeldObject != null)
+            {
+                GrabbableItem item = Bubbles[i].currentlyHeldObject.GetComponent<GrabbableItem>();
+                if (item != null) loggedItemName = item.ItemName;
+            }
+
+            if (LoggingManager.Instance != null)
+            {
+                // Formats perfectly to your requested JSON: "eventName":"bubble_placement","selectedSlot":i,"selecteditem":"duck"
+                LoggingManager.Instance.LogEvent(currentTrialData.TrialID, "bubble_placement", i, loggedItemName);
+            }
+        }
+
+        Director.Instance.EndTestingPhase();
+    }
+
+    // --- RESET / CLEANUP ---
+
     public void ResetSentence()
     {
+        is3DPhaseActive = false;
         activeSlotIndex = -1;
         filledSlotsCount = 0;
+
         for (int i = 0; i < 6; i++)
         {
             sentenceChunks[i] = "_____";
             slotIsFilled[i] = false;
         }
+
+        if (bubbleUIParent != null) bubbleUIParent.localPosition = initialBubbleUIPos;
+
+        // Clean up the table items. We DON'T destroy them because they are the original level items!
+        foreach (var obj in activeSpawnedItems)
+        {
+            if (obj != null) 
+            {
+                GrabbableItem gi = obj.GetComponent<GrabbableItem>();
+                if (gi != null) gi.OnPhysicalHandGrabbed(); // Force the hand to drop it if they are holding it
+                
+                obj.SetActive(false); // Just hide it again
+            }
+        }
+        activeSpawnedItems.Clear();
+
+        foreach (var b in Bubbles)
+        {
+            if (b.currentlyHeldObject != null) b.RemoveObject(b.currentlyHeldObject);
+        }
+
         UpdateSentenceDisplay();
     }
     
-    public void InitializeSentenceBuilder(ExperimentTrialData trialData)
+    // NEW: Accepts both the JSON Data and the physical TrialScene
+    public void InitializeSentenceBuilder(ExperimentTrialData trialData, TrialScene trialScene)
     {
         currentTrialData = trialData;
+        currentTrialScene = trialScene;
         ResetSentence();
     }
 }

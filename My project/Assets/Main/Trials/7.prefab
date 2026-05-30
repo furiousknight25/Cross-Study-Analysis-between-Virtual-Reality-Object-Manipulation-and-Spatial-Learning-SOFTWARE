@@ -1260,6 +1260,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: CarpetCutter
 --- !u!64 &5130149399338281987
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1508,6 +1509,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Screwdriver
 --- !u!65 &3334836711248926782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2290,6 +2292,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: HighHeels
 --- !u!64 &5002877121481286453
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3517,6 +3520,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: BreadBasket
 --- !u!4 &5528458141927753563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ee75c88ef4d16a37928653dd3b996ea, type: 3}
@@ -3748,6 +3752,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: CandleBurnt
 --- !u!64 &1637768133584896924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4653,6 +4658,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: MouseWireless
 --- !u!64 &1540678345972102478
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5030,6 +5036,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: CoatHanger
 --- !u!64 &8503054680457106959
 MeshCollider:
   m_ObjectHideFlags: 0

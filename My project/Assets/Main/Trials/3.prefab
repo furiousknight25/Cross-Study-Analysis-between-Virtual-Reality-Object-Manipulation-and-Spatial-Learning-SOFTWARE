@@ -1030,6 +1030,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Calculator
 --- !u!65 &1126851439365163289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1649,6 +1650,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Comb
 --- !u!65 &5306772931526000161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2268,6 +2270,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Doughnut
 --- !u!64 &7190269565242273828
 MeshCollider:
   m_ObjectHideFlags: 0

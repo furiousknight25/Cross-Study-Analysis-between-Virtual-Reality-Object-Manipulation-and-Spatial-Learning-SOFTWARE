@@ -1226,6 +1226,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: HairDryeer
 --- !u!4 &672655803617432164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 04b03859a8ddd3ffda7fb1fee2298169, type: 3}
@@ -2191,6 +2192,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Lighter
 --- !u!64 &9178878042589531263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2518,6 +2520,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: BottleOpener
 --- !u!65 &8202394409911931733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3086,6 +3089,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Carabiner_Key
 --- !u!64 &7192774394775892954
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3684,6 +3688,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Pear
 --- !u!64 &6411886549356983991
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3932,6 +3937,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Grapes
 --- !u!64 &5249487778264780047
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -1,33 +1,40 @@
 using UnityEngine;
-using System.Threading.Tasks;
 
 public class DirectorBridge : MonoBehaviour
 {
-    // We create a wrapper function that talks to the Singleton
-    public Transform vrHeadset; // Assign this in the Inspector to your VR camera rig's headset transform
-    public TrialScene trialSceneToAutoload; // Assign this in the Inspector to the TrialScene you want to start with
+    [Tooltip("Assign your VR camera rig's headset transform for continuous logging.")]
+    public Transform vrHeadset; 
     
-        void Start()
+    [Tooltip("Assign the TrialScene you want to register at startup.")]
+    public TrialScene trialSceneToAutoload; 
+    
+    void Start()
+    {
+        // Register the trial scene with the Director at the start of the experiment
+        if (trialSceneToAutoload != null)
         {
-            // Register the trial scene with the Director at the start of the experiment
-            if (trialSceneToAutoload != null)
-            {
-                addTrialToAutoload(trialSceneToAutoload);
-            }
+            addTrialToAutoload(trialSceneToAutoload);
         }
+    }
     
-    public void CallNextTrial()
+    // --- SAFE FSM TRIGGER ---
+    /// <summary>
+    /// This is the ONLY method that should be called by UI buttons or remote triggers 
+    /// to advance the experiment. It respects the Finite State Machine.
+    /// </summary>
+    public void buttonPressed()
     {
         if (Director.Instance != null)
         {
-            StartCoroutine(Director.Instance.MoveToNextTrialCoroutine() );
+            Director.Instance.ButtonPressed();
         }
         else
         {
-            Debug.LogWarning("Director Instance is missing!");
+            Debug.LogWarning("Director Instance is missing! Cannot advance state.");
         }
     }
 
+    // --- UTILITIES ---
     public void CallEndExperiment()
     {
         if (Director.Instance != null)
@@ -38,7 +45,6 @@ public class DirectorBridge : MonoBehaviour
     
     public void logHeadsetPosition()
     {
-
         if (Director.Instance != null && vrHeadset != null)
         {
             Director.Instance.logHeadsetPosition(vrHeadset.position);
@@ -50,14 +56,6 @@ public class DirectorBridge : MonoBehaviour
         if (Director.Instance != null && trialScene != null)
         {
             Director.Instance.RegisterTrialScene(trialScene);
-        }
-    }
-
-    public void buttonPressed()
-    {
-        if (Director.Instance != null)
-        {
-            Director.Instance.ButtonPressed();
         }
     }
 }

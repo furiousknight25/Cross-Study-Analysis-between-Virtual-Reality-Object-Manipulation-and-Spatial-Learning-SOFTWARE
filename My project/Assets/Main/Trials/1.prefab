@@ -2645,6 +2645,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: RubberDucky
 --- !u!1001 &5399523718395639188
 PrefabInstance:
   m_ObjectHideFlags: 0

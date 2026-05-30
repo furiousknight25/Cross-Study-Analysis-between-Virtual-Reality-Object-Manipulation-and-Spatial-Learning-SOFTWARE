@@ -9,39 +9,55 @@ public class Director : MonoBehaviour
 {
     public static Director Instance { get; private set; }
 
+    // --- FINITE STATE MACHINE ---
+    public enum ExperimentState
+    {
+        ReadyToLoadTrial,         
+        WaitingForPlayerToEnter,  
+        Exploration,              
+        ReadingAndInventory,      
+        Encoding,                 
+        WaitingForPlayerToExit,   
+        Distraction,              
+        Testing,                  
+        Complete
+    }
+
+    [Header("Experiment State")]
+    public ExperimentState CurrentState = ExperimentState.ReadyToLoadTrial; 
+
     public event Action OnDoorToggle;
 
+    [Header("References")]
     public DistractionTask distractionTask;
     public List<TrialScene> trialScenes = new List<TrialScene>();
     public TrialScene tutorialScene;
-    
     public List<GrabbableItem> tutorialItems = null;
     public TMP_Text instructionText = null;
-    
-    public bool isControlGroup;
-    public bool distraction_task_completed = true; 
-    private bool tutorial_completed = false;
-    public float explore_time = 2f; 
-    public float reading_time = 2f; 
-    public float encode_time = 50f; 
-    public float distraction_task_duration = 3f;
     public SentenceBuilderManager sentenceBuilder;
     public TestingEnvironmentManager testingEnvironment;
     
-    
-    // REMOVED public ExperimentTrialData currentTrialData;
-    // NEW: We store the data of the trial we just finished so we can test on it after distraction
-    private ExperimentTrialData lastCompletedTrialData; 
+    [Header("Settings - Main Trials")]
+    public bool isControlGroup;
+    public float explore_time = 120f; 
+    public float reading_time = 20f; 
+    public float encode_time = 70f; 
+    public float distraction_task_duration = 120f;
 
+    [Header("Settings - Tutorial (First Level)")]
+    public float tutorial_explore_time = 30f;
+    public float tutorial_encode_time = 30f;
+    public float tutorial_distraction_duration = 30f; 
+
+    private bool tutorial_completed = false; 
+    private ExperimentTrialData lastCompletedTrialData; 
+    private TrialScene lastCompletedTrialScene; // NEW: Stores the physical room
     private TrialScene next_trial = null;
     private bool isTransitioning = false; 
 
     void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
+        if (Instance != null && Instance != this) Destroy(gameObject);
         else
         {
             Instance = this;
@@ -51,209 +67,182 @@ public class Director : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.nKey.wasPressedThisFrame)
-        {
-            if (!isTransitioning) 
-            {
-                ButtonPressed();
-            }
-        }
-
-        if (Keyboard.current.cKey.wasPressedThisFrame)
-        {
-            SetControlGroupMode();
-        }
+        if (Keyboard.current.nKey.wasPressedThisFrame) ButtonPressed();
+        if (Keyboard.current.cKey.wasPressedThisFrame) SetControlGroupMode();
     }
 
     public void RegisterTrialScene(TrialScene trialScene)
     {
         if (trialScene == null) return;
-
-        if (!trialScenes.Contains(trialScene))
-        {
-            trialScenes.Add(trialScene);
-            Debug.Log($"Registered TrialScene: {trialScene.name}");
-        }
+        if (!trialScenes.Contains(trialScene)) trialScenes.Add(trialScene);
     }
 
-public void ButtonPressed()
+    public void SetState(ExperimentState newState)
     {
-        if (next_trial == null && distraction_task_completed)
+        CurrentState = newState;
+        Debug.Log($"<color=cyan>[State Machine] Transitioned to: {newState}</color>");
+    }
+
+    public void ButtonPressed()
+    {
+        if (isTransitioning) return; 
+
+        switch (CurrentState)
         {
-            if (lastCompletedTrialData == null)
-            {
-                // If there's no saved data, we are at the very beginning of the experiment.
-                // Start the first learning trial!
+            case ExperimentState.ReadyToLoadTrial:
                 StartCoroutine(MoveToNextTrialCoroutine());
-            }
-            else
-            {
-                // We have saved data, which means we just finished a distraction task. Time to test!
+                break;
+            case ExperimentState.WaitingForPlayerToEnter:
+                StartCoroutine(StartExplorationCoroutine());
+                break;
+            case ExperimentState.ReadingAndInventory:
+                StartCoroutine(StartEncodingCoroutine());
+                break;
+            case ExperimentState.WaitingForPlayerToExit:
+                StartCoroutine(EndCurrentTrialCoroutine());
+                break;
+            case ExperimentState.Distraction:
                 StartTestingPhase();
-            }
-        }
-        else if (next_trial != null && next_trial.trial_completed)
-        {
-            StartCoroutine(EndCurrentTrialCoroutine());
+                break;
         }
     }
 
-    public IEnumerator MoveToNextTrialCoroutine()
+    private IEnumerator MoveToNextTrialCoroutine()
     {
-        if (trialScenes.Count == 0)
+        isTransitioning = true;
+        
+        if (!tutorial_completed && tutorialScene != null)
         {
-            Debug.Log("<color=red>No more trials left!</color>");
-            EndExperiment();
-            isTransitioning = false;
-            yield break; 
-        }
-
-
-        if (tutorial_completed == false)
-        {
-            StartCoroutine(clear_tutorial());
-            tutorial_completed = true;
+            yield return StartCoroutine(clear_tutorial()); 
             next_trial = tutorialScene;
+            tutorial_completed = true;
         }
         else
         {
+            if (trialScenes.Count == 0)
+            {
+                EndExperiment();
+                yield break; 
+            }
             int index = UnityEngine.Random.Range(0, trialScenes.Count);
             next_trial = trialScenes[index];
             trialScenes.Remove(next_trial);
-
         }
-        
-        isTransitioning = true;
 
-        StartCoroutine(next_trial.StartTrial());
+        if (next_trial.tablet != null) next_trial.tablet.SetupTabletText(next_trial.trialData);
 
-        yield return new WaitForSeconds(2.2f); 
+        yield return StartCoroutine(next_trial.TransitionInRoutine());
+
         OnDoorToggle?.Invoke(); 
-
+        SetState(ExperimentState.WaitingForPlayerToEnter);
         isTransitioning = false;
     }
 
-    private IEnumerator EndCurrentTrialCoroutine()
+    private IEnumerator StartExplorationCoroutine()
     {
         isTransitioning = true;
-        
+        OnDoorToggle?.Invoke(); 
+        SetState(ExperimentState.Exploration);
+        isTransitioning = false;
+
+        yield return StartCoroutine(next_trial.ExplorationRoutine());
+    }
+
+    private IEnumerator StartEncodingCoroutine()
+    {
+        isTransitioning = true;
+        SetState(ExperimentState.Encoding);
+        isTransitioning = false;
+
+        yield return StartCoroutine(next_trial.EncodingRoutine());
+    }
+
+    public void OnEncodingFinished()
+    {
+        next_trial.trial_completed = true;
+        next_trial.tablet.hideText();
+        OnDoorToggle?.Invoke(); 
+        SetState(ExperimentState.WaitingForPlayerToExit);
+    }
+
+   private IEnumerator EndCurrentTrialCoroutine()
+    {
+        isTransitioning = true;
         OnDoorToggle?.Invoke(); 
         yield return new WaitForSeconds(1f); 
 
         LogSpecificTrialData(next_trial);
-        
-        // NEW: Save the data from the trial we just finished BEFORE we nullify it!
         lastCompletedTrialData = next_trial.trialData;
+        lastCompletedTrialScene = next_trial; // NEW: Save the room before we nullify next_trial!
 
-        yield return StartCoroutine(next_trial.EndTrialSequence());
+        float timeToWait = (next_trial == tutorialScene) ? tutorial_distraction_duration : distraction_task_duration;
+
+        next_trial.HideAllPhysicsAndRenderers();
+        yield return StartCoroutine(next_trial.TransitionOutRoutine());
 
         next_trial = null; 
-        distraction_task_completed = false;
+        SetState(ExperimentState.Distraction);
         isTransitioning = false;
 
-        Debug.Log("<color=magenta>Start Distraction Task Here</color>");
-        distractionTask.StartDistractionTask();
+        distractionTask.StartDistractionTask(timeToWait);
     }
 
-    public void ToggleDoor()
+    public void StartTestingPhase()
     {
-        OnDoorToggle?.Invoke();
+        SetState(ExperimentState.Testing);
+        if (sentenceBuilder != null) 
+        {
+            // NEW: Pass BOTH the data and the physical scene over
+            sentenceBuilder.InitializeSentenceBuilder(lastCompletedTrialData, lastCompletedTrialScene);
+        }
+        testingEnvironment.StartTestingPhase(lastCompletedTrialData);
     }
+
+    public void EndTestingPhase()
+    {
+        testingEnvironment.EndTestingPhase();
+        lastCompletedTrialData = null; 
+        lastCompletedTrialScene = null; // Clean it up
+        
+        if (LoggingManager.Instance != null) LoggingManager.Instance.SaveToDisk();
+        
+        SetState(ExperimentState.ReadyToLoadTrial);
+        Debug.Log("<color=green>Testing complete. Awaiting remote to load next trial.</color>");
+    }
+
+    public void ToggleDoor() => OnDoorToggle?.Invoke();
 
     public void LogSpecificTrialData(TrialScene trial)
     {
         if (trial == null) return;
-
-        foreach (Vector3 touch_point in trial.touch_points)
-        {
-            LoggingManager.Instance.LogTelemetry("trial_touch_points", touch_point);
-        }
-        foreach (Vector3 locus_point in trial.locus_points)
-        {
-            LoggingManager.Instance.LogTelemetry("trial_locus_points", locus_point);
-        }
+        foreach (Vector3 tp in trial.touch_points) LoggingManager.Instance.LogTelemetry("trial_touch_points", tp);
+        foreach (Vector3 lp in trial.locus_points) LoggingManager.Instance.LogTelemetry("trial_locus_points", lp);
     }
 
-    public void logHeadsetPosition(Vector3 position)
-    {
-        LoggingManager.Instance.LogTelemetry("headset_position", position);
-    }
+    public void logHeadsetPosition(Vector3 position) => LoggingManager.Instance.LogTelemetry("headset_position", position);
 
     public void EndExperiment() 
     {
-        Debug.Log("Experiment Complete. All data has been successfully streamed to disk.");
+        SetState(ExperimentState.Complete);
         LoggingManager.Instance.LogEvent("Global", "Experiment_Complete");
+        Debug.Log("<color=green>Experiment Complete. All data saved.</color>");
     }
 
     private IEnumerator clear_tutorial()
     {        
-        // Force the Ultraleap hand script to drop the items
-        foreach (GrabbableItem grabbable in tutorialItems)
-        {
-            grabbable.OnPhysicalHandGrabbed();
-        }
-
-        // Wait 1 second for the physics engine and hand tracking to settle
+        foreach (GrabbableItem grabbable in tutorialItems) grabbable.OnPhysicalHandGrabbed();
         yield return new WaitForSeconds(1.0f);
-
-        // Turn off the GameObjects completely
-        foreach (GrabbableItem grabbable in tutorialItems)
-        {
-            if (grabbable != null)
-            {
-                grabbable.gameObject.SetActive(false);
-            }
-        }
+        foreach (GrabbableItem grabbable in tutorialItems) if (grabbable != null) grabbable.gameObject.SetActive(false);
         if (instructionText != null) instructionText.gameObject.SetActive(false);
     }
-public void StartTestingPhase()
-    {
-        distraction_task_completed = false; 
-        
-        // NEW: Pass the trial data to the sentence builder so it can grade the answers!
-        if (sentenceBuilder != null) 
-        {
-            sentenceBuilder.InitializeSentenceBuilder(lastCompletedTrialData);
-        }
 
-        testingEnvironment.StartTestingPhase(lastCompletedTrialData);
-    }
-
-public void EndTestingPhase()
-    {
-        testingEnvironment.EndTestingPhase();
-        
-        // 1. Clear the old trial data so the Director knows we are done testing it.
-        // This ensures the next button press routes to a NEW trial, not back into the test.
-        lastCompletedTrialData = null; 
-
-        // 2. Set this to true so the 'N' key (ButtonPressed) is allowed to trigger the next phase.
-        distraction_task_completed = true; 
-
-        if (LoggingManager.Instance != null)
-        {
-            LoggingManager.Instance.SaveToDisk();
-        }
-
-        // REMOVED: StartCoroutine(MoveToNextTrialCoroutine());
-        Debug.Log("Testing phase ended. Awaiting button press to start the next trial...");
-    }
-
-public void SetControlGroupMode()
+    public void SetControlGroupMode()
     {
         isControlGroup = true;
-        
-        // Find all active bubbles in the scene
         PhysicsBubbleReceptacle[] allBubbles = FindObjectsOfType<PhysicsBubbleReceptacle>();
-        
         foreach (var bubble in allBubbles)
         {
-            if (bubble.currentlyHeldObject != null)
-            {
-                bubble.TransformIntoControlCube(bubble.currentlyHeldObject);
-            }
+            if (bubble.currentlyHeldObject != null) bubble.TransformIntoControlCube(bubble.currentlyHeldObject);
         }
-        
-        Debug.Log($"<color=yellow>Global Control Group Mode set to: {true}</color>");
     }
 }

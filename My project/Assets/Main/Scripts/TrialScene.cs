@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class TrialScene : MonoBehaviour
 {
-    // NEW: Assign the specific Trial Data asset in the Inspector for this scene
     public ExperimentTrialData trialData; 
 
     private bool tabletEventReceived = false;
     public List<Vector3> touch_points = new List<Vector3>();
     public List<Vector3> locus_points = new List<Vector3>();
 
-    public Transform enviornment_parant; 
+    public Transform enviornment_parant;
     public Tablet tablet;
     public bool trial_completed = false;
     
     public Vector3 trialStartPosition = new Vector3(-1.4f, -0.06f, 1.48f); 
     public Vector3 trialEndPosition = new Vector3(-1.4f, 10.00f, 1.48f);
+
+    // Dynamic check to see if this specific scene is the tutorial level
+    private bool IsTutorial => Director.Instance != null && Director.Instance.tutorialScene == this;
 
     void OnEnable()
     {
@@ -25,27 +27,24 @@ public class TrialScene : MonoBehaviour
 
     IEnumerator WaitAndRegister()
     {
-        while (Director.Instance == null)
-        {
-            yield return null; 
-        }
+        while (Director.Instance == null) yield return null; 
         Director.Instance.RegisterTrialScene(this);
     }
 
-    public IEnumerator StartTrial()
+    public IEnumerator TransitionInRoutine()
     {
-        Debug.Log("Trial started");
-        
-        // NEW: Pass the text to the tablet right as the trial begins
-        if (tablet != null)
-        {
-            tablet.SetupTabletText(trialData);
-        }
-
         transform.localScale *= 1.1f;
-        StartCoroutine(TweenPosition(trialStartPosition, 2f)); 
+        yield return StartCoroutine(TweenPosition(trialStartPosition, 2f)); 
+    }
+
+    public IEnumerator ExplorationRoutine()
+    {
+        // Pull the correct timing based on whether this is the tutorial
+        float timeToWait = IsTutorial ? Director.Instance.tutorial_explore_time : Director.Instance.explore_time;
         
-        yield return StartCoroutine(StartTimer(Director.Instance.explore_time));
+        Debug.Log($"<color=white>[TrialScene] Exploration started. Timer: {timeToWait}s</color>");
+        yield return StartCoroutine(StartTimer(timeToWait));
+        
         tablet.can_spawn_text = true; 
         tablet.showButton();
 
@@ -53,40 +52,55 @@ public class TrialScene : MonoBehaviour
         tablet.OnSpawnItemsRequested += OnTabletSpawnItemsRequested;
         yield return new WaitUntil(() => tabletEventReceived);
         tablet.OnSpawnItemsRequested -= OnTabletSpawnItemsRequested;
-
-        Debug.Log("Tablet event received, starting reading time");
-        yield return StartCoroutine(StartTimer(Director.Instance.reading_time));
-        
-        Debug.Log("Reading time finished, starting encoding time");
-        StartCoroutine(tablet.spawn_items());
-        
-        yield return StartCoroutine(StartTimer(Director.Instance.encode_time));
-        Debug.Log("Encoding time finished, ending trial");
-        
-        trial_completed = true;
-        HideAllChildrenRenderers();
-        tablet.hideText();
     }
 
-    public IEnumerator EndTrialSequence()
+    // --- BUG FIX: Route the click into a timed Coroutine instead of spawning instantly ---
+    private void OnTabletSpawnItemsRequested()
+    {
+        StartCoroutine(ReadingAndSpawnRoutine());
+    }
+
+    private IEnumerator ReadingAndSpawnRoutine()
+    {
+        tabletEventReceived = true; // Tell the ExplorationRoutine we clicked the button
+        HideRoomVisuals(); 
+
+        // 1. Wait for Reading Time (20 seconds)
+        Debug.Log($"<color=white>[TrialScene] Reading phase started. Timer: {Director.Instance.reading_time}s</color>");
+        yield return StartCoroutine(StartTimer(Director.Instance.reading_time));
+        
+        // 2. Spawn the items after reading is complete
+        StartCoroutine(tablet.spawn_items()); 
+        
+        // 3. Tell the FSM we are ready for the remote to unhide the room
+        Director.Instance.SetState(Director.ExperimentState.ReadingAndInventory);
+    }
+
+    public IEnumerator EncodingRoutine()
+    {
+        ShowRoomVisuals();
+        
+        // Pull the correct timing based on whether this is the tutorial
+        float timeToWait = IsTutorial ? Director.Instance.tutorial_encode_time : Director.Instance.encode_time;
+        
+        Debug.Log($"<color=white>[TrialScene] Encoding started. Timer: {timeToWait}s</color>");
+        yield return StartCoroutine(StartTimer(timeToWait));
+        
+        Director.Instance.OnEncodingFinished();
+    }
+
+    public IEnumerator TransitionOutRoutine()
     {
         yield return StartCoroutine(TweenPosition(trialEndPosition, 2f)); 
     }
 
     IEnumerator StartTimer(float seconds)
     {
-        Debug.Log($"Timer started for {seconds} seconds");
         yield return new WaitForSeconds(seconds);
-    }
-
-    private void OnTabletSpawnItemsRequested()
-    {
-        tabletEventReceived = true;
     }
 
     public void pointTouched(Vector3 point)
     {
-        Debug.Log("Point touched: " + point);
         touch_points.Add(point);
     }
 
@@ -102,49 +116,63 @@ public class TrialScene : MonoBehaviour
             transform.position = Vector3.Lerp(startPos, targetPosition, t);
             yield return null;
         }
-
         transform.position = targetPosition;
     }
 
-    public void HideAllChildrenRenderers()
+    // --- VISIBILITY MANAGERS ---
+
+    public void HideRoomVisuals()
+    {
+        if (enviornment_parant == null) return;
+        Renderer[] renderers = enviornment_parant.GetComponentsInChildren<Renderer>(true);
+        
+        foreach (Renderer r in renderers)
+        {
+            if (r.GetComponentInParent<Tablet>() != null) continue;
+            if (r.GetComponentInParent<GrabbableItem>() != null) continue;
+            if (r.GetComponentInParent<PhysicsBubbleReceptacle>() != null) continue;
+
+            if (r.transform != enviornment_parant)
+            {
+                r.enabled = false;
+            }
+        }
+    }
+
+    public void ShowRoomVisuals()
+    {
+        if (enviornment_parant == null) return;
+        Renderer[] renderers = enviornment_parant.GetComponentsInChildren<Renderer>(true);
+        
+        foreach (Renderer r in renderers)
+        {
+            if (r.transform != enviornment_parant) r.enabled = true;
+        }
+    }
+
+    public void HideAllPhysicsAndRenderers()
     {
         if (enviornment_parant == null) return;
 
-        // 1. Instantly hide all renderers so the environment visually vanishes right away
-        Renderer[] descendantRenderers = enviornment_parant.GetComponentsInChildren<Renderer>(includeInactive: true);
+        Renderer[] descendantRenderers = enviornment_parant.GetComponentsInChildren<Renderer>(true);
         foreach (Renderer renderer in descendantRenderers)
         {
-            if (renderer.transform != enviornment_parant)
-            {
-                renderer.enabled = false;
-            }
+            if (renderer.transform != enviornment_parant) renderer.enabled = false;
         }
 
-        // 2. Start the 1-second delay routine for physics items
         StartCoroutine(DeactivateGrabbablesRoutine());
     }
 
-    // NEW: Coroutine to handle the delayed physics deactivation
     private IEnumerator DeactivateGrabbablesRoutine()
     {
-        GrabbableItem[] grabbableItems = enviornment_parant.GetComponentsInChildren<GrabbableItem>(includeInactive: true);
-        
-        // Force the Ultraleap hand script to drop the items
-        foreach (GrabbableItem grabbable in grabbableItems)
-        {
-            grabbable.OnPhysicalHandGrabbed();
-        }
+        GrabbableItem[] grabbableItems = enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
+        foreach (GrabbableItem grabbable in grabbableItems) grabbable.OnPhysicalHandGrabbed();
 
-        // Wait 1 second for the physics engine and hand tracking to settle
         yield return new WaitForSeconds(1.0f);
 
-        // Turn off the GameObjects completely
         foreach (GrabbableItem grabbable in grabbableItems)
         {
-            if (grabbable != null)
-            {
-                grabbable.gameObject.SetActive(false);
-            }
+            if (grabbable != null) grabbable.gameObject.SetActive(false);
         }
     }
 }

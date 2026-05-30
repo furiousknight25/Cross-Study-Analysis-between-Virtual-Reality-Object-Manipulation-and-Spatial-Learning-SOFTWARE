@@ -24,6 +24,8 @@ public class GrabbableItem : MonoBehaviour
     private Vector3 originalScale;
     private Coroutine scaleCoroutine;
 
+    public string ItemName;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();

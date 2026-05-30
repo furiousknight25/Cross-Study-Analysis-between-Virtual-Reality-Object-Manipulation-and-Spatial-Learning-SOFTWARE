@@ -932,6 +932,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: AlarmClock
 --- !u!64 &1875062978219540219
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1391,6 +1392,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Grater
 --- !u!65 &8979796682574256642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2079,6 +2081,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Crown
 --- !u!64 &5733480672678731742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2601,6 +2604,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Scissors
 --- !u!64 &5285325178407944939
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2951,6 +2955,7 @@ MonoBehaviour:
   currentBubble: {fileID: 0}
   inBubbleScaleMultiplier: 0.5
   scaleSpeed: 0.2
+  ItemName: Cactus
 --- !u!4 &5738237372127322204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15af8fd04391a0938b46d2e537caf7cb, type: 3}
