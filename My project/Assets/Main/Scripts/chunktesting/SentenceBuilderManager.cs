@@ -20,7 +20,11 @@ public class SentenceBuilderManager : MonoBehaviour
     [Header("Phase 2: 3D Sorting UI")]
     [Tooltip("The empty GameObject holding your Receptacle Bubbles.")]
     public Transform bubbleUIParent;
+    [Tooltip("The empty GameObject holding your words and column buttons.")]
+    public Transform wordsAndButtons;
+    
     public Vector3 bubbleUIUpOffset = new Vector3(0, 1.5f, 0);
+    public Vector3 wordsAndButtonsDownOffset = new Vector3(0, -1.5f, 0);
     public float transitionTweenDuration = 1.0f;
 
     [Header("Phase 2: 3D Item Spawning")]
@@ -35,15 +39,17 @@ public class SentenceBuilderManager : MonoBehaviour
     private int filledSlotsCount = 0;
     
     private ExperimentTrialData currentTrialData;
-    private TrialScene currentTrialScene; // NEW: The physical room holding the objects
+    private TrialScene currentTrialScene; 
 
     private bool is3DPhaseActive = false;
     private Vector3 initialBubbleUIPos;
+    private Vector3 initialWordsAndButtonsPos;
     private List<GameObject> activeSpawnedItems = new List<GameObject>();
 
     private void Awake()
     {
         if (bubbleUIParent != null) initialBubbleUIPos = bubbleUIParent.localPosition;
+        if (wordsAndButtons != null) initialWordsAndButtonsPos = wordsAndButtons.localPosition;
         ResetSentence();
     }
 
@@ -59,7 +65,7 @@ public class SentenceBuilderManager : MonoBehaviour
         if (foilSelectedChannel != null) foilSelectedChannel.OnEventRaised -= HandleFoilSelected;
     }
 
-private void Update()
+    private void Update()
     {
         if (Keyboard.current == null) return;
 
@@ -71,7 +77,6 @@ private void Update()
             {
                 if (!slotIsFilled[i])
                 {
-                    // Grab a random foil from the JSON data, or use a fallback if it's missing
                     string randomFoil = (currentTrialData != null && currentTrialData.Foils != null && currentTrialData.Foils.Length > 0) 
                         ? currentTrialData.Foils[UnityEngine.Random.Range(0, currentTrialData.Foils.Length)] 
                         : "Auto_Word_" + i;
@@ -82,8 +87,8 @@ private void Update()
                 }
             }
             
-            activeSlotIndex = -1; // Deselect any active slot
-            UpdateSentenceDisplay(); // Refresh the text on the UI
+            activeSlotIndex = -1; 
+            UpdateSentenceDisplay(); 
         }
 
         // --- Master Submit Button (Laptop Control) ---
@@ -174,16 +179,21 @@ private void Update()
         is3DPhaseActive = true;
         Debug.Log("<color=cyan>[Phase 2] Transitioning UI and Moving 3D Items...</color>");
 
-        if (testingEnvironment != null) testingEnvironment.EndTestingPhase(); 
-
         float elapsed = 0f;
         Vector3 bubbleTargetPos = initialBubbleUIPos + bubbleUIUpOffset;
+        Vector3 wordsTargetPos = initialWordsAndButtonsPos + wordsAndButtonsDownOffset;
 
         while (elapsed < transitionTweenDuration)
         {
             elapsed += Time.deltaTime;
             float t = Mathf.SmoothStep(0, 1, elapsed / transitionTweenDuration);
+            
+            // Tween Bubbles Up
             if (bubbleUIParent != null) bubbleUIParent.localPosition = Vector3.Lerp(initialBubbleUIPos, bubbleTargetPos, t);
+            
+            // Tween Words and Buttons Down
+            if (wordsAndButtons != null) wordsAndButtons.localPosition = Vector3.Lerp(initialWordsAndButtonsPos, wordsTargetPos, t);
+            
             yield return null;
         }
 
@@ -194,11 +204,9 @@ private void Update()
     {
         if (currentTrialScene == null || currentTrialScene.enviornment_parant == null) return;
 
-        // 1. Grab every GrabbableItem that was left inside the Trial Room (even if deactivated)
         GrabbableItem[] trialItems = currentTrialScene.enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
         List<GrabbableItem> itemsToMove = new List<GrabbableItem>(trialItems);
 
-        // 2. Shuffle them
         for (int i = 0; i < itemsToMove.Count; i++)
         {
             GrabbableItem temp = itemsToMove[i];
@@ -207,25 +215,20 @@ private void Update()
             itemsToMove[randomIndex] = temp;
         }
 
-        // 3. Move them to the table and reactivate them
         for (int i = 0; i < itemsToMove.Count; i++)
         {
             if (i >= itemSpawnPoints.Count) break; 
 
             GrabbableItem item = itemsToMove[i];
             
-            // Turn the GameObject back on
             item.gameObject.SetActive(true);
 
-            // Force Renderers back on (since TrialScene.cs turned them off)
             Renderer[] renderers = item.GetComponentsInChildren<Renderer>(true);
             foreach (Renderer r in renderers) r.enabled = true;
 
-            // Teleport to the table
             item.transform.position = itemSpawnPoints[i].position;
             item.transform.rotation = itemSpawnPoints[i].rotation;
 
-            // Kill any residual velocity so it doesn't fly off the table
             Rigidbody rb = item.GetComponent<Rigidbody>();
             if (rb != null)
             {
@@ -255,15 +258,40 @@ private void Update()
 
             if (LoggingManager.Instance != null)
             {
-                // Formats perfectly to your requested JSON: "eventName":"bubble_placement","selectedSlot":i,"selecteditem":"duck"
                 LoggingManager.Instance.LogEvent(currentTrialData.TrialID, "bubble_placement", i, loggedItemName);
             }
         }
 
+        // --- NEW: Instantly clean up the items so they don't linger in the scene ---
+        Clear3DItems();
+
+        // The Director will call testingEnvironment.EndTestingPhase() to tween the entire board away
         Director.Instance.EndTestingPhase();
     }
 
     // --- RESET / CLEANUP ---
+
+    private void Clear3DItems()
+    {
+        // 1. Drop and hide the table items
+        foreach (var obj in activeSpawnedItems)
+        {
+            if (obj != null) 
+            {
+                GrabbableItem gi = obj.GetComponent<GrabbableItem>();
+                if (gi != null) gi.OnPhysicalHandGrabbed(); 
+                
+                obj.SetActive(false); 
+            }
+        }
+        activeSpawnedItems.Clear();
+
+        // 2. Empty the bubbles
+        foreach (var b in Bubbles)
+        {
+            if (b.currentlyHeldObject != null) b.RemoveObject(b.currentlyHeldObject);
+        }
+    }
 
     public void ResetSentence()
     {
@@ -277,34 +305,20 @@ private void Update()
             slotIsFilled[i] = false;
         }
 
+        // Snap everything perfectly back to its starting local position
         if (bubbleUIParent != null) bubbleUIParent.localPosition = initialBubbleUIPos;
+        if (wordsAndButtons != null) wordsAndButtons.localPosition = initialWordsAndButtonsPos;
 
-        // Clean up the table items. We DON'T destroy them because they are the original level items!
-        foreach (var obj in activeSpawnedItems)
-        {
-            if (obj != null) 
-            {
-                GrabbableItem gi = obj.GetComponent<GrabbableItem>();
-                if (gi != null) gi.OnPhysicalHandGrabbed(); // Force the hand to drop it if they are holding it
-                
-                obj.SetActive(false); // Just hide it again
-            }
-        }
-        activeSpawnedItems.Clear();
-
-        foreach (var b in Bubbles)
-        {
-            if (b.currentlyHeldObject != null) b.RemoveObject(b.currentlyHeldObject);
-        }
+        // Uses the new helper method to guarantee everything is wiped
+        Clear3DItems();
 
         UpdateSentenceDisplay();
     }
     
-    // NEW: Accepts both the JSON Data and the physical TrialScene
     public void InitializeSentenceBuilder(ExperimentTrialData trialData, TrialScene trialScene)
     {
         currentTrialData = trialData;
         currentTrialScene = trialScene;
-        ResetSentence();
+        ResetSentence(); // Resets local coordinates before TestingEnvironmentManager tweens the board back up
     }
 }
