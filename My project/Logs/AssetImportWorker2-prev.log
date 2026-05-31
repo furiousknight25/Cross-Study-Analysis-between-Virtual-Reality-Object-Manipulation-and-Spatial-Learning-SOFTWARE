@@ -7,21 +7,21 @@ Distro version:          #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 16:11
 Kernel version:          6.17.0-23-generic
 Architecture:            x86_64
 Available memory:        15205 MB
-Date:                    2026-05-07T20:02:26Z
+Date:                    2026-05-21T10:16:32Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-05-07T20:02:26.678437Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061" at "2026-05-21T10:16:32.169166Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              e44795ef8a0b4abf835e8dc814858703
-  Correlation Id:          5faa64edbe514bb6b162323da3725986
-  External correlation Id: 8902428063590488324
+  Session Id:              860a2cecbaaa4d95915efd88eb449a5b
+  Correlation Id:          8fd705350e4154cff375aecb357b08ef
+  External correlation Id: 6261085893362963651
   Machine Id:              reyimwx9n/iaWxeQDpiYtRc7igQ=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-collector25061" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-05-07T20:02:26.680872Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-collector25061-notifications" at "2026-05-21T10:16:32.172365Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
-Desktop is 4480 x 1440 @ 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
@@ -36,7 +36,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-37183
+33699
 -licensingIpc
 LicenseClient-collector25061
 -job-worker-count
@@ -82,14 +82,12 @@ Successfully changed project path to: /home/collector25061/Documents/GitHub/Cros
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [137069327887168]  Target information:
+Player connection [131846213380928]  Target information:
 
-Player connection [137069327887168]  * "[IP] 10.140.44.20 [Port] 0 [Flags] 2 [Guid] 575483714 [EditorId] 575483714 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [131846213380928]  * "[IP] 10.94.38.92 [Port] 0 [Flags] 2 [Guid] 2338890181 [EditorId] 2338890181 [Version] 1048832 [Id] LinuxEditor(16,10.94.38.92) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [137069327887168]  * "[IP] 100.66.165.22 [Port] 0 [Flags] 2 [Guid] 575483714 [EditorId] 575483714 [Version] 1048832 [Id] LinuxEditor(16,10.140.44.20) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
-
-Player connection [137069327887168] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [137069327887168] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [131846213380928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [131846213380928] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -107,7 +105,7 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 41.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -126,56 +124,56 @@ ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_textur
 _attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_t
 exture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha
 _to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 633334912
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 990965072
 Initialize mono
 Mono path[0] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56665
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/collector25061/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005763 seconds.
-- Loaded All Assemblies, in  0.992 seconds
+Registered in 0.003459 seconds.
+- Loaded All Assemblies, in  0.602 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 951 ms
+Android Extension - Scanning For ADB Devices 401 ms
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.103 seconds
-Domain Reload Profiling: 3095ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  1.217 seconds
+Domain Reload Profiling: 1818ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (128ms)
-	LoadAllAssembliesAndSetupDomain (554ms)
-		LoadAssemblies (197ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (539ms)
-			TypeCache.Refresh (535ms)
-				TypeCache.ScanAssembly (488ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (302ms)
+				TypeCache.ScanAssembly (279ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (2104ms)
+	FinalizeReload (1218ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1964ms)
+		SetupLoadedEditorAssemblies (1109ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1184ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
+			InitializePlatformSupportModulesInManaged (562ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,8 +183,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.769 seconds
-Refreshing native plugins compatible for Editor in 5.78 ms, found 0 plugins.
+- Loaded All Assemblies, in  1.505 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -200,184 +198,55 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.873 seconds
-Domain Reload Profiling: 3630ms
-	BeginReloadAssembly (311ms)
+- Finished resetting the current domain, in  2.149 seconds
+Domain Reload Profiling: 3643ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
-	RebuildCommonClasses (74ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (68ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (1276ms)
-		LoadAssemblies (763ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1088ms)
+		LoadAssemblies (580ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (639ms)
-			TypeCache.Refresh (409ms)
-				TypeCache.ScanAssembly (365ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1875ms)
+		AnalyzeDomain (617ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (370ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2150ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1446ms)
+		SetupLoadedEditorAssemblies (1642ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (29ms)
-			BeforeProcessingInitializeOnLoad (335ms)
-			ProcessInitializeOnLoadAttributes (780ms)
-			ProcessInitializeOnLoadMethodAttributes (274ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (379ms)
+			ProcessInitializeOnLoadAttributes (922ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Ultraleap/LegacyHandShader' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.68 ms, found 0 plugins.
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7742 unused Assets / (6.6 MB). Loaded Objects now: 8605.
-Memory consumption went from 168.6 MB to 162.0 MB.
-Total: 38.116933 ms (FindLiveObjects: 3.200111 ms CreateObjectMapping: 3.362115 ms MarkObjects: 18.065129 ms  DeleteObjects: 13.486321 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15588.359187 seconds.
-  path: Assets/Main/pilot trials/finals
-  artifactKey: Guid(090023a2efd56652e843577f5c071e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/pilot trials/finals using Guid(090023a2efd56652e843577f5c071e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fdfe9727702c4973afd95c72c01f841') in 0.084433081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260505_215508_telemetry.csv
-  artifactKey: Guid(8149267c7aa8139c4a57f6c148094a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260505_215508_telemetry.csv using Guid(8149267c7aa8139c4a57f6c148094a23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a64f75ede17c6640ba7d52f3f45e39b8') in 0.015413846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Main/pilot trials/hidden text/experiment_20260505_215508_events.jsonl
-  artifactKey: Guid(13ec282b641c67e308a42e1694e09611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/pilot trials/hidden text/experiment_20260505_215508_events.jsonl using Guid(13ec282b641c67e308a42e1694e09611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88944e3127817f2838ec06177b89b02e') in 0.006824168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260505_215224_events.jsonl
-  artifactKey: Guid(0bbb6c57a913b2724bd5a8f7e8a303f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260505_215224_events.jsonl using Guid(0bbb6c57a913b2724bd5a8f7e8a303f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6557fffb0eb32fa7056e0ac656423525') in 0.006899308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260506_160957_telemetry.csv
-  artifactKey: Guid(43bb3342c8cbe2826839b206839d0daa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260506_160957_telemetry.csv using Guid(43bb3342c8cbe2826839b206839d0daa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea9b49156214259482d6998f55c79180') in 0.012897487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260505_215224_telemetry.csv
-  artifactKey: Guid(3ef1b6f657452b11a8acefc319364b29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260505_215224_telemetry.csv using Guid(3ef1b6f657452b11a8acefc319364b29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59e4e303af2c00f5d4b57f462e97ebd9') in 0.007672598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260506_102642_events.jsonl
-  artifactKey: Guid(c9005b1efbac494ac9f4733ce47c105d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260506_102642_events.jsonl using Guid(c9005b1efbac494ac9f4733ce47c105d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a62d6dad1414f5d55cbabe20451f5b6') in 0.007261107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260506_183330_telemetry.csv
-  artifactKey: Guid(5b90dc4500d1d7bb5817dc01a90dfbf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260506_183330_telemetry.csv using Guid(5b90dc4500d1d7bb5817dc01a90dfbf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8edbc53aa7057dd37c384c3b112b27dc') in 0.00767846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260505_165411_telemetry.csv
-  artifactKey: Guid(f6f070b1a3ad067c88a9765d6dc4560e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260505_165411_telemetry.csv using Guid(f6f070b1a3ad067c88a9765d6dc4560e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1863dc3947a2752883dd854b64de0380') in 0.007698166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Main/ExperimentResults/experiment_20260506_102642_telemetry.csv
-  artifactKey: Guid(29c89fc908c6a3e94bf9c07ecef0cec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/ExperimentResults/experiment_20260506_102642_telemetry.csv using Guid(29c89fc908c6a3e94bf9c07ecef0cec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bcb914c5e56233ea1e27303f2e3dc8d') in 0.004766629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1219.606292 seconds.
-  path: Assets/Main/pilot trials
-  artifactKey: Guid(ff9812c6796b2312abe7242a1b69d8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/pilot trials using Guid(ff9812c6796b2312abe7242a1b69d8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad3cde574e995c78c3a57ea8d38de65') in 0.004332996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.463254 seconds.
-  path: Assets/Main/Scripts/PhysicsBubbleReceptacle.cs
-  artifactKey: Guid(13adb66c3192d482386b85632267d65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Scripts/PhysicsBubbleReceptacle.cs using Guid(13adb66c3192d482386b85632267d65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0719bfd44c8521571c2a479e8afef5a') in 0.001079585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2917.288936 seconds.
-  path: Assets/Main/materialsforobjects/metal.physicMaterial
-  artifactKey: Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Main/materialsforobjects/metal.physicMaterial using Guid(69f17c7a0505a5e6797df023e4bebd88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '844d30a015c8334a9b00dfd1d79c4470') in 0.962148616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2938.222381 seconds.
-  path: Assets/Main/Trials/TrialScene.prefab
-  artifactKey: Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Trials/TrialScene.prefab using Guid(872dba719f88c74baa0416a273dfd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '214aa4001ae34fa387e3c08b45b1f871') in 4.888615847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 455
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Main/Trials/TrialScene 5.prefab
-  artifactKey: Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Trials/TrialScene 5.prefab using Guid(1b037d4756fadf39a9ba583336803f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f96ea40670a1b0196061c47a53cdf069') in 0.234392605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 487
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Main/Trials/TrialScene 4.prefab
-  artifactKey: Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main/Trials/TrialScene 4.prefab using Guid(1ea6880d62107af65adaf3fff0c29a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '844235ec215b03e9c3eac57820eec701') in 0.16789998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 462
+Unloading 7742 unused Assets / (7.7 MB). Loaded Objects now: 8605.
+Memory consumption went from 168.7 MB to 161.0 MB.
+Total: 27.716237 ms (FindLiveObjects: 1.395377 ms CreateObjectMapping: 2.037601 ms MarkObjects: 12.136300 ms  DeleteObjects: 12.145147 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 
 SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

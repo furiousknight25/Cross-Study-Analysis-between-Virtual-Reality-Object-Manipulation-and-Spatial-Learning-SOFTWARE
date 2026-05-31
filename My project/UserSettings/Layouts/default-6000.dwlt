@@ -619,18 +619,18 @@ MonoBehaviour:
       m_Data: 56146
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 77118
-    - m_Data: 77120
-    - m_Data: 77122
-    - m_Data: 77124
-    - m_Data: 77126
-    - m_Data: 77128
-    - m_Data: 77130
-    - m_Data: 77132
-    - m_Data: 77134
-    - m_Data: 77136
-    - m_Data: 77138
-    - m_Data: 77140
+    - m_Data: 77460
+    - m_Data: 77462
+    - m_Data: 77464
+    - m_Data: 77466
+    - m_Data: 77468
+    - m_Data: 77470
+    - m_Data: 77472
+    - m_Data: 77474
+    - m_Data: 77476
+    - m_Data: 77478
+    - m_Data: 77480
+    - m_Data: 77482
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -663,18 +663,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 77118
-    - m_Data: 77120
-    - m_Data: 77122
-    - m_Data: 77124
-    - m_Data: 77126
-    - m_Data: 77128
-    - m_Data: 77130
-    - m_Data: 77132
-    - m_Data: 77134
-    - m_Data: 77136
-    - m_Data: 77138
-    - m_Data: 77140
+    - m_Data: 77460
+    - m_Data: 77462
+    - m_Data: 77464
+    - m_Data: 77466
+    - m_Data: 77468
+    - m_Data: 77470
+    - m_Data: 77472
+    - m_Data: 77474
+    - m_Data: 77476
+    - m_Data: 77478
+    - m_Data: 77480
+    - m_Data: 77482
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1298,9 +1298,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -8.638771, y: 18.946833, z: 14.575197}
+    m_Target: {x: 1.2830617, y: -2.4863482, z: -0.91885215}
     speed: 2
-    m_Value: {x: -3.7209816, y: 1.2197968, z: 0.8956107}
+    m_Value: {x: -8.638771, y: 18.946833, z: 14.575197}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1346,13 +1346,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10815098, y: -0.22807655, z: 0.025881562, w: 0.9674242}
+    m_Target: {x: -0.0049119806, y: -0.9403267, z: 0.3405137, w: -0.012292958}
     speed: 2
-    m_Value: {x: 0.0026015998, y: 0.71839035, z: 0.002098304, w: -0.6958438}
+    m_Value: {x: -0.10815098, y: 0.22807655, z: -0.025881564, w: -0.9674243}
   m_Size:
-    m_Target: 12.465971
+    m_Target: 1.298603
     speed: 2
-    m_Value: 3.9474154
+    m_Value: 12.465971
   m_Ortho:
     m_Target: 0
     speed: 2
