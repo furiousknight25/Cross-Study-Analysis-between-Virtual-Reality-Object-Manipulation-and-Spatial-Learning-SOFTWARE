@@ -1,0 +1,46 @@
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":18.562671661376954,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":33.14186477661133,"trialId":"Trial_06","eventName":"Objects_Presented","selectedSlot":-1,"selectedFoil":"Inventory_Spawned"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Pear:null"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Lighter:null"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"HairDryeer:null"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Grapes:null"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Carabiner_Key:null"}
+{"timestamp":40.0151481628418,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"BottleOpener:null"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Pear"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"HairDryeer"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Grapes"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Carabiner_Key"}
+{"timestamp":49.084747314453128,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"BottleOpener"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":0,"selectedFoil":"The hunched scribe"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":1,"selectedFoil":"Filled the jug"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":2,"selectedFoil":"with a sundial"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the hall"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":4,"selectedFoil":"crusted with barnacles"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"during the parade"}
+{"timestamp":70.57705688476563,"trialId":"Trial_06","eventName":"Text_Complete_Score_0_out_of_6","selectedSlot":-1,"selectedFoil":"The hunched scribe Filled the jug with a sundial inside the hall crusted with barnacles during the parade"}
+{"timestamp":76.0992202758789,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":76.47699737548828,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Lighter_at_-1.892,0.929,0.156"}
+{"timestamp":77.8547592163086,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":78.63253021240235,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Lighter_at_-1.535,0.973,0.020"}
+{"timestamp":82.83248901367188,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Carabiner_Key"}
+{"timestamp":86.23245239257813,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Carabiner_Key_at_-0.449,0.984,0.031"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":0,"selectedFoil":"Empty"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":1,"selectedFoil":"Empty"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":2,"selectedFoil":"Carabiner_Key"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":3,"selectedFoil":"Empty"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":4,"selectedFoil":"Empty"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":5,"selectedFoil":"Empty"}
+{"timestamp":89.82130432128906,"trialId":"Trial_06","eventName":"bubble_placement","selectedSlot":6,"selectedFoil":"Lighter"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Carabiner_Key"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"BottleOpener"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Pear"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Grapes"}
+{"timestamp":89.82130432128906,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"HairDryeer"}

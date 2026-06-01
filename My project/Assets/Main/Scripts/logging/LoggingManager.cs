@@ -8,8 +8,8 @@ public class LoggingManager : MonoBehaviour
 
     [Header("Telemetry Settings")]
     public Transform vrHeadset;
-    [Tooltip("How often to log headset position (in seconds). 0 = every frame.")]
-    public float telemetryLogRate = 0.1f; 
+    [Tooltip("How often to log headset position. Set to 0 to log EVERY frame (90Hz).")]
+    public float telemetryLogRate = 0.0f; 
 
     private CsvTelemetryLogger telemetryLogger;
     private JsonEventLogger eventLogger;
@@ -25,11 +25,9 @@ public class LoggingManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Instantiate Loggers
         telemetryLogger = new CsvTelemetryLogger();
         eventLogger = new JsonEventLogger();
 
-        // Generate a base path (e.g., "C:/.../experiment_20240501_133200")
         string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
         string basePath = Path.Combine(Application.persistentDataPath, $"experiment_{timestamp}");
         
@@ -41,21 +39,25 @@ public class LoggingManager : MonoBehaviour
 
     private void Update()
     {
-        // Automatically handle high-frequency telemetry logging
-        if (vrHeadset != null && Time.time >= nextLogTime)
+        if (vrHeadset != null)
         {
-            LocomotionTelemetry locData = new LocomotionTelemetry
+            // If rate is 0, log every frame. Otherwise, wait for the timer.
+            if (telemetryLogRate <= 0f || Time.time >= nextLogTime)
             {
-                timestamp = Time.time,
-                position = vrHeadset.position
-            };
-            
-            telemetryLogger.LogData(locData);
-            nextLogTime = Time.time + telemetryLogRate;
+                LocomotionTelemetry locData = new LocomotionTelemetry
+                {
+                    timestamp = Time.time,
+                    eventName = "HMD_Tracking",
+                    position = vrHeadset.position
+                };
+                
+                telemetryLogger.LogData(locData);
+                
+                if (telemetryLogRate > 0f) nextLogTime = Time.time + telemetryLogRate;
+            }
         }
     }
 
-    // Public method for UI/Event systems to broadcast discrete events
     public void LogEvent(string trialId, string eventName, int slotIndex = -1, string foil = "")
     {
         TrialResultData eventData = new TrialResultData
@@ -66,19 +68,9 @@ public class LoggingManager : MonoBehaviour
             selectedSlot = slotIndex,
             selectedFoil = foil
         };
-        
         eventLogger.LogData(eventData);
     }
-
-    private void OnApplicationQuit()
-    {
-        // Crucial: Safely close the file streams when the game shuts down
-        telemetryLogger?.CloseLog();
-        eventLogger?.CloseLog();
-        Debug.Log("Experiment log streams closed safely.");
-    }
     
-    // Inside LoggingManager.cs
     public void LogTelemetry(string eventName, Vector3 position)
     {
         LocomotionTelemetry data = new LocomotionTelemetry
@@ -90,11 +82,16 @@ public class LoggingManager : MonoBehaviour
         telemetryLogger.LogData(data);
     }
 
-    // LoggingManager.cs
-public void SaveToDisk()
-{
-    telemetryLogger?.FlushLog();
-    eventLogger?.FlushLog();
-    Debug.Log("<color=cyan>Experiment data flushed to disk.</color>");
-}
+    public void SaveToDisk()
+    {
+        telemetryLogger?.FlushLog();
+        eventLogger?.FlushLog();
+        Debug.Log("<color=cyan>Massive RAM Buffer successfully flushed to disk.</color>");
+    }
+
+    private void OnApplicationQuit()
+    {
+        telemetryLogger?.CloseLog();
+        eventLogger?.CloseLog();
+    }
 }

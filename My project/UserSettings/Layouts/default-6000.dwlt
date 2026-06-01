@@ -537,6 +537,34 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: MetaXR/StatusMenu
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 2
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: MetaXR/PlayCompanion
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -619,18 +647,18 @@ MonoBehaviour:
       m_Data: 56146
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 77460
-    - m_Data: 77462
-    - m_Data: 77464
-    - m_Data: 77466
-    - m_Data: 77468
-    - m_Data: 77470
-    - m_Data: 77472
-    - m_Data: 77474
-    - m_Data: 77476
-    - m_Data: 77478
-    - m_Data: 77480
-    - m_Data: 77482
+    - m_Data: 61860
+    - m_Data: 61862
+    - m_Data: 61864
+    - m_Data: 61866
+    - m_Data: 61868
+    - m_Data: 61870
+    - m_Data: 61872
+    - m_Data: 61874
+    - m_Data: 61876
+    - m_Data: 61878
+    - m_Data: 61880
+    - m_Data: 61882
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -663,18 +691,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 77460
-    - m_Data: 77462
-    - m_Data: 77464
-    - m_Data: 77466
-    - m_Data: 77468
-    - m_Data: 77470
-    - m_Data: 77472
-    - m_Data: 77474
-    - m_Data: 77476
-    - m_Data: 77478
-    - m_Data: 77480
-    - m_Data: 77482
+    - m_Data: 61860
+    - m_Data: 61862
+    - m_Data: 61864
+    - m_Data: 61866
+    - m_Data: 61868
+    - m_Data: 61870
+    - m_Data: 61872
+    - m_Data: 61874
+    - m_Data: 61876
+    - m_Data: 61878
+    - m_Data: 61880
+    - m_Data: 61882
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1298,9 +1326,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.2830617, y: -2.4863482, z: -0.91885215}
+    m_Target: {x: -0.19518673, y: -1.0924319, z: -0.70298755}
     speed: 2
-    m_Value: {x: -8.638771, y: 18.946833, z: 14.575197}
+    m_Value: {x: 1.2830617, y: -2.4863482, z: -0.91885215}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1346,13 +1374,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0049119806, y: -0.9403267, z: 0.3405137, w: -0.012292958}
+    m_Target: {x: 0.012916129, y: -0.97555685, z: 0.211655, w: 0.06058026}
     speed: 2
-    m_Value: {x: -0.10815098, y: 0.22807655, z: -0.025881564, w: -0.9674243}
+    m_Value: {x: 0.0049119806, y: 0.94032675, z: -0.34051374, w: 0.012292958}
   m_Size:
-    m_Target: 1.298603
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 12.465971
+    m_Value: 1.298603
   m_Ortho:
     m_Target: 0
     speed: 2

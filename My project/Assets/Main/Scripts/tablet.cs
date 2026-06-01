@@ -71,10 +71,8 @@ public class Tablet : MonoBehaviour
        bodytwo.gameObject.SetActive(false);
     }
 
-    public IEnumerator spawn_items()
+public IEnumerator spawn_items(string trialId) // Pass the trialID from the scene
     {
-        
-        
         for (int i = 0; i < receptacles.Count; i++)
         {
             Vector3 homePosition = receptacles[i].transform.position;
@@ -84,12 +82,15 @@ public class Tablet : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
         }
         hideText();
-        
-       button.gameObject.SetActive(false);
-       
-       bodyone.gameObject.SetActive(false);
+        button.gameObject.SetActive(false);
+        bodyone.gameObject.SetActive(false);
+        bodytwo.gameObject.SetActive(false);
 
-       bodytwo.gameObject.SetActive(false);
+        // 🚨 ADD THIS: The starting gun for Selection Latency
+        if (LoggingManager.Instance != null)
+        {
+            LoggingManager.Instance.LogEvent(trialId, "Objects_Presented", -1, "Inventory_Spawned");
+        }
     }
 
     IEnumerator TweenBubble(Transform bubble, Vector3 targetPosition, float duration)

@@ -39,7 +39,6 @@ public class TrialScene : MonoBehaviour
 
     public IEnumerator ExplorationRoutine()
     {
-        // Pull the correct timing based on whether this is the tutorial
         float timeToWait = IsTutorial ? Director.Instance.tutorial_explore_time : Director.Instance.explore_time;
         
         Debug.Log($"<color=white>[TrialScene] Exploration started. Timer: {timeToWait}s</color>");
@@ -54,7 +53,6 @@ public class TrialScene : MonoBehaviour
         tablet.OnSpawnItemsRequested -= OnTabletSpawnItemsRequested;
     }
 
-    // --- BUG FIX: Route the click into a timed Coroutine instead of spawning instantly ---
     private void OnTabletSpawnItemsRequested()
     {
         StartCoroutine(ReadingAndSpawnRoutine());
@@ -62,30 +60,44 @@ public class TrialScene : MonoBehaviour
 
     private IEnumerator ReadingAndSpawnRoutine()
     {
-        tabletEventReceived = true; // Tell the ExplorationRoutine we clicked the button
+        tabletEventReceived = true; 
         HideRoomVisuals(); 
 
-        // 1. Wait for Reading Time (20 seconds)
         Debug.Log($"<color=white>[TrialScene] Reading phase started. Timer: {Director.Instance.reading_time}s</color>");
         yield return StartCoroutine(StartTimer(Director.Instance.reading_time));
         
-        // 2. Spawn the items after reading is complete
-        StartCoroutine(tablet.spawn_items()); 
+        string currentTrialId = trialData != null ? trialData.TrialID : "Unknown_Trial";
+        StartCoroutine(tablet.spawn_items(currentTrialId)); 
         
-        // 3. Tell the FSM we are ready for the remote to unhide the room
         Director.Instance.SetState(Director.ExperimentState.ReadingAndInventory);
     }
 
+    // --- TELEMETRY: Encoding Routine with 3-Second Logging ---
     public IEnumerator EncodingRoutine()
     {
         ShowRoomVisuals();
         
-        // Pull the correct timing based on whether this is the tutorial
         float timeToWait = IsTutorial ? Director.Instance.tutorial_encode_time : Director.Instance.encode_time;
         
         Debug.Log($"<color=white>[TrialScene] Encoding started. Timer: {timeToWait}s</color>");
+        
+        // Start the background stillness tracker
+        Coroutine monitorCoroutine = StartCoroutine(MonitorItemStillness());
+
         yield return StartCoroutine(StartTimer(timeToWait));
         
+        // Stop the tracker when encoding is over
+        if (monitorCoroutine != null) StopCoroutine(monitorCoroutine);
+        
+        // Log the final resting positions of all objects
+        LogFinalItemPositions();
+
+        // 🚨 NEW: Force drop items from hands and hide everything instantly
+        ForceReleaseAndHideSessionObjects();
+
+        // Hide the room visuals immediately as the phase ends and the door opens
+        HideRoomVisuals();
+
         Director.Instance.OnEncodingFinished();
     }
 
@@ -119,7 +131,131 @@ public class TrialScene : MonoBehaviour
         transform.position = targetPosition;
     }
 
-    // --- VISIBILITY MANAGERS ---
+    // ==========================================
+    // LOGGING & CLEANUP MANAGERS
+    // ==========================================
+
+    private void ForceReleaseAndHideSessionObjects()
+    {
+        if (enviornment_parant == null) return;
+
+        string currentTrialId = trialData != null ? trialData.TrialID : "Unknown_Trial";
+
+        // 1. Force drop and deactivate all items in the room
+        GrabbableItem[] items = enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
+        foreach (var item in items)
+        {
+            if (item != null && item.gameObject.activeSelf)
+            {
+                // Explicit telemetry milestone tracking for kinematic analysis
+                if (LoggingManager.Instance != null)
+                {
+                    LoggingManager.Instance.LogEvent(currentTrialId, "Forced_Release_Phase_End", -1, item.ItemName);
+                }
+
+                // Deactivating the object completely detaches any Leap hands and makes it disappear cleanly
+                item.gameObject.SetActive(false);
+            }
+        }
+
+        // 2. Hide the tablet's room inventory bubbles so they aren't floating in empty space
+        if (tablet != null && tablet.receptacles != null)
+        {
+            foreach (var receptacle in tablet.receptacles)
+            {
+                if (receptacle != null)
+                {
+                    receptacle.gameObject.SetActive(false);
+                }
+            }
+        }
+    }
+
+    private IEnumerator MonitorItemStillness()
+    {
+        if (enviornment_parant == null) yield break;
+
+        GrabbableItem[] items = enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
+        Dictionary<GrabbableItem, float> timeStillMap = new Dictionary<GrabbableItem, float>();
+        Dictionary<GrabbableItem, bool> hasLoggedMap = new Dictionary<GrabbableItem, bool>();
+
+        foreach(var item in items)
+        {
+            timeStillMap[item] = 0f;
+            hasLoggedMap[item] = false;
+        }
+
+        string currentTrialId = trialData != null ? trialData.TrialID : "Unknown_Trial";
+
+        while(true)
+        {
+            foreach(var item in items)
+            {
+                if (item.isInBubble) 
+                {
+                    timeStillMap[item] = 0f;
+                    hasLoggedMap[item] = false;
+                    continue;
+                }
+
+                Rigidbody rb = item.GetComponent<Rigidbody>();
+                bool isStill = rb != null && rb.linearVelocity.sqrMagnitude < 0.005f && rb.angularVelocity.sqrMagnitude < 0.005f;
+
+                if (isStill)
+                {
+                    timeStillMap[item] += 0.2f; 
+                    
+                    if (timeStillMap[item] >= 3.0f && !hasLoggedMap[item])
+                    {
+                        hasLoggedMap[item] = true; 
+                        
+                        string posStr = $"{item.transform.position.x:F3},{item.transform.position.y:F3},{item.transform.position.z:F3}";
+                        Debug.Log($"<yellow>[Log] {item.ItemName} has been still for 3s at {posStr}</yellow>");
+
+                        if (LoggingManager.Instance != null)
+                        {
+                            LoggingManager.Instance.LogEvent(currentTrialId, "Item_Placed_3s", -1, $"{item.ItemName}:{posStr}");
+                        }
+                    }
+                }
+                else
+                {
+                    timeStillMap[item] = 0f;
+                    hasLoggedMap[item] = false;
+                }
+            }
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
+
+    private void LogFinalItemPositions()
+    {
+        if (enviornment_parant == null) return;
+
+        GrabbableItem[] items = enviornment_parant.GetComponentsInChildren<GrabbableItem>(true);
+        string currentTrialId = trialData != null ? trialData.TrialID : "Unknown_Trial";
+
+        foreach (var item in items)
+        {
+            string positionLog = "null";
+            
+            if (!item.isInBubble)
+            {
+                positionLog = $"{item.transform.position.x:F3},{item.transform.position.y:F3},{item.transform.position.z:F3}";
+            }
+
+            if (LoggingManager.Instance != null)
+            {
+                LoggingManager.Instance.LogEvent(currentTrialId, "Encoding_Final_Position", -1, $"{item.ItemName}:{positionLog}");
+            }
+            
+            Debug.Log($"<color=green>[Encoding Final Log] {item.ItemName} -> {positionLog}</color>");
+        }
+    }
+
+    // ==========================================
+    // VISIBILITY MANAGERS
+    // ==========================================
 
     public void HideRoomVisuals()
     {

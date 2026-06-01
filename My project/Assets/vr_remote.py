@@ -5,7 +5,8 @@ import tkinter as tk
 # CONFIGURATION - UPDATE THIS IN THE FIELD
 # ==========================================
 # Change this to the IP address you found in the Quest 3 Wi-Fi settings
-QUEST_IP = "10.89.62.120"
+# QUEST_IP = "10.89.62.120"
+QUEST_IP = "192.168.1.41"
 UDP_PORT = 5005
 MESSAGE = b"TRIGGER_TRIAL"
 

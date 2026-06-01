@@ -11,16 +11,11 @@ public class SentenceBuilderManager : MonoBehaviour
     public StringEventChannelSO foilSelectedChannel;
 
     [Header("UI References")]
-    [Tooltip("Drag your single 'FinalSentence' TextMeshPro object here.")]
     public TMP_Text finalSentenceText;
-    
-    [Tooltip("Reference to the Environment Manager so we can tell it to slide the words away.")]
     public TestingEnvironmentManager testingEnvironment;
 
     [Header("Phase 2: 3D Sorting UI")]
-    [Tooltip("The empty GameObject holding your Receptacle Bubbles.")]
     public Transform bubbleUIParent;
-    [Tooltip("The empty GameObject holding your words and column buttons.")]
     public Transform wordsAndButtons;
     
     public Vector3 bubbleUIUpOffset = new Vector3(0, 1.5f, 0);
@@ -28,7 +23,6 @@ public class SentenceBuilderManager : MonoBehaviour
     public float transitionTweenDuration = 1.0f;
 
     [Header("Phase 2: 3D Item Spawning")]
-    [Tooltip("Empty GameObjects on the right table where items should spawn.")]
     public List<Transform> itemSpawnPoints = new List<Transform>();
     public List<PhysicsBubbleReceptacle> Bubbles = new List<PhysicsBubbleReceptacle>();
 
@@ -42,6 +36,8 @@ public class SentenceBuilderManager : MonoBehaviour
     private TrialScene currentTrialScene; 
 
     private bool is3DPhaseActive = false;
+    private bool isProcessingSubmission = false; // Prevents double-logging
+
     private Vector3 initialBubbleUIPos;
     private Vector3 initialWordsAndButtonsPos;
     private List<GameObject> activeSpawnedItems = new List<GameObject>();
@@ -69,10 +65,9 @@ public class SentenceBuilderManager : MonoBehaviour
     {
         if (Keyboard.current == null) return;
 
-        // --- DEBUG CONTROL: Auto-Fill the sentence ---
-        if (Keyboard.current.bKey.wasPressedThisFrame && !is3DPhaseActive)
+        // Auto-Fill for Debugging
+        if (Keyboard.current.bKey.wasPressedThisFrame && !is3DPhaseActive && !isProcessingSubmission)
         {
-            Debug.Log("<color=yellow>[DEBUG] 'B' Key Pressed: Auto-filling sentence slots...</color>");
             for (int i = 0; i < 6; i++)
             {
                 if (!slotIsFilled[i])
@@ -86,30 +81,28 @@ public class SentenceBuilderManager : MonoBehaviour
                     filledSlotsCount++;
                 }
             }
-            
             activeSlotIndex = -1; 
             UpdateSentenceDisplay(); 
         }
 
-        // --- Master Submit Button (Laptop Control) ---
-        if (Keyboard.current.enterKey.wasPressedThisFrame)
+        // Master Submit Input (Laptop)
+        if (Keyboard.current.enterKey.wasPressedThisFrame || Keyboard.current.numpadEnterKey.wasPressedThisFrame)
         {
-            if (!is3DPhaseActive) submit_text(); 
-            else Submit3DOrder(); 
+            submit_text();
         }
     }
 
     // --- PHASE 1: TEXT BUILDING ---
     private void HandleSlotSelected(int slotIndex)
     {
-        if (is3DPhaseActive) return; 
+        if (is3DPhaseActive || isProcessingSubmission) return; 
         activeSlotIndex = slotIndex;
         UpdateSentenceDisplay();
     }
 
     private void HandleFoilSelected(string foilText)
     {
-        if (is3DPhaseActive) return; 
+        if (is3DPhaseActive || isProcessingSubmission) return; 
 
         if (activeSlotIndex >= 0 && activeSlotIndex < 6)
         {
@@ -126,10 +119,30 @@ public class SentenceBuilderManager : MonoBehaviour
         }
     }
     
+    // 🚨 UPDATED SMART ROUTER 🚨
     public void submit_text()
     {
-        if (filledSlotsCount >= 6 && currentTrialData != null && !is3DPhaseActive)
+        // 1. Safety check: Ignore click if a tween or submission is already running
+        if (isProcessingSubmission) return;
+
+        // 2. Early Return: If in Phase 2, route to 3D submission and stop here
+        if (is3DPhaseActive)
         {
+            Submit3DOrder();
+            return;
+        }
+
+        // 3. Early Return: If in Phase 1 but missing words, reject the submission
+        if (filledSlotsCount < 6)
+        {
+            Debug.Log("<color=orange>[Phase 1] Cannot submit yet. Not all slots are filled.</color>");
+            return;
+        }
+
+        // 4. If we made it here, grade Phase 1 Text
+        if (currentTrialData != null)
+        {
+            isProcessingSubmission = true; // Lock inputs
             Debug.Log("<color=green>[Phase 1] Text Sentence Complete! Grading...</color>");
             int correctCount = 0;
 
@@ -188,16 +201,14 @@ public class SentenceBuilderManager : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = Mathf.SmoothStep(0, 1, elapsed / transitionTweenDuration);
             
-            // Tween Bubbles Up
             if (bubbleUIParent != null) bubbleUIParent.localPosition = Vector3.Lerp(initialBubbleUIPos, bubbleTargetPos, t);
-            
-            // Tween Words and Buttons Down
             if (wordsAndButtons != null) wordsAndButtons.localPosition = Vector3.Lerp(initialWordsAndButtonsPos, wordsTargetPos, t);
             
             yield return null;
         }
 
         SpawnPhase2Items();
+        isProcessingSubmission = false; // Unlock inputs for Phase 2
     }
 
    private void SpawnPhase2Items()
@@ -220,7 +231,6 @@ public class SentenceBuilderManager : MonoBehaviour
             if (i >= itemSpawnPoints.Count) break; 
 
             GrabbableItem item = itemsToMove[i];
-            
             item.gameObject.SetActive(true);
 
             Renderer[] renderers = item.GetComponentsInChildren<Renderer>(true);
@@ -242,8 +252,9 @@ public class SentenceBuilderManager : MonoBehaviour
         }
     }
 
-    public void Submit3DOrder()
+   public void Submit3DOrder()
     {
+        isProcessingSubmission = true; // Lock inputs to prevent double-submit
         Debug.Log("<color=green>[Phase 2] 3D Sorting Complete! Logging Spatial Order...</color>");
 
         for (int i = 0; i < Bubbles.Count; i++)
@@ -256,16 +267,16 @@ public class SentenceBuilderManager : MonoBehaviour
                 if (item != null) loggedItemName = item.ItemName;
             }
 
-            if (LoggingManager.Instance != null)
+            if (LoggingManager.Instance != null && currentTrialData != null)
             {
                 LoggingManager.Instance.LogEvent(currentTrialData.TrialID, "bubble_placement", i, loggedItemName);
             }
         }
 
-        // --- NEW: Instantly clean up the items so they don't linger in the scene ---
         Clear3DItems();
 
-        // The Director will call testingEnvironment.EndTestingPhase() to tween the entire board away
+        if (LoggingManager.Instance != null) LoggingManager.Instance.SaveToDisk();
+
         Director.Instance.EndTestingPhase();
     }
 
@@ -273,7 +284,6 @@ public class SentenceBuilderManager : MonoBehaviour
 
     private void Clear3DItems()
     {
-        // 1. Drop and hide the table items
         foreach (var obj in activeSpawnedItems)
         {
             if (obj != null) 
@@ -286,7 +296,6 @@ public class SentenceBuilderManager : MonoBehaviour
         }
         activeSpawnedItems.Clear();
 
-        // 2. Empty the bubbles
         foreach (var b in Bubbles)
         {
             if (b.currentlyHeldObject != null) b.RemoveObject(b.currentlyHeldObject);
@@ -296,6 +305,7 @@ public class SentenceBuilderManager : MonoBehaviour
     public void ResetSentence()
     {
         is3DPhaseActive = false;
+        isProcessingSubmission = false; // Reset the lock
         activeSlotIndex = -1;
         filledSlotsCount = 0;
 
@@ -305,13 +315,10 @@ public class SentenceBuilderManager : MonoBehaviour
             slotIsFilled[i] = false;
         }
 
-        // Snap everything perfectly back to its starting local position
         if (bubbleUIParent != null) bubbleUIParent.localPosition = initialBubbleUIPos;
         if (wordsAndButtons != null) wordsAndButtons.localPosition = initialWordsAndButtonsPos;
 
-        // Uses the new helper method to guarantee everything is wiped
         Clear3DItems();
-
         UpdateSentenceDisplay();
     }
     
@@ -319,6 +326,6 @@ public class SentenceBuilderManager : MonoBehaviour
     {
         currentTrialData = trialData;
         currentTrialScene = trialScene;
-        ResetSentence(); // Resets local coordinates before TestingEnvironmentManager tweens the board back up
+        ResetSentence(); 
     }
 }

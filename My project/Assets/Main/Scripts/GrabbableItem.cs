@@ -148,6 +148,8 @@ public class GrabbableItem : MonoBehaviour
 
     // --- YOUR ORIGINAL LOGIC ---
 
+// Inside GrabbableItem.cs
+
     public void OnPhysicalHandGrabbed()
     {
         if (currentBubble != null)
@@ -155,21 +157,33 @@ public class GrabbableItem : MonoBehaviour
             currentBubble.RemoveObject(rb);
             rb.useGravity = true;   
         }
+
+        // 🚨 ADD THIS: Logs the initiation of the grasp
+        if (LoggingManager.Instance != null)
+        {
+            // Using "global" trial ID if you can't easily pass it here, or fetch from Director
+            LoggingManager.Instance.LogEvent("Active_Trial", "Item_Grabbed", -1, ItemName);
+        }
     }
 
     public void OnPhysicalHandReleased()
     {
-        // FIX: Find the absolute closest empty bubble from our overlap list
         PhysicsBubbleReceptacle targetBubble = GetClosestValidBubble();
         
         if (targetBubble != null)
         {
             targetBubble.TrySnapObject(rb); 
         }
-        
         else
         {
             rb.useGravity = true;
+        }
+
+        // 🚨 ADD THIS: Logs the drop/placement
+        if (LoggingManager.Instance != null)
+        {
+            string pos = $"{transform.position.x:F3},{transform.position.y:F3},{transform.position.z:F3}";
+            LoggingManager.Instance.LogEvent("Active_Trial", "Item_Released", -1, $"{ItemName}_at_{pos}");
         }
     }
 }

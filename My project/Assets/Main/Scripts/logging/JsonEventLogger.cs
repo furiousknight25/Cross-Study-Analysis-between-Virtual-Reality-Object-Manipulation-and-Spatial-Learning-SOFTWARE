@@ -7,7 +7,6 @@ public class JsonEventLogger : IExperimentLogger<TrialResultData>
 
     public void InitializeLog(string filePathBase)
     {
-        // Using .jsonl (JSON Lines) so we can append discrete JSON objects per line
         string path = $"{filePathBase}_events.jsonl"; 
         writer = new StreamWriter(path, true);
     }
@@ -16,11 +15,17 @@ public class JsonEventLogger : IExperimentLogger<TrialResultData>
     {
         if (writer != null)
         {
-            // JsonUtility.ToJson avoids heap allocations for the object parameter 
-            // because TrialResultData is passed via strict generic typing, bypassing object boxing.
             string json = JsonUtility.ToJson(data);
             writer.WriteLine(json);
+            
+            // JSON events are rare (clicks, placement), so we can safely flush them instantly
+            writer.Flush(); 
         }
+    }
+
+    public void FlushLog()
+    {
+        if (writer != null) writer.Flush();
     }
 
     public void CloseLog()
@@ -33,13 +38,4 @@ public class JsonEventLogger : IExperimentLogger<TrialResultData>
             writer = null;
         }
     }
-
-    // Inside JsonEventLogger.cs AND CsvTelemetryLogger.cs
-public void FlushLog()
-{
-    if (writer != null)
-    {
-        writer.Flush(); // This pushes the buffer to the actual file on disk
-    }
-}
 }

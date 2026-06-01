@@ -1,0 +1,41 @@
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":19.593360900878908,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":""}
+{"timestamp":104.43976593017578,"trialId":"Trial_06","eventName":"Objects_Presented","selectedSlot":-1,"selectedFoil":"Inventory_Spawned"}
+{"timestamp":104.95448303222656,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":105.74336242675781,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Lighter_at_-1.926,1.894,2.280"}
+{"timestamp":107.24334716796875,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Carabiner_Key"}
+{"timestamp":108.27667236328125,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Carabiner_Key_at_-2.081,1.848,2.286"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Pear:null"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Lighter:-1.950,0.019,6.120"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"HairDryeer:null"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Grapes:null"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"Carabiner_Key:0.770,0.057,5.428"}
+{"timestamp":128.5242919921875,"trialId":"Trial_06","eventName":"Encoding_Final_Position","selectedSlot":-1,"selectedFoil":"BottleOpener:null"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Pear"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"HairDryeer"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Grapes"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Carabiner_Key"}
+{"timestamp":136.77378845214845,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"BottleOpener"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":0,"selectedFoil":"The hunched scribe"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":1,"selectedFoil":"Filled the jug"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":2,"selectedFoil":"with a shovel"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":3,"selectedFoil":"inside the dungeon"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":4,"selectedFoil":"smeared with grease"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Chunk_Incorrect","selectedSlot":5,"selectedFoil":"during the banquet"}
+{"timestamp":182.4425811767578,"trialId":"Trial_06","eventName":"Text_Complete_Score_0_out_of_6","selectedSlot":-1,"selectedFoil":"The hunched scribe Filled the jug with a shovel inside the dungeon smeared with grease during the banquet"}
+{"timestamp":193.3647003173828,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Pear"}
+{"timestamp":195.153564453125,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Pear_at_-1.575,1.000,0.150"}
+{"timestamp":197.0202178955078,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":199.8646240234375,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Lighter_at_-1.023,1.009,0.122"}
+{"timestamp":199.875732421875,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Lighter"}
+{"timestamp":199.90907287597657,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Lighter_at_-1.021,1.012,0.083"}
+{"timestamp":202.89793395996095,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Grapes"}
+{"timestamp":205.22012329101563,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Grapes_at_-0.683,1.037,0.119"}
+{"timestamp":205.23123168945313,"trialId":"Active_Trial","eventName":"Item_Grabbed","selectedSlot":-1,"selectedFoil":"Grapes"}
+{"timestamp":205.2534637451172,"trialId":"Active_Trial","eventName":"Item_Released","selectedSlot":-1,"selectedFoil":"Grapes_at_-0.693,1.013,0.125"}
