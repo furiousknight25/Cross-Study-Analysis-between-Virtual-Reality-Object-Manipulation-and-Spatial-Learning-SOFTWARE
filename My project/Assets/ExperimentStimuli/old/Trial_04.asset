@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_04
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_04
+  MnemonicLoad: 0
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The swift courier buried the treasure with a shield inside the tavern
+    covered in frost during the hurricane.
+  Chunks:
+  - The swift courier
+  - buried the treasure
+  - with a shield
+  - inside the tavern
+  - covered in frost
+  - during the hurricane.
+  Foils:
+  - The fat landlord
+  - The swift courier
+  - The squinting tailor
+  - The tattooed harpooner
+  - The blinded seer
+  - Carved the statue
+  - Dug the trench
+  - Emptied the basin
+  - Ground the spice
+  - buried the treasure
+  - with a scythe
+  - with a spade
+  - with a saw
+  - with a pestle
+  - with a shield
+  - inside the brewery
+  - inside the hall
+  - inside the cottage
+  - inside the tavern
+  - inside the inn
+  - covered in rust
+  - frosted with sugar
+  - chilled with ice
+  - covered in frost
+  - touched by frost
+  - during the riot
+  - during the hurricane.
+  - during the stampede
+  - after the flood
+  - during the parade

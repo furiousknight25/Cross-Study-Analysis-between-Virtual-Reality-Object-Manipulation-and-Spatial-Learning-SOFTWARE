@@ -92,7 +92,7 @@ public class TrialScene : MonoBehaviour
         // Log the final resting positions of all objects
         LogFinalItemPositions();
 
-        // 🚨 NEW: Force drop items from hands and hide everything instantly
+        // 🚨 NEW: Force drop items from hands and hide the objects (Leaves Bubbles Intact)
         ForceReleaseAndHideSessionObjects();
 
         // Hide the room visuals immediately as the phase ends and the door opens
@@ -147,6 +147,12 @@ public class TrialScene : MonoBehaviour
         {
             if (item != null && item.gameObject.activeSelf)
             {
+                // Cleanly unlink the physics from the tablet bubble if it was sitting in one
+                if (item.currentBubble != null)
+                {
+                    item.currentBubble.RemoveObject(item.GetComponent<Rigidbody>());
+                }
+
                 // Explicit telemetry milestone tracking for kinematic analysis
                 if (LoggingManager.Instance != null)
                 {
@@ -157,18 +163,8 @@ public class TrialScene : MonoBehaviour
                 item.gameObject.SetActive(false);
             }
         }
-
-        // 2. Hide the tablet's room inventory bubbles so they aren't floating in empty space
-        if (tablet != null && tablet.receptacles != null)
-        {
-            foreach (var receptacle in tablet.receptacles)
-            {
-                if (receptacle != null)
-                {
-                    receptacle.gameObject.SetActive(false);
-                }
-            }
-        }
+        
+        // We purposely leave the tablet's receptacles (bubbles) alone here so they stay visible!
     }
 
     private IEnumerator MonitorItemStillness()
@@ -210,7 +206,7 @@ public class TrialScene : MonoBehaviour
                         hasLoggedMap[item] = true; 
                         
                         string posStr = $"{item.transform.position.x:F3},{item.transform.position.y:F3},{item.transform.position.z:F3}";
-                        Debug.Log($"<yellow>[Log] {item.ItemName} has been still for 3s at {posStr}</yellow>");
+                        Debug.Log($"<color=yellow>[Log] {item.ItemName} has been still for 3s at {posStr}</color>");
 
                         if (LoggingManager.Instance != null)
                         {

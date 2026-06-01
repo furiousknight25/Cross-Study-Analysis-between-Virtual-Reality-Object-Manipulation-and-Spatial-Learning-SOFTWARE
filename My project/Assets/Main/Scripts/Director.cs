@@ -55,13 +55,21 @@ public class Director : MonoBehaviour
     private TrialScene next_trial = null;
     private bool isTransitioning = false; 
 
-    void Awake()
+void Awake()
     {
         if (Instance != null && Instance != this) Destroy(gameObject);
         else
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+       
+        // 🚨 FIX 1: Automatically remove the tutorial from the randomized trial pool 
+        // if it was accidentally dragged into the list in the Unity Inspector.
+        if (tutorialScene != null && trialScenes.Contains(tutorialScene))
+        {
+            trialScenes.Remove(tutorialScene);
+            Debug.Log("<color=orange>[Director] Removed Tutorial Scene from the randomized Trial Scenes list to prevent it from playing twice.</color>");
         }
     }
 
@@ -73,6 +81,7 @@ public class Director : MonoBehaviour
 
     public void RegisterTrialScene(TrialScene trialScene)
     {
+        return; //i set the trials in the inspector 
         if (trialScene == null) return;
         if (!trialScenes.Contains(trialScene)) trialScenes.Add(trialScene);
     }
@@ -113,7 +122,7 @@ public class Director : MonoBehaviour
         
         if (!tutorial_completed && tutorialScene != null)
         {
-            yield return StartCoroutine(clear_tutorial()); 
+            yield return StartCoroutine(clear_tutorial());
             next_trial = tutorialScene;
             tutorial_completed = true;
         }
@@ -161,7 +170,7 @@ public class Director : MonoBehaviour
     {
         next_trial.trial_completed = true;
         next_trial.tablet.hideText();
-        OnDoorToggle?.Invoke(); 
+        OnDoorToggle?.Invoke();
         SetState(ExperimentState.WaitingForPlayerToExit);
     }
 
@@ -221,7 +230,7 @@ public class Director : MonoBehaviour
 
     public void logHeadsetPosition(Vector3 position) => LoggingManager.Instance.LogTelemetry("headset_position", position);
 
-    public void EndExperiment() 
+    public void EndExperiment()
     {
         SetState(ExperimentState.Complete);
         LoggingManager.Instance.LogEvent("Global", "Experiment_Complete");

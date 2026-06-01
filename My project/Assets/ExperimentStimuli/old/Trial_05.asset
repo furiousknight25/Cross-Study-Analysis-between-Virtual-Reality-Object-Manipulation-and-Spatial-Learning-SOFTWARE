@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_05
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_05
+  MnemonicLoad: 0
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The skilled hunter swept the floor with a branch inside the armory
+    reeking of fish before the sunrise.
+  Chunks:
+  - The skilled hunter
+  - swept the floor
+  - with a branch
+  - inside the armory
+  - reeking of fish
+  - before the sunrise.
+  Foils:
+  - The aiming archer
+  - The skilled hunter
+  - The hooded woodsman
+  - The muscular mason
+  - The dusty miner
+  - Spun the wheel
+  - Hammered the nail
+  - swept the floor
+  - Sharpened the blade
+  - Sanded the wood
+  - with a saw
+  - with a level
+  - with a branch
+  - with a pulley
+  - with an abacus
+  - inside the inn
+  - inside the armory
+  - inside the barracks
+  - inside the forge
+  - inside the vault
+  - reeking of sweat
+  - reeking of fish
+  - drenched in blood
+  - bound with hemp
+  - stiffened with resin
+  - before the hunt
+  - before the sunrise.
+  - before the eruption
+  - until the sunset
+  - before the execution

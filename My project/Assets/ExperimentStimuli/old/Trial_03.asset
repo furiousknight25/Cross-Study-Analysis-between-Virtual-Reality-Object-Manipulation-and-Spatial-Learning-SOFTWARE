@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_03
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_03
+  MnemonicLoad: 0
+  PropositionCount: 7
+  PropositionalDensity: 0.389
+  FullPassage: The quiet monk unlocked the chest with a hairpin inside the carriage
+    dripping with sap after the battle.
+  Chunks:
+  - The quiet monk
+  - unlocked the chest
+  - with a hairpin
+  - inside the carriage
+  - dripping with sap
+  - after the battle.
+  Foils:
+  - The dusty miner
+  - The hooded woodsman
+  - The quiet monk
+  - The muddy peasant
+  - The chanting priest
+  - Picked the lock
+  - Sawed the plank
+  - Filled the jug
+  - Carved the statue
+  - unlocked the chest
+  - with a hairpin
+  - with a torch
+  - with a scalpel
+  - with a hammer
+  - with a brush
+  - inside the ship
+  - inside the carriage
+  - inside the mine
+  - inside the palace
+  - inside the abbey
+  - dripping with sap
+  - matted with straw
+  - scorched by flame
+  - polished with leather
+  - dripping with pitch
+  - after the siege
+  - after the skirmish
+  - after the battle.
+  - after the raid
+  - before the duel

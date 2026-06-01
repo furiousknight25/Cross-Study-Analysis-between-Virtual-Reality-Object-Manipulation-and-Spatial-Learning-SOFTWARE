@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa837b50b3933d11d84b89eec2b77731, type: 3}
+  m_Name: Trial_06
+  m_EditorClassIdentifier: Assembly-CSharp::ExperimentTrialData
+  TrialID: Trial_06
+  MnemonicLoad: 0
+  PropositionCount: 6
+  PropositionalDensity: 0.333
+  FullPassage: The pale scholar burned the letter with a lantern inside the tent
+    echoing with growls during the feast.
+  Chunks:
+  - The pale scholar
+  - burned the letter
+  - with a lantern
+  - inside the tent
+  - echoing with growls
+  - during the feast.
+  Foils:
+  - The stained dyer
+  - The sooty tanner
+  - The hunched scribe
+  - The hooded woodsman
+  - The pale scholar
+  - Milled the grain
+  - Ignited the torch
+  - burned the letter
+  - Filled the jug
+  - Polished the shield
+  - with a shovel
+  - with a lantern
+  - with a torch
+  - with a sundial
+  - with a scythe
+  - inside the tent
+  - inside the cave
+  - inside the hall
+  - inside the dungeon
+  - inside the attic
+  - smeared with grease
+  - fringed with gold
+  - echoing with growls
+  - crusted with barnacles
+  - cured with smoke
+  - during the banquet
+  - at the coronation
+  - during the feast.
+  - during the parade
+  - during the eclipse
